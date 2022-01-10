@@ -1,0 +1,14 @@
+# Rewritten by CleanModels 3 Version 3.2.3f Tue Jul 05 14:23:29 2011
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel wblcl_b_094
+setsupermodel wblcl_b_094 null
+setanimationscale 1
+classification ITEM
+#MAXGEOM ASCII
+beginmodelgeom wblcl_b_094
+node dummy wblcl_b_094
+  parent NULL
+endnode
+endmodelgeom wblcl_b_094
+donemodel wblcl_b_094
