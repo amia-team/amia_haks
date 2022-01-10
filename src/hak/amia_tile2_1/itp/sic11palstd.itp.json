@@ -1,0 +1,518 @@
+{
+  "__data_type": "ITP ",
+  "MAIN": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 0
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stairs Down (Corridor)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "sic11_b01_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stairs Up (Corridor)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "sic11_b01_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stairs Down (Floor Up)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "sic11_a02_06"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stairs Up (Floor Up)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "sic11_a02_07"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stairs Down (Doorway)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "sic11_f16_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stairs Up (Doorway)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "sic11_f16_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stairs Up and Down (Corridor)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "sic11_f38_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stairs Up and Down (Floor Up)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "sic11_f39_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stairs Up and Down (Floor Up Corner, Upper Left))"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "sic11_f41_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stairs Up and Down (Floor Up Corner, Upper Right))"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "sic11_f42_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Door, Big (Corridor End)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "sic11_f43_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Fireplace, A (Floor Up)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "sic11_g02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Fireplace, B (Floor Up)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "sic11_g02_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Fireplace, C (Floor Up)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "sic11_g02_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Fireplace, D (Floor Up)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "sic11_g02_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Fireplace, E (Floor Up)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "sic11_g02_05"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Fireplace, F (Floor Up)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "sic11_g02_06"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stairs Down (Floor Up Center)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "sic11_a04_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stairs Up (Floor Up Corner, Stone)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "sic11_a01_09"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stairs Down (Floor Up Corner, Stone)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "sic11_a01_10"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Exit, Simple"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "sic11_f16_12"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stairs Up and Down (Floor Up Corner, Stone)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "sic11_a01_11"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Tree And Stairs (Corner Floor Up/Low)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "sic11_j02_08"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Tree And Stairs (Corner Floor Up/Low, Corridors)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "sic11_j18_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Fireplace, G1 (Corner Floor Up/Low)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "sic11_j02_09"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Fireplace, G2 (Corner Floor Low)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "sic11_j13_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stairs Down (Floor Up/Low Corner, Stone)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "sic11_j02_10"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stairs Down (Floor Low Corner, Stone)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "sic11_j13_05"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Fireplace, H (Floor Low)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "sic11_j05_06"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Fountain A (Floor Low)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "sic11_j05_07"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63261
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 1
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Theater (5x5)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "sic11_g01_01"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63262
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 2
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[T] Wall"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wall"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[T] Floor Up, MAIN"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "floor_up"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[T] Floor Up, Underlayer"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "floor_up_ul"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[T] Floor Up, High Ceiling"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "floor_up_hc"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[T] Floor Low"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "floor_low"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[C] Corridor"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "corridor"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[C] Doorway"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "doorway"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[C] Doorway, Double"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "doorway2"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[C] Window"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "window"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[C] Floorside Middlelayer"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "floorside"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "eraser"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63291
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 8282
+        }
+      }
+    ]
+  }
+}
