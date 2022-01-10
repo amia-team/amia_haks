@@ -1,0 +1,13 @@
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel wsf03_k02_01x
+setsupermodel wsf03_k02_01x null
+setanimationscale 1
+classification TILE
+#MAXGEOM ASCII
+beginmodelgeom wsf03_k02_01x
+node dummy wsf03_k02_01x
+  parent NULL
+endnode
+endmodelgeom wsf03_k02_01x
+donemodel wsf03_k02_01x
