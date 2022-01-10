@@ -1,0 +1,19 @@
+#MAXWALKMESH  ASCII
+filedependancy PlaceableObjects01.max
+node trimesh TCN01_O01_01_wg
+  parent TCN01_O01_01_pwk
+  position 0.0 0.0 5e-007
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.690196 0.101961 0.101961  
+    verts 9
+     -5.0 -5.0 -5e-007
+     0.0 -5.0 -5e-007
+     5.0 -5.0 -5e-007
+     -5.0 0.0 -5e-007
+     0.0 0.0 -5e-007
+     5.0 0.0 -5e-007
+     -5.0 5.0 -5e-007
+     0.0 5.0 -5e-007
+     5.0 5.0 -5e-007
+    faces 0
+endnode

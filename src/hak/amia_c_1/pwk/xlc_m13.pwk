@@ -1,0 +1,41 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: XLC_M13
+filedependancy mono13.max
+node trimesh Box01
+  parent XLC_M13_pwk
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 0.0273438 0.0273438 0.0273438
+  ambient 0.0234375 0.523438 0.441406
+  diffuse 0.0234375 0.523438 0.441406
+  specular 0 0 0
+  shininess 1
+  bitmap NULL
+  verts 12
+    0.229276 -1.34344 0
+    -0.19807 -0.546837 0
+    -2.17826 -1.13663 0
+    -2.65961 -0.41425 0
+    -2.72596 0.443158 0
+    -1.64037 1.46056 0
+    0.0422836 1.73664 0
+    1.05648 1.04036 0
+    2.47697 0.251168 0
+    2.4019 -0.889255 0
+    1.14155 -1.24529 0
+    0.0157654 -0.0313956 0
+  faces 11
+    11 1 0  0  0 0 0  0
+    0 10 11  0  0 0 0  0
+    11 10 9  0  0 0 0  0
+    9 8 11  0  0 0 0  0
+    11 8 7  0  0 0 0  0
+    7 6 11  0  0 0 0  0
+    11 6 5  0  0 0 0  0
+    5 4 11  0  0 0 0  0
+    11 4 3  0  0 0 0  0
+    3 2 11  0  0 0 0  0
+    11 2 1  0  0 0 0  0
+endnode
