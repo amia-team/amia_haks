@@ -1,0 +1,65 @@
+# Exported from NWMax Plus for gMax v3.09.22 at 28-10-2012 13:30:54
+# pwk file
+#
+#NWMax Plus PWKMESH  ASCII
+node trimesh pwk
+  parent ds_ice_01_pwk
+  position -0.0316925 0.0551283 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.443137 0.52549 0.0235294 
+  multimaterial 30
+    Dirt
+    Obscuring
+    Grass
+    Stone
+    Wood
+    Water
+    Nonwalk
+    Transparent
+    Carpet
+    Metal
+    Puddles
+    Swamp
+    Mud
+    Leaves
+    Lava
+    BottomlessPit
+    DeepWater
+    Door
+    Snow
+    Sand
+    BareBones
+    StoneBridge
+    Temp1
+    Temp2
+    Temp3
+    Temp4
+    Temp5
+    Temp6
+    Temp7
+    Trigger
+  ambient 0.0 0.0 0.0 
+  diffuse 0.6 0.34 0.16 
+  specular 0.0 0.0 0.0 
+  shininess 10.0
+  bitmap Dirt
+  verts 9
+    -0.754339 -0.460569 0.0
+    -0.100388 -0.563568 0.0
+    0.527351 -0.746409 0.0
+    -0.613556 0.161347 0.0
+    -0.100388 0.0880473 0.0
+    0.653951 0.0880473 0.0
+    -0.754339 0.834456 0.0
+    -0.0509917 0.510374 0.0
+    0.48041 0.730905 0.0
+  faces 8
+    3 0 4  1  0 0 0  7
+    1 4 0  1  0 0 0  7
+    4 1 5  1  0 0 0  7
+    2 5 1  1  0 0 0  7
+    6 3 7  1  0 0 0  7
+    4 7 3  1  0 0 0  7
+    7 4 8  1  0 0 0  7
+    5 8 4  1  0 0 0  7
+endnode

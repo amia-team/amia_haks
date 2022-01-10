@@ -1,0 +1,341 @@
+# edited by markrendl
+# original mdl by ShadowM
+#
+#NWmax MODEL ASCII
+# model: lavaangle4
+filedependancy Unknown
+newmodel lavaangle4
+setsupermodel lavaangle4 NULL
+classification Tile
+#NWmax GEOM  ASCII
+beginmodelgeom lavaangle4
+node dummy lavaangle4
+  parent NULL
+endnode
+node dummy lava
+  parent lavaangle4
+  position 0.0 0.0 1.05344
+  orientation 0.0 0.0 -1.0 -1.5708
+  wirecolor 0.0313726 0.239216 0.541176 
+endnode
+#Tile trimesh node
+node trimesh Object546
+  parent lavaangle4
+  position 0.0 0.0 1.05
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  selfillumcolor 0.0 0.0 0.0 
+  rotatetexture 1
+  alpha 1.0
+  transparencyhint 0
+  center 0.0 13.0 -81.1563 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 30.0
+  selfillumcolor 0.0 0.0 0.0 
+  bitmap lava
+  verts 10
+    2.5 -0.79 -1.12656
+    5.0 -1.0 -0.496565
+    2.5 0.82 -1.12656
+    5.0 1.0 -0.496565
+    0.0 -0.96 -0.926565
+    0.0 1.42 -0.926565
+    -2.5 -1.77 -0.596565
+    -2.5 2.03 -0.596565
+    -5.0 -1.0 -0.496565
+    -5.0 1.0 -0.496565
+  faces 8
+    0 1 2  1  0 1 2  1
+    3 2 1  1  3 2 1  1
+    4 0 5  1  4 0 5  1
+    2 5 0  1  2 5 0  1
+    6 4 7  1  6 4 7  1
+    5 7 4  1  5 7 4  1
+    8 6 9  1  8 6 9  1
+    7 9 6  1  7 9 6  1
+  tverts 10
+    1.26176 9.75 0
+    1.2 9.0 0
+    1.74526 9.75 0
+    1.8 9.0 0
+    1.21323 10.5 0
+    1.92731 10.5 0
+    0.969895 11.25 0
+    2.1088 11.25 0
+    1.2 12.0 0
+    1.8 12.0 0
+endnode
+#Tile trimesh node
+node trimesh Object543
+  parent lavaangle4
+  position 0.0 0.0 0.67
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  selfillumcolor 0.0 0.0 0.0 
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  center 0.0 335.5 -0.656502 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 5.0
+  selfillumcolor 0.0 0.0 0.0 
+  bitmap lava
+  verts 10
+    2.5 3.14 0.383435
+    5.0 2.89 0.383435
+    5.0 3.89 -0.116565
+    2.5 4.1 -0.746565
+    0.0 3.11 0.383435
+    0.0 3.93 -0.546565
+    -2.5 2.61 0.733435
+    -2.5 3.12 -0.216565
+    -5.0 2.89 0.383435
+    -5.0 3.89 -0.116565
+  faces 8
+    0 1 2  1  0 1 2  1
+    2 3 0  1  2 3 0  1
+    4 0 3  1  1 4 5  1
+    3 5 4  1  5 2 1  1
+    6 4 5  1  4 6 7  1
+    5 7 6  1  7 5 4  1
+    8 6 7  1  6 8 9  1
+    7 9 8  1  9 7 6  1
+  tverts 10
+    3.0 0.496523 0
+    2.25 0.496523 0
+    2.25 0.00577643 0
+    3.0 0.00577643 0
+    1.5 0.496523 0
+    1.5 0.00577643 0
+    0.75 0.496523 0
+    0.75 0.00577643 0
+    0.0 0.496523 0
+    0.0 0.00577643 0
+endnode
+#Tile trimesh node
+node trimesh Plane465
+  parent lavaangle4
+  position 0.13 2.42 1.08
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  selfillumcolor 0.0 0.0 0.0 
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 1
+  center -133.514 -13.3755 0.446966 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 30.0
+  selfillumcolor 0.0 0.0 0.0 
+  bitmap lava
+  verts 3
+    -2.05029 0.0815293 0.0134351
+    -0.62 -0.34904 -0.00449559
+    -0.652164 -0.34701 -0.00449559
+  faces 1
+    2 0 1  1  3 2 1  1
+  tverts 4
+    0.862943 0.78694 0
+    0.864916 0.534316 0
+    1.23633 0.78694 0
+    1.2383 0.534316 0
+endnode
+#Tile trimesh node
+node trimesh Object544
+  parent lavaangle4
+  position 0.0 0.0 0.6
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  selfillumcolor 0.0 0.0 0.0 
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  center 0.0 -297.5 -0.156502 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 5.0
+  selfillumcolor 0.0 0.0 0.0 
+  bitmap lava
+  verts 10
+    5.0 -2.73 0.453435
+    2.5 -3.15 0.673435
+    2.5 -3.91 -0.676565
+    5.0 -3.73 -0.0465649
+    0.0 -2.8 0.453435
+    0.0 -3.31 -0.476565
+    -2.5 -2.04 0.453435
+    -2.5 -2.7 -0.146565
+    -5.0 -2.73 0.453435
+    -5.0 -3.73 -0.0465649
+  faces 8
+    0 1 2  1  0 1 2  1
+    2 3 0  1  2 3 0  1
+    1 4 5  1  1 4 5  1
+    5 2 1  1  5 2 1  1
+    4 6 7  1  4 6 7  1
+    7 5 4  1  7 5 4  1
+    6 8 9  1  6 8 9  1
+    9 7 6  1  9 7 6  1
+  tverts 10
+    3.0 0.496523 0
+    2.25 0.496523 0
+    2.25 0.00577643 0
+    3.0 0.00577643 0
+    1.5 0.496523 0
+    1.5 0.00577643 0
+    0.75 0.496523 0
+    0.75 0.00577643 0
+    0.0 0.496523 0
+    0.0 0.00577643 0
+endnode
+#Tile trimesh node
+node trimesh Plane464
+  parent lavaangle4
+  position 0.0 0.0 1.05
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  selfillumcolor 0.0 0.0 0.0 
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  center 0.0 51.8005 17.8435 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 5.0
+  selfillumcolor 0.0 0.0 0.0 
+  bitmap lava
+  verts 16
+    2.5 -1.76566 0.00343498
+    5.0 -2.00333 0.00343498
+    2.5 1.58 0.223435
+    5.0 2.0 0.00343498
+    2.5 3.31601 0.00343498
+    0.0 -1.78474 0.00343498
+    0.0 -1.78 0.00343498
+    0.0 1.93 0.00343498
+    0.0 3.31601 0.00343498
+    -2.84141 -2.19596 0.00343498
+    -2.5 -2.28 0.353435
+    -2.5 2.69 0.00343498
+    -2.5 3.31601 0.00343498
+    -5.0 -1.9847 0.00343498
+    -5.0 -2.0 0.00343498
+    -5.0 1.99794 0.00343498
+  faces 11
+    2 3 4  1  4 5 6  1
+    5 0 6  1  8 0 9  1
+    7 2 8  1  10 4 11  1
+    4 8 2  1  6 11 4  1
+    9 5 10  1  12 8 13  1
+    6 10 5  1  9 13 8  1
+    11 7 12  1  14 10 15  1
+    8 12 7  1  11 15 10  1
+    13 9 14  1  16 12 17  1
+    10 14 9  1  13 17 12  1
+    12 15 11  1  15 19 14  1
+  tverts 20
+    73.5 -3.00002 0
+    74.0 -3.00002 0
+    73.5 -2.34975 0
+    74.0 -2.40002 0
+    73.5 -1.68382 0
+    74.0 -1.60002 0
+    73.5 -1.00002 0
+    74.0 -1.00002 0
+    73.0 -3.00002 0
+    73.0 -2.35631 0
+    73.0 -1.6139 0
+    73.0 -1.00002 0
+    72.5 -3.00002 0
+    72.5 -2.45556 0
+    72.5 -1.46291 0
+    72.5 -1.00002 0
+    72.0 -3.00002 0
+    72.0 -2.40002 0
+    72.0 -1.60002 0
+    72.0 -1.00002 0
+endnode
+#Tile trimesh node
+node trimesh Line634
+  parent lavaangle4
+  position -0.2 0.24 -1.28
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.882353 0.341176 0.776471 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  selfillumcolor 0.0 0.0 0.0 
+  rotatetexture 1
+  alpha 1.0
+  transparencyhint 0
+  center -40.905 -46.4949 132.997 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 5.0
+  selfillumcolor 0.0 0.0 0.0 
+  bitmap lava
+  verts 4
+    -10.823 -11.0833 2.60637
+    9.99674 -11.0833 2.60637
+    -10.823 10.4703 0.150642
+    9.99674 10.4703 0.150642
+  faces 2
+    0 1 3  4  8 9 11  1
+    3 2 0  4  11 10 8  1
+  tverts 12
+    0.0 0.0 0
+    1.0 0.0 0
+    0.0 1.0 0
+    1.0 1.0 0
+    0.0 0.0 0
+    1.0 0.0 0
+    0.0 1.0 0
+    1.0 1.0 0
+    0.0 0.0 0
+    1.0 0.0 0
+    0.0 1.0 0
+    1.0 1.0 0
+endnode
+endmodelgeom lavaangle4
+donemodel lavaangle4

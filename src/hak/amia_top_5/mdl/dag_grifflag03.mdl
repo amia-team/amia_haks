@@ -1,0 +1,455 @@
+# Rewritten by CleanModels 3 Version 3.2.2.1 Thu Feb 12 11:48:04 2009
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel dag_grifflag03
+setsupermodel dag_grifflag03 tnp_flag_e51
+setanimationscale 1
+classification CHARACTER
+#MAXGEOM ASCII
+beginmodelgeom dag_grifflag03
+node dummy dag_grifflag03
+  parent NULL
+endnode
+node emitter echunkywood01
+  parent dag_grifflag03
+  position 0 0 0.462303
+  wirecolor 1 1 1
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  blend Normal
+  spawntype 0
+  xsize 89
+  ysize 40
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0
+  combinetime 0
+  deadspace 0
+  opacity 0.5
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 3
+  lifeExp 0.75
+  mass 3
+  spread 1.22173
+  particleRot 5
+  velocity 8
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10
+  loop 0
+  bounce 1
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_cloud02
+  twosidedtex 0
+  xgrid 5
+  ygrid 5
+  fps 0
+  frameStart 0
+  frameEnd 24
+  random 0
+  chunkName plc_chunk_w01
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  orientation 0 0 0 0
+endnode
+node emitter echunkywood02
+  parent dag_grifflag03
+  position 0 0 0.568524
+  wirecolor 1 1 1
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  blend Normal
+  spawntype 0
+  xsize 89
+  ysize 40
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0
+  combinetime 0
+  deadspace 0
+  opacity 0.5
+  colorStart 0.482353 0.435294 0.317647
+  colorEnd 0.584314 0.533333 0.407843
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 3
+  lifeExp 0.75
+  mass 3
+  spread 1.22173
+  particleRot 2.9
+  velocity 8
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10
+  loop 0
+  bounce 1
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_cloud02
+  twosidedtex 0
+  xgrid 5
+  ygrid 5
+  fps 0
+  frameStart 0
+  frameEnd 24
+  random 0
+  chunkName plc_chunk_w02
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  orientation 0 0 0 0
+endnode
+node emitter esmoke
+  parent dag_grifflag03
+  position 0 0 0.388259
+  orientation 1 0 0 -4.71239
+  wirecolor 1 1 1
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  blend Normal
+  spawntype 0
+  xsize 100
+  ysize 99
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0
+  combinetime 0
+  deadspace 0
+  opacity 0.5
+  colorStart 0.47451 0.439216 0.364706
+  colorEnd 0.819608 0.796079 0.709804
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 4
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 10
+  lifeExp 2.5
+  mass 0.09
+  spread 2.96706
+  particleRot 0.5
+  velocity 2
+  randvel 0.5
+  bounce_co 0
+  blurlength 10
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 10
+  frameStart 0
+  frameEnd 24
+  random 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0.2
+  blastLength 1
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node dummy flag_e54_ground
+  parent dag_grifflag03
+  position -0.00363281 0.0069873 0
+  wirecolor 0.54902 0.345098 0.882353
+  orientation 0 0 0 0
+endnode
+node dummy flag_e54_hand
+  parent dag_grifflag03
+  position 0.00398437 0.478177 0.611577
+  wirecolor 0.878431 0.341176 0.560784
+  orientation 0 0 0 0
+endnode
+node dummy flag_e54_head
+  parent dag_grifflag03
+  position 0.00398437 0.47743 2.2389
+  wirecolor 0.878431 0.341176 0.560784
+  orientation 0 0 0 0
+endnode
+node dummy flag_e54_head_hit
+  parent dag_grifflag03
+  position 0.00398437 0.482853 2.09958
+  wirecolor 0.54902 0.345098 0.882353
+  orientation 0 0 0 0
+endnode
+node dummy flag_e54_impact
+  parent dag_grifflag03
+  position 0.00398437 0.475975 1.89906
+  wirecolor 0.54902 0.345098 0.882353
+  orientation 0 0 0 0
+endnode
+node danglymesh banner
+  parent dag_grifflag03
+  position 0.00191956 0.480525 1.08695
+  wirecolor 0.0313726 0.0313726 0.533333
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  period 1
+  tightness 1
+  displacement 0.1
+  showdispl true
+  displtype 1
+  center 1.14441e-005 2.67625e-005 3.8147e-006
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap dag_flag01
+  orientation 0 0 0 0
+  verts 26
+    -0.4572 0.0190503 0.93244
+    -0.4572 0.0190503 0.89434
+    0.4572 0.0190502 0.93244
+    0.4572 0.0190502 0.89434
+    -0.4572 -0.0190497 0.93244
+    -0.4572 -0.0190497 0.89434
+    0.4572 -0.0190497 0.93244
+    0.4572 -0.0190498 0.89434
+    -0.381 -7.27409e-007 -0.93244
+    0 -6.89262e-007 -0.93244
+    0.381 -6.51115e-007 -0.93244
+    -0.381 -3.67683e-007 -0.01804
+    0 -3.67683e-007 -0.01804
+    0.381 -3.29536e-007 -0.01804
+    -0.381 0 0.89636
+    1.25766e-007 0 0.89636
+    0.381 0 0.89636
+    -0.381 -6.89262e-007 -0.93244
+    0 -6.89262e-007 -0.93244
+    0.381 -6.51115e-007 -0.93244
+    -0.381 -5.20271e-007 -0.0180399
+    0 -4.82124e-007 -0.0180399
+    0.381 -4.43977e-007 -0.0180399
+    -0.381 -3.13133e-007 0.89636
+    1.25766e-007 -2.74986e-007 0.89636
+    0.381 -2.74986e-007 0.89636
+  faces 28
+    0 2 3 2 8 9 10 2
+    3 1 0 2 10 11 8 2
+    4 5 7 4 12 13 14 1
+    7 6 4 4 14 15 12 1
+    0 1 5 8 16 17 18 5
+    5 4 0 8 18 19 16 5
+    1 3 7 16 1 20 21 4
+    7 5 1 16 21 5 1 4
+    3 2 6 32 3 22 23 6
+    6 7 3 32 23 7 3 6
+    2 0 4 64 2 0 4 3
+    4 6 2 64 4 6 2 3
+    11 9 12 1 27 25 28 1
+    12 9 13 1 28 25 29 1
+    14 12 15 1 30 28 31 1
+    15 12 16 1 31 28 32 1
+    14 11 12 1 30 27 28 1
+    12 13 16 1 28 29 32 1
+    11 8 9 1 27 24 25 1
+    9 10 13 1 25 26 29 1
+    20 21 18 1 27 28 25 1
+    21 22 18 1 28 29 25 1
+    23 24 21 1 30 31 28 1
+    24 25 21 1 31 32 28 1
+    23 21 20 1 30 28 27 1
+    21 25 22 1 28 32 29 1
+    20 18 17 1 27 25 24 1
+    18 22 19 1 25 29 26 1
+  tverts 33
+    1.08577 0.954648 0
+    0.914226 0.954648 0
+    0.417648 0.954648 0
+    0.02418 0.954648 0
+    1.08577 0.992748 0
+    0.914226 0.992748 0
+    0.417648 0.992748 0
+    0.02418 0.992748 0
+    0.914226 0.937715 0
+    1.58235 0.937716 0
+    1.58235 0.975815 0
+    0.914226 0.975815 0
+    1.08577 0.937715 0
+    1.08577 0.975815 0
+    0.417648 0.975815 0
+    0.417648 0.937716 0
+    0.937715 0.954648 0
+    0.975815 0.954648 0
+    0.975815 0.992748 0
+    0.937715 0.992748 0
+    1.58235 0.954648 0
+    1.58235 0.992748 0
+    0.06228 0.954648 0
+    0.06228 0.992748 0
+    0.508131 0.00143372 0
+    0.751387 0.00143369 0
+    0.994642 0.00143363 0
+    0.508132 0.464934 0
+    0.751387 0.464934 0
+    0.994642 0.464934 0
+    0.508132 0.928434 0
+    0.751387 0.928434 0
+    0.994643 0.928434 0
+  constraints 26
+    0
+    0
+    0
+    0
+    0
+    0
+    0
+    0
+    230
+    235
+    230
+    240
+    245
+    240
+    0
+    0
+    0
+    230
+    235
+    230
+    240
+    245
+    240
+    0
+    0
+    0
+endnode
+node trimesh ironbits
+  parent banner
+  position -0.00191956 0.00622192 0.914493
+  wirecolor 0.0313726 0.0313726 0.533333
+  ambient 0.588 0.588 0.588
+  diffuse 0.588 0.588 0.588
+  specular 0 0 0
+  shininess 10
+  bitmap tno01_metal01
+  orientation 0 0 0 0
+  verts 14
+    0.44076 -0.00536733 0
+    0.458754 0.050839 0
+    0.458754 0.0120014 0.0534555
+    0.458754 -0.0508393 0.0330373
+    0.458754 -0.0508393 -0.0330373
+    0.458754 0.0120014 -0.0534555
+    0.476748 -0.00536736 0
+    -0.476748 -0.00536727 0
+    -0.458754 0.0508391 0
+    -0.458754 0.0120015 0.0534555
+    -0.458754 -0.0508392 0.0330373
+    -0.458754 -0.0508392 -0.0330373
+    -0.458754 0.0120015 -0.0534555
+    -0.44076 -0.00536727 0
+  faces 20
+    0 2 1 8 0 5 4 3
+    0 3 2 8 14 6 15 3
+    0 4 3 8 1 7 6 3
+    0 5 4 8 2 8 7 3
+    0 1 5 8 3 4 8 3
+    1 2 6 8 4 5 10 3
+    2 3 6 8 15 6 11 3
+    3 4 6 8 6 7 12 3
+    4 5 6 8 7 8 13 3
+    5 1 6 8 8 4 9 3
+    7 9 8 8 0 5 4 3
+    7 10 9 8 14 6 15 3
+    7 11 10 8 1 7 6 3
+    7 12 11 8 2 8 7 3
+    7 8 12 8 3 4 8 3
+    8 9 13 8 4 5 10 3
+    9 10 13 8 15 6 11 3
+    10 11 13 8 6 7 12 3
+    11 12 13 8 7 8 13 3
+    12 8 13 8 8 4 9 3
+  tverts 16
+    1.75 0 0
+    1.15 0 0
+    1.35 0 0
+    1.55 0 0
+    1.75 0.5 0
+    1.95 0.5 0
+    1.15 0.5 0
+    1.35 0.5 0
+    1.55 0.5 0
+    1.75 1 0
+    1.95 1 0
+    1.15 1 0
+    1.35 1 0
+    1.55 1 0
+    0.95 0 0
+    0.95 0.5 0
+endnode
+endmodelgeom dag_grifflag03
+donemodel dag_grifflag03

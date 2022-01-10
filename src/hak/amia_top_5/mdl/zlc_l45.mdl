@@ -1,0 +1,907 @@
+#MAXMODEL ASCII
+# model: zlc_l45
+filedependancy zlc_l45.max
+newmodel zlc_l45
+setsupermodel zlc_l45 null
+classification character
+setanimationscale 0
+#MAXGEOM  ASCII
+beginmodelgeom zlc_l45
+node dummy zlc_l45
+  parent NULL
+  #part-number 0
+endnode
+node dummy l45_hand
+  parent zlc_l45
+  #part-number 1
+  position -0.557650983 -0.0780899972 1.70520997
+  orientation 0 0 -1 -1.57079995
+endnode
+node dummy l45_head
+  parent zlc_l45
+  #part-number 2
+  position -0.0148400003 -0.0780899003 1.56963003
+  orientation 0 0 -1 -1.57079995
+endnode
+node dummy l45_head_hit
+  parent zlc_l45
+  #part-number 3
+  position -0.0148400003 -0.0780899003 1.08815002
+  orientation 0 0 -1 -1.57079995
+endnode
+node dummy l45_impact
+  parent zlc_l45
+  #part-number 4
+  position -0.0150149995 -0.0780899003 0.544368029
+  orientation 0 0 -1 -1.57079995
+endnode
+node dummy l45_ground
+  parent zlc_l45
+  #part-number 5
+  position -0.00363299996 0.00698699988 0
+  orientation 0 0 0 0
+endnode
+node emitter chunkywood143
+  parent zlc_l45
+  #part-number 6
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 1
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Normal
+  texture fxpa_cloud02
+  xgrid 5
+  ygrid 5
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0.00948297046 -0.0845130011 1.10670996
+  orientation 0 0 -1 -1.57079995
+  xsize 89
+  ysize 40
+  threshold 0
+  combinetime 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.100000001
+  sizeEnd 0.100000001
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 2
+  lifeExp 0.75
+  mass 3
+  spread 1.22172999
+  particleRot 5
+  velocity 8
+  randvel 0.300000012
+  bounce_co 0.5
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 24
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node emitter chunkssml
+  parent zlc_l45
+  #part-number 7
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 1
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Normal
+  texture NULL
+  xgrid 0
+  ygrid 0
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0.100000001
+  blastLength 0
+  position -0.00483292993 -0.0825868994 2.5
+  orientation 0 0 -1 -1.57079995
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 1 1 0
+  colorEnd 1 1 1
+  alphaStart 0.899999976
+  alphaEnd 0.100000001
+  sizeStart 0.0399999991
+  sizeEnd 0.00999999978
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 0
+  lifeExp 64
+  mass 1
+  spread 3.79253006
+  particleRot 10
+  velocity 1
+  randvel 1
+  bounce_co 0.300000012
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node emitter fire!91
+  parent zlc_l45
+  #part-number 8
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 1
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Normal
+  texture fxpa_smoke01
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0.200000003
+  blastLength 1
+  position 0.510466993 -0.0845128968 0.532669008
+  orientation 0.577350914 0.577350914 0.577348948 -4.18878984
+  xsize 100
+  ysize 99
+  threshold 0
+  combinetime 0
+  colorStart 0.445100009 0.445100009 0
+  colorEnd 1 1 1
+  alphaStart 0.200000003
+  alphaEnd 0.100000001
+  sizeStart 4
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 10
+  lifeExp 2.5
+  mass 0.0900000036
+  spread 2.96706009
+  particleRot 0.5
+  velocity 2
+  randvel 0.5
+  bounce_co 0
+  blurlength 10
+  fps 10
+  frameStart 0
+  frameEnd 24
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node dummy damage21
+  parent zlc_l45
+  #part-number 9
+  position 0 0 0
+  orientation 0 0 0 0
+endnode
+node trimesh glass
+  parent damage21
+  #part-number 10
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 2
+  shadow 0
+  bitmap window1
+  verts 18
+    -0.0399998985 0.850000024 -1.67499995
+    0.0400000997 0.850000024 -1.67499995
+    0 0 -1.67499995
+    -0.0399998985 0.439999998 1.55499995
+    0 0 1.67499995
+    0.0400000997 0.439999998 1.55499995
+    -0.0399998985 0.829999983 1.21500003
+    0.0400000997 0.829999983 1.21500003
+    -0.0399998985 0.680000007 1.43499994
+    0.0400000997 0.680000007 1.43499994
+    0.0399998985 -0.850000024 -1.67499995
+    0.0399999991 -0.430000007 1.55499995
+    0.0399998985 -0.829999983 1.21500003
+    0.0399998985 -0.680000007 1.43499994
+    -0.0400000997 -0.850000024 -1.67499995
+    -0.0399999991 -0.430000007 1.55499995
+    -0.0400000997 -0.829999983 1.21500003
+    -0.0400000997 -0.680000007 1.43499994
+  tverts 18
+    0.0354389995 0.00166199997 0
+    0.0354389995 0.00166199997 0
+    0.497637004 0.00166199997 0
+    0.246547997 0.965077996 0
+    0.497637004 0.997740984 0
+    0.246547997 0.965077996 0
+    0.0354389995 0.860665023 0
+    0.0354389995 0.860665023 0
+    0.127878994 0.924633026 0
+    0.127878994 0.924633026 0
+    0.959834993 0.00166199997 0
+    0.741505027 0.965077996 0
+    0.959834993 0.860665023 0
+    0.874617994 0.924633026 0
+    0.959834993 0.00166199997 0
+    0.741505027 0.965077996 0
+    0.959834993 0.860665023 0
+    0.874617994 0.924633026 0
+  faces 32
+    0 1 2 1 0 1 2 65536
+    3 4 5 1 3 4 5 65536
+    0 6 1 1 0 6 1 65536
+    6 7 1 1 6 7 0 65536
+    6 8 9 1 6 8 9 65536
+    6 9 7 1 6 8 7 65536
+    8 3 9 1 8 3 9 65536
+    3 5 9 1 3 5 8 65536
+    1 10 2 1 0 10 2 65536
+    5 4 11 1 3 4 11 65536
+    1 7 12 1 0 6 12 65536
+    1 12 10 1 0 12 10 65536
+    7 9 12 1 6 8 12 65536
+    9 13 12 1 8 13 12 65536
+    9 5 11 1 8 3 11 65536
+    9 11 13 1 8 11 13 65536
+    10 14 2 1 10 14 2 65536
+    11 4 15 1 11 4 15 65536
+    10 12 14 1 10 12 14 65536
+    12 16 14 1 12 16 10 65536
+    12 13 17 1 12 13 17 65536
+    12 17 16 1 12 13 16 65536
+    13 11 17 1 13 11 17 65536
+    11 15 17 1 11 15 13 65536
+    14 0 2 1 10 0 2 65536
+    15 4 3 1 11 4 3 65536
+    14 16 6 1 10 12 6 65536
+    14 6 0 1 10 6 0 65536
+    16 17 6 1 12 13 6 65536
+    17 8 6 1 13 8 6 65536
+    17 15 3 1 13 11 3 65536
+    17 3 8 1 13 3 8 65536
+  position 0.00999999978 0.0399999991 1.80499995
+  orientation 0 0 -1 -1.57079995
+  scale 1
+  alpha 0.800000012
+  setfillumcolor 0 0 0
+endnode
+node trimesh post1
+  parent damage21
+  #part-number 11
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 2
+  bitmap window1
+  verts 10
+    0.0500000007 0.0949999988 -1.39499998
+    0.0500000007 -0.0949999988 -1.39499998
+    0 0.0149999997 -1.39499998
+    0.0700000003 0.0949999988 1.39499998
+    0 0.0149999997 1.39499998
+    0.0700000003 -0.0949999988 1.39499998
+    -0.0599999987 -0.0949999988 -1.39499998
+    -0.0700000003 -0.0949999988 1.39499998
+    -0.0599999987 0.0949999988 -1.39499998
+    -0.0700000003 0.0949999988 1.39499998
+  tverts 10
+    0.0134680001 0.0493789986 0
+    0.140109003 0.0493789986 0
+    0.0614380017 0.0493789986 0
+    0.0134680001 0.829044998 0
+    0.0614380017 0.829044998 0
+    0.140109003 0.829044998 0
+    0.140109003 0.0493789986 0
+    0.140109003 0.829044998 0
+    0.0134680001 0.0493789986 0
+    0.0134680001 0.829044998 0
+  faces 16
+    0 1 2 1 0 1 2 65536
+    3 4 5 1 3 4 5 65536
+    0 3 1 1 0 3 1 65536
+    3 5 1 1 3 5 1 65536
+    1 6 2 1 1 6 2 65536
+    5 4 7 1 5 4 7 65536
+    1 5 7 1 1 5 7 65536
+    1 7 6 1 1 5 6 65536
+    6 8 2 1 1 0 2 65536
+    7 4 9 1 5 4 3 65536
+    6 7 8 1 1 5 0 65536
+    7 9 8 1 5 3 0 65536
+    8 0 2 1 0 8 2 65536
+    9 4 3 1 3 4 9 65536
+    8 9 3 1 0 3 9 65536
+    8 3 0 1 0 3 8 65536
+  position -0.754999995 0.0500001013 1.61500001
+  orientation 0 0 -1 -1.57079995
+  scale 1
+  alpha 0.800000012
+  setfillumcolor 0 0 0
+endnode
+node trimesh post2
+  parent damage21
+  #part-number 12
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 2
+  bitmap window1
+  verts 10
+    0.0500000007 0.0900000036 -1.39499998
+    0.0500000007 -0.0900000036 -1.39499998
+    0 0 -1.39499998
+    0.0700000003 0.100000001 1.39499998
+    0 0 1.39499998
+    0.0700000003 -0.100000001 1.39499998
+    -0.0599999987 -0.0900000036 -1.39499998
+    -0.0700000003 -0.100000001 1.39499998
+    -0.0599999987 0.0900000036 -1.39499998
+    -0.0700000003 0.100000001 1.39499998
+  tverts 10
+    0.86944598 0.0428159982 0
+    0.983434021 0.0428159982 0
+    0.926440001 0.0428159982 0
+    0.868543983 0.840959013 0
+    0.926440001 0.840959013 0
+    0.985238016 0.840959013 0
+    0.983434021 0.0428159982 0
+    0.985238016 0.840959013 0
+    0.86944598 0.0428159982 0
+    0.868543983 0.840959013 0
+  faces 16
+    0 1 2 1 0 1 2 65536
+    3 4 5 1 3 4 5 65536
+    0 3 1 1 0 3 1 65536
+    3 5 1 1 3 5 1 65536
+    1 6 2 1 1 6 2 65536
+    5 4 7 1 5 4 7 65536
+    1 5 7 1 1 5 7 65536
+    1 7 6 1 1 5 6 65536
+    6 8 2 1 1 0 2 65536
+    7 4 9 1 5 4 3 65536
+    6 7 8 1 1 5 0 65536
+    7 9 8 1 5 3 0 65536
+    8 0 2 1 0 8 2 65536
+    9 4 3 1 3 4 9 65536
+    8 9 3 1 0 3 9 65536
+    8 3 0 1 0 3 8 65536
+  position 0.779999971 0.0499999002 1.61500001
+  orientation 0 0 -1 -1.57079995
+  scale 1
+  alpha 0.800000012
+  setfillumcolor 0 0 0
+endnode
+node trimesh framebase
+  parent damage21
+  #part-number 13
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 2
+  bitmap window1
+  verts 10
+    0.0650001019 0.870000005 0.0949999988
+    0.0650001019 0.870000005 -0.0949999988
+    0.00500010001 0.870000005 -0.00499999989
+    0.0649999008 -0.870000005 0.0949999988
+    0.00499989977 -0.870000005 -0.00499999989
+    0.0649999008 -0.870000005 -0.0949999988
+    -0.0649999008 0.870000005 -0.0949999988
+    -0.0650001019 -0.870000005 -0.0949999988
+    -0.0649999008 0.870000005 0.0949999988
+    -0.0650001019 -0.870000005 0.0949999988
+  tverts 10
+    0.0197400004 0.0505830012 0
+    0.0197400004 0.00498099998 0
+    0.0197400004 0.0277820006 0
+    0.978879988 0.0562199987 0
+    0.978879988 0.034674 0
+    0.978879988 0.0131280003 0
+    0.0197400004 0.00498099998 0
+    0.978879988 0.0131280003 0
+    0.0197400004 0.0505830012 0
+    0.978879988 0.0562199987 0
+  faces 16
+    0 1 2 1 0 1 2 65536
+    3 4 5 1 3 4 5 65536
+    0 3 1 1 0 3 1 65536
+    3 5 1 1 3 5 1 65536
+    1 6 2 1 1 6 2 65536
+    5 4 7 1 5 4 7 65536
+    1 5 7 1 1 5 7 65536
+    1 7 6 1 1 5 6 65536
+    6 8 2 1 1 0 2 65536
+    7 4 9 1 5 4 3 65536
+    6 7 8 1 1 5 0 65536
+    7 9 8 1 5 3 0 65536
+    8 0 2 1 0 8 2 65536
+    9 4 3 1 3 4 9 65536
+    8 9 3 1 0 3 9 65536
+    8 3 0 1 0 3 8 65536
+  position 0.00999999978 0.0450000018 0.174999997
+  orientation 0 0 -1 -1.57079995
+  scale 1
+  alpha 0.800000012
+  setfillumcolor 0 0 0
+endnode
+node trimesh frametop
+  parent damage21
+  #part-number 14
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 2
+  bitmap window1
+  verts 30
+    0.0699999034 -0.665000021 -0.230000004
+    0.0699999034 -0.86500001 -0.230000004
+    0 -0.754999995 -0.25999999
+    0.0700000972 0.675000012 -0.230000004
+    0 0.764999986 -0.230000004
+    0.0700000972 0.86500001 -0.230000004
+    0.0699999034 -0.545000017 -0.0799999982
+    0.0699999034 -0.704999983 0.0199999996
+    0.0700000003 -0.275000006 0
+    0.0699999034 -0.36500001 0.170000002
+    0.0700000003 0.0149999997 0.0700000003
+    0.0700000003 0.0149999997 0.25999999
+    0.0700000003 0.354999989 -0.00999999978
+    0.0700000972 0.444999993 0.150000006
+    0.0700000972 0.574999988 -0.109999999
+    0.0700000972 0.735000014 -0.0199999996
+    -0.0700000972 -0.86500001 -0.230000004
+    -0.0699999034 0.86500001 -0.230000004
+    -0.0700000972 -0.704999983 0.0199999996
+    -0.0700000003 -0.36500001 0.170000002
+    -0.0700000003 0.0149999997 0.25999999
+    -0.0699999034 0.444999993 0.150000006
+    -0.0699999034 0.735000014 -0.0199999996
+    -0.0700000972 -0.665000021 -0.230000004
+    -0.0699999034 0.675000012 -0.230000004
+    -0.0700000972 -0.545000017 -0.0799999982
+    -0.0700000003 -0.275000006 0
+    -0.0700000003 0.0149999997 0.0700000003
+    -0.0700000003 0.354999989 -0.00999999978
+    -0.0699999034 0.574999988 -0.109999999
+  tverts 30
+    0.890739024 0.85246098 0
+    0.985004008 0.853277981 0
+    0.93276 0.845513999 0
+    0.122239999 0.846176028 0
+    0.0655900016 0.846176028 0
+    0.00535700005 0.846176028 0
+    0.788267016 0.907065988 0
+    0.867860019 0.930944026 0
+    0.656346023 0.935669005 0
+    0.702298999 0.977028012 0
+    0.499184996 0.948625982 0
+    0.499184996 0.996383011 0
+    0.332571 0.93107003 0
+    0.286617994 0.972428977 0
+    0.163736001 0.885215998 0
+    0.0757479966 0.910915017 0
+    0.985004008 0.853277981 0
+    0.00535700005 0.846176028 0
+    0.867860019 0.930944026 0
+    0.702298999 0.977028012 0
+    0.499184996 0.996383011 0
+    0.286617994 0.972428977 0
+    0.0757479966 0.910915017 0
+    0.890739024 0.85246098 0
+    0.122239999 0.846176028 0
+    0.788267016 0.907065988 0
+    0.656346023 0.935669005 0
+    0.499184996 0.948625982 0
+    0.332571 0.93107003 0
+    0.163736001 0.885215998 0
+  faces 56
+    0 1 2 1 0 1 2 65536
+    3 4 5 1 3 4 5 65536
+    0 6 7 1 0 6 7 65536
+    0 7 1 1 0 7 1 65536
+    6 8 7 1 6 8 7 65536
+    8 9 7 1 8 9 7 65536
+    8 10 11 1 8 10 11 65536
+    8 11 9 1 8 11 9 65536
+    10 12 11 1 10 12 11 65536
+    12 13 11 1 12 13 11 65536
+    12 14 15 1 12 14 15 65536
+    12 15 13 1 12 15 13 65536
+    14 3 15 1 14 3 15 65536
+    3 5 15 1 3 5 15 65536
+    1 16 2 1 1 16 2 65536
+    5 4 17 1 5 4 17 65536
+    1 7 16 1 1 7 16 65536
+    7 18 16 1 7 18 1 65536
+    7 9 19 1 7 9 19 65536
+    7 19 18 1 7 9 18 65536
+    9 11 19 1 9 11 19 65536
+    11 20 19 1 11 20 9 65536
+    11 13 21 1 11 13 21 65536
+    11 21 20 1 11 13 20 65536
+    13 15 21 1 13 15 21 65536
+    15 22 21 1 15 22 13 65536
+    15 5 17 1 15 5 17 65536
+    15 17 22 1 15 5 22 65536
+    16 23 2 1 1 0 2 65536
+    17 4 24 1 5 4 3 65536
+    16 18 25 1 1 7 6 65536
+    16 25 23 1 1 6 0 65536
+    18 19 25 1 7 9 6 65536
+    19 26 25 1 9 8 6 65536
+    19 20 27 1 9 11 10 65536
+    19 27 26 1 9 10 8 65536
+    20 21 27 1 11 13 10 65536
+    21 28 27 1 13 12 10 65536
+    21 22 29 1 13 15 14 65536
+    21 29 28 1 13 14 12 65536
+    22 17 29 1 15 5 14 65536
+    17 24 29 1 5 3 14 65536
+    23 0 2 1 0 23 2 65536
+    24 4 3 1 3 4 24 65536
+    23 25 0 1 0 6 23 65536
+    25 6 0 1 6 25 0 65536
+    25 26 8 1 6 8 26 65536
+    25 8 6 1 6 8 25 65536
+    26 27 8 1 8 10 26 65536
+    27 10 8 1 10 27 8 65536
+    27 28 12 1 10 12 28 65536
+    27 12 10 1 10 12 27 65536
+    28 29 12 1 12 14 28 65536
+    29 14 12 1 14 29 12 65536
+    29 24 3 1 14 3 24 65536
+    29 3 14 1 14 3 29 65536
+  position 0.0149999997 0.0500000007 3.23000002
+  orientation 0 0 -1 -1.57079995
+  scale 1
+  alpha 0.800000012
+  setfillumcolor 0 0 0
+endnode
+endmodelgeom zlc_l45
+
+#MAXANIM ASCII
+newanim damage zlc_l45
+  length 0.200000003
+  transtime 0
+  animroot zlc_l45
+node dummy zlc_l45
+  parent NULL
+  #part-number 0
+endnode
+node dummy l45_hand
+  parent zlc_l45
+  #part-number 1
+endnode
+node dummy l45_head
+  parent zlc_l45
+  #part-number 2
+endnode
+node dummy l45_head_hit
+  parent zlc_l45
+  #part-number 3
+endnode
+node dummy l45_impact
+  parent zlc_l45
+  #part-number 4
+endnode
+node dummy l45_ground
+  parent zlc_l45
+  #part-number 5
+endnode
+node emitter chunkywood143
+  parent zlc_l45
+  #part-number 6
+endnode
+node emitter chunkssml
+  parent zlc_l45
+  #part-number 7
+endnode
+node emitter fire!91
+  parent zlc_l45
+  #part-number 8
+endnode
+node dummy damage21
+  parent zlc_l45
+  #part-number 9
+  positionkey 2
+    0 0 0 0
+    0.200000003 0 0 0
+  orientationkey 6
+    0 0 0 0 0
+    0.0666666999 -0.366508335 0.366508335 -0.855186105 -0.0500000045
+    0.100000001 0.666666687 0.666666687 0.333333343 -0.0700000003
+    0.133332998 0.485071242 -0.485071242 -0.727606893 -0.0250000004
+    0.166666999 0.534522414 0.801783741 0.267261207 -0.0599999987
+    0.200000003 0 0 0 0
+endnode
+node dummy glass
+  parent damage21
+  #part-number 10
+endnode
+node dummy post1
+  parent damage21
+  #part-number 11
+endnode
+node dummy post2
+  parent damage21
+  #part-number 12
+endnode
+node dummy framebase
+  parent damage21
+  #part-number 13
+endnode
+node dummy frametop
+  parent damage21
+  #part-number 14
+endnode
+doneanim damage zlc_l45
+
+#MAXANIM ASCII
+newanim dead zlc_l45
+  length 0.0333333015
+  transtime 0
+  animroot zlc_l45
+node dummy zlc_l45
+  parent NULL
+  #part-number 0
+endnode
+node dummy l45_hand
+  parent zlc_l45
+  #part-number 1
+endnode
+node dummy l45_head
+  parent zlc_l45
+  #part-number 2
+endnode
+node dummy l45_head_hit
+  parent zlc_l45
+  #part-number 3
+endnode
+node dummy l45_impact
+  parent zlc_l45
+  #part-number 4
+endnode
+node dummy l45_ground
+  parent zlc_l45
+  #part-number 5
+endnode
+node emitter chunkywood143
+  parent zlc_l45
+  #part-number 6
+endnode
+node emitter chunkssml
+  parent zlc_l45
+  #part-number 7
+endnode
+node emitter fire!91
+  parent zlc_l45
+  #part-number 8
+endnode
+node dummy damage21
+  parent zlc_l45
+  #part-number 9
+  positionkey 2
+    0 0 0 -10
+    0.0333333015 0 0 -10
+endnode
+node dummy glass
+  parent damage21
+  #part-number 10
+endnode
+node dummy post1
+  parent damage21
+  #part-number 11
+endnode
+node dummy post2
+  parent damage21
+  #part-number 12
+endnode
+node dummy framebase
+  parent damage21
+  #part-number 13
+endnode
+node dummy frametop
+  parent damage21
+  #part-number 14
+endnode
+doneanim dead zlc_l45
+
+#MAXANIM ASCII
+newanim default zlc_l45
+  length 0.0333333015
+  transtime 0
+  animroot zlc_l45
+node dummy zlc_l45
+  parent NULL
+  #part-number 0
+endnode
+node dummy l45_hand
+  parent zlc_l45
+  #part-number 1
+endnode
+node dummy l45_head
+  parent zlc_l45
+  #part-number 2
+endnode
+node dummy l45_head_hit
+  parent zlc_l45
+  #part-number 3
+endnode
+node dummy l45_impact
+  parent zlc_l45
+  #part-number 4
+endnode
+node dummy l45_ground
+  parent zlc_l45
+  #part-number 5
+endnode
+node emitter chunkywood143
+  parent zlc_l45
+  #part-number 6
+endnode
+node emitter chunkssml
+  parent zlc_l45
+  #part-number 7
+endnode
+node emitter fire!91
+  parent zlc_l45
+  #part-number 8
+endnode
+node dummy damage21
+  parent zlc_l45
+  #part-number 9
+  positionkey 2
+    0 0 0 0
+    0.0333333015 0 0 0
+endnode
+node dummy glass
+  parent damage21
+  #part-number 10
+endnode
+node dummy post1
+  parent damage21
+  #part-number 11
+endnode
+node dummy post2
+  parent damage21
+  #part-number 12
+endnode
+node dummy framebase
+  parent damage21
+  #part-number 13
+endnode
+node dummy frametop
+  parent damage21
+  #part-number 14
+endnode
+doneanim default zlc_l45
+
+#MAXANIM ASCII
+newanim die zlc_l45
+  length 0.166666999
+  transtime 0
+  animroot zlc_l45
+  event 0 detonate
+node dummy zlc_l45
+  parent NULL
+  #part-number 0
+endnode
+node dummy l45_hand
+  parent zlc_l45
+  #part-number 1
+endnode
+node dummy l45_head
+  parent zlc_l45
+  #part-number 2
+endnode
+node dummy l45_head_hit
+  parent zlc_l45
+  #part-number 3
+endnode
+node dummy l45_impact
+  parent zlc_l45
+  #part-number 4
+endnode
+node dummy l45_ground
+  parent zlc_l45
+  #part-number 5
+endnode
+node emitter chunkywood143
+  parent zlc_l45
+  #part-number 6
+  birthratekey 2
+    0 100
+    0.166666999 100
+endnode
+node emitter chunkssml
+  parent zlc_l45
+  #part-number 7
+  birthratekey 2
+    0 0
+    0.0333329998 200
+endnode
+node emitter fire!91
+  parent zlc_l45
+  #part-number 8
+endnode
+node dummy damage21
+  parent zlc_l45
+  #part-number 9
+  positionkey 2
+    0 0 0 0
+    0.166666999 0 0 -10
+endnode
+node dummy glass
+  parent damage21
+  #part-number 10
+endnode
+node dummy post1
+  parent damage21
+  #part-number 11
+endnode
+node dummy post2
+  parent damage21
+  #part-number 12
+endnode
+node dummy framebase
+  parent damage21
+  #part-number 13
+endnode
+node dummy frametop
+  parent damage21
+  #part-number 14
+endnode
+doneanim die zlc_l45
+
+donemodel zlc_l45

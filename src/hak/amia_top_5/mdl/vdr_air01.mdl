@@ -1,0 +1,323 @@
+#MAXMODEL ASCII
+# model: vdr_air01
+filedependancy vdr_air01.max
+newmodel vdr_air01
+setsupermodel vdr_air01 NULL
+classification effect
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vdr_air01
+node dummy vdr_air01
+  parent NULL
+  #part-number 0
+endnode
+node dummy Dummy01
+  parent vdr_air01
+  #part-number 1
+  position 0 0 0
+  orientation 0 0 1 -0.130899996
+endnode
+node emitter OmenEmitter01
+  parent Dummy01
+  #part-number 2
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Aligned_to_Particle_Dir
+  blend Lighten
+  texture fxpa_flare
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0.209439993
+  twosidedtex 1
+  blastRadius 0
+  blastLength 0
+  position -1.87626004 -0.0247294009 -0.0410334989
+  orientation 1 0 0 -1.57079995
+  colorStart 0.564706028 0.505882025 0.505882025
+  colorEnd 0 0 0
+  alphaStart 0
+  alphaEnd 1
+  sizeStart 1
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 2
+  frameStart 0
+  frameEnd 0
+  birthrate 250
+  lifeExp 1
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0.5
+  randvel 0
+  fps 0
+  xsize 300
+  ysize 1200
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter OmenEmitter02
+  parent Dummy01
+  #part-number 3
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Aligned_to_Particle_Dir
+  blend Lighten
+  texture fxpa_flare
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0.209439993
+  twosidedtex 1
+  blastRadius 0
+  blastLength 0
+  position 1.80632997 -0.0247294996 -0.0410334989
+  orientation 1 0 0 -1.57079995
+  colorStart 0.564706028 0.505882025 0.505882025
+  colorEnd 0 0 0
+  alphaStart 0
+  alphaEnd 1
+  sizeStart 1
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 2
+  frameStart 0
+  frameEnd 0
+  birthrate 250
+  lifeExp 1
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0.5
+  randvel 0
+  fps 0
+  xsize 300
+  ysize 1200
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter WigglesShunks01
+  parent Dummy01
+  #part-number 4
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Normal
+  texture NULL
+  chunkName fx_wiggles2
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0
+  orientation 0 0 0 0
+  colorStart 0.5 0.5 0.5
+  colorEnd 0.5 0.5 0.5
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 0.01
+  sizeEnd 0.01
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 2
+  lifeExp 15
+  mass -0.2
+  spread 0
+  particleRot 1.5
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 500
+  ysize 500
+  bounce_co 0
+  blurlength 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+endmodelgeom vdr_air01
+
+#MAXANIM ASCII
+newanim impact vdr_air01
+  length 0.1
+  transtime 0
+  animroot vdr_air01
+node dummy vdr_air01
+  parent NULL
+  #part-number 0
+endnode
+node dummy Dummy01
+  parent vdr_air01
+  #part-number 1
+endnode
+node emitter OmenEmitter01
+  parent Dummy01
+  #part-number 2
+endnode
+node emitter OmenEmitter02
+  parent Dummy01
+  #part-number 3
+endnode
+node emitter WigglesShunks01
+  parent Dummy01
+  #part-number 4
+endnode
+doneanim impact vdr_air01
+
+newanim duration vdr_air01
+  length 4.0
+  transtime 0
+  animroot vdr_air01
+node dummy vdr_air01
+  parent NULL
+  #part-number 0
+endnode
+node dummy Dummy01
+  parent vdr_air01
+  #part-number 1
+  orientationkey 25
+    0         0 0 -1 0
+    0.166     0 0 -1 -1.0471975
+    0.333     0 0 -1 -2.0943951
+    0.5       0 0 -1 -3.1415926
+    0.666     0 0 -1 -4.1887902
+    0.833     0 0 -1 -5.2359877
+    1.0       0 0 -1 0
+    1.166     0 0 -1 -1.0471975
+    1.333     0 0 -1 -2.0943951
+    1.5       0 0 -1 -3.1415926
+    1.666     0 0 -1 -4.1887902
+    1.833     0 0 -1 -5.2359877
+    2.0       0 0 -1 0
+    2.166     0 0 -1 -1.0471975
+    2.333     0 0 -1 -2.0943951
+    2.5       0 0 -1 -3.1415926
+    2.666     0 0 -1 -4.1887902
+    2.833     0 0 -1 -5.2359877
+    3.0       0 0 -1 0
+    3.166     0 0 -1 -1.0471975
+    3.333     0 0 -1 -2.0943951
+    3.5       0 0 -1 -3.1415926
+    3.666     0 0 -1 -4.1887902
+    3.833     0 0 -1 -5.2359877
+    4.0       0 0 -1 0
+endnode
+node emitter OmenEmitter01
+  parent Dummy01
+  #part-number 2
+  birthratekey 2
+    0 250
+    4.0 250
+endnode
+node emitter OmenEmitter02
+  parent Dummy01
+  #part-number 3
+  birthratekey 2
+    0 250
+    4.0 250
+endnode
+node emitter WigglesShunks01
+  parent Dummy01
+  #part-number 4
+endnode
+doneanim duration vdr_air01
+
+newanim cessation vdr_air01
+  length 0.1
+  transtime 0
+  animroot vdr_air01
+node dummy vdr_air01
+  parent NULL
+  #part-number 0
+endnode
+node dummy Dummy01
+  parent vdr_air01
+  #part-number 1
+endnode
+node emitter OmenEmitter01
+  parent Dummy01
+  #part-number 2
+  birthratekey 2
+    0 250
+    0.1 0
+endnode
+node emitter OmenEmitter02
+  parent Dummy01
+  #part-number 3
+  birthratekey 2
+    0 250
+    0.1 0
+endnode
+node emitter WigglesShunks01
+  parent Dummy01
+  #part-number 4
+endnode
+doneanim cessation vdr_air01
+
+donemodel vdr_air01

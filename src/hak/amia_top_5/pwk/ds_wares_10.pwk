@@ -1,0 +1,19 @@
+# Exported from NWMax Plus for gMax v3.09.22 at 15-10-2012 21:02:35
+# pwk file
+#
+#NWMax Plus PWKMESH  ASCII
+node trimesh pwk
+  parent ds_wares_10_PWK
+  position -0.0295882 -0.0370891 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.443137 0.52549 0.0235294 
+  bitmap NULL
+  verts 4
+    -0.45 -0.42 0.0
+    0.56 -0.42 0.0
+    -0.46 0.54 0.0
+    0.56 0.38 0.0
+  faces 2
+    2 0 3  1  0 0 0  7
+    1 3 0  1  0 0 0  7
+endnode

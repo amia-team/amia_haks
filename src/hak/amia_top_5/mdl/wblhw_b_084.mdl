@@ -1,0 +1,16 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: WBlHw_b_084
+filedependancy Unknown
+newmodel WBlHw_b_084
+setsupermodel WBlHw_b_084 NULL
+classification Character
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom WBlHw_b_084
+node dummy WBlHw_b_084
+  parent NULL
+endnode
+endmodelgeom WBlHw_b_084
+donemodel WBlHw_b_084

@@ -1,0 +1,185 @@
+#MAXMODEL ASCII
+# model: fx_anthrarockch2
+filedependancy fx_anthrarockch2.max
+newmodel fx_anthrarockch2
+setsupermodel fx_anthrarockch2 NULL
+classification effect
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom fx_anthrarockch2
+node dummy fx_anthrarockch2
+  parent NULL
+  #part-number 0
+endnode
+node trimesh Rockmed
+  parent fx_anthrarockch2
+  #part-number 1
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap fxpa_dirt
+  verts 13
+    -0.0914999992 -0.106862001 -0.0539508983
+    -0.146195993 -0.00391701004 -0.134406999
+    -0.0357444994 -0.0021794599 -0.177129999
+    0.0145071 -0.137160003 -0.154653996
+    -0.0752276033 0.133690998 -0.119390003
+    0.0854751989 0.000448236999 -0.139638007
+    0.0122176996 -0.152682006 -0.0463514999
+    0.102723002 -0.122359999 -0.0239257999
+    0.00732932007 0.00138111005 0.143731996
+    0.106882997 -0.00111960003 -0.0182405002
+    -0.0406328999 0.151883006 0.0129532004
+    -0.118550003 0.107144997 0.0228647999
+    -0.135297999 0.000321249012 -0.0151576996
+  tverts 29
+    1.05009997 -0.306903988 0
+    1.50942004 0.459832996 0
+    0.724665999 0.474783987 0
+    0.367628992 -0.686679006 0
+    1.37715995 1.25615001 0
+    1.00519001 1.64391005 0
+    0.302964002 1.32521999 0
+    -0.136601001 0.497393996 0
+    -0.103592001 -0.348100007 0
+    0.119730003 -0.106799997 0
+    0.505963981 -0.298622996 0
+    0.581372976 0.505420983 0
+    0.0756099969 0.529671013 0
+    0.957418025 -0.189649001 0
+    1.01063001 0.473511994 0
+    1.15916002 1.05473995 0
+    1.30181003 1.38847005 0
+    0.505420983 1.48281002 0
+    0.867250979 1.15916002 0
+    0.109059997 1.13173997 0
+    0.580272973 1.30181003 0
+    -0.0500993989 -0.435487002 0
+    0.632371008 -0.639787972 0
+    0.616105974 0.130633995 0
+    -0.120810002 0.0765741989 0
+    1.10359001 -0.354660004 0
+    1.25915003 0.29016 0
+    0.957418025 0.893477976 0
+    0.505963981 1.00652003 0
+  faces 22
+    0 1 2 1 0 1 2 2
+    0 2 3 1 0 2 3 2
+    4 2 1 1 4 5 2 2
+    4 5 2 1 4 2 1 2
+    3 2 5 1 6 7 2 2
+    0 3 6 1 6 2 5 5
+    3 7 6 1 8 3 2 5
+    7 8 6 1 8 2 7 5
+    8 0 6 1 9 10 11 5
+    3 5 9 1 9 11 12 4
+    3 9 7 1 13 14 11 4
+    4 10 9 1 13 11 10 4
+    4 9 5 1 15 16 17 4
+    8 9 10 1 18 11 14 4
+    7 9 8 1 19 12 11 4
+    4 11 10 1 19 11 20 6
+    8 10 11 1 21 22 23 6
+    4 1 12 1 21 23 24 3
+    4 12 11 1 25 26 23 3
+    0 12 1 1 25 23 22 3
+    8 12 0 1 27 28 23 3
+    8 11 12 1 27 23 26 3
+  position 0 -0.00429114001 0.00168774999
+  orientation 0.855041802 -0.452498913 -0.253274947 -1.15922999
+endnode
+node emitter smoke04
+  parent Rockmed
+  #part-number 2
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Normal
+  texture fxpa_Smoke01
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0.0126767997 -0.0141075002
+  orientation 0 0 0 0
+  colorStart 0.203922004 0.203922004 0.203922004
+  colorEnd 0.0784313977 0.0784313977 0.0784313977
+  alphaStart 0.5
+  alphaEnd 0
+  sizeStart 0.300000003
+  sizeEnd 0.900000012
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 16
+  birthrate 15
+  lifeExp 0.75
+  mass -2
+  spread 1.39626002
+  particleRot -1
+  velocity 0
+  randvel 0.100000001
+  fps 16
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+endmodelgeom fx_anthrarockch2
+
+#MAXANIM ASCII
+newanim impact fx_anthrarockch2
+  length 4.0999999
+  transtime 0.25
+  animroot fx_anthrarockch2
+node dummy fx_anthrarockch2
+  parent NULL
+  #part-number 0
+endnode
+node dummy Rockmed
+  parent fx_anthrarockch2
+  #part-number 1
+  orientationkey 10
+    0.600000024 0.853328228 -0.456004143 -0.252767086 -1.15216994
+    0.666666985 0.853328228 -0.456004143 -0.252767086 -1.15216994
+    1.03332996 -0.52844578 -0.834411502 0.156532913 -0.682238996
+    1.46667004 -0.944067538 -0.174741909 0.27964583 -2.07563996
+    1.86667001 -0.957470775 0.0530259833 0.283615947 -3.49587011
+    2.29999995 -0.877119839 0.403926939 0.259814978 -5.01769018
+    2.73333001 0.609113038 0.77228713 -0.180427015 -5.55069017
+    3.13333011 0.94169569 0.188148946 -0.278942913 -4.27336979
+    3.56666994 0.95556432 -0.0823344216 -0.283051074 -2.59937
+    4.0999999 0.871421039 -0.417128026 -0.258127004 -1.23497999
+endnode
+node emitter smoke04
+  parent Rockmed
+  #part-number 2
+endnode
+doneanim impact fx_anthrarockch2
+
+donemodel fx_anthrarockch2

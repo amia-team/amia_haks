@@ -1,0 +1,16 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: WBwSh_t_072
+filedependancy Unknown
+newmodel WBwSh_t_072
+setsupermodel WBwSh_t_072 WBwLc_t_011
+classification Character
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom WBwSh_t_072
+node dummy WBwSh_t_072
+  parent NULL
+endnode
+endmodelgeom WBwSh_t_072
+donemodel WBwSh_t_072

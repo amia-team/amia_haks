@@ -1,0 +1,83 @@
+#MAXMODEL ASCII
+# model: zlc_fky_l98
+filedependancy zlc_fky_l98.max
+newmodel zlc_fky_l98
+setsupermodel zlc_fky_l98 null
+classification character
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom zlc_fky_l98
+node dummy zlc_fky_l98
+  parent NULL
+  #part-number 0
+endnode
+node dummy zlc_fky_l98_center
+  parent zlc_fky_l98
+  #part-number 1
+  position 4.53125 -2.3125 -5.078125
+endnode
+node trimesh line1849
+  parent zlc_fky_l98_center
+  #part-number 2
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0.0500000007 0.0500000007 0.0500000007
+  shininess 26
+  shadow 0
+  transparencyhint 1
+  bitmap ttu01_chain
+  verts 4
+    0.00999999978 0.0299999993 0
+    0.00999999978 -0.0500000007 0
+    0.00999999978 -0.0500000007 -1
+    0.00999999978 0.0299999993 -1
+  tverts 4
+    0.00049950002 0.00324689993 0
+    0.999496996 0.00324689993 0
+    0.99950099 6.49674988 0
+    0.000502799987 6.49674988 0
+  faces 4
+    0 1 2 1 0 1 2 3
+    0 2 3 1 0 2 3 3
+    1 0 2 2 1 0 2 3
+    2 0 3 2 2 0 3 3
+  position -4.53000021 2.30999994 6.07999992
+  orientation 0 0 0 0
+  alpha 1
+  scale 1
+  setfillumcolor 0 0 0
+endnode
+node trimesh line1850
+  parent zlc_fky_l98_center
+  #part-number 3
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0.0500000007 0.0500000007 0.0500000007
+  shininess 26
+  shadow 0
+  transparencyhint 1
+  bitmap ttu01_chain
+  verts 4
+    0.0500000007 -0.00999999978 0
+    -0.0299999993 -0.00999999978 0
+    -0.0299999993 -0.00999999978 1
+    0.0500000007 -0.00999999978 1
+  tverts 4
+    0.00049950002 0.00324689993 0
+    0.999496996 0.00324689993 0
+    0.99950099 6.49674988 0
+    0.000502799987 6.49674988 0
+  faces 4
+    0 1 2 1 0 1 2 3
+    0 2 3 1 0 2 3 3
+    1 0 2 2 1 0 2 3
+    2 0 3 2 2 0 3 3
+  position -4.53000021 2.30999994 5.07999992
+  orientation 0 0 0 0
+  alpha 1
+  scale 1
+  setfillumcolor 0 0 0
+endnode
+endmodelgeom zlc_fky_l98
+
+donemodel zlc_fky_l98
