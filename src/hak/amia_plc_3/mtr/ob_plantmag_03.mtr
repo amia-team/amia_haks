@@ -1,0 +1,9 @@
+ 
+renderhint NormalAndSpecMapped 
+ 
+// Textures 
+texture0 ob_plantMag_03 
+texture1 ob_plantMag_03_n 
+texture2 ob_plantMag_03_s 
+texture3 null 
+texture4 null 

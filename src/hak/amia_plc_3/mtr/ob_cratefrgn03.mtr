@@ -1,0 +1,9 @@
+ 
+renderhint NormalAndSpecMapped 
+ 
+// Textures 
+texture0 ob_cratefrgn03 
+texture1 ob_cratefrgn03_n 
+texture2 ob_cratefrgn03_s 
+texture3 null 
+texture4 null 

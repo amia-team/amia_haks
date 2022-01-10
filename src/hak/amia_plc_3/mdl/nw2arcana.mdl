@@ -1,0 +1,41 @@
+#MAXMODEL ASCII
+# model: nw2arcana
+filedependancy nw2arcana.max
+newmodel nw2arcana
+setsupermodel nw2arcana null
+classification character
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom nw2arcana
+node dummy nw2arcana
+  parent NULL
+  #part-number 0
+endnode
+node trimesh plc_mc_arcana
+  parent nw2arcana
+  #part-number 1
+  ambient 0.300000012 0.300000012 0.300000012
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 0
+  bitmap nw2_mc_arcana
+  verts 4
+    -0.984375 -0.984375 0
+    0.984375 -0.984375 0
+    0.984375 0.984375 0
+    -0.984375 0.984375 0
+  tverts 4
+    0 0 0
+    1 0 0
+    1 1 0
+    0 1 0
+  faces 2
+    0 1 2 1 0 1 2 1
+    2 3 0 1 2 3 0 1
+  scale 1
+  orientation 0 0 0 0
+  position 0 0 0.0078125
+endnode
+endmodelgeom nw2arcana
+
+donemodel nw2arcana

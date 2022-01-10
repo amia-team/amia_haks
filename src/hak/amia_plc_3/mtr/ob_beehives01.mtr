@@ -1,0 +1,9 @@
+ 
+renderhint NormalAndSpecMapped 
+ 
+// Textures 
+texture0 ob_beehives01 
+texture1 ob_beehives01_n 
+texture2 ob_beehives01_s 
+texture3 null 
+texture4 null 

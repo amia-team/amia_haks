@@ -1,0 +1,9 @@
+ 
+renderhint NormalAndSpecMapped 
+ 
+// Textures 
+texture0 ob_footsmag01 
+texture1 ob_footsmag01_n 
+texture2 ob_footsmag01_s 
+texture3 null 
+texture4 null 

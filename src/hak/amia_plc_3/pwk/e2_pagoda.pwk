@@ -1,0 +1,39 @@
+# Exported from NWMax Plus for gMax v3.10.14 at 5/11/2014 7:36:53 PM
+# pwk file
+#
+#NWMax Plus PWKMESH  ASCII
+node dummy bld_pwk_use01
+  parent e3_bld_pwk
+  position 0.011358 -3.57499 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.345098 0.560784 0.882353 
+endnode
+node trimesh Box01
+  parent e3_bld_pwk
+  position 0.0221098 -0.0297652 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.894118 0.721569 0.6 
+  bitmap NULL
+  verts 8
+    -2.38978 -2.43905 0.0
+    2.38978 -2.43905 0.0
+    -2.38978 2.43905 0.0
+    2.38978 2.43905 0.0
+    -0.593107 -0.615502 14.1562
+    0.536428 -0.615502 14.1562
+    -0.593107 0.679657 14.1562
+    0.536427 0.679657 14.1562
+  faces 12
+    0 2 3  2  0 0 0  7
+    3 1 0  2  0 0 0  7
+    4 5 7  4  0 0 0  7
+    7 6 4  4  0 0 0  7
+    0 1 5  8  0 0 0  7
+    5 4 0  8  0 0 0  7
+    1 3 7  16  0 0 0  7
+    7 5 1  16  0 0 0  7
+    3 2 6  32  0 0 0  7
+    6 7 3  32  0 0 0  7
+    2 0 4  64  0 0 0  7
+    4 6 2  64  0 0 0  7
+endnode

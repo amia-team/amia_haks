@@ -1,0 +1,9 @@
+ 
+renderhint NormalAndSpecMapped 
+ 
+// Textures 
+texture0 it_work_018 
+texture1 it_work_018_n 
+texture2 it_work_018_s 
+texture3 null 
+texture4 null 

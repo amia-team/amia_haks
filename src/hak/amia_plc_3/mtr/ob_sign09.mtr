@@ -1,0 +1,9 @@
+ 
+renderhint NormalAndSpecMapped 
+ 
+// Textures 
+texture0 ob_sign09 
+texture1 ob_sign09_n 
+texture2 ob_sign09_s 
+texture3 null 
+texture4 null 

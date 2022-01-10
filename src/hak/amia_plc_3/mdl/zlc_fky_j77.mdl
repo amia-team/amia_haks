@@ -1,0 +1,160 @@
+#MAXMODEL ASCII
+# model: zlc_fky_j77
+filedependancy zlc_fky_j77.max
+newmodel zlc_fky_j77
+setsupermodel zlc_fky_j77 null
+classification character
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom zlc_fky_j77
+node dummy zlc_fky_j77
+  parent NULL
+  #part-number 0
+endnode
+node dummy anim_fan03
+  parent zlc_fky_j77
+  #part-number 1
+  orientation 0 -1 0 -1.57079625
+  position 0 0 1
+endnode
+node trimesh fan04
+  parent anim_fan03
+  #part-number 2
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  shadow 0
+  bitmap tsw01_metal01
+  verts 18
+    -0.109375 0.1875 0.171875
+    -0.109375 -0.1875 0.171875
+    0.21875 0 0.171875
+    -0.09375 -0.34375 -0.203125
+    0.34375 -0.09375 -0.078125
+    -0.25 0.25 -0.203125
+    -0.25 -0.25 -0.078125
+    0.34375 0.09375 -0.078125
+    -0.09375 0.34375 -0.203125
+    1.1328125 1.953125 -0.203125
+    1.4296875 1.4765625 -0.078125
+    0.5703125 1.9765625 -0.203125
+    -2.25 0 -0.203125
+    -2 0.5 -0.203125
+    -2 -0.5 -0.078125
+    1.1171875 -1.953125 -0.203125
+    0.5703125 -1.9765625 -0.203125
+    1.4296875 -1.4765625 -0.078125
+  tverts 9
+    1 1 0
+    0 1 0
+    0 0 0
+    1 0 0
+    0.5 0.999499977 0
+    0.749750018 0.00049950002 0
+    0.749867976 0.874625027 0
+    0.262080014 0.00049950002 0
+    0.262080014 0.874625027 0
+  faces 19
+    0 1 2 1 0 1 2 1
+    3 4 2 2 2 3 0 1
+    2 1 3 4 0 1 2 1
+    5 6 1 2 2 3 0 1
+    1 0 5 8 0 1 2 1
+    7 8 0 2 2 3 0 1
+    0 2 7 16 0 1 2 1
+    8 5 0 4 2 3 0 1
+    6 3 1 16 2 3 0 1
+    4 7 2 8 2 3 0 1
+    9 7 10 1 4 5 6 1
+    9 8 7 1 4 7 5 1
+    9 11 8 1 4 8 7 1
+    12 5 13 1 4 5 6 1
+    12 6 5 1 4 7 5 1
+    12 14 6 1 4 8 7 1
+    15 3 16 1 4 5 6 1
+    15 4 3 1 4 7 5 1
+    15 17 4 1 4 8 7 1
+  orientation 0.581339002 0.569289029 -0.581339002 -2.10652995
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  position 0 0 0
+endnode
+endmodelgeom zlc_fky_j77
+
+#MAXANIM ASCII
+newanim on zlc_fky_j77
+  length 4.96667004
+  transtime 0.25
+  animroot zlc_fky_j77
+node dummy zlc_fky_j77
+  parent NULL
+  #part-number 0
+endnode
+node dummy anim_fan03
+  parent zlc_fky_j77
+  #part-number 1
+  orientationkey 6
+    0 0 -1 0 -1.57079995
+    1 -0.506731749 -0.697456717 0.506731749 -1.92356002
+    2 -0.689151764 -0.22391893 0.689151764 -2.70102
+    3 -0.689151764 0.22391893 0.689151764 -3.58216
+    4 -0.506731749 0.697456717 0.506731749 -4.35963011
+    4.96667004 -0.0209378134 0.999561489 0.0209378134 -4.71194983
+endnode
+node dummy fan04
+  parent anim_fan03
+  #part-number 2
+endnode
+doneanim on zlc_fky_j77
+
+#MAXANIM ASCII
+newanim off zlc_fky_j77
+  length 0.0333333015
+  transtime 0.25
+  animroot zlc_fky_j77
+node dummy zlc_fky_j77
+  parent NULL
+  #part-number 0
+endnode
+node dummy anim_fan03
+  parent zlc_fky_j77
+  #part-number 1
+  orientationkey 2
+    0 0 -1 0 -1.57079995
+    0.0333333015 0 -1 0 -1.57079995
+endnode
+node dummy fan04
+  parent anim_fan03
+  #part-number 2
+endnode
+doneanim off zlc_fky_j77
+
+#MAXANIM ASCII
+newanim default zlc_fky_j77
+  length 4.96667004
+  transtime 0.25
+  animroot zlc_fky_j77
+node dummy zlc_fky_j77
+  parent NULL
+  #part-number 0
+endnode
+node dummy anim_fan03
+  parent zlc_fky_j77
+  #part-number 1
+  orientationkey 6
+    0 0 -1 0 -1.57079995
+    1 -0.506731749 -0.697456717 0.506731749 -1.92356002
+    2 -0.689151764 -0.22391893 0.689151764 -2.70102
+    3 -0.689151764 0.22391893 0.689151764 -3.58216
+    4 -0.506731749 0.697456717 0.506731749 -4.35963011
+    4.96667004 -0.0209378134 0.999561489 0.0209378134 -4.71194983
+endnode
+node dummy fan04
+  parent anim_fan03
+  #part-number 2
+endnode
+doneanim default zlc_fky_j77
+
+donemodel zlc_fky_j77

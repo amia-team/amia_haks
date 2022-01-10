@@ -1,0 +1,9 @@
+ 
+renderhint NormalAndSpecMapped 
+ 
+// Textures 
+texture0 ob_cabmaps01 
+texture1 ob_cabmaps01_n 
+texture2 ob_cabmaps01_s 
+texture3 null 
+texture4 null 

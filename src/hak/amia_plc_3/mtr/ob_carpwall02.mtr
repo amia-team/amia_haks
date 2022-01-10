@@ -1,0 +1,9 @@
+ 
+renderhint NormalAndSpecMapped 
+ 
+// Textures 
+texture0 ob_carpwall02 
+texture1 ob_carpwall02_n 
+texture2 ob_carpwall02_s 
+texture3 null 
+texture4 null 

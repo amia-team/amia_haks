@@ -1,0 +1,32 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: plc_gothic04
+filedependancy chiostro angolo.max
+node trimesh pwk_gothic_04
+  parent plc_gothic04_pwk
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 0.898438 0.898438 0.898438
+  ambient 0.894531 0.601563 0.839844
+  diffuse 0.894531 0.601563 0.839844
+  specular 0 0 0
+  shininess 1
+  bitmap NULL
+  verts 8
+    -1.84088 2.5 0
+    -2.70867 2.5 0
+    2.5 -1.81024 0
+    -1.84088 -1.81024 0
+    -2.70867 -1.81024 0
+    2.5 -2.51555 0
+    -1.84088 -2.51555 0
+    -2.70867 -2.51555 0
+  faces 6
+    3 0 4  1  0 0 0  0
+    1 4 0  1  0 0 0  0
+    5 2 6  1  0 0 0  0
+    3 6 2  1  0 0 0  0
+    6 3 7  1  0 0 0  0
+    4 7 3  1  0 0 0  0
+endnode

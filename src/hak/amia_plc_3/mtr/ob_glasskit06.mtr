@@ -1,0 +1,9 @@
+ 
+renderhint NormalAndSpecMapped 
+ 
+// Textures 
+texture0 ob_glasskit06 
+texture1 ob_glasskit06_n 
+texture2 ob_glasskit06_s 
+texture3 null 
+texture4 null 

@@ -1,0 +1,58 @@
+#MAXMODEL ASCII
+# model: zlc_fky_g64
+filedependancy zlc_fky_g64.max
+newmodel zlc_fky_g64
+setsupermodel zlc_fky_g64 null
+classification character
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom zlc_fky_g64
+node dummy zlc_fky_g64
+  parent NULL
+  #part-number 0
+endnode
+node trimesh line1068
+  parent zlc_fky_g64
+  #part-number 1
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  shadow 0
+  transparencyhint 1
+  bitmap zdm02_crystal01
+  verts 7
+    -0.0234375 0.015625 -0.0234375
+    -0.2109375 0.1171875 -0.0234375
+    -0.1328125 0.0703125 0.5625
+    -0.0234375 0.0078125 0.546875
+    -0.1875 -0.078125 -0.0234375
+    -0.1171875 -0.0390625 0.5703125
+    -0.078125 0.015625 0.671875
+  tverts 8
+    1.36531198 0.00049950002 0
+    1.70849502 0.00049950002 0
+    1.52769399 0.845910013 0
+    1.35579801 0.83099997 0
+    0.708495021 0.00049950002 0
+    1.09185076 0.00049950002 0
+    1.20851004 0.856460989 0
+    1.36392701 0.99950099 0
+  faces 9
+    0 1 2 1 0 1 2 3
+    0 2 3 1 0 2 3 3
+    1 4 5 1 4 5 6 3
+    4 0 3 1 5 0 3 3
+    4 3 5 1 5 3 6 3
+    2 1 5 1 2 1 6 3
+    3 2 6 2 3 2 7 1
+    5 3 6 4 6 3 7 1
+    2 5 6 8 2 6 7 1
+  orientation 0 0 0 0
+  alpha 0.800000012
+  scale 1
+  position 0 0 0
+endnode
+endmodelgeom zlc_fky_g64
+
+donemodel zlc_fky_g64

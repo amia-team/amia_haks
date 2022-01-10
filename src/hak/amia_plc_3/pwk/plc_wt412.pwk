@@ -1,0 +1,39 @@
+# Exported from NWmax 0.8 b60 at 17.02.2016 21:05:32
+# pwk file
+#
+#NWmax PWKMESH  ASCII
+node trimesh pwk
+  parent plc_wt412_pwk
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.87451 0.337255 0.337255 
+  bitmap NULL
+  verts 8
+    2.96245 0.903003 0.0
+    1.32391 1.42152 0.0
+    -1.33714 -1.24277 0.0
+    1.29693 -0.869168 0.0
+    3.01105 -0.171961 0.0
+    -1.55735 0.942299 0.0
+    1.30158 -0.474878 0.0
+    1.44565 0.758876 0.0
+  faces 6
+    1 5 2  0  0 0 0  7
+    6 2 3  0  0 0 0  7
+    1 2 7  0  0 0 0  7
+    7 2 6  0  0 0 0  7
+    0 7 6  0  0 0 0  7
+    0 6 4  0  0 0 0  7
+endnode
+node dummy 412_pwk_use01
+  parent plc_wt412_pwk
+  position 1.57804 -0.702547 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.552941 0.027451 0.227451 
+endnode
+node dummy 412_pwk_use02
+  parent plc_wt412_pwk
+  position 2.12332 0.841187 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.552941 0.027451 0.227451 
+endnode

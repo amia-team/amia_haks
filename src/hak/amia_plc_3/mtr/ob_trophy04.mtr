@@ -1,0 +1,9 @@
+ 
+renderhint NormalAndSpecMapped 
+ 
+// Textures 
+texture0 ob_trophy04 
+texture1 ob_trophy04_n 
+texture2 ob_trophy04_s 
+texture3 null 
+texture4 null 

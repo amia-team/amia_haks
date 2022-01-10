@@ -1,0 +1,61 @@
+#MAXMODEL ASCII
+# model: zlc_fky_i18
+filedependancy zlc_fky_i18.max
+newmodel zlc_fky_i18
+setsupermodel zlc_fky_i18 null
+classification character
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom zlc_fky_i18
+node dummy zlc_fky_i18
+  parent NULL
+  #part-number 0
+endnode
+node trimesh line1067
+  parent zlc_fky_i18
+  #part-number 1
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  shadow 0
+  transparencyhint 1
+  bitmap tdm01_crystal01
+  verts 7
+    0.09375 0.0078125 0.015625
+    -0.0390625 0.1484375 -0.046875
+    -0.203125 0.28125 0.4765625
+    -0.1328125 0.21875 0.5
+    -0.1015625 -0.0390625 0.0234375
+    -0.2265625 0.203125 0.4921875
+    -0.2109375 0.2734375 0.59375
+  tverts 10
+    1.42323804 0.00049950002 0
+    1.61495602 0.00049950002 0
+    1.88538396 2.17815995 0
+    0.992339015 2.17867994 0
+    0.614956021 0.00049950002 0
+    1.10198402 0.00049950002 0
+    0.972486079 2.16355991 0
+    1.97248602 2.16355991 0
+    1.99233902 2.17867994 0
+    1.94472599 2.31207991 0
+  faces 9
+    0 1 2 1 0 1 2 3
+    0 2 3 1 0 2 3 3
+    1 4 5 1 4 5 6 3
+    4 0 3 1 5 0 3 3
+    4 3 5 1 5 3 6 3
+    2 1 5 1 2 1 7 3
+    3 2 6 2 8 2 9 1
+    5 3 6 4 7 8 9 1
+    2 5 6 8 2 7 9 1
+  orientation 0 0 0 0
+  alpha 1
+  scale 1
+  setfillumcolor 0 0 0
+  position 0 0 -0.0234375
+endnode
+endmodelgeom zlc_fky_i18
+
+donemodel zlc_fky_i18

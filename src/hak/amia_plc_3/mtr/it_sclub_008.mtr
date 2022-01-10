@@ -1,0 +1,9 @@
+ 
+renderhint NormalAndSpecMapped 
+ 
+// Textures 
+texture0 it_sclub_008 
+texture1 it_sclub_008_n 
+texture2 it_sclub_008_s 
+texture3 null 
+texture4 null 

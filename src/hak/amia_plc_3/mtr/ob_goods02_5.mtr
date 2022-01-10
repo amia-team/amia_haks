@@ -1,0 +1,9 @@
+ 
+renderhint NormalAndSpecMapped 
+ 
+// Textures 
+texture0 ob_goods02_5 
+texture1 ob_goods02_5_n 
+texture2 ob_goods02_5_s 
+texture3 null 
+texture4 null 

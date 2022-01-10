@@ -1,0 +1,2591 @@
+#MAXMODEL ASCII
+# model: zlc_mck_fog0002
+filedependancy zlc_mck_fog0002.max
+newmodel zlc_mck_fog0002
+setsupermodel zlc_mck_fog0002 null
+classification character
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom zlc_mck_fog0002
+node dummy zlc_mck_fog0002
+  parent NULL
+  #part-number 0
+endnode
+node trimesh dummynode
+  parent zlc_mck_fog0002
+  #part-number 1
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  shadow 0
+  render 0
+  bitmap NULL
+  verts 4
+    -0.2265625 0.2265625 0
+    -0.2265625 -0.21875 0
+    0.2265625 0.2265625 0
+    0.2265625 -0.21875 0
+  faces 2
+    0 1 2 1 0 0 0 1
+    3 2 1 1 0 0 0 1
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  orientation 0 0 0 0
+  position 0.0078125 -0.03125 0
+endnode
+node emitter mista01
+  parent dummynode
+  #part-number 2
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation 1 0 0 -0.0872666985
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.100000001
+  alphaEnd 0.100000001
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 1.453125
+endnode
+node emitter mista03
+  parent dummynode
+  #part-number 3
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation 1.99999999e-006 1 0 -0.085521102
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.0949999988
+  alphaEnd 0.0949999988
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 1.4765625
+endnode
+node emitter mista05
+  parent dummynode
+  #part-number 4
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation -1 0 0 -0.0872664005
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.0900000036
+  alphaEnd 0.0900000036
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 1.5078125
+endnode
+node emitter mista07
+  parent dummynode
+  #part-number 5
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation 1.99999999e-006 -1 0 -0.0872664973
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.0850000009
+  alphaEnd 0.0850000009
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 1.53125
+endnode
+node emitter mista09
+  parent dummynode
+  #part-number 6
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation 1 0 0 -0.0872666985
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.0799999982
+  alphaEnd 0.0799999982
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 1.5546875
+endnode
+node emitter mista11
+  parent dummynode
+  #part-number 7
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation 1.99999999e-006 1 0 -0.0872664973
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.0724999979
+  alphaEnd 0.0724999979
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 1.578125
+endnode
+node emitter mista13
+  parent dummynode
+  #part-number 8
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation -1 0 0 -0.0872664005
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.0675000027
+  alphaEnd 0.0675000027
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 1.6015625
+endnode
+node emitter mista15
+  parent dummynode
+  #part-number 9
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation 1.99999999e-006 -1 0 -0.0872664973
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.0625
+  alphaEnd 0.0625
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 1.6328125
+endnode
+node emitter mista17
+  parent dummynode
+  #part-number 10
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation 1 0 0 -0.0872666985
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.057500001
+  alphaEnd 0.057500001
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 1.65625
+endnode
+node emitter mista19
+  parent dummynode
+  #part-number 11
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation 1.99999999e-006 1 0 -0.0872664973
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.0524999984
+  alphaEnd 0.0524999984
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 1.6796875
+endnode
+node emitter mista21
+  parent dummynode
+  #part-number 12
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation -1 0 0 -0.0872664005
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.0474999994
+  alphaEnd 0.0474999994
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 1.703125
+endnode
+node emitter mista23
+  parent dummynode
+  #part-number 13
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation 1.99999999e-006 -1 0 -0.0872664973
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.0425000004
+  alphaEnd 0.0425000004
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 1.7265625
+endnode
+node emitter mista25
+  parent dummynode
+  #part-number 14
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation 1 0 0 -0.0872666985
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.0375000015
+  alphaEnd 0.0375000015
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 1.7578125
+endnode
+node emitter mista27
+  parent dummynode
+  #part-number 15
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation 1.99999999e-006 1 0 -0.0872664973
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.0324999988
+  alphaEnd 0.0324999988
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 1.78125
+endnode
+node emitter mista29
+  parent dummynode
+  #part-number 16
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation -1 0 0 -0.0872664005
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.0274999999
+  alphaEnd 0.0274999999
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 1.8046875
+endnode
+node emitter mista31
+  parent dummynode
+  #part-number 17
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation 1.99999999e-006 -1 0 -0.0872664973
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.0225000009
+  alphaEnd 0.0225000009
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 1.828125
+endnode
+node emitter mista33
+  parent dummynode
+  #part-number 18
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation 1 0 0 -0.0890118852
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.0175000001
+  alphaEnd 0.0175000001
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 1.8515625
+endnode
+node emitter mista35
+  parent dummynode
+  #part-number 19
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation 1.99999999e-006 1 0 -0.0872664973
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.0125000002
+  alphaEnd 0.0125000002
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 1.8828125
+endnode
+node emitter mista37
+  parent dummynode
+  #part-number 20
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation -1 0 0 -0.0872664005
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.00749999983
+  alphaEnd 0.00749999983
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 1.90625
+endnode
+node emitter mista39
+  parent dummynode
+  #part-number 21
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation 1.99999999e-006 -1 0 -0.0872664973
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.00249999994
+  alphaEnd 0.00249999994
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 1.9296875
+endnode
+node emitter mista42
+  parent dummynode
+  #part-number 22
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation 1.99999999e-006 -1 0 -0.0872664973
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.0949999988
+  alphaEnd 0.0949999988
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 1.4296875
+endnode
+node emitter mista44
+  parent dummynode
+  #part-number 23
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation -1 0 0 -0.0872664005
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.0900000036
+  alphaEnd 0.0900000036
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 1.40625
+endnode
+node emitter mista46
+  parent dummynode
+  #part-number 24
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation 1.99999999e-006 1 0 -0.0872664973
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.0850000009
+  alphaEnd 0.0850000009
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 1.375
+endnode
+node emitter mista48
+  parent dummynode
+  #part-number 25
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation 1 0 0 -0.0872666985
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.0799999982
+  alphaEnd 0.0799999982
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 1.3515625
+endnode
+node emitter mista50
+  parent dummynode
+  #part-number 26
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation 1.99999999e-006 -1 0 -0.085521102
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.0724999979
+  alphaEnd 0.0724999979
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 1.328125
+endnode
+node emitter mista52
+  parent dummynode
+  #part-number 27
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation -1 0 0 -0.0872664005
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.0675000027
+  alphaEnd 0.0675000027
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 1.3046875
+endnode
+node emitter mista54
+  parent dummynode
+  #part-number 28
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation 1.99999999e-006 1 0 -0.0872664973
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.0625
+  alphaEnd 0.0625
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 1.28125
+endnode
+node emitter mista56
+  parent dummynode
+  #part-number 29
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation 1 0 0 -0.0872666985
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.057500001
+  alphaEnd 0.057500001
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 1.25
+endnode
+node emitter mista58
+  parent dummynode
+  #part-number 30
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation 1.99999999e-006 -1 0 -0.0872664973
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.0524999984
+  alphaEnd 0.0524999984
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 1.2265625
+endnode
+node emitter mista60
+  parent dummynode
+  #part-number 31
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation -1 0 0 -0.0872664005
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.0474999994
+  alphaEnd 0.0474999994
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 1.203125
+endnode
+node emitter mista62
+  parent dummynode
+  #part-number 32
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation 1.99999999e-006 1 0 -0.0872664973
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.0425000004
+  alphaEnd 0.0425000004
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 1.1796875
+endnode
+node emitter mista64
+  parent dummynode
+  #part-number 33
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation 1 0 0 -0.0872666985
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.0375000015
+  alphaEnd 0.0375000015
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 1.15625
+endnode
+node emitter mista66
+  parent dummynode
+  #part-number 34
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation 1.99999999e-006 -1 0 -0.0872664973
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.0324999988
+  alphaEnd 0.0324999988
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 1.125
+endnode
+node emitter mista68
+  parent dummynode
+  #part-number 35
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation -1 0 0 -0.0872664005
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.0274999999
+  alphaEnd 0.0274999999
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 1.1015625
+endnode
+node emitter mista70
+  parent dummynode
+  #part-number 36
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation 1.99999999e-006 1 0 -0.0872664973
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.0225000009
+  alphaEnd 0.0225000009
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 1.078125
+endnode
+node emitter mista74
+  parent dummynode
+  #part-number 37
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation 1.99999999e-006 -1 0 -0.0872664973
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.0125000002
+  alphaEnd 0.0125000002
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 1.03125
+endnode
+node emitter mista76
+  parent dummynode
+  #part-number 38
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation -1 0 0 -0.0872664005
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.00749999983
+  alphaEnd 0.00749999983
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 1
+endnode
+node emitter mista78
+  parent dummynode
+  #part-number 39
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation 1.99999999e-006 1 0 -0.0872664973
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.00249999994
+  alphaEnd 0.00249999994
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 0.9765625
+endnode
+node emitter mista72
+  parent dummynode
+  #part-number 40
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture zlc_mck_fog0002
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  orientation 1 0 0 -0.0872666985
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.430000007 0.430000007 0.5
+  colorEnd 0.430000007 0.430000007 0.5
+  alphaStart 0.0175000001
+  alphaEnd 0.0175000001
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 10
+  sizeEnd_y 10
+  birthrate 1
+  lifeExp 0
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position -0.015625 0.0234375 1.0546875
+endnode
+endmodelgeom zlc_mck_fog0002
+
+#MAXANIM ASCII
+newanim default zlc_mck_fog0002
+  length 6.66666985
+  transtime 0.25
+  animroot zlc_mck_fog0002
+  event 0.466666996 detonate
+node dummy zlc_mck_fog0002
+  parent NULL
+  #part-number 0
+endnode
+node dummy dummynode
+  parent zlc_mck_fog0002
+  #part-number 1
+endnode
+node emitter mista01
+  parent dummynode
+  #part-number 2
+endnode
+node emitter mista03
+  parent dummynode
+  #part-number 3
+endnode
+node emitter mista05
+  parent dummynode
+  #part-number 4
+endnode
+node emitter mista07
+  parent dummynode
+  #part-number 5
+endnode
+node emitter mista09
+  parent dummynode
+  #part-number 6
+endnode
+node emitter mista11
+  parent dummynode
+  #part-number 7
+endnode
+node emitter mista13
+  parent dummynode
+  #part-number 8
+endnode
+node emitter mista15
+  parent dummynode
+  #part-number 9
+endnode
+node emitter mista17
+  parent dummynode
+  #part-number 10
+endnode
+node emitter mista19
+  parent dummynode
+  #part-number 11
+endnode
+node emitter mista21
+  parent dummynode
+  #part-number 12
+endnode
+node emitter mista23
+  parent dummynode
+  #part-number 13
+endnode
+node emitter mista25
+  parent dummynode
+  #part-number 14
+endnode
+node emitter mista27
+  parent dummynode
+  #part-number 15
+endnode
+node emitter mista29
+  parent dummynode
+  #part-number 16
+endnode
+node emitter mista31
+  parent dummynode
+  #part-number 17
+endnode
+node emitter mista33
+  parent dummynode
+  #part-number 18
+endnode
+node emitter mista35
+  parent dummynode
+  #part-number 19
+endnode
+node emitter mista37
+  parent dummynode
+  #part-number 20
+endnode
+node emitter mista39
+  parent dummynode
+  #part-number 21
+endnode
+node emitter mista42
+  parent dummynode
+  #part-number 22
+endnode
+node emitter mista44
+  parent dummynode
+  #part-number 23
+endnode
+node emitter mista46
+  parent dummynode
+  #part-number 24
+endnode
+node emitter mista48
+  parent dummynode
+  #part-number 25
+endnode
+node emitter mista50
+  parent dummynode
+  #part-number 26
+endnode
+node emitter mista52
+  parent dummynode
+  #part-number 27
+endnode
+node emitter mista54
+  parent dummynode
+  #part-number 28
+endnode
+node emitter mista56
+  parent dummynode
+  #part-number 29
+endnode
+node emitter mista58
+  parent dummynode
+  #part-number 30
+endnode
+node emitter mista60
+  parent dummynode
+  #part-number 31
+endnode
+node emitter mista62
+  parent dummynode
+  #part-number 32
+endnode
+node emitter mista64
+  parent dummynode
+  #part-number 33
+endnode
+node emitter mista66
+  parent dummynode
+  #part-number 34
+endnode
+node emitter mista68
+  parent dummynode
+  #part-number 35
+endnode
+node emitter mista70
+  parent dummynode
+  #part-number 36
+endnode
+node emitter mista74
+  parent dummynode
+  #part-number 37
+endnode
+node emitter mista76
+  parent dummynode
+  #part-number 38
+endnode
+node emitter mista78
+  parent dummynode
+  #part-number 39
+endnode
+node emitter mista72
+  parent dummynode
+  #part-number 40
+endnode
+doneanim default zlc_mck_fog0002
+
+donemodel zlc_mck_fog0002

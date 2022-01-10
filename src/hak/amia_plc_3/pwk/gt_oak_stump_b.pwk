@@ -1,0 +1,69 @@
+# Exported from NWMax Plus for gMax v1.12.08 at 22.06.2012 15:11:38
+# pwk file
+#
+#NWMax Plus PWKMESH  ASCII
+node trimesh wok
+  parent gt_oak_stump_b_pwk
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.694118 0.694118 0.694118 
+  multimaterial 20
+    Dirt
+    Obscuring
+    Grass
+    Stone
+    Wood
+    Water
+    Nonwalk
+    Transparent
+    Carpet
+    Metal
+    Puddles
+    Swamp
+    Mud
+    Leaves
+    Lava
+    BottomlessPit
+    DeepWater
+    Door
+    Snow
+    Sand
+  ambient 0.0 0.0 0.0 
+  diffuse 0.705882 0.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 10.0
+  bitmap Nonwalk
+  verts 16
+    7.616 2.472 0.0
+    4.664 4.968 0.0
+    2.216 7.296 0.0
+    -0.048 6.312 0.0
+    -6.944 4.472 0.0
+    -7.92 2.992 0.0
+    -7.808 0.8 0.0
+    -4.0 -1.24 0.0
+    -5.424 -4.544 0.0
+    -4.664 -6.232 0.0
+    -1.936 -7.616 0.0
+    0.888 -8.072 0.0
+    3.176 -4.696 0.064
+    7.296 -4.176 0.0
+    6.704 -0.688 0.0
+    -0.096 0.0 0.0
+  faces 15
+    15 0 1  1  0 0 0  7
+    15 1 2  1  0 0 0  7
+    15 2 3  1  0 0 0  7
+    15 3 4  1  0 0 0  7
+    15 4 5  1  0 0 0  7
+    15 5 6  1  0 0 0  7
+    15 6 7  1  0 0 0  7
+    15 7 8  1  0 0 0  7
+    15 8 9  1  0 0 0  7
+    15 9 10  1  0 0 0  7
+    15 10 11  1  0 0 0  7
+    15 11 12  1  0 0 0  7
+    15 12 13  1  0 0 0  7
+    15 13 14  1  0 0 0  7
+    15 14 0  1  0 0 0  7
+endnode

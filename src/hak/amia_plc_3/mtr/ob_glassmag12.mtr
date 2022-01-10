@@ -1,0 +1,9 @@
+ 
+renderhint NormalAndSpecMapped 
+ 
+// Textures 
+texture0 ob_glassmag12 
+texture1 ob_glassmag12_n 
+texture2 ob_glassmag12_s 
+texture3 null 
+texture4 null 
