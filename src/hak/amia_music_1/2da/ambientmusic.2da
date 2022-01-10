@@ -1,0 +1,176 @@
+2DA V2.0
+
+             Description  Resource                  Stinger1            Stinger2     Stinger3      DisplayName
+0            61901        ****                  ****                ****         ****          ****
+1            61842        mus_ruralday1             ****                ****         ****          ****
+2            61843        mus_ruralday2             ****                ****         ****          ****
+3            61844        mus_ruralnite             ****                ****         ****          ****
+4            61845        mus_forestday1            ****                ****         ****          ****
+5            61846        mus_forestday2            ****                ****         ****          ****
+6            61847        mus_forestnite            ****                ****         ****          ****
+7            61848        mus_gendungeon1           ****                ****         ****          ****
+8            61849        mus_sewer                 ****                ****         ****          ****
+9            61850        mus_mines1                ****                ****         ****          ****
+10           61851        mus_mines2                ****                ****         ****          ****
+11           61852        mus_crypt1                ****                ****         ****          ****
+12           61853        mus_crypt2                ****                ****         ****          ****
+13           61854        mus_evildungeon1          ****                ****         ****          ****
+14           61855        mus_evildungeon2          ****                ****         ****          ****
+15           61856        mus_cityslumday           ****                ****         ****          ****
+16           61857        mus_cityslumnite          ****                ****         ****          ****
+17           61858        mus_citydockday           ****                ****         ****          ****
+18           61859        mus_citydocknite          ****                ****         ****          ****
+19           61860        mus_citywealthy           ****                ****         ****          ****
+20           61861        mus_citymarket            ****                ****         ****          ****
+21           61862        mus_citynite              ****                ****         ****          ****
+22           61863        mus_tavern1               ****                ****         ****          ****
+23           61864        mus_tavern2               ****                ****         ****          ****
+24           61865        mus_tavern3               ****                ****         ****          ****
+25           61866        mus_richhouse             ****                ****         ****          ****
+26           61867        mus_store                 ****                ****         ****          ****
+27           61868        mus_templegood            ****                ****         ****          ****
+28           61869        mus_templeevil            ****                ****         ****          ****
+29           61870        mus_theme_nwn             ****                ****         ****          ****
+30           61871        mus_theme_chap1           ****                ****         ****          ****
+31           61872        mus_theme_chap2           ****                ****         ****          ****
+32           61873        mus_theme_chap3           ****                ****         ****          ****
+33           61874        mus_theme_chap4           ****                ****         ****          ****
+34           61875        mus_bat_rural1            mus_sbat_rural1     ****         ****          ****
+35           61876        mus_bat_forest1           mus_sbat_forest1    ****         ****          ****
+36           61877        mus_bat_forest2           mus_sbat_forest2    ****         ****          ****
+37           61878        mus_bat_dung1             mus_sbat_dung1      ****         ****          ****
+38           61879        mus_bat_dung2             mus_sbat_dung2      ****         ****          ****
+39           61880        mus_bat_dung3             mus_sbat_dung3      ****         ****          ****
+40           61881        mus_bat_city1             mus_sbat_city1      ****         ****          ****
+41           61882        mus_bat_city2             mus_sbat_city2      ****         ****          ****
+42           61883        mus_bat_city3             mus_sbat_city3      ****         ****          ****
+43           61884        mus_bat_citboss           mus_sbat_citboss    ****         ****          ****
+44           61885        mus_bat_forboss           mus_sbat_forboss    ****         ****          ****
+45           61886        mus_bat_lizboss           mus_sbat_lizboss    ****         ****          ****
+46           61887        mus_bat_dragon            mus_sbat_dragon     ****         ****          ****
+47           61888        mus_bat_aribeth           mus_sbat_aribeth    ****         ****          ****
+48           61889        mus_bat_endboss           mus_sbat_endboss    ****         ****          ****
+49           66833        mus_templegood2           ****                ****         ****          ****
+50           66883        mus_castle                ****                ****         ****          ****
+51           66878        mus_theme_aribgd          ****                ****         ****          ****
+52           66879        mus_theme_aribev          ****                ****         ****          ****
+53           66880        mus_theme_argend          ****                ****         ****          ****
+54           66881        mus_theme_maugrm          ****                ****         ****          ****
+55           66882        mus_theme_morag           ****                ****         ****          ****
+56           67545        mus_tavern4               ****                ****         ****          ****
+57           8807         mus_bat_x0desert          ****                ****         ****          ****
+58           8806         mus_x0desertday           ****                ****         ****          ****
+59           8805         mus_x0winterday           ****                ****         ****          ****
+60           52827        mus_bat_x0winter          ****                ****         ****          ****
+61           40050        mus_x0desertngt           ****                ****         ****          ****
+62           86656        mus_x2theme               ****                ****         ****          ****
+63           86657        mus_x2waterdeep           ****                ****         ****          ****
+64           86658        mus_x2undermtn            ****                ****         ****          ****
+65           86659        mus_x2rebelcamp           ****                ****         ****          ****
+66           86660        mus_x2fireplane           ****                ****         ****          ****
+67           86661        mus_x2queen               ****                ****         ****          ****
+68           86662        mus_x2frozenhell          ****                ****         ****          ****
+69           86663        mus_x2draco               ****                ****         ****          ****
+70           86664        mus_bat_x2small           mus_sbat_x2small    ****         ****          ****
+71           86665        mus_bat_x2med             mus_sbat_x2med      ****         ****          ****
+72           86666        mus_bat_x2large           mus_sbat_x2large    ****         ****          ****
+73           86667        mus_bat_x2hell            mus_sbat_x2hell     ****         ****          ****
+74           86668        mus_bat_x2boss1           mus_sbat_x2boss1    ****         ****          ****
+75           86669        mus_bat_x2boss2           mus_sbat_x2boss2    ****         ****          ****
+76           110653       mus_dd_kingmaker          ****                ****         ****          ****
+77           110654       mus_dd_shadowgua          ****                ****         ****          ****
+78           110655       mus_dd_witchwake          ****                ****         ****          ****
+79           110725       mus_dd_islands            ****                ****         ****          ****
+80           110726       mus_dd_pirates            ****                ****         ****          ****
+81           111903       mus_dd_infdun             ****                ****         ****          ****
+82           111906       mus_wc_ogma               ****                ****         ****          ****
+83           111911       mus_wc_openroad           ****                ****         ****          ****
+84           111914       mus_wc_smokeash           ****                ****         ****          ****
+85           111912       mus_wc_rural              ****                ****         ****          ****
+86           111913       mus_wc_ruralg             ****                ****         ****          ****
+87           111916       mus_wc_tears              ****                ****         ****          ****
+88           111908       mus_bat_wcchase           mus_sbat_wcchase    ****         ****          ****
+89           111917       mus_wc_theme              ****                ****         ****          ****
+90           111904       mus_wc_armchair           ****                ****         ****          ****
+91           111907       mus_bat_wcbattle          mus_sbat_wcbattle   ****         ****          ****
+92           111915       mus_wc_solace             ****                ****         ****          ****
+93           111905       mus_wc_knighted           ****                ****         ****          ****
+94           111910       mus_wc_opening            ****                ****         ****          ****
+95           111909       mus_wc_morfen             ****                ****         ****          ****
+96           ****         ****                      ****                ****         ****          ****
+97           ****         ****                      ****                ****         ****          ****
+98           ****         ****                      ****                ****         ****          ****
+99           ****         ****                      ****                ****         ****          ****
+100          ****         ****                      ****                ****         ****          ****
+101          ****         amia_cmp183               ****                ****         ****          "_IWD2 - Skeleton of a Town"
+102          ****         amia_cmp309               ****                ****         ****          "_Various - Peaceful Village"
+103          ****         amia_cmp302               ****                ****         ****          "_IWD - Vale of Shadows"
+104          ****         amia_cmp304               ****                ****         ****          "_Various - Away Team"
+105          ****         amia_umano                ****                ****         ****          "_Various - Ibrido Umano"
+106          ****         amia_cmp114               ****                ****         ****          "_Various - The Eternal Forest"
+107          ****         amia_cmp153               ****                ****         ****          "_BG - Cloakwood Forest"
+108          ****         amia_cmp194               ****                ****         ****          "_Various - Halfling Tavern Song"
+109          ****         amia_cmp195               ****                ****         ****          "_Various - Festival I"
+110          ****         amia_cmp169               ****                ****         ****          "_Various - The Grove"
+111          ****         amia_cmp199               ****                ****         ****          "_Various - Waltz of the Damned"
+112          ****         amia_cmp200               ****                ****         ****          "_Various - Lost"
+113          ****         amia_cmp175               ****                ****         ****          "_Various - Catacombs"
+114          ****         amia_cmp222               ****                ****         ****          "_Various - Wood by Night"
+115          ****         amia_cmp223               ****                ****         ****          "_IWD2 - Arrival at the Docks"
+116          ****         amia_cmp155               ****                ****         ****          "_BG2 - The Slums"
+117          ****         amia_cmp312               ****                ****         ****          "_BG - The Beregost Night"
+118          ****         amia_lakelands            ****                ****         ****          "_Various - Lakelands"
+119          ****         amia_forest_u             ****                ****         ****          "_Various - Forest 2"
+120          ****         amia_cmp182               ****                ****         ****          "_IWD2 - Limha's Secret"
+121          ****         amia_cmp225               ****                ****         ****          "_IWD2 - Return to Kuldahar"
+122          ****         amia_cmp185               ****                ****         ****          "_Various - Tavern 5"
+123          ****         amia_cmp186               ****                ****         ****          "_Various - Tavern 6"
+124          ****         amia_cmp187               ****                ****         ****          "_Various - Tavern 7"
+125          ****         amia_cmp91                ****                ****         ****          "_Various - Noble House"
+126          ****         amia_desert               ****                ****         ****          "_Various - Desert"
+127          ****         amia_cmp317               ****                ****         ****          "_IWD - Temple of the Forgotten God"
+128          ****         amia_cmp250               ****                ****         ****          "_IWD - Kuldahar"
+129          ****         amia_forest               ****                ****         ****          "_Various - Forest 1"
+130          ****         amia_sorcery              ****                ****         ****          "_Various - Sorcery"
+131          ****         amia_cmp318               ****                ****         ****          "_Various - March of the Beast"
+132          ****         amia_cmp323               ****                ****         ****          "_Various - Starboard Battle"
+133          ****         amia_cmp303               ****                ****         ****          "_Various - Suspended"
+134          ****         amia_theorgy              ****                ****         ****          "_Various - The Orgy (?!)"
+135          ****         amia_cmp98                ****                ****         ****          "_BG2 - The Domain of the Dragon"
+136          ****         amia_cmp249               ****                ****         ****          "_Morrowind - Theme"
+137          ****         amia_cmp276               ****                ****         ****          "_IWD - Bonus I"
+138          ****         amia_waltz                ****                ****         ****          "_Various - Frost Waltz"
+139          ****         amia_unknown              ****                ****         ****          "_Various - The Great Unknown"
+140          ****         amia_cmp108               ****                ****         ****          "_BG - Night on the Plains"
+141          ****         amia_cmp188               ****                ****         ****          "_Various - Tavern 8"
+142          ****         amia_cmp94                ****                ****         ****          "_Lionheart - Slavers Abode"
+143          ****         amia_cmp95                ****                ****         ****          "_Lionheart - The Ether"
+144          ****         amia_cmp110               ****                ****         ****          "_BG - Helm's Temple"
+145          ****         amia_suspense             ****                ****         ****          "_Various - Intense Suspense"
+146          ****         amia_rest                 ****                ****         ****          "_Various - At Rest"
+147          ****         amia_cmp315               ****                ****         ****          "_Various - Darkness"
+148          ****         amia_Somber               ****                ****         ****          "_Various - Somber"
+149          ****         amia_cmp206               ****                ****         ****          "_Various - Desert"
+150          ****         amia_cmp310               ****                ****         ****          "_Various - Sky Fight"
+151          ****         amia_cmp147               ****                ****         ****          "_BG2 - Underdark"
+152          ****         amia_cmp300               ****                ****         ****          "_Morrowind - Battle Theme"
+153          ****         amia_runner               ****                ****         ****          "_Various - Night Runner"
+154          ****         amia_icecaves             ****                ****         ****          "_Various - Ice Caves"
+155          ****         amia_cmp208               ****                ****         ****          "_IWD - Easthaven in Peace"
+156          ****         amia_cmp207               ****                ****         ****          "_BG2 - Waukeens Promenade"
+157          ****         amia_kempsjig             ****                ****         ****          "_Various - Kemp's Jig"
+158          ****         amia_cmp201               ****                ****         ****          "_Various - Arena I"
+159          ****         amia_harp                 ****                ****         ****          "_Various - Evening Fall, Harp"
+160          ****         amia_death                ****                ****         ****          "_Various - Death"
+161          ****         amia_cmp168               ****                ****         ****          "_BGDA - Damnable Thieves"
+162          ****         amia_Times                ****                ****         ****          "_Various - Dark Times"
+163          ****         amia_cmp170               ****                ****         ****          "_BGDA - Critters In The Cellar"
+164          ****         amia_cmp314               ****                ****         ****          "_BGDA - Sinister Sewers"
+165          ****         amia_cmp218               ****                ****         ****          "_BGDA - Cryptic Crypts"
+166          ****         amia_unpromised           ****                ****         ****          "_Various - Unpromised"
+167          ****         amia_cmp176               ****                ****         ****          "_BGDA - Shadow Over Baldurs Gate"
+168          ****         amia_cmp319               ****                ****         ****          "_Various - The Messenger"
+169          ****         amia_cmp322               ****                ****         ****          "_Various - Vengeance"
+170          ****         amia_cmp324               ****                ****         ****          "_Various - Sorcery"
+171          ****         amia_oracle               ****                ****         ****          "_Various - The Oracle"
+172          ****         amia_jungle               ****                ****         ****          "_Various - Jungle"
