@@ -1,0 +1,1068 @@
+{
+  "__data_type": "ITP ",
+  "MAIN": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 0
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_p15_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63642
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_h07_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63643
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_s16_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63544
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tall_b01_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63315
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_p12_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63669
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_s18_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63649
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tall_a01_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63362
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_s04_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63654
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_j07_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63659
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_j07_02"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63660
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_p18_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63662
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_i07_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63667
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_i07_02"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63668
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_p14_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63663
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_p13_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63664
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Forest portal"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tgf01_a06_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Dungeon Entrance"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tdcf1_a01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Market"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tdcf1_q02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "House"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tdcf1_t07_07"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdcf1_l10_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 8811
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdcf1_l11_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 8812
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdcf1_x09_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 3182
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdcf1_x09_02"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 3183
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Tower - LOK"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tdcf1_a03_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Crystal"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tgf01_b11_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Fountain"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tgf01_b12_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Manhir"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tgf01_b13_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Platform - House 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "FDO01_W01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Platform - House 2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "FDO01_W10_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Pit - Guard Tower"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "FDO01_W04_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Platform - Pillar 2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "FDO01_V11_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Platform - Pillar 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "FDO01_V07_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Platform - Exit"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "FDO01_V09_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Platform - Plaza"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "FDO01_V15_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Platform - Elevator"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "FDO01_V08_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Forest - Elevator"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "FDO01_V08_91"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63261
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 1
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Elven treehouse"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tgf01_p19_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_s14_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63645
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_s15_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63646
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_o09_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63647
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_o11_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63648
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_s17_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63650
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_o07_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63651
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_s12_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63652
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_o16_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63653
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_s02_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63655
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_s03_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63656
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_s09_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63657
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_s10_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63658
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_s07_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63661
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Goblin house"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tgf01_a01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Bridge 3x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tgf01_a02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Tree on Island"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tgf01_a03_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Elven House 3x3"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tgf01_a04_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Bridge3x1 over water"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tgf01_a05_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Hidden cave"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tgf01_a07_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Treehouse 2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tgf01_a08_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Lothlorien"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_o23_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Forest Barracks"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tdcf01_s18_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Archer's Tower"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tdcf01_s19_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Monestary"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tte_a01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "LothLorien on island"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tgf01_b03_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "House under hill"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tgf01_b04_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Elven house 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tgf01_b05_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Elven house 2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tgf01_b06_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Elven house 3"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tgf01_b07_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Temple"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tgf01_b08_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Big tower"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tgf01_b09_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Elven plaza"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tgf01_b10_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Treehouse3"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tgf01_b02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Elven temple2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tgf01_c02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Platform - Plaza"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "FDO01_V29_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Platform - Guard Tower 1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "FDO01_W03_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Platform - Building 2x3 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "FDO01_Y09_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Platform - Cillf Section 2x3"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "FDO01_Y03_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Giant tree 2x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_e04_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Old gate"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tgf01_c03_01"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63262
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 2
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "bridge"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63304
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "cliff"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63639
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "eraser"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63291
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "forest"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63640
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "pit"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63460
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "road"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63641
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "stream"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63302
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "wall"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63301
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "water"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 5631
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "trees"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63670
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Platform"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "platform"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "High_forest"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 69103
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "GentleHill"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "GentleHill"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Hills"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "hills"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "raiselower"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63292
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 8282
+        }
+      }
+    ]
+  }
+}

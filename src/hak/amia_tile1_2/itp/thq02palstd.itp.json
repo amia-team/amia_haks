@@ -1,0 +1,925 @@
+{
+  "__data_type": "ITP ",
+  "MAIN": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 0
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Gazebo 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_c20_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_c20_03"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63380
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Tower"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_c20_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stairs (Forest)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_c20_06"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Gazebo 2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_c20_05"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Mountain Door (Platform)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_h02_12"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Mountain Stairs (Platform)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_h02_21"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stairs (Walkway)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_a05_06"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Mountain Stairs (Walkway)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_h02_22"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Mountain Door (Walkway)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_h02_17"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "House 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_c20_07"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "House 4"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_c20_08"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Guard_Tower"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq03_s00_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Guard_Tower_Roof"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq03_s00_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Wall_Door_Floor-Forest"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq03_s00_98"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Wall_Door_Floor"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq03_s00_89"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Wall_Door_Forest"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq03_s00_99"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Floor1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_c20_91"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Floor2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_c20_92"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Floor3"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_c20_93"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Floor4"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_c20_94"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Fountain"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_c20_81"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "House 3"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_c20_10"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "House 2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_c20_11"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "House 5"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_c20_09"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Flower Benches"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_c20_12"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Market 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_c20_13"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Gazebo 3"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_c20_14"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "House 6"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_c20_15"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Edge Garden 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq03_c02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Edge Garden 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq03_c02_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Gazebo staircase"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_j92_01"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63261
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 1
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_o09_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63340
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Royal Tower 2x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_u02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Amphitheatre 2x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_m01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "House 2x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_s01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "House 3x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_t01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Gazebo 2x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_s02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Giant Tree (Platforms) 3x3"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_w01_07"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Giant Tree (Buildings) 3x3"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_w11_07"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Building Edge 1 1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_d04_11"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Building Edge 2 1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_d04_13"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Building Edge 3 1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_d04_15"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Building Edge 4 1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_d04_17"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Building Edge 5 1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_d04_19"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Building Edge 6 1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_d04_21"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Building Edge 7 1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_d04_23"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Building Edge 8 1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_d04_25"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Building Edge 9 1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_d04_27"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Building Edge 10 1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_d04_29"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Building Edge 11 1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_d04_31"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Building Edge 12 1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_d04_33"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Building Edge 13 1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_d04_51"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Uphill_Trail"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq03_k91_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Chasm_Bridge"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq03_h05_91"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Chasm_Bridge_Water"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq04_h05_91"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Temple_3x3\r\n"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "thq02_s11_01"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63262
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 2
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "highforest"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 69103
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Floor"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "platform"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Building"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "building"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Mountain"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "mountain"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Mountaintop"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "mountaintop"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Waterfall Mountain"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "waterfall"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Footbridges"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "walkway"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Hall"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "hall"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Alley"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "alley"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Courtyard"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "courtyard"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Roof"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "roof"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Gazebo"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "gazebo"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "eraser"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63291
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "raiselower"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63292
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Wall"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wall"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Trail"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "cobble_trail"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Chasm"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "chasm"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Chasm_Water"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "chasm_water"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "stream"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63302
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Platform"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "platform2"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Waterfall"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "waterfall2"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "House"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "house"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 8282
+        }
+      }
+    ]
+  }
+}
