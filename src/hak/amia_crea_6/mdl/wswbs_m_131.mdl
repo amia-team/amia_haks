@@ -1,0 +1,18 @@
+# Exported from NWmax 0.8 b61 at 09/08/2014 15:38:11
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: WSwBs_m_131
+#local file: C:\Users\Pablo\Documents\3DS\XYZ.max
+filedependancy XYZ.max
+newmodel WSwBs_m_131
+setsupermodel WSwBs_m_131 NULL
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom WSwBs_m_131
+node dummy WSwBs_m_131
+  parent NULL
+endnode
+endmodelgeom WSwBs_m_131
+donemodel WSwBs_m_131

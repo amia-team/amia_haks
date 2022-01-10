@@ -1,0 +1,74 @@
+# Exported from NWmax 0.8 b61 at 12/08/2014 13:25:00
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: pfa2_neck202
+#local file: C:\Users\Pablo\Documents\3DS\XYZ.max
+filedependancy XYZ.max
+newmodel pfa2_neck202
+setsupermodel pfa2_neck202 NULL
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom pfa2_neck202
+node dummy pfa2_neck202
+  parent NULL
+endnode
+node trimesh pfa2_neck202g
+  parent pfa2_neck202
+  position 0.0000000 0.0000000 0.0000000
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 26.0
+  bitmap pfh0_neck202
+  verts 10
+    0.0538949 -0.0024314 -0.0015688
+    -0.0001432 0.0025070 -0.0447139
+    -0.0001432 0.0476919 -0.0023086
+    -0.0001432 -0.0454198 0.0044319
+    0.0358032 0.0065338 0.0871480
+    -0.0001432 0.0384758 0.0773965
+    -0.0001432 -0.0286362 0.0856129
+    -0.0001432 0.0042315 0.1071855
+    -0.0541813 -0.0024314 -0.0015688
+    -0.0360896 0.0065338 0.0871480
+  faces 16
+    0 1 2  1  0 1 2  1
+    3 1 0  1  3 4 5  1
+    4 2 5  1  6 2 7  1
+    0 2 4  1  0 2 6  1
+    6 0 4  1  8 5 9  1
+    3 0 6  1  3 5 8  1
+    5 7 4  1  7 10 6  1
+    4 7 6  1  9 11 8  1
+    1 8 2  1  1 12 2  1
+    1 3 8  1  4 3 13  1
+    2 9 5  1  2 14 7  1
+    2 8 9  1  2 12 14  1
+    8 6 9  1  13 8 15  1
+    8 3 6  1  13 3 8  1
+    7 5 9  1  10 7 14  1
+    7 9 6  1  11 15 8  1
+  tverts 16
+    0.970439 0.144783 0
+    0.5 0.0599987 0
+    0.5 0.144697 0
+    0.5 0.144697 0
+    0.5 0.0599987 0
+    0.0331268 0.144638 0
+    0.9 0.848569 0
+    0.5 0.84813 0
+    0.5 0.84813 0
+    0.1 0.848206 0
+    0.5 0.95652 0
+    0.5 0.95652 0
+    0.968693 0.144783 0
+    0.0328128 0.144638 0
+    0.899827 0.848569 0
+    0.0998071 0.848206 0
+endnode
+endmodelgeom pfa2_neck202
+donemodel pfa2_neck202
