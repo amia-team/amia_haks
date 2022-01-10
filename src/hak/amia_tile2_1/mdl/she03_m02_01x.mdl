@@ -1,0 +1,15 @@
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel she03_m02_01x
+setsupermodel she03_m02_01x null
+setanimationscale 1
+classification TILE
+#MAXGEOM ASCII
+beginmodelgeom she03_m02_01x
+node dummy she03_m02_01x
+  parent NULL
+endnode
+endmodelgeom she03_m02_01x
+donemodel she03_m02_01x
+
+

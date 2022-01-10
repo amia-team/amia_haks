@@ -1,0 +1,400 @@
+# Rewritten by CleanModels 3 Version 3.5.1 Tue Aug 06 19:32:32 2013
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel tcm01_z09_01
+  classification TILE
+  setsupermodel tcm01_z09_01 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom tcm01_z09_01
+node dummy tcm01_z09_01
+  parent NULL
+endnode
+node trimesh line1490
+  parent tcm01_z09_01
+  position -1.02 -1.04 5
+  orientation 0 0 0 0
+  wirecolor 1 1 1
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 0.788235 0.72549 0.72549
+  diffuse 0.788235 0.72549 0.72549
+  specular 0.05 0.05 0.05
+  shininess 26
+  center 0 0 0
+  bitmap tcm01_watcliff03
+  verts 14
+    -1.99 0 -3
+    -3.98 0.04 -3
+    -0.93 -0.26 -2.65
+    0.97 -0.21 -2.52
+    2.71 -0.12 -2.76
+    4.19 0.23 -3
+    6.02 0.04 -3
+    -1.89 0.86 -1
+    -3.98 1.34 -1
+    -0.67 0.94 -1
+    1.34 1.38 -1
+    3 1.34 -1
+    4.18 1.62 -1
+    6.02 1.34 -1
+  faces 12
+    1 0 7 1 0 1 7 3
+    1 7 8 1 0 7 8 3
+    0 2 7 1 1 2 7 3
+    2 9 7 1 2 9 7 3
+    9 3 10 1 9 3 10 3
+    2 3 9 1 2 3 9 3
+    3 4 11 1 3 4 11 3
+    3 11 10 1 3 11 10 3
+    4 5 12 1 4 5 12 3
+    4 12 11 1 4 12 11 3
+    5 6 13 1 5 6 13 3
+    5 13 12 1 5 13 12 3
+  tverts 14
+    1.999 0.05 0
+    1.60198 0.05 0
+    1.38914 0.05 0
+    1.00973 0.05 0
+    0.661867 0.05 0
+    0.365645 0.05 0
+    0.0009992 0.05 0
+    1.5808 0.663 0
+    1.999 0.663 0
+    1.33699 0.663 0
+    0.935235 0.663 0
+    0.604402 0.663 0
+    0.367668 0.663 0
+    0.0009992 0.663 0
+endnode
+node trimesh plane704
+  parent tcm01_z09_01
+  position 0 0 5
+  orientation 0 0 0 0
+  wirecolor 1 1 1
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 1
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  center 0 224 0
+  bitmap tcm01_grass01
+  verts 17
+    3.16 0.28 0
+    5 0 0
+    2.5 2.5 0
+    5 2.5 0
+    2.5 5 0
+    5 5 0
+    1.98 0 0
+    0 2.5 0
+    0 5 0
+    -2.01 -0.43 0
+    0 0 0
+    -2.5 2.5 0
+    -2.5 5 0
+    -5 0 0
+    -3.23 -0.52 0
+    -5 2.5 0
+    -5 5 0
+  faces 18
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+    2 3 4 1 2 3 4 1
+    5 4 3 1 5 4 3 1
+    6 0 2 1 6 0 2 1
+    2 7 6 1 2 7 6 1
+    7 2 8 1 7 2 8 1
+    4 8 2 1 4 8 2 1
+    9 10 7 1 9 10 7 1
+    7 11 9 1 7 11 9 1
+    11 7 12 1 11 7 12 1
+    8 12 7 1 8 12 7 1
+    13 14 15 1 13 14 15 1
+    11 15 14 1 11 15 14 1
+    15 11 16 1 15 11 16 1
+    12 16 11 1 12 16 11 1
+    10 6 7 1 10 6 7 1
+    14 9 11 1 14 9 11 1
+  tverts 17
+    1.133 0.5553 0
+    1.5 0.5 0
+    1 1 0
+    1.5 1 0
+    1 1.5 0
+    1.5 1.5 0
+    0.896 0.4991 0
+    0.5 1 0
+    0.5 1.5 0
+    0.0979 0.4132 0
+    0.5 0.5 0
+    0 1 0
+    0 1.5 0
+    -0.5 0.5 0
+    -0.1462 0.3968 0
+    -0.5 1 0
+    -0.5 1.5 0
+endnode
+node trimesh mesh1798
+  parent tcm01_z09_01
+  position 0.14 2.84 5
+  orientation 0 0 0 0
+  wirecolor 1 1 1
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 0.788235 0.72549 0.72549
+  diffuse 0.788235 0.72549 0.72549
+  specular 0.05 0.05 0.05
+  shininess 26
+  center -14 -281 -50
+  bitmap tcm01_watcliff03
+  verts 14
+    -5.14 -2.54 -1
+    -3.05 -3.02 -1
+    -3.37 -3.36 0
+    -5.14 -2.84 0
+    -1.83 -2.94 -1
+    -2.15 -3.27 0
+    0.18 -2.5 -1
+    -0.14 -2.84 0
+    1.84 -2.54 -1
+    1.84 -2.84 0
+    3.02 -2.26 -1
+    3.02 -2.56 0
+    4.86 -2.54 -1
+    4.86 -2.84 0
+  faces 12
+    0 1 2 1 0 1 2 3
+    0 2 3 1 0 2 3 3
+    1 4 5 1 1 4 5 3
+    1 5 2 1 1 5 2 3
+    5 6 7 1 5 6 7 3
+    4 6 5 1 4 6 5 3
+    6 8 9 1 6 8 9 3
+    6 9 7 1 6 9 7 3
+    8 10 11 1 8 10 11 3
+    8 11 9 1 8 11 9 3
+    10 12 13 1 10 12 13 3
+    10 13 11 1 10 13 11 3
+  tverts 14
+    1.999 0.663 0
+    1.5808 0.663 0
+    1.64557 1 0
+    1.999 1 0
+    1.33699 0.663 0
+    1.40175 1 0
+    0.935236 0.663 0
+    1 1 0
+    0.604403 0.663 0
+    0.604403 1 0
+    0.367668 0.663 0
+    0.367668 1 0
+    0.000999 0.663 0
+    0.0009991 1 0
+endnode
+node trimesh line1489
+  parent tcm01_z09_01
+  position -1.42 -1.23 5
+  orientation 0 0 0 0
+  wirecolor 1 1 1
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 1
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  center 142 88 0
+  bitmap tcm01_grassrim01
+  verts 14
+    -1.81 0.71 0
+    -3.58 1.23 0
+    -1.85 0.25 0
+    -3.58 0.73 0
+    -0.59 0.8 0
+    -0.51 0.32 0
+    1.42 1.23 0
+    1.48 0.75 0
+    3.4 1.23 0
+    3.48 0.76 0
+    4.58 1.51 0
+    4.7 1.05 0
+    6.42 1.23 0
+    6.42 0.73 0
+  faces 12
+    0 1 2 1 0 1 2 3
+    2 1 3 1 2 1 3 3
+    4 0 5 1 4 0 5 3
+    5 0 2 1 5 0 2 3
+    6 4 7 1 6 4 7 3
+    7 4 5 1 7 4 5 3
+    8 6 9 1 8 6 9 3
+    9 6 7 1 9 6 7 3
+    10 8 11 1 10 8 11 3
+    11 8 9 1 11 8 9 3
+    12 10 13 1 12 10 13 3
+    13 10 11 1 13 10 11 3
+  tverts 14
+    2.9367 0.05 0
+    3.997 0.05 0
+    2.9369 0.45 0
+    3.997 0.45 0
+    2.20526 0.05 0
+    2.20273 0.45 0
+    1 0.05 0
+    0.99852 0.45 0
+    -0.18679 0.05 0
+    -0.18567 0.45 0
+    -0.897 0.05 0
+    -0.89485 0.45 0
+    -1.997 0.05 0
+    -1.997 0.45 0
+endnode
+node trimesh ground
+  parent tcm01_z09_01
+  position -1.02 -1.04 5
+  orientation 0 0 0 0
+  wirecolor 1 1 1
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  center 102 -186.5 -296
+  ambient 0.788235 0.72549 0.72549
+  diffuse 0.788235 0.72549 0.72549
+  specular 0 0 0
+  shininess 26
+  bitmap tcm01_gravel
+  verts 17
+    -3.98 -0.96 -3.4
+    -2.27 -0.69 -3.4
+    -1.99 0 -3
+    -3.98 0.04 -3
+    -0.91 -0.87 -3.4
+    -0.93 -0.26 -2.65
+    0.53 -0.48 -3.4
+    0.97 -0.21 -2.52
+    1.99 -0.7 -3.4
+    2.71 -0.12 -2.76
+    4.34 -1 -3.4
+    4.19 0.23 -3
+    6.02 -0.96 -3.4
+    6.02 0.04 -3
+    -3.98 -3.96 -3.4
+    1.02 -3.96 -3.4
+    6.02 -3.96 -3.4
+  faces 20
+    0 1 2 1 0 1 2 3
+    0 2 3 1 0 2 3 3
+    1 4 5 1 1 4 5 3
+    1 5 2 1 1 5 2 3
+    5 6 7 1 5 6 7 3
+    4 6 5 1 4 6 5 3
+    6 8 9 1 6 8 9 3
+    6 9 7 1 6 9 7 3
+    8 10 11 1 8 10 11 3
+    8 11 9 1 8 11 9 3
+    10 12 13 1 10 12 13 3
+    10 13 11 1 10 13 11 3
+    1 0 14 1 1 0 14 3
+    4 1 14 1 4 1 14 3
+    15 4 14 1 15 4 14 3
+    8 6 15 1 8 6 15 3
+    10 8 15 1 10 8 15 3
+    12 10 16 1 12 10 16 3
+    10 15 16 1 10 15 16 3
+    6 4 15 1 6 4 15 3
+  tverts 17
+    0.000999212 0.715775 0
+    0.342658 0.78015 0
+    0.398602 0.944663 0
+    0.000999212 0.9542 0
+    0.614386 0.737233 0
+    0.61039 0.882673 0
+    0.902098 0.830219 0
+    0.99001 0.894594 0
+    1.19381 0.777765 0
+    1.33766 0.916052 0
+    1.66334 0.706238 0
+    1.63337 0.999501 0
+    1.999 0.715775 0
+    1.999 0.9542 0
+    0.000999033 0.000500083 0
+    1 0.000499785 0
+    1.999 0.000499517 0
+endnode
+node trimesh plane705
+  parent tcm01_z09_01
+  position 1.5 -1.5 4
+  orientation 0 0 0 0
+  wirecolor 1 1 1
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 1
+  alpha 1
+  transparencyhint 1
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  center -150 0 0
+  bitmap tcm01_water01
+  verts 4
+    -6.5 -3.5 0
+    3.5 -3.5 0
+    -6.5 3.5 0
+    3.5 3.5 0
+  faces 2
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+  tverts 4
+    -1 -1 0
+    2 -1 0
+    -1 1.1 0
+    2 1.1 0
+endnode
+endmodelgeom tcm01_z09_01
+donemodel tcm01_z09_01

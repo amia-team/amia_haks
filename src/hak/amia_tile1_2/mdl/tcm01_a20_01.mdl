@@ -1,0 +1,324 @@
+# Rewritten by CleanModels 3 Version 3.5.1 Thu Aug 01 22:49:09 2013
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel tcm01_a20_01
+  classification TILE
+  setsupermodel tcm01_a20_01 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom tcm01_a20_01
+node dummy tcm01_a20_01
+  parent NULL
+endnode
+node light tcm01_a20_01ml1
+  parent tcm01_a20_01
+  position -1.5 -1.5 8.5
+  orientation 0 0 0 0
+  wirecolor 0.537255 0.0313726 0.431373
+  radius 14
+  multiplier 1
+  color 0.639216 0.639216 0.639216
+  ambientonly 0
+  nDynamicType 1
+  affectdynamic 1
+  shadow 0
+  lightpriority 5
+  fadinglight 1
+endnode
+node light tcm01_a20_01ml2
+  parent tcm01_a20_01
+  position 1.5 1.5 9
+  orientation 0 0 0 0
+  wirecolor 0.0156863 0.521569 0.0156863
+  radius 5
+  multiplier 1
+  color 0.639216 0.639216 0.639216
+  ambientonly 0
+  nDynamicType 1
+  affectdynamic 1
+  shadow 0
+  lightpriority 5
+  fadinglight 1
+endnode
+node trimesh ground
+  parent tcm01_a20_01
+  position 0 0 5
+  orientation 0 0 0 0
+  wirecolor 0.694118 0.101961 0.337255
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 1
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  center 0 0 0
+  bitmap tcm01_cobble01
+  verts 25
+    -5 -5 0
+    -2.5 -5 0
+    0 -5 0
+    2.5 -5 0
+    5 -5 0
+    -5 -2.5 0
+    -2.5 -2.5 0
+    0 -2.5 0
+    2.5 -2.5 0
+    5 -2.5 0
+    -5 0 0
+    -2.5 0 0
+    0 0 0
+    2.5 0 0
+    5 0 0
+    -5 2.5 0
+    -2.5 2.5 0
+    0 2.5 0
+    2.5 2.5 0
+    5 2.5 0
+    -5 5 0
+    -2.5 5 0
+    0 5 0
+    2.5 5 0
+    5 5 0
+  faces 32
+    5 0 6 1 5 0 6 1
+    1 6 0 1 1 6 0 1
+    6 1 7 1 6 1 7 1
+    2 7 1 1 2 7 1 1
+    7 2 8 1 7 2 8 1
+    3 8 2 1 3 8 2 1
+    8 3 9 1 8 3 9 1
+    4 9 3 1 4 9 3 1
+    10 5 11 1 10 5 11 1
+    6 11 5 1 6 11 5 1
+    11 6 12 1 11 6 12 1
+    7 12 6 1 7 12 6 1
+    12 7 13 1 12 7 13 1
+    8 13 7 1 8 13 7 1
+    13 8 14 1 13 8 14 1
+    9 14 8 1 9 14 8 1
+    15 10 16 1 15 10 16 1
+    11 16 10 1 11 16 10 1
+    16 11 17 1 16 11 17 1
+    12 17 11 1 12 17 11 1
+    17 12 18 1 17 12 18 1
+    13 18 12 1 13 18 12 1
+    18 13 19 1 18 13 19 1
+    14 19 13 1 14 19 13 1
+    20 15 21 1 20 15 21 1
+    16 21 15 1 16 21 15 1
+    21 16 22 1 21 16 22 1
+    17 22 16 1 17 22 16 1
+    22 17 23 1 22 17 23 1
+    18 23 17 1 18 23 17 1
+    23 18 24 1 23 18 24 1
+    19 24 18 1 19 24 18 1
+  tverts 25
+    0.000999033 0.00099951 0
+    0.500499 0.000999391 0
+    1 0.000999272 0
+    1.4995 0.000999153 0
+    1.999 0.000999033 0
+    0.000999153 0.5005 0
+    0.500499 0.5005 0
+    1 0.5005 0
+    1.4995 0.500499 0
+    1.999 0.500499 0
+    0.000999272 1 0
+    0.5005 1 0
+    1 1 0
+    1.4995 1 0
+    1.999 1 0
+    0.000999391 1.4995 0
+    0.5005 1.4995 0
+    1 1.4995 0
+    1.4995 1.4995 0
+    1.999 1.4995 0
+    0.00099951 1.999 0
+    0.5005 1.999 0
+    1 1.999 0
+    1.4995 1.999 0
+    1.999 1.999 0
+endnode
+node trimesh patch
+  parent tcm01_a20_01
+  position 2.5 -1.76 5.02
+  orientation 0 0 0 0
+  wirecolor 0.537255 0.0313726 0.431373
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 1
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  center 0 0 0
+  bitmap tcm01_pt_grass01
+  verts 4
+    -2.5 -2.5 0
+    2.5 -2.5 0
+    -2.5 2.5 0
+    2.5 2.5 0
+  faces 2
+    2 0 3 1 2 0 3 1
+    1 3 0 1 1 3 0 1
+  tverts 4
+    0.000499516 0.499765 0
+    0.49534 0.499765 0
+    0.000499634 0.999501 0
+    0.49534 0.9995 0
+endnode
+node aabb wok
+  parent tcm01_a20_01
+  position 0 0 0
+  bitmap NULL
+  orientation 0 0 0 0
+  wirecolor 0.694118 0.101961 0.337255
+  ambient 0 0 0
+  diffuse 0.5 0.5 0.5
+  specular 0 0 0
+  shininess 10
+  render 0
+  shadow 0
+  verts 9
+    -5 -5 5
+    5 -5 5
+    0.68 -3.62 5
+    2.45 -3.9 5
+    0.56 -0.32 5
+    2.62 0.37 5
+    5 0 5
+    -5 5 5
+    5 5 5
+  faces 11
+    2 0 3 0 0 0 0 4
+    1 3 0 0 0 0 0 4
+    2 4 0 0 0 0 0 4
+    4 2 5 0 0 0 0 3
+    3 5 2 0 0 0 0 3
+    5 3 6 0 0 0 0 3
+    1 6 3 0 0 0 0 4
+    4 5 8 0 0 0 0 4
+    6 8 5 0 0 0 0 4
+    4 7 0 0 0 0 0 4
+    7 4 8 0 0 0 0 4
+  aabb     -5 -5 5 5 5 5 -1
+    -5 -5 5 5 5 5 -1
+    -5 -5 5 0.68 5 5 -1
+    -5 -5 5 0.68 -0.32 5 2
+    -5 -5 5 0.56 5 5 9
+    -5 -5 5 5 5 5 -1
+    -5 -5 5 2.45 -3.62 5 0
+    -5 -5 5 5 5 5 -1
+    -5 -0.32 5 5 5 5 10
+    -5 -5 5 5 -3.9 5 1
+    0.56 -5 5 5 5 5 -1
+    0.56 -5 5 5 0.37 5 -1
+    0.68 -5 5 5 0.37 5 -1
+    2.45 -5 5 5 0 5 6
+    0.68 -3.9 5 2.62 0.37 5 4
+    0.56 -3.9 5 5 0.37 5 -1
+    0.56 -3.62 5 2.62 0.37 5 3
+    2.45 -3.9 5 5 0.37 5 5
+    0.56 -0.32 5 5 5 5 -1
+    0.56 -0.32 5 5 5 5 7
+    2.62 0 5 5 5 5 8
+endnode
+node trimesh line1289
+  parent tcm01_a20_01
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 1 1 1
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 2
+  center 4 17.5 60.5
+  bitmap tcm01_leaf01
+  verts 18
+    2.29 -1.84 5.01
+    2.22 -1.79 5.01
+    2.24 -1.77 5.34
+    2.27 -1.8 5.34
+    2.22 -1.83 5.35
+    2.29 -1.61 5.93
+    2.34 -1.63 5.93
+    2.24 -1.62 5.94
+    2.31 -1.45 6.22
+    2.17 -1.77 5.01
+    2.09 -1.79 5.01
+    2.08 -1.77 5.23
+    2.12 -1.77 5.23
+    2.11 -1.82 5.24
+    1.96 -1.6 5.57
+    2.01 -1.56 5.58
+    1.93 -1.64 5.59
+    1.84 -1.46 5.7
+  faces 28
+    0 1 2 1 0 1 2 3
+    0 2 3 1 0 2 3 3
+    1 4 2 1 1 4 2 3
+    1 0 3 1 1 0 3 3
+    1 3 4 1 1 3 4 3
+    3 2 5 1 3 2 5 3
+    3 5 6 1 3 5 6 3
+    2 4 7 1 2 4 7 3
+    2 7 5 1 2 7 5 3
+    4 3 6 1 4 8 9 3
+    4 6 7 1 4 9 7 3
+    6 5 8 1 6 5 10 3
+    5 7 8 1 5 7 10 3
+    7 6 8 1 7 9 10 3
+    9 10 11 1 0 1 2 3
+    9 11 12 1 0 2 3 3
+    10 13 11 1 1 4 2 3
+    10 9 12 1 1 0 3 3
+    10 12 13 1 1 3 4 3
+    12 11 14 1 3 2 5 3
+    12 14 15 1 3 5 6 3
+    11 13 16 1 2 4 7 3
+    11 16 14 1 2 7 5 3
+    13 12 15 1 4 8 9 3
+    13 15 16 1 4 9 7 3
+    15 14 17 1 6 5 10 3
+    14 16 17 1 5 7 10 3
+    16 15 17 1 7 9 10 3
+  tverts 11
+    0.00107657 -0.998501 0
+    0.116792 -0.998501 0
+    0.119477 -0.223331 0
+    -0.00380523 -0.223331 0
+    0.188309 -0.223331 0
+    0.103736 1.22333 0
+    -0.00226858 1.22333 0
+    0.164911 1.22333 0
+    0.296195 -0.223331 0
+    0.297731 1.22333 0
+    0.162896 1.9985 0
+endnode
+endmodelgeom tcm01_a20_01
+donemodel tcm01_a20_01

@@ -1,0 +1,706 @@
+{
+  "__data_type": "ITP ",
+  "MAIN": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 0
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Adventurers camp"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tfm01_t01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Dense trees"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tfm01_t02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Clearing"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tfm01_t03_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Inner corner cave"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tfm01_m01_10"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Inner corner cave [partly raised]"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tfm01_m01_11"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Inner corner cave [raised mountain]"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tfm01_m06_04"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Inner corner cave [raised forest]"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tfm01_m21_10"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Cave 1 [raised forest]"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tfm01_m22_10"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Cave 2 [raised forest]"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tfm01_m22_11"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Corner cave"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tfm01_m04_08"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Corner cave [raised forest]"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tfm01_m26_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Corner cave [raised mountain]"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tfm01_m09_06"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Cave"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tfm01_m02_09"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Cave [raised mountain]"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tfm01_m07_12"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Mine entrance 1"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tfm01_m10_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Mine entrance 2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tfm01_m10_02"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "River cave"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tfm01_j21_04"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Road into cave"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tfm01_h09_02"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Road into cave [raised forest]"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tfm01_h09_03"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Road into corner cave"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tfm01_h09_05"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tfm01_m01_12"
+                    },
+                    "STRREF": {
+                      "type": "dword",
+                      "value": 63663
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Big tree next to mountain"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tfm01_m07_13"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Mine entrance with door"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tfm01_m10_03"
+                    }
+                  }
+                ]
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63737
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tfm01_t04_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63664
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tfm01_t06_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63649
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tfm01_t05_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63642
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Cut trees"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tfm01_t08_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Small pond"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tfm01_t07_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tfm01_s01_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63662
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Mage tower"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tfm01_s01_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tfm01_j07_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63659
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tfm01_j07_02"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63660
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Bridge (road crossing river)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tfm01_h06_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tfm01_h10_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63667
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tfm01_h10_02"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63668
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Wildflower patch 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tfm01_t11_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Wildflower patch 2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tfm01_t12_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tfm01_s03_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63544
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ruins 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tfm01_r01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ruins 2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tfm01_r02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ruins 3"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tfm01_r03_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ruins 4"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tfm01_r04_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ruins 5 (next to road)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tfm01_r05_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ruins 6 [raised]"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tfm01_r06_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ruins 7"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tfm01_r07_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ruins 8"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tfm01_r08_01"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63261
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 1
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tfm01_c05_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63650
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Cave behind waterfall"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tfm01_o06_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Tree hut near chasm"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tfm01_s02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Tree hut near road bend"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tfm01_s02_04"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63262
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 2
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "eraser"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63291
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "raiselower"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63292
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "wall"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63301
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "forest"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63635
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "chasm"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 2848
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "mountain"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63737
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "stream"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63302
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "road"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63641
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 8282
+        }
+      }
+    ]
+  }
+}

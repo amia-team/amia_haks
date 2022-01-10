@@ -1,0 +1,897 @@
+{
+  "__data_type": "ITP ",
+  "MAIN": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 0
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Pillar [Chasm]"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tdx01_e40_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Portal [Chasm]"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tdx01_e45_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Gate, straight fence"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_i02_04"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Gate, fence along wall"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_c22_06"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Gate, opposite chasm corner"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_c26_04"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Gate, corner left side"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_i01_04"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Gate, corner, right side"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_i01_05"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Gate, T-Fence, right side"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_i03_03"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Gate, T-Fence, left side"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_i03_04"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Gate, opposite wall corner"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_i07_06"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Gate, fence into wall"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_i06_02"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Gate, fence along wall [Catacombs]"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_h12_03"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Gate, opposite door [Catacombs]"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_h14_02"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Gate, corner left [Catacombs]"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_h13_04"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Gate, corner right [Catacombs]"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_h13_05"
+                    }
+                  }
+                ]
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 100354
+              }
+            },
+            {
+              "__struct_id": 0,
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Corridor, Pit"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_b11_05"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Door Transition"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_b53_02"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Corner Stairs"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_c11_06"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Corner Stairs down"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_c11_08"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Corner Stairs up"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_c11_07"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Broken Fence"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_c05_03"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Rift with lava"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_c05_05"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Pillar"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_c05_07"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Gate"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_c21_11"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Alcove"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_c21_10"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Stairs down"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_c21_12"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Corridor too narrow"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_b21_02"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Stone coffin"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_c05_10"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Covered pit"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_c05_09"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Lava pit"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_c05_08"
+                    }
+                  }
+                ]
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 1607
+              }
+            },
+            {
+              "__struct_id": 0,
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Door Transition"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_g10_02"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Corner gate"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_h01_02"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Gate"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_h02_02"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Pile of bones"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_h04_04"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Puddle"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_h04_05"
+                    }
+                  }
+                ]
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 1610
+              }
+            },
+            {
+              "__struct_id": 0,
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Hall door"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_j20_03"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Alcove, two sided"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_l02_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Alcove"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_l02_02"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Blocked pipe, straight"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_k10_04"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Blocked pipe, T-junction"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_k30_02"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Doorway pipe, straight"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_l03_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Doorway pipe, T-junction"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_l03_02"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Hall door, platform"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_m02_03"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Sewer access, ladder"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_j40_03"
+                    }
+                  }
+                ]
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 1608
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63261
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 1
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon] Huge gate near chasm (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tdx01_s01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon] Prison (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tdx01_s02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Pipe access 1 [2x1]"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_l01_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Pipe access 2 [2x1]"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_l01_03"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Pipe access 3 [2x1]"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_l01_10"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Pipe access 4 [2x1]"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_l01_11"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Hall pipe entry [1x2]"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_l04_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Round room, ladder [3x3]"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_s04_05"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Round room [3x3]"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tdx01_s03_05"
+                    }
+                  }
+                ]
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 1608
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon] Platform (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tdx01_s06_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Chasm] Mausoleum (3x3)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tdx01_s07_01"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63262
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 2
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Wall"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wall"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Chasm"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "chasm"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Dungeon Corridor"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "corridor"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Dungeon Door"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "door"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "eraser"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63291
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Dungeon"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "floor1"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Catacombs"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "floor2"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Catacombs Door"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "catdoor"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Catacombs Corridor"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "corridor2"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Raise/Lower"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "raiselower"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Fence"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "fence"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "water"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 9042
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Pipe"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "pipe"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "sewer"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 1608
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Service duct"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "service"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Tunnel"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tunnel"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 8282
+        }
+      }
+    ]
+  }
+}
