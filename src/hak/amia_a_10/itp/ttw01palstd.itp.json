@@ -543,10 +543,10 @@
           "type": "list",
           "value": [
             {
-                "__struct_id": 0,
+              "__struct_id": 0,
               "NAME": {
-               "type": "cexostring",
-               "value": "Tree Bridge [1x2]"
+                "type": "cexostring",
+                "value": "Tree Bridge [1x2]"
               },
               "RESREF": {
                 "type": "resref",
