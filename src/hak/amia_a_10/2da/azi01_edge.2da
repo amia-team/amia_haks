@@ -1,0 +1,29 @@
+2DA V2.0
+
+       Corner1     Edge     Corner2     Height     Model            
+0      Wall	   ****     Wall        0          azi01_z01_11
+1      Wall	   ****     ****        0          azi01_z01_11
+2      Room1	   ****     Room1       0          azi01_z01_01
+3      Room1	   ****     Wall        0          azi01_z02_01
+4      Room1	   ****     ****        0          azi01_z01_01
+5      Room2	   ****     Room2       0          azi01_z01_02
+6      Room2	   ****     Wall        0          azi01_z02_02
+7      Room2	   ****     ****        0          azi01_z01_02
+8      Room3	   ****     Room3       0          azi01_z01_03
+9      Room3	   ****     Wall        0          azi01_z02_03
+10      Room3	   ****     ****        0          azi01_z01_03
+11      Room4	   ****     Room4       0          azi01_z01_04
+12      Room4	   ****     Wall        0          azi01_z02_04
+13      Room4	   ****     ****        0          azi01_z01_04
+14      Room5	   ****     Room5       0          azi01_z01_05
+15      Room5	   ****     Wall        0          azi01_z02_05
+16      Room5	   ****     ****        0          azi01_z01_05
+17      Room6	   ****     Room6       0          azi01_z01_06
+18      Room6	   ****     Wall        0          azi01_z02_06
+19      Room6	   ****     ****        0          azi01_z01_06
+20      Room7	   ****     Room7       0          azi01_z01_07
+21      Room7	   ****     Wall        0          azi01_z02_07
+21      Room7	   ****     ****        0          azi01_z01_07
+22      Wall	   Hallway1 Wall        0          azi01_z01_08
+23      Wall	   Hallway2 Wall        0          azi01_z01_09
+24      Wall	   Hallway3 Wall        0          azi01_z01_10

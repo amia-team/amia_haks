@@ -1,0 +1,7 @@
+2DA V2.0
+
+    LABEL        ReqType  ReqParam1     ReqParam2
+	
+0   SKILL_DISCIPLINE  SKILL      3            5
+1   SKILL_HEAL        SKILL      4            8          
+2   SkillFocusHeal    FEAT     177           ****     

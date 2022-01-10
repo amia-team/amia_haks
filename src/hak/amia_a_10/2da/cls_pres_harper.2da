@@ -1,0 +1,19 @@
+2DA V2.0                                                     
+                                                             
+           LABEL        ReqType   ReqParam1        ReqParam2      
+0          Listen     	SKILL     6                2
+1          Spot     	SKILL     17               2               
+2          Search       SKILL     14               2              
+3          Lore         SKILL     7                6              
+4          Discipline   SKILL     3                8
+5	   CraftTrap	SKILL	  22		   2
+6	   SetTrap	SKILL	  15		   2              
+7          SkillFocusList    FEAT      179                ****           
+8          SkillFocusSpot     FEAT      190               ****           
+9          ScriptVar    VAR       X1_AllowHarper   0           
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             

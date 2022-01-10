@@ -1,0 +1,22 @@
+2DA V2.0                                                                                                 
+                                                                                                         
+           FeatLabel                                        FeatIndex   List   GrantedOnLevel   OnMenu   
+0         FEAT_BLOOD_GIFTS                                 1260        3       1               1        
+1         WeapProfSim                                      46          3       1                0        
+2         ArmProfLgt                                       3           3       1               0        
+3         ArmProfMed                                       4           3       1                0        
+4         ArmProfHvy                                       2           3       1                0        
+5         Shield                                           32          3       1                0        
+6         WeapProfMar                                      45          3       1                0        
+7         BoonSTR                                          1263        2      -1                0          
+8         BoonDEX                                          1264        2      -1                0       
+9         BoonCON                                          1265        2      -1                0       
+10        BoonINT                                          1266        2      -1                0       
+11        BoonCHA                                          1267        2      -1                0       
+12        BoonWIS                                          1268        2      -1                0       
+13        BoonLIFE                                         1269        2      -1                0       
+14        BoonSHADOW                                       1270        2      -1                0       
+15        BoonPERCEP                                       1271        2      -1                0       
+16        BoonMDEFENSE                                     1272        2      -1                0     
+17        BoonSTABILITY                                    1273        2      -1                0     
+18        BoonLUCK                                         1274        2      -1                0     

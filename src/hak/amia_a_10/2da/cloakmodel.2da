@@ -1,0 +1,83 @@
+2DA V2.0
+
+          LABEL                         MODEL     TEXTURE     ICON     HIDEWING     HIDETAIL     HIDESHOL     HIDESHOR     ENVMAP      
+0         ****                          0         0           0        0            0            0            0            ****        
+1         Plain                         1         1           1        1            0            0            1            default     
+2         Arcane                        1         10          2        1            0            0            1            default     
+3         GreatCloak                    2         2           3        1            0            1            1            default     
+4         FineGreatCl                   2         13          4        1            0            1            1            default     
+5         Hooded                        3         3           5        1            0            1            1            default     
+6         Fancy                         4         4           6        1            0            1            1            default     
+7         Elegant                       4         11          7        1            0            1            1            default     
+8         Elven                         4         12          8        1            0            1            1            default     
+9         Wizard                        5         5           9        1            0            1            1            default     
+10        Jeweled                       7         14          10       1            0            1            1            default     
+11        Blackgd_Cyric                 6         6           11       1            0            0            0            default     
+12        Paladin_Helm                  6         7           12       1            0            0            0            default     
+13        Champion_Torm                 6         8           13       1            0            0            0            default     
+14        DragonKnight                  6         9           14       1            0            0            0            default     
+15        "Many Starred"                5         15          15       1            0            1            1            default 
+16        "Plain Wizard"                5         16          16       1            0            1            1            default 
+17        "Wizard Hat"                  150       150         150      0            0            0            0            default 
+18        "Patched"                     1         113        113       0            0            0            1            default
+19        "Plaid"                       1         122        122       0            0            0            1            default
+20        "Non-appearing Cloak"         0         1          102       0            0            0            0            **** 
+21        "Plain (w/wings)"             1         1           1        0            0            0            1            default     
+22        "Arcane (w/wings)"            1         10          2        0            0            0            1            default     
+23        "GreatCloak (w/wings)"        2         2           3        0            0            1            1            default     
+24        "FineGreatCl (w/wings)"       2         13          4        0            0            1            1            default     
+25        "Hooded (w/wings)"            3         3           5        0            0            1            1            default     
+26        "Fancy (w/wings)"             4         4           6        0            0            1            1            default     
+27        "Elegant (w/wings)"           4         11          7        0            0            1            1            default     
+28        "Elven (w/wings)"             4         12          8        0            0            1            1            default     
+29        "Wizard (w/wings)"            5         5           9        0            0            1            1            default     
+30        "Jeweled (w/wings)"           7         14          10       0            0            1            1            default     
+31        "Blackgd_Cyric (w/wings)"     6         6           11       0            0            0            0            default     
+32        "Paladin_Helm (w/wings)"      6         7           12       0            0            0            0            default     
+33        "Champion_Torm (w/wings)"     6         8           13       0            0            0            0            default     
+34        "DragonKnight (w/wings)"      6         9           14       0            0            0            0            default     
+35        "ManyStarred (w/wings)"       5         15          15       0            0            1            1            default
+36        "PlainWizard (w/wings)"       5         16          16       0            0            1            1            default
+37        Auril                         4         69          7        1            0            1            1            default     
+38        Azuth                         5         77          9        1            0            1            1            default     
+39        Bane                          6         40          16       1            0            0            0            default     
+40        Chauntea                      3         34          34       1            0            1            1            default     
+41        Gond                          2         60          3        1            0            1            1            default     
+42        Grumbar                       3         87          5        1            0            1            1            default     
+43        Hoar                          4         89          7        1            0            1            1            default     
+44        Ilmater                       3         48          48       1            0            1            1            ****     
+45        Kelemvor                      3         67          5        1            0            1            1            default     
+46        Lathander                     1         37          1        1            0            0            1            default     
+47        Lliira                        4         50          8        1            0            1            1            default     
+48        Loviatar                      3         58          5        1            0            1            1            default     
+49        Malar                         3         79          5        1            0            1            1            ****     
+50        Mask                          4         41          7        1            0            1            1            default     
+51        Mielikki                      3         43          43       1            0            1            1            default     
+52        Mystra                        5         35          9        1            0            1            1            default     
+53        Nobanion                      6         51          16       1            0            0            0            default     
+54        Oghma                         5         42          9        1            0            1            1            default     
+55        "Red Knight"                  6         93          16       1            0            0            0            default     
+56        Selune                        6         57          16       1            0            0            0            default     
+57        Shar                          5         68          9        1            0            1            1            default
+58        Sharess                       4         64          6        1            0            1            1            default     
+59        Shaundakul                    3         82          5        1            0            1            1            default     
+60        Silvanus                      3         59          59       1            0            1            1            default     
+61        Sune                          4         33          6        1            0            1            1            default     
+62        Talos                         3         56          5        1            0            1            1            default     
+63        Tempus                        6         36          16       1            0            0            0            default     
+64        Tiamat                        3         96          5        1            0            1            1            default     
+65        Tymora                        6         44          16       1            0            0            0            default     
+66        Tyr                           6         32          32       1            0            0            0            default     
+67        Velsharoon                    5         73          9        1            0            1            1            default
+68        Waukeen                       4         45          6        1            0            1            1            default     
+69        Eilistraee                    5         52          9        1            0            1            1            default
+70        Lolth                         5         66          9        1            0            1            1            default
+71        "Corellon Larethian"          4         62          8        1            0            1            1            default     
+72        Moradin                       6         74          16       1            0            0            0            default     
+73        "Garl Glittergold"            3         104         5        1            0            1            1            default     
+74        Yondalla                      3         106         5        1            0            1            1            default     
+75        Gruumsh                       3         105         5        1            0            1            1            ****
+76 	      BorderWrapDec  		        11    	  200         200      0            0            1            1            ****    
+77 	      BorderWrap     	         	11    	  201         201      0            0            1            1            default 
+78 	      ClothWrap      	        	11    	  202         202      0            0            1            1            default 
+79   	  ClothWrapDec   	        	11        203         203      0            0            1            1            ****    

@@ -1,0 +1,1167 @@
+{
+  "__data_type": "ITP ",
+  "MAIN": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 0
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_b20_02"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63307
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_b02_02"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63308
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_l07_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63309
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_r07_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63312
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_c02_06"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63313
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_p05_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63310
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_o10_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63314
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tall_b01_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63315
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_p06_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63318
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_r12_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63320
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_p10_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63321
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_q12_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63322
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_k07_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63323
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_o11_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63327
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_o13_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63328
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_o14_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63329
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_d07_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63324
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_d06_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63325
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_d07_02"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63326
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_p04_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63331
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_j07_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63333
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_p02_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63334
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_o07_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63336
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_e07_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63337
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_e06_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63338
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_e07_02"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63339
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_s05_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63344
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_o02_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63356
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_o02_02"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63357
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_q05_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63360
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_r05_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63361
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tall_a01_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63362
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_o12_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63363
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_p07_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63366
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_q07_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63367
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_s01_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63371
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_s02_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63372
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_q02_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63375
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_r02_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63376
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_o05_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63379
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_o03_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63380
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_p03_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63381
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_o04_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63382
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_p01_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63383
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_h05_02"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63384
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_h05_03"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63385
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_h07_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63386
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_o06_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63387
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63261
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 1
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_w14_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63305
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_s20_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63306
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_q11_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63311
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_o17_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63316
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_u02_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63317
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_q10_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63319
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_w18_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63330
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_q09_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63332
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_q06_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63335
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_o09_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63340
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_w11_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63341
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_s18_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63342
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_q14_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63343
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_w16_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63345
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_s10_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63354
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_u04_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63346
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_u18_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63347
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_u16_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63348
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_u08_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63349
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_u06_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63350
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_s11_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63351
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_s13_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63352
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_s14_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63353
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_q01_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63355
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_p19_03"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 110662
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_w03_06"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 110660
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_w04_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63358
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_q04_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63359
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_s07_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63365
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_s16_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63364
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_o20_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63368
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_q19_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63369
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_s03_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63370
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_s08_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63373
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_s09_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63374
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_w08_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63377
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_w06_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63378
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_p19_04"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 110658
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_v22_06"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 110656
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_s17_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63388
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "amp01_a01_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63729
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63262
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 2
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "bridge"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63304
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "building"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63298
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "cobble"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63297
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "dock"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63303
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "eraser"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63291
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "evilcastle"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63299
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "goodcastle"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63300
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "raiselower"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63292
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "stream"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63302
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "wall"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63301
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "water"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 5631
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Alley"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Alley"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 8282
+        }
+      }
+    ]
+  }
+}

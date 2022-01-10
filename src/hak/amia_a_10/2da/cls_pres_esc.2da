@@ -1,0 +1,6 @@
+2DA V2.0
+
+  LABEL          ReqType ReqParam1 ReqParam2 
+0 Dodge           FEAT    10         ****         
+1 SKILL_TUMBLE    SKILL   21         10    
+2 SKILL_OPENLOCK  SKILL   9          5 
