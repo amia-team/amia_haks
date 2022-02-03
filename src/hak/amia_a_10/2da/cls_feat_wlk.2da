@@ -94,3 +94,8 @@
 144  FEAT_CUSTOM_FEAT_INSTANT             1218      0    -1             1      
 146  FEAT_CRAFT_MAGICAL_ARMS              1239      0    -1             1      
 147  FEAT_WLK_ELDRITCH_BLAST              1277      3    1              1      
+147  FEAT_ESSENCE_VIT                     1279      2    6              0      
+147  FEAT_ESSENCE_DRAINING                1279      2    4              0      
+147  FEAT_ELDRITCH_SPEAR                  1279      2    4              0      
+147  FEAT_ESSENCE_VIT                     1279      2    6              0      
+147  FEAT_ELDRITCH_SPEAR                  1279      2    6              0      
