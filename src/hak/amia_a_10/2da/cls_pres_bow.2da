@@ -1,14 +1,11 @@
-2DA V2.0                                                             
-                                                                     
-           LABEL              ReqType   ReqParam1        ReqParam2   
-0          Point_Blank_Shot   FEAT      27               ****        
-1          WeapFocLongBow     FEATOR    101              ****        
-2          WeapFocShortBow    FEATOR    102              ****              
-3          Base_Attack        BAB       7                ****        
-4          RapidShot          FEAT      30               ****         
-5          WeapProfMar        FEAT      45               ****                                                                         
-6          Arcane             ARCSPELL  1                ****    
-7          Arcane_Archer      CLASSNOT  29		 ****                                                                     
-                                                                     
-                                                                     
-                                                                     
+2DA V2.0
+
+  LABEL            ReqType  ReqParam1 ReqParam2 
+0 Point_Blank_Shot FEAT     27        ****      
+1 WeapFocLongBow   FEATOR   101       ****      
+2 WeapFocShortBow  FEATOR   102       ****      
+3 Base_Attack      BAB      7         ****      
+4 RapidShot        FEAT     30        ****      
+5 CShot            FEAT     5         ****      
+6 Arcane           ARCSPELL 1         ****      
+7 Arcane_Archer    CLASSNOT 29        ****      
