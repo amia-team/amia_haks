@@ -6,9 +6,11 @@
 3          TwoWeap               41          0      -1               0        
 4          Ambidex               1           0      -1               0        
 5          HIDE_IN_PLAIN_SIGHT   433         3      6                0        
-6          SHADOW_DAZE           434         3      3                1        
+6          SHADOW_DAZE           434         3      3                1           
+7          Stealthy              387         3      8                0    
 7          SUMMON_SHADOW         435         3      3                1        
-8          SHADOW_EVADE          436         3      4                1        
+8          SHADOW_EVADE          436         3      4                1         
+8          SHADOW_JUMP           1207        3      4                1       
 9          Evasion               206         3      2                0        
 10         darkvision            228         3      2                0        
 11         UncannyDodge1         195         3      2                0        
@@ -16,7 +18,11 @@
 13         UncannyDodge2         251         3      5                0        
 14         SlipperMind           259         3      7                0        
 15         ImprovedEvasion       212         3      10               0        
-16         UncannyDodge3         252         3      10               0        
+16         UncannyDodge3         252         3      10               0          
+16         FEAT_EMBRACING_COLD   1285        3      10               0           
+16         FEAT_UMBRAN_ARTS_1    1286        3      11               1          
+16         FEAT_UMBRAN_ARTS_2    1287        3      15               1          
+16         FEAT_UMBRAN_ARTS_3    1288        3      20               1     
 17         WeapProfEx            44          0      -1               0        
 18         Simpleweapons         46          3      1                0 
 19         lightarmor            3           3      1                0
