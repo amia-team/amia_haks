@@ -1,2 +1,2 @@
-PowerShell -NoProfile -ExecutionPolicy Bypass -Command "docker run --rm -it -v ${pwd}:/nasher -v ${pwd}:\"/root/.local/share/Neverwinter Nights/hak/\" -v ${pwd}:\"/root/.local/share/Neverwinter Nights/tlk/\" urothis/nwnee-community-images:nasher-8193.34 pack amia_override_6 --clean --verbose"
+PowerShell -NoProfile -ExecutionPolicy Bypass -Command "docker run --rm -it -v ${pwd}:/nasher -v ${pwd}:\"/root/.local/share/Neverwinter Nights/hak/\" -v ${pwd}:\"/root/.local/share/Neverwinter Nights/tlk/\" urothis/nwnee-community-images:nasher-8193.34 pack amia_override --clean --verbose"
 echo Finished.
