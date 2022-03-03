@@ -2,20 +2,20 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: pmh9_cloak_002
+# model: pmh34_cloak_002
 #local file: C:\3dsmax7\scenes\29.max
 filedependancy 29.max
-newmodel pmh9_cloak_002
-setsupermodel pmh9_cloak_002 pmh9
+newmodel pmh34_cloak_002
+setsupermodel pmh34_cloak_002 pmh34
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
-beginmodelgeom pmh9_cloak_002
-node dummy pmh9_cloak_002
+beginmodelgeom pmh34_cloak_002
+node dummy pmh34_cloak_002
   parent NULL
 endnode
 node dummy rootdummy_h
-  parent pmh9_cloak_002
+  parent pmh34_cloak_002
   position 0.0 -0.53 1.47
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.694118 0.109804 0.584314 
@@ -1746,5 +1746,5 @@ node danglymesh Cloak_Skin
     250.0
     250.0
 endnode
-endmodelgeom pmh9_cloak_002
-donemodel pmh9_cloak_002
+endmodelgeom pmh34_cloak_002
+donemodel pmh34_cloak_002

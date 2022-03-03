@@ -2,20 +2,20 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: pfh10_robe003
+# model: pfh35_robe003
 #local file: Unknown
 filedependancy Unknown
-newmodel pfh10_robe003
-setsupermodel pfh10_robe003 pfh10
+newmodel pfh35_robe003
+setsupermodel pfh35_robe003 pfh35
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
-beginmodelgeom pfh10_robe003
-node dummy pfh10_robe003
+beginmodelgeom pfh35_robe003
+node dummy pfh35_robe003
   parent NULL
 endnode
 node dummy rootdummy_h
-  parent pfh10_robe003
+  parent pfh35_robe003
   position 0.0 -0.45 1.25
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.0313726 0.239216 0.541176 
@@ -1678,7 +1678,7 @@ node danglymesh Robe1
     0.0
 endnode
 node skin FHRobe
-  parent pfh10_robe003
+  parent pfh35_robe003
   position -0.00121349 0.377028 2.61688e-005
   orientation -1.0 0.0 0.0 -3.14159
   wirecolor 1.0 1.0 1.0 
@@ -3202,5 +3202,5 @@ node skin FHRobe
      pelvis_g 1.0 
      pelvis_g 1.0 
 endnode
-endmodelgeom pfh10_robe003
-donemodel pfh10_robe003
+endmodelgeom pfh35_robe003
+donemodel pfh35_robe003

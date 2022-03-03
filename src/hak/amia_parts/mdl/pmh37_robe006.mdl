@@ -2,20 +2,20 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: pmh12_robe006
+# model: pmh37_robe006
 #local file: Unknown
 filedependancy Unknown
-newmodel pmh12_robe006
-setsupermodel pmh12_robe006 pmh12
+newmodel pmh37_robe006
+setsupermodel pmh37_robe006 pmh37
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
-beginmodelgeom pmh12_robe006
-node dummy pmh12_robe006
+beginmodelgeom pmh37_robe006
+node dummy pmh37_robe006
   parent NULL
 endnode
 node dummy rootdummy_h
-  parent pmh12_robe006
+  parent pmh37_robe006
   position 0.0 -0.53 1.47
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.882353 0.345098 0.780392 
@@ -1552,7 +1552,7 @@ node danglymesh Robe1
     150.0
 endnode
 node skin MHRobe
-  parent pmh12_robe006
+  parent pmh37_robe006
   position -0.00028777 -0.026031 1.15717
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -2715,5 +2715,5 @@ node skin MHRobe
      torso_g 1.0 
      torso_g 1.0 
 endnode
-endmodelgeom pmh12_robe006
-donemodel pmh12_robe006
+endmodelgeom pmh37_robe006
+donemodel pmh37_robe006

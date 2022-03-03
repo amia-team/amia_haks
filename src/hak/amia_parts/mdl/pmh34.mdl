@@ -2,32 +2,32 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: pmh9
+# model: pmh34
 #local file: Unknown
 filedependancy Unknown
-newmodel pmh9
-setsupermodel pmh9 taur_ba
+newmodel pmh34
+setsupermodel pmh34 taur_ba
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
-beginmodelgeom pmh9
-node dummy pmh9
+beginmodelgeom pmh34
+node dummy pmh34
   parent NULL
 endnode
 node dummy headconjure
-  parent pmh9
+  parent pmh34
   position 0.0 0.6 2.8
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.0313726 0.431373 0.52549 
 endnode
 node dummy handconjure
-  parent pmh9
+  parent pmh34
   position 0.0 1.5 2.4
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.0313726 0.431373 0.52549 
 endnode
 node skin HorseBody
-  parent pmh9
+  parent pmh34
   position 0.0 0.284982 1.28979
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.0313726 0.0313726 0.529412 
@@ -939,7 +939,7 @@ node skin HorseBody
      torso1_h 0.659665  rclavicle_h 0.22689  torso_h 0.113445 
 endnode
 node skin HorseTail
-  parent pmh9
+  parent pmh34
   position 0.0014693 -1.45637 1.57631
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.0313726 0.0313726 0.529412 
@@ -1053,7 +1053,7 @@ node skin HorseTail
      tail1_h 0.5  tail2_h 0.5 
 endnode
 node dummy rootdummy_h
-  parent pmh9
+  parent pmh34
   position 0.0 -0.525 1.47
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.101961 0.694118 0.580392 
@@ -3227,5 +3227,5 @@ node dummy TF1R_g
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.721569 0.607843 0.898039 
 endnode
-endmodelgeom pmh9
-donemodel pmh9
+endmodelgeom pmh34
+donemodel pmh34

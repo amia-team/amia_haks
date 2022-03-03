@@ -2,20 +2,20 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: pfh12_robe031
+# model: pfh37_robe031
 #local file: Unknown
 filedependancy Unknown
-newmodel pfh12_robe031
-setsupermodel pfh12_robe031 pfh12
+newmodel pfh37_robe031
+setsupermodel pfh37_robe031 pfh37
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
-beginmodelgeom pfh12_robe031
-node dummy pfh12_robe031
+beginmodelgeom pfh37_robe031
+node dummy pfh37_robe031
   parent NULL
 endnode
 node dummy rootdummy_h
-  parent pfh12_robe031
+  parent pfh37_robe031
   position 0.0 -0.45 1.25
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.568627 0.109804 0.694118 
@@ -865,5 +865,5 @@ node danglymesh loincloth_F
     0.0
     0.0
 endnode
-endmodelgeom pfh12_robe031
-donemodel pfh12_robe031
+endmodelgeom pfh37_robe031
+donemodel pfh37_robe031
