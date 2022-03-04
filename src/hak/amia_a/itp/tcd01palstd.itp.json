@@ -1,0 +1,1033 @@
+{
+  "__data_type": "ITP ",
+  "MAIN": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 0
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "DELETE_ME": {
+                "type": "cexostring",
+                "value": "Pits"
+              },
+              "ID": {
+                "type": "byte",
+                "value": 3
+              },
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Floor Pit 1"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_p20_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Platform Pit 1"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_p50_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Pit Bottom"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_v50_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Floor Pit 2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_p21_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Platform Pit 2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_p51_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Floor Pit 3"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_p22_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Platform Pit 3"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_p52_01"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "__struct_id": 0,
+              "DELETE_ME": {
+                "type": "cexostring",
+                "value": "Pillars"
+              },
+              "ID": {
+                "type": "byte",
+                "value": 3
+              },
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Floor Pillar 1"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_p01_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Floor Pillar 2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_p02_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Wall Pillar 1"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_p01_02"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Corner Pillar 1"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_p01_03"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Wall Pillar 2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_p02_02"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Corner Pillar 2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_p02_03"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Wall Pillar 3"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_p03_02"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Corner Pillar 3"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_p03_03"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "DELETE_ME": {
+                      "type": "cexostring",
+                      "value": "Floor Pillar 3"
+                    },
+                    "ID": {
+                      "type": "byte",
+                      "value": 3
+                    },
+                    "LIST": {
+                      "type": "list",
+                      "value": [
+                        {
+                          "__struct_id": 0,
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "a"
+                          },
+                          "RESREF": {
+                            "type": "resref",
+                            "value": "tcd01_p03_01"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "b"
+                          },
+                          "RESREF": {
+                            "type": "resref",
+                            "value": "tcd01_p03_04"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "c"
+                          },
+                          "RESREF": {
+                            "type": "resref",
+                            "value": "tcd01_p03_05"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "d"
+                          },
+                          "RESREF": {
+                            "type": "resref",
+                            "value": "tcd01_p03_06"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "e"
+                          },
+                          "RESREF": {
+                            "type": "resref",
+                            "value": "tcd01_p03_07"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "f"
+                          },
+                          "RESREF": {
+                            "type": "resref",
+                            "value": "tcd01_p03_08"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "__struct_id": 0,
+              "DELETE_ME": {
+                "type": "cexostring",
+                "value": "Stairs"
+              },
+              "ID": {
+                "type": "byte",
+                "value": 3
+              },
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Down Corridor"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_s02_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Up Corridor"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_s01_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Down Floor"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_s04_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Down Platform"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_s10_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Up Wall"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_s05_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Up Platform Wall"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_s15_01"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "__struct_id": 0,
+              "DELETE_ME": {
+                "type": "cexostring",
+                "value": "Dais"
+              },
+              "ID": {
+                "type": "byte",
+                "value": 3
+              },
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Floor Dais 1a"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_p30_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Platform Dais 1a"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_p40_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Wall Dais 1a"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_p35_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Platform Wall Dais 1a"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_p45_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Floor Dais 2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_p31_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Platform Dais 2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_p41_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Wall Dais 2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_p36_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Floor Dais 3"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_p32_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Platform Dais 3"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_p42_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Wall Dais 3"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_p37_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Platform Wall Dais 3"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_p47_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Platform Wall Dais 2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_p46_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Floor Dais 1b"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_p30_02"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Platform Dais 1b"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_p40_02"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Wall Dais 1b"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_p35_02"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Platform Wall Dais 1b"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_p45_02"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "__struct_id": 0,
+              "DELETE_ME": {
+                "type": "cexostring",
+                "value": "Exits & Transitions"
+              },
+              "ID": {
+                "type": "byte",
+                "value": 3
+              },
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Door Transition"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_g20_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Crypt Transition"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_c50_01"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "__struct_id": 0,
+              "DELETE_ME": {
+                "type": "cexostring",
+                "value": "Bioware"
+              },
+              "ID": {
+                "type": "byte",
+                "value": 3
+              },
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Floor Portal"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "bwre_a01_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Platform Portal"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "bwre_a01_02"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Floor Chessboard"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "bwre_b01_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Platform Chessboard"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "bwre_b01_02"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "__struct_id": 0,
+              "DELETE_ME": {
+                "type": "cexostring",
+                "value": "Grates"
+              },
+              "ID": {
+                "type": "byte",
+                "value": 3
+              },
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Floor Grate"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_u20_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Platform Grate"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_u25_01"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "__struct_id": 0,
+              "DELETE_ME": {
+                "type": "cexostring",
+                "value": "Miscellaneous"
+              },
+              "ID": {
+                "type": "byte",
+                "value": 3
+              },
+              "LIST": {
+                "type": "list",
+                "value": []
+              }
+            },
+            {
+              "__struct_id": 0,
+              "DELETE_ME": {
+                "type": "cexostring",
+                "value": "Pools"
+              },
+              "ID": {
+                "type": "byte",
+                "value": 3
+              },
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Floor Pool 1"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_v01_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Platform Pool 1"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_v11_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Floor Pool 2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_v02_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Platform Pool 2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_v12_01"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "__struct_id": 0,
+              "DELETE_ME": {
+                "type": "cexostring",
+                "value": "Planters"
+              },
+              "ID": {
+                "type": "byte",
+                "value": 3
+              },
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Floor Planter 01"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_p90_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Platform Planter"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_p95_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Floor Planter 02"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_p91_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Platform Planter 02"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tcd01_p96_01"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63261
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 1
+        },
+        "LIST": {
+          "type": "list",
+          "value": []
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63262
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 2
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "corridor"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63461
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "doorway"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63463
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "eraser"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63291
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "floor"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63459
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "wall"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63301
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Platform"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "platform"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Platform (Wall)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "platwall"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Pit (Thin)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "pitwall"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Pit"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "pit"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Bridge (Stone)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bridge"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Water"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "water"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Water (Thin)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "watwall"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Bridge (Wood)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bridge2"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Pit (Bottom)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bpit"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 8282
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+# Exported from NWmax 0.8 c00 at 5/2/2015 9:11:39 AM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: pfe0_belt040
+#local file: C:\Users\JC\Desktop\Models\Belts\040\pfe0_belt040.max
+filedependancy pfe0_belt040.max
+newmodel pfe0_belt040
+setsupermodel pfe0_belt040 null
+classification Character
+setanimationscale 0.0
+#NWmax GEOM  ASCII
+beginmodelgeom pfe0_belt040
+node dummy pfe0_belt040
+  parent NULL
+endnode
+node dummy pfe0_belt040g
+  parent pfe0_belt040
+  position 0.0 0.450002 0.0
+  orientation 0.0 0.0 -1.0 -1.5708
+  wirecolor 0.360784 0.701961 0.941177 
+endnode
+node dummy rootdummy
+  parent pfe0_belt040
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.345098 0.345098 0.882353 
+endnode
+node trimesh Plane001
+  parent pfe0_belt040
+  position 0.324453 -0.0388673 -0.382071
+  orientation -0.226217 -0.972973 0.0463597 -1.53322
+  wirecolor 0.894118 0.839216 0.6 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 0.588235 0.588235 0.588235 
+  Diffuse 0.588235 0.588235 0.588235 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center -33.6999 1.28307 -16.4436 
+  bitmap books_texture3019
+  verts 17
+    -0.398179 -0.0707306 -0.176661
+    -0.384281 0.0988526 -0.200345
+    -0.403241 -0.0677614 -0.158318
+    -0.389004 0.101761 -0.181905
+    -0.275662 0.0966214 -0.152516
+    -0.288431 -0.0730961 -0.128527
+    -0.283527 -0.0760992 -0.146973
+    -0.270758 0.0936183 -0.170962
+    -0.397528 -0.0660216 -0.177252
+    -0.384404 0.0941248 -0.199618
+    -0.40258 -0.0630511 -0.158907
+    -0.389135 0.0970372 -0.181182
+    -0.279191 0.0920463 -0.152673
+    -0.29125 -0.0682275 -0.130018
+    -0.286346 -0.0712307 -0.148464
+    -0.274287 0.0890427 -0.171118
+    -0.291412 -0.0684386 -0.130024
+  faces 12
+    0 2 3  0  0 2 3  1
+    0 3 1  0  0 3 1  1
+    2 5 4  0  2 5 4  1
+    4 3 2  0  4 3 2  1
+    6 0 7  0  7 6 8  1
+    1 7 0  0  9 8 6  1
+    10 8 13  0  10 13 19  1
+    16 8 14  0  11 13 20  1
+    13 14 12  0  12 14 15  1
+    12 14 15  0  15 14 16  1
+    12 15 11  0  15 16 17  1
+    11 15 9  0  17 16 18  1
+  tverts 21
+    0.0 0.000378162 0
+    2.68221e-007 0.999357 0
+    0.196956 0.0 0
+    0.200907 0.998446 0
+    0.852575 1.0 0
+    0.857122 0.000815004 0
+    0.196956 0.0 0
+    0.857122 0.000815004 0
+    0.852575 1.0 0
+    0.200907 0.998446 0
+    0.86642 0.0270316 0
+    0.865623 0.981948 0
+    0.862955 0.0270315 0
+    0.915555 0.0277279 0
+    0.91583 0.0270315 0
+    0.862955 0.593501 0
+    0.91583 0.593501 0
+    0.862955 0.982618 0
+    0.915604 0.983191 0
+    0.86642 0.983191 0
+    0.91583 0.983191 0
+endnode
+endmodelgeom pfe0_belt040
+donemodel pfe0_belt040

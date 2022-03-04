@@ -1,0 +1,628 @@
+{
+  "__data_type": "ITP ",
+  "MAIN": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 0
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdm01_q02_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63485
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdm01_r02_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63486
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdm01_o09_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63464
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdm01_o11_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63467
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdm01_p11_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63468
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdm01_o13_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63515
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdm01_p13_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63521
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdm01_q01_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63473
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdm01_r01_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63474
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdm01_k07_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63469
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdm01_o09_02"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63465
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdm01_q13_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63517
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdm01_r13_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63522
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdm01_p09_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63496
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdm01_p09_02"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63502
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdm01_k07_02"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63470
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdm01_j07_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63309
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdm01_p01_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63509
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdm01_p11_02"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63508
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdm01_u04_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63504
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdm01_v04_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63505
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdm01_u06_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63506
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdm01_u07_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63507
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tall_a01_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63362
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tall_b01_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63315
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdm01_z20_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63466
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdm01_p06_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63511
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63261
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 1
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdm01_o16_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63482
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdm01_o19_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63484
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdm01_s02_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63476
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdm01_s11_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63477
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdm01_s18_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63478
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdm01_s13_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63479
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdm01_s04_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63487
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdm01_s06_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63488
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdm01_s08_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63472
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdm01_s15_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63480
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tdm01_u02_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63514
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Docked Ship"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tdm01_c21_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Docks"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tdm01_c20_01"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63262
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 2
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "Floor"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63459
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "Wall"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63301
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "Water"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 5631
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Cavern"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Cavern"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Lava"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Lava"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ice"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Ice"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "Fence"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63462
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "Corridor"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63461
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "Tracks"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63501
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "Doorway"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63463
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "Bridge"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63304
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "eraser"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63291
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 8282
+        }
+      }
+    ]
+  }
+}

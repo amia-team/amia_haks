@@ -1,0 +1,42 @@
+#MAXMODEL ASCII
+# model: zlc_15l
+filedependancy zlc_15l.max
+newmodel zlc_15l
+setsupermodel zlc_15l null
+classification character
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom zlc_15l
+node dummy zlc_15l
+  parent NULL
+  #part-number 0
+endnode
+node trimesh plane2169
+  parent zlc_15l
+  #part-number 1
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  shadow 0
+  transparencyhint 1
+  bitmap tdd02_blackpent
+  verts 4
+    3 -3 0
+    3 3 0
+    -3 -3 0
+    -3 3 0
+  tverts 4
+    0.000499724993 0.99950099 0
+    0.000499486981 0.000499724993 0
+    0.99950099 0.999499977 0
+    0.999499977 0.000499486981 0
+  faces 2
+    0 1 2 1 0 1 2 0
+    3 2 1 1 3 2 1 0
+  position 0 0 0.0199999996
+  orientation 0 0 0 0
+endnode
+endmodelgeom zlc_15l
+
+donemodel zlc_15l

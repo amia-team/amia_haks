@@ -1,0 +1,99 @@
+#MAXMODEL ASCII
+# model: fx_wiggles2
+filedependancy fx_wiggles2.max
+newmodel fx_wiggles2
+setsupermodel fx_wiggles2 NULL
+classification effect
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom fx_wiggles2
+node dummy fx_wiggles2
+  parent NULL
+  #part-number 0
+endnode
+node emitter OmenEmitter05
+  parent fx_wiggles2
+  #part-number 1
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 1
+  update Fountain
+  render Linked
+  blend Lighten
+  texture Fxpa_white
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0.220062003 -0.482288986 0.792548001
+  orientation -0.306715071 0.673025191 -0.673025191 -2.54638004
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 0
+  alphaEnd 0
+  sizeStart 0.0500000007
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 5
+  lifeExp 1
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+endmodelgeom fx_wiggles2
+
+#MAXANIM ASCII
+newanim impact fx_wiggles2
+  length 4.0
+  transtime 0.25
+  animroot fx_wiggles2
+node dummy fx_wiggles2
+  parent NULL
+  #part-number 0
+endnode
+node emitter OmenEmitter05
+  parent fx_wiggles2
+  #part-number 1
+  alphaEndKey 6
+    0 0.0
+    1.099999 0.0
+    1.5 1.0
+    2.75 1.0
+    3.25 0
+    4.00001 0
+endnode
+doneanim impact fx_wiggles2
+
+donemodel fx_wiggles2

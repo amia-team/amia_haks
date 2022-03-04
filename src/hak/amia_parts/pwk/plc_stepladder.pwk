@@ -1,0 +1,23 @@
+# Exported from NWMax Plus for gMax v1.12.08 at 02/06/2011 01:22:24
+# pwk file
+#
+#NWMax Plus PWKMESH  ASCII
+node trimesh PLC_stepladder_pwk
+  parent X02_ground
+  position 0.00363281 -0.0069873 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.101961 0.694118 0.345098 
+  ambient 0.0 0.0 0.0 
+  diffuse 0.705882 0.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 10.0
+  bitmap Nonwalk
+  verts 4
+    -0.375 -0.325 0.0
+    0.375 -0.325 0.0
+    -0.375 0.325 0.0
+    0.375 0.325 0.0
+  faces 2
+    2 0 3  1  0 0 0  7
+    1 3 0  1  0 0 0  7
+endnode

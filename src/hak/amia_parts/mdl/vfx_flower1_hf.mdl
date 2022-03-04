@@ -1,0 +1,92 @@
+# Exported from NWmax 0.8 b61 at 7/16/2012 6:05:05 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: vfx_flower1_hf
+#local file: Unknown
+filedependancy Unknown
+newmodel vfx_flower1_hf
+setsupermodel vfx_flower1_hf NULL
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom vfx_flower1_hf
+node dummy vfx_flower1_hf
+  parent NULL
+endnode
+node trimesh v_flower
+  parent vfx_flower1_hf
+  position 0.0785665 0.008885 -0.100856
+  orientation -0.319585 -0.670024 -0.670024 -2.52294
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center 0.12354 -0.16965 0.796595 
+  bitmap v_corsage
+  verts 12
+    0.010792 0.0 -0.0180023
+    0.0128071 0.0225618 -0.00321342
+    0.0317477 0.0 0.0
+    -0.0239432 0.0186608 -0.00457993
+    -0.0181824 -0.0138493 0.0
+    0.00981053 -0.0301938 0.0
+    0.0153579 0.0348495 0.0239643
+    0.0312809 -0.00019837 0.0333088
+    -0.0269067 0.0233142 0.00693327
+    -0.0292769 -0.029225 0.0239566
+    0.0123613 -0.0382425 0.0339342
+    0.00552763 -0.000198367 0.0189437
+  faces 20
+    0 1 2  1  0 1 2  2
+    0 3 1  1  0 3 1  2
+    0 4 3  1  0 4 3  2
+    0 5 4  1  0 5 4  2
+    0 2 5  1  0 2 5  2
+    2 6 7  1  2 6 7  3
+    2 1 6  1  2 1 6  3
+    1 8 6  1  1 8 6  3
+    1 3 8  1  1 3 8  3
+    3 9 8  1  3 9 8  3
+    3 4 9  1  3 4 9  3
+    4 10 9  1  4 10 9  3
+    4 5 10  1  4 5 10  3
+    5 7 10  1  5 7 10  3
+    5 2 7  1  5 2 7  3
+    11 7 6  1  11 12 13  1
+    11 6 8  1  11 13 14  1
+    11 8 9  1  11 14 15  1
+    11 9 10  1  11 15 16  1
+    11 10 7  1  11 16 12  1
+  tverts 17
+    0.810223 0.106413 0
+    0.815248 0.124591 0
+    0.816338 0.106413 0
+    0.814783 0.121447 0
+    0.816338 0.0952564 0
+    0.816338 0.0820863 0
+    0.824478 0.134491 0
+    0.827651 0.106254 0
+    0.818693 0.125198 0
+    0.824474 0.0828679 0
+    0.827864 0.0756027 0
+    0.909003 0.124074 0
+    0.971267 0.115987 0
+    0.941134 0.182229 0
+    0.832986 0.185207 0
+    0.857186 0.0486859 0
+    0.944219 0.0478668 0
+endnode
+endmodelgeom vfx_flower1_hf
+donemodel vfx_flower1_hf

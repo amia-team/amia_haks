@@ -1,9 +1,0 @@
- 
-renderhint NormalAndSpecMapped 
- 
-// Textures 
-texture0 ob_sign10 
-texture1 ob_sign10_n 
-texture2 ob_sign10_s 
-texture3 null 
-texture4 null 

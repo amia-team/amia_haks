@@ -1,0 +1,28 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: plc_gothic23
+filedependancy torre circolare 1.max
+node trimesh pwk_gothic_23
+  parent plc_gothic23_pwk
+  position 0.140461 -0.223757 0
+  orientation 0 0 0 0
+  wirecolor 0.0273438 0.0273438 0.0273438
+  ambient 0.0234375 0.523438 0.441406
+  diffuse 0.0234375 0.523438 0.441406
+  specular 0 0 0
+  shininess 1
+  bitmap NULL
+  verts 6
+    -4.5 0 0
+    -2.25 -3.89711 0
+    2.25 -3.89711 0
+    4.5 0 0
+    2.25 3.89711 0
+    -2.25 3.89711 0
+  faces 4
+    0 1 2  1  0 0 0  0
+    0 2 3  1  0 0 0  0
+    0 3 4  1  0 0 0  0
+    0 4 5  1  0 0 0  0
+endnode

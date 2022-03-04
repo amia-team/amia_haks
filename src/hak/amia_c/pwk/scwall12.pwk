@@ -1,0 +1,19 @@
+# Exported from Wayland's NWN Maxscript v0.3b at 9/5/2008 12:00:39 PM
+# mdl file
+#
+node trimesh plane01
+    parent SCwall12_pwk
+    diffuse 0.8000 0.8000 0.8000
+    ambient 0.2000 0.2000 0.2000
+    specular 0.0000 0.0000 0.0000
+    render 0
+    bitmap NULL
+    verts 4
+        0.330692 0.798919 0.0
+        -1.5248 0.424407 0.0
+        -1.03179 -1.34549 0.0
+        1.8033 -0.407607 0.0
+    faces 2
+        0 1 2 0 0 0 0 1
+        2 3 0 0 0 0 0 1
+endnode

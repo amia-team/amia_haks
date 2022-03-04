@@ -1,0 +1,61 @@
+# Exported from NWmax 0.8 b47 at 8/6/05 4:15:24 PM 
+# mdl file 
+# 
+#NWmax MODEL ASCII 
+# model: pm90_neck224 
+filedependancy kobold1.gmax 
+newmodel pma0_neck224 
+setsupermodel pma0_neck224 NULL 
+classification Character 
+setanimationscale 1.085 
+#NWmax GEOM  ASCII 
+beginmodelgeom pma0_neck224 
+node dummy pma0_neck224 
+  parent NULL 
+endnode 
+node trimesh pma0_neck224g 
+  parent pma0_neck224 
+  position 0.0 0.05 -0.02 
+  orientation 1.0 0.0 0.0 0.0 
+  wirecolor 0.694118 0.694118 0.694118  
+  tilefade 0 
+  scale 1.085 
+  render 1 
+  Shadow 1 
+  beaming 0 
+  inheritcolor 0 
+  rotatetexture 0 
+  alpha 1.0 
+  transparencyhint 0 
+  selfillumcolor 0.0 0.0 0.0  
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.05 0.05 0.05  
+  shininess 26 
+  center 5.24521e-006 -0.605045 4.36504  
+  bitmap pmh0_neck224
+  verts 6 
+    -0.0481897 -0.0635673 0.0099106 
+    0.0481898 -0.0635673 0.0099106 
+    0.0 0.021473 -0.0402152 
+    -0.0260196 0.00114131 0.127415 
+    0.0260196 0.00114131 0.127415 
+    0.0 0.0514664 0.127516 
+  faces 6 
+    0 1 4  1  0 1 4  0 
+    4 3 0  1  4 3 0  0 
+    4 1 5  1  4 1 5  0 
+    2 5 1  1  2 5 1  0 
+    5 0 3  1  5 0 3  0 
+    0 5 2  1  0 5 2  0 
+  tverts 6 
+    0.348874 0.452323 0 
+    0.348874 0.565153 0 
+    0.34962 0.508738 0 
+    0.236508 0.478277 0 
+    0.236508 0.539198 0 
+    0.215353 0.508738 0 
+endnode 
+endmodelgeom pma0_neck224 
+donemodel pma0_neck224 
+

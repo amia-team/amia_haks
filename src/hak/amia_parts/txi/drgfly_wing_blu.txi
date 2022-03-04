@@ -1,0 +1,4 @@
+envmaptexture evmap_irrid
+bumpyshinytexture evmap_irrid
+
+bumpmaptexture drgfly_w_bump

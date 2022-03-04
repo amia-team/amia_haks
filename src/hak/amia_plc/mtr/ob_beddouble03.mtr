@@ -1,0 +1,9 @@
+ 
+renderhint NormalAndSpecMapped 
+ 
+// Textures 
+texture0 ob_beddouble03 
+texture1 ob_beddouble03_n 
+texture2 ob_beddouble03_s 
+texture3 null 
+texture4 null 

@@ -1,3 +1,0 @@
-
-alphamean 0.5
-blending default

@@ -1,0 +1,387 @@
+#MAXMODEL ASCII
+# model: vdr_stone05
+filedependancy vdr_stone05.max
+newmodel vdr_stone05
+setsupermodel vdr_stone05 NULL
+classification effect
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vdr_stone05
+node dummy vdr_stone05
+  parent NULL
+  #part-number 0
+endnode
+node emitter RockShunks01
+  parent vdr_stone05
+  #part-number 1
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Normal
+  texture NULL
+  chunkName Fx_anthrarockch
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0
+  orientation 0 0 0 0
+  colorStart 0.5 0.5 0.5
+  colorEnd 0.5 0.5 0.5
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.01
+  sizeEnd 0.01
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 0
+  lifeExp 4
+  mass -0.5
+  spread 0
+  particleRot 2
+  velocity -0.25
+  randvel 0.5
+  fps 0
+  xsize 600
+  ysize 600
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter OmenEmitter20
+  parent vdr_stone05
+  #part-number 2
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Motion_Blur
+  blend Normal
+  texture fxpa_Smoke01
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0
+  orientation 0 0 0 0
+  colorStart 0.549019992 0.513725996 0.427451015
+  colorEnd 0.741176009 0.721569002 0.670588017
+  alphaStart 0.800000012
+  alphaEnd 0
+  sizeStart 1
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 16
+  birthrate 0
+  lifeExp 1.5
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 5
+  randvel 0.100000001
+  fps 16
+  xsize 700
+  ysize 700
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 1
+  grav 5
+  threshold 0
+endnode
+node emitter RockShunks02
+  parent vdr_stone05
+  #part-number 3
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Normal
+  texture NULL
+  chunkName Fx_anthrarockch2
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0
+  orientation 0 0 0 0
+  colorStart 0.5 0.5 0.5
+  colorEnd 0.5 0.5 0.5
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.01
+  sizeEnd 0.01
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 0
+  lifeExp 4
+  mass -0.3
+  spread 0
+  particleRot 2
+  velocity -0.25
+  randvel 0.5
+  fps 0
+  xsize 600
+  ysize 600
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter RockShunks03
+  parent vdr_stone05
+  #part-number 3
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Normal
+  texture NULL
+  chunkName Fx_anthrarockch3
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0
+  orientation 0 0 0 0
+  colorStart 0.5 0.5 0.5
+  colorEnd 0.5 0.5 0.5
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.01
+  sizeEnd 0.01
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 0
+  lifeExp 4
+  mass -0.15
+  spread 0
+  particleRot 2
+  velocity -0.25
+  randvel 0.5
+  fps 0
+  xsize 600
+  ysize 600
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+endmodelgeom vdr_stone05
+
+#MAXANIM ASCII
+newanim impact vdr_stone05
+  length 2.0
+  transtime 0.25
+  animroot vdr_stone05
+node dummy vdr_stone05
+  parent NULL
+  #part-number 0
+endnode
+node emitter RockShunks01
+  parent vdr_stone05
+  #part-number 1
+  birthratekey 2
+    0 0
+    2.0 15
+endnode
+node emitter OmenEmitter20
+  parent vdr_stone05
+  #part-number 2
+  birthratekey 2
+    0 0
+    2.0 150
+endnode
+node emitter RockShunks02
+  parent vdr_stone05
+  #part-number 3  
+  birthratekey 2
+    0 0
+    2.0 7
+endnode
+node emitter RockShunks03
+  parent vdr_stone05
+  #part-number 3  
+  birthratekey 2
+    0 0
+    2.0 2
+endnode
+doneanim impact vdr_stone05
+
+#MAXANIM ASCII
+newanim duration vdr_stone05
+  length 2.0
+  transtime 0.25
+  animroot vdr_stone05
+  event 0 detonate
+node dummy vdr_stone05
+  parent NULL
+  #part-number 0
+endnode
+node emitter RockShunks01
+  parent vdr_stone05
+  #part-number 1
+  birthratekey 2
+    0 15
+    2.0 15
+endnode
+node emitter OmenEmitter20
+  parent vdr_stone05
+  #part-number 2
+  orientationkey 5
+    0 0 0 0 0
+    0.5 0 0 -1 -1.57079995
+    1.0 0 0 -1 -3.14159012
+    1.5 0 0 -1 -4.71238995
+    2.0 0 0 0 0
+  birthratekey 2
+    0 150
+    2.0 150
+endnode
+node emitter RockShunks02
+  parent vdr_stone05
+  #part-number 3  
+  birthratekey 2
+    0 7
+    2.0 7
+endnode
+node emitter RockShunks03
+  parent vdr_stone05
+  #part-number 3  
+  birthratekey 2
+    0 2
+    2.0 2
+endnode
+doneanim duration vdr_stone05
+
+#MAXANIM ASCII
+newanim cessation vdr_stone05
+  length 2.0
+  transtime 0.25
+  animroot vdr_stone05
+node dummy vdr_stone05
+  parent NULL
+  #part-number 0
+endnode
+node emitter RockShunks01
+  parent vdr_stone05
+  #part-number 1
+  birthratekey 2
+    0 15
+    2.0 0
+endnode
+node emitter OmenEmitter20
+  parent vdr_stone05
+  #part-number 2
+  birthratekey 2
+    0 150
+    2.0 0
+endnode
+node emitter RockShunks02
+  parent vdr_stone05
+  #part-number 3  
+  birthratekey 2
+    0 7
+    2.0 0
+endnode
+node emitter RockShunks03
+  parent vdr_stone05
+  #part-number 3  
+  birthratekey 2
+    0 2
+    2.0 0
+endnode
+doneanim cessation vdr_stone05
+
+donemodel vdr_stone05

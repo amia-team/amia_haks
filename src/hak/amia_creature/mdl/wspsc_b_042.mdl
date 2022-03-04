@@ -1,0 +1,18 @@
+# Exported from NWmax 0.8 b61 at 11/08/2014 17:05:53
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: WSpSc_b_042
+#local file: C:\Users\Pablo\Documents\3DS\XYZ.max
+filedependancy XYZ.max
+newmodel WSpSc_b_042
+setsupermodel WSpSc_b_042 NULL
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom WSpSc_b_042
+node dummy WSpSc_b_042
+  parent NULL
+endnode
+endmodelgeom WSpSc_b_042
+donemodel WSpSc_b_042

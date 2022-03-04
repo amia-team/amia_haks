@@ -1,9 +1,0 @@
- 
-renderhint NormalAndSpecMapped 
- 
-// Textures 
-texture0 it_remains_001 
-texture1 it_remains_001_n 
-texture2 it_remains_001_s 
-texture3 null 
-texture4 null 

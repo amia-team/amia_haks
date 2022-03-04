@@ -1,9 +1,0 @@
- 
-renderhint NormalAndSpecMapped 
- 
-// Textures 
-texture0 ob_brancsim01 
-texture1 ob_brancsim01_n 
-texture2 ob_brancsim01_s 
-texture3 null 
-texture4 null 

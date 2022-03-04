@@ -1,0 +1,18 @@
+# Exported from NWmax 0.8 b61 at 25/04/2013 23:16:52
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: WWhip_t_031
+#local file: Unknown
+filedependancy Unknown
+newmodel WWhip_t_031
+setsupermodel WWhip_t_031 NULL
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom WWhip_t_031
+node dummy WWhip_t_031
+  parent NULL
+endnode
+endmodelgeom WWhip_t_031
+donemodel WWhip_t_031

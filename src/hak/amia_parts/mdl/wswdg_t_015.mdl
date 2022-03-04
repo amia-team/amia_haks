@@ -1,0 +1,18 @@
+# Exported from NWmax 0.8 b61 at 02/04/2013 19:18:34
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: WSwDg_t_015
+#local file: C:\Users\Pablo\Documents\3DS\ZX.max
+filedependancy ZX.max
+newmodel WSwDg_t_015
+setsupermodel WSwDg_t_015 NULL
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom WSwDg_t_015
+node dummy WSwDg_t_015
+  parent NULL
+endnode
+endmodelgeom WSwDg_t_015
+donemodel WSwDg_t_015

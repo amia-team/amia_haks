@@ -1,0 +1,573 @@
+{
+  "__data_type": "ITP ",
+  "MAIN": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 0
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Vel_Room_1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_v01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Vel_Room_2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_v01_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Vel_Room_3"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_v01_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Adam_Room_Round"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_a03_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Adam_Tree_Interior"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_a04_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Adam_Stone_Square"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_a05_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Adam_Round_Corner"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_a06_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Adam_Round_Door"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_a06_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Adam_Round_Bed"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_a06_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Adam_Square_Stone2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_a05_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Adam_Square_Wood"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_a05_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Adam_Workshop"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_a07_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Adam_Hex_End"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_a08_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Adam_Hex_Mid"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_a08_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Adam_Hex_Door"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_a08_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Adam_Wood_End"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_a09_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Adam_Wood_Middle"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_a09_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Adam_Wood_Door"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_a09_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Adam_Tent"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_a10_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Adam_Haunted_Corner_Window"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_a12_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Adam_Haunted_Door"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_a12_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Adam_Haunted_Corner_Plain"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_a12_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Adam_Haunted_Wall"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_a12_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Adam_Haunted_Floor"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_a12_05"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Adam_Haunted_Room"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_a12_06"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Adam_Haunted_Solid"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_a12_07"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Adam_Haunted_Wall_Win"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_a12_08"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Adam_Haunted_Stairs_Up"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_a12_09"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Adam_Haunted_Stairs_Down"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_a12_10"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "LOK 1x1 Room 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_d01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "LOK 1x1 Room 2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_d01_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Coulisfu - Cellar"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_c01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "LOK 1x1 Room 3"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_d01_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Adam_Haunted_Hall_Door"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_a12_11"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Adam_Cellar_Floor"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_a13_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Adam_Cellar_Wall"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_a13_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Adam_Cellar_Breach"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_a13_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Adam_Cellar_Solid"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_a13_05"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Adam_Cellar_Stairs_Up"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_a13_06"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Adam_Cellar_Corner_Plain"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_a13_02"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63261
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 1
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "vel_Shrine_1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_v02_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Adam_Stone_1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_a02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Adam_Oval"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_a11_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Coulisfu - Temple 1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_c02_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Velmar - House 1x2 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcc01_v03_01"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63262
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 2
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "eraser"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63291
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Floor"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Floor"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 8282
+        }
+      }
+    ]
+  }
+}

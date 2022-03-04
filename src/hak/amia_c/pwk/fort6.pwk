@@ -1,0 +1,16 @@
+node trimesh plane01
+    parent Fort6_pwk
+    diffuse 0.8000 0.8000 0.8000
+    ambient 0.2000 0.2000 0.2000
+    specular 0.0000 0.0000 0.0000
+    render 0
+    bitmap NULL
+    verts 4
+        -3.36882 -0.448957 0.0
+        3.28077 -0.448957 0.0
+        3.28077 0.391958 0.0
+        -3.36882 0.391958 0.0
+    faces 2
+        0 1 2 0 0 0 0 1
+        2 3 0 0 0 0 0 1
+endnode

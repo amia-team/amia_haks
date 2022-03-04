@@ -1,0 +1,844 @@
+#MAXMODEL ASCII
+# model: dag_claysm
+filedependancy dag_claysm.max
+newmodel dag_claysm
+setsupermodel dag_claysm null
+classification character
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom dag_claysm
+node dummy dag_claysm
+  parent NULL
+  #part-number 0
+endnode
+node emitter chunkywood144
+  parent dag_claysm
+  #part-number 1
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 1
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Normal
+  texture fxpa_cloud02
+  chunkName plc_chunk_s01
+  xgrid 5
+  ygrid 5
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position -0.0566473007 -0.205131993 0.248705
+  xsize 89
+  ysize 40
+  threshold 0
+  combinetime 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.100000001
+  sizeEnd 0.100000001
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 3
+  lifeExp 0.75
+  mass 3
+  spread 1.22172999
+  particleRot 5
+  velocity 8
+  randvel 0.300000012
+  bounce_co 0.5
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 24
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  orientation 0 0 0 0
+endnode
+node trimesh damage_claysm
+  parent dag_claysm
+  #part-number 2
+  ambient 0 0 0
+  diffuse 0 0 0
+  specular 0 0 0
+  shininess 24
+  render 0
+  bitmap black
+  verts 12
+    -0.195415005 -0.186215997 0
+    -0.195415005 0.186215997 0
+    0.195415005 0.186215997 0
+    0.195415005 -0.186215997 0
+    -0.195415005 -0.186215997 0.5
+    0.195415005 -0.186215997 0.5
+    0.195415005 0.186215997 0.5
+    -0.195415005 0.186215997 0.5
+    0.103944004 -0.0990512967 0.25
+    -0.103944004 -0.0990512967 0.25
+    0.103944004 0.0990512967 0.25
+    -0.103944004 0.0990512967 0.25
+  tverts 3
+    0 0 0
+    0 0 0
+    0 0 0
+  faces 20
+    0 1 2 1 0 1 2 0
+    2 3 0 1 0 1 2 0
+    4 5 6 1 0 1 2 0
+    6 7 4 1 0 1 2 0
+    0 3 8 1 0 1 2 0
+    8 9 0 1 0 1 2 0
+    9 8 5 1 0 1 2 0
+    5 4 9 1 0 1 2 0
+    3 2 10 1 0 1 2 0
+    10 8 3 1 0 1 2 0
+    8 10 6 1 0 1 2 0
+    6 5 8 1 0 1 2 0
+    2 1 11 1 0 1 2 0
+    11 10 2 1 0 1 2 0
+    10 11 7 1 0 1 2 0
+    7 6 10 1 0 1 2 0
+    1 0 9 1 0 1 2 0
+    9 11 1 1 0 1 2 0
+    11 9 4 1 0 1 2 0
+    4 7 11 1 0 1 2 0
+  position -0.00086730998 -0.130658999 0
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  orientation 0 0 0 0
+endnode
+node trimesh clays2
+  parent damage_claysm
+  #part-number 3
+  ambient 0 0 0
+  diffuse 0.972549021 0.972549021 0.972549021
+  specular 0 0 0
+  shininess 20
+  shadow 0
+  bitmap pdag_clayi
+  verts 7
+    0.160160005 0.000208790996 0.435205996
+    0.0800800025 0.138910994 0.435205996
+    0 0.000208790996 0.0316030011
+    -0.0800800025 0.138910994 0.435205996
+    -0.160160005 0.000208790996 0.435205996
+    -0.0800798982 -0.138494 0.435205996
+    0.0800800025 -0.138494 0.435205996
+  tverts 8
+    0.946970999 0.877768993 0
+    1.35703003 0.877768993 0
+    1.56206 0.00783986039 0
+    1.76708996 0.877768993 0
+    2.17715001 0.877768993 0
+    2.58720994 0.877768993 0
+    0.126852006 0.875 0
+    0.536912024 0.877768993 0
+  faces 6
+    0 1 2 1 0 1 2 1
+    1 3 2 1 1 3 2 1
+    3 4 2 1 3 4 2 1
+    4 5 2 1 4 5 2 1
+    5 6 2 1 6 7 2 1
+    6 0 2 1 7 0 2 1
+  position 0.0022934 0.130658999 0
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  orientation 0 0 0 0
+endnode
+node trimesh clays3
+  parent damage_claysm
+  #part-number 4
+  ambient 0 0 0
+  diffuse 0.784313977 0.784313977 0.784313977
+  specular 0 0 0
+  shininess 20
+  shadow 0
+  bitmap pdag_bery
+  verts 7
+    0.0750750005 0.135800004 0.400400013
+    -0.000268478005 6.08791015e-005 0.436150014
+    0.150150001 -0.000426282 0.400400013
+    -0.0750750005 -0.136651993 0.400400013
+    0.0750750005 -0.136651993 0.400400013
+    -0.0750750005 0.135800004 0.400400013
+    -0.150150001 -0.000426282 0.400400013
+  tverts 7
+    0.870000005 0.730000019 0
+    0.464982003 0.506627023 0
+    0.870000005 0.280000001 0
+    0.0799999982 0.280000001 0
+    0.469999999 0.0500000007 0
+    0.460000008 0.959999979 0
+    0.0799999982 0.730000019 0
+  faces 6
+    0 1 2 1 0 1 2 1
+    1 3 4 1 1 3 4 1
+    1 4 2 1 1 4 2 1
+    1 5 6 1 1 5 6 1
+    0 5 1 1 0 5 1 1
+    1 6 3 1 1 6 3 1
+  position 0.0022934 0.130658999 0
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  orientation 0 0 0 0
+endnode
+node trimesh clays1
+  parent damage_claysm
+  #part-number 5
+  ambient 0 0 0
+  diffuse 0.972549021 0.972549021 0.972549021
+  specular 0 0 0
+  shininess 20
+  shadow 0
+  bitmap pdag_clay
+  verts 36
+    0.0608608015 0.105622999 -0.274105012
+    0.205005005 0.000208803001 -0.146405995
+    0.121721998 0.000208803001 -0.274105012
+    0.102502003 0.177747995 -0.146405995
+    0.205005005 0.000208803001 0.000941256993
+    0.102502003 0.177747995 0.000941256993
+    0.172973007 0.000208803001 0.154695004
+    0.0864863992 0.150007993 0.154695004
+    0.185785994 0.000208803001 0.173914
+    0.0928928033 0.161103994 0.173914
+    0.0800800025 0.138910994 0.161100999
+    0.160160005 0.000208803001 0.161100999
+    -0.102502003 0.177747995 -0.146405995
+    -0.0608608015 0.105622999 -0.274105012
+    -0.102502003 0.177747995 0.000941256993
+    -0.0864863992 0.150007993 0.154695004
+    -0.0928928033 0.161103994 0.173914
+    -0.0800800025 0.138910994 0.161100999
+    -0.205005005 0.000208803001 -0.146405995
+    -0.121721998 0.000208803001 -0.274105012
+    -0.205005005 0.000208803001 0.000941256993
+    -0.172973007 0.000208803001 0.154695004
+    -0.185785994 0.000208803001 0.173914
+    -0.160160005 0.000208803001 0.161100999
+    -0.0608608015 -0.105204999 -0.274105012
+    -0.102502003 -0.177331001 -0.146405995
+    -0.102502003 -0.177331001 0.000941256993
+    -0.0864863992 -0.149590001 0.154695004
+    -0.0928928033 -0.160686001 0.173914
+    -0.0800798982 -0.138494 0.161100999
+    0.102502003 -0.177331001 -0.146405995
+    0.0608608015 -0.105204999 -0.274105012
+    0.102502003 -0.177331001 0.000941256993
+    0.0864865035 -0.149590001 0.154695004
+    0.0928928033 -0.160686001 0.173914
+    0.0800800025 -0.138494 0.161100999
+  tverts 50
+    1.33333004 0 0
+    1 0.285714 0
+    1 0 0
+    1.33333004 0.285714 0
+    1 0.614286005 0
+    1.33333004 0.614286005 0
+    1 0.897143006 0
+    1.33333004 0.897143006 0
+    1 0.939999998 0
+    1.33333004 0.939999998 0
+    1.99619997 0.851307988 0
+    2.33287001 0.825147986 0
+    1.99619997 0.825147986 0
+    2.33287001 0.851307988 0
+    1.66666996 0.285714 0
+    1.66666996 0 0
+    1.66666996 0.614286005 0
+    1.66666996 0.897143006 0
+    1.66666996 0.939999998 0
+    2.66952991 0.851307988 0
+    2.66952991 0.825147986 0
+    2 0.285714 0
+    2 0 0
+    2 0.614286005 0
+    2 0.897143006 0
+    2 0.939999998 0
+    3.00620008 0.851307988 0
+    3.00620008 0.825147986 0
+    0.333332986 0 0
+    0 0.285714 0
+    0 0 0
+    0.333332986 0.285714 0
+    0.333332986 0.614286005 0
+    0 0.614286005 0
+    0.333332986 0.897143006 0
+    0 0.897143006 0
+    0.333332986 0.939999998 0
+    0 0.939999998 0
+    0.986199975 0.825147986 0
+    1.32287002 0.851307988 0
+    1.32287002 0.825147986 0
+    0.986199975 0.851307988 0
+    0.666666985 0.285714 0
+    0.666666985 0 0
+    0.666666985 0.614286005 0
+    0.666666985 0.897143006 0
+    0.666666985 0.939999998 0
+    1.65953004 0.825147986 0
+    1.65953004 0.851307988 0
+    1.65953004 0.847656012 0
+  faces 60
+    0 1 2 1 0 1 2 1
+    0 3 1 1 0 3 1 1
+    3 4 1 1 3 4 1 1
+    3 5 4 1 3 5 4 1
+    5 6 4 1 5 6 4 1
+    5 7 6 1 5 7 6 1
+    7 8 6 1 7 8 6 1
+    7 9 8 1 7 9 8 1
+    8 10 11 1 10 11 12 1
+    8 9 10 1 10 13 11 1
+    12 0 13 1 14 0 15 1
+    12 3 0 1 14 3 0 1
+    14 3 12 1 16 3 14 1
+    14 5 3 1 16 5 3 1
+    15 5 14 1 17 5 16 1
+    15 7 5 1 17 7 5 1
+    16 7 15 1 18 7 17 1
+    16 9 7 1 18 9 7 1
+    10 16 17 1 11 19 20 1
+    10 9 16 1 11 13 19 1
+    18 13 19 1 21 15 22 1
+    18 12 13 1 21 14 15 1
+    20 12 18 1 23 14 21 1
+    20 14 12 1 23 16 14 1
+    21 14 20 1 24 16 23 1
+    21 15 14 1 24 17 16 1
+    22 15 21 1 25 17 24 1
+    22 16 15 1 25 18 17 1
+    17 22 23 1 20 26 27 1
+    17 16 22 1 20 19 26 1
+    24 18 19 1 28 29 30 1
+    24 25 18 1 28 31 29 1
+    26 18 25 1 32 29 31 1
+    26 20 18 1 32 33 29 1
+    27 20 26 1 34 33 32 1
+    27 21 20 1 34 35 33 1
+    28 21 27 1 36 35 34 1
+    28 22 21 1 36 37 35 1
+    23 28 29 1 38 39 40 1
+    23 22 28 1 38 41 39 1
+    30 24 31 1 42 28 43 1
+    30 25 24 1 42 31 28 1
+    30 26 25 1 42 32 31 1
+    30 32 26 1 42 44 32 1
+    32 27 26 1 44 34 32 1
+    32 33 27 1 44 45 34 1
+    33 28 27 1 45 36 34 1
+    33 34 28 1 45 46 36 1
+    28 35 29 1 39 47 40 1
+    28 34 35 1 39 48 47 1
+    2 30 31 1 2 42 43 1
+    2 1 30 1 2 1 42 1
+    1 32 30 1 1 44 42 1
+    1 4 32 1 1 4 44 1
+    4 33 32 1 4 45 44 1
+    4 6 33 1 4 6 45 1
+    6 34 33 1 6 46 45 1
+    6 8 34 1 6 8 46 1
+    34 11 35 1 49 12 47 1
+    34 8 11 1 49 10 12 1
+  position -0.00650177011 0.130658999 0.274105012
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  orientation 0 0 0 0
+endnode
+node trimesh sshad
+  parent damage_claysm
+  #part-number 6
+  ambient 0 0 0
+  diffuse 0 0 0
+  specular 0 0 0
+  shininess 20
+  render 0
+  bitmap black
+  verts 24
+    0.0607200004 -0.105169997 -7.41816984e-005
+    -0.0607200004 -0.105169997 -7.41816984e-005
+    0.121440001 0 -7.41816984e-005
+    0.0607200004 0.105169997 -7.41816984e-005
+    -0.121440001 0 -7.41816984e-005
+    -0.0607200004 0.105169997 -7.41816984e-005
+    0.202399999 0 0.127085999
+    0.101199999 0.175283998 0.127085999
+    -0.101199999 0.175283998 0.127085999
+    -0.202399999 0 0.127085999
+    -0.101199999 -0.175283998 0.127085999
+    0.101199999 -0.175283998 0.127085999
+    0.202399999 0 0.276686013
+    0.101199999 0.175283998 0.276686013
+    -0.101199999 0.175283998 0.276686013
+    -0.202399999 0 0.276686013
+    -0.101199999 -0.175283998 0.276686013
+    0.101199999 -0.175283998 0.276686013
+    0.184184 0 0.448725998
+    0.0920919999 0.159508005 0.448725998
+    -0.0920919999 0.159508005 0.448725998
+    -0.184184 0 0.448725998
+    -0.0920919999 -0.159508005 0.448725998
+    0.0920919999 -0.159508005 0.448725998
+  faces 44
+    0 1 2 1 0 0 0 1
+    2 1 3 1 0 0 0 1
+    4 3 1 1 0 0 0 1
+    5 3 4 1 0 0 0 1
+    3 6 2 2 0 0 0 1
+    3 7 6 2 0 0 0 1
+    8 3 5 4 0 0 0 1
+    8 7 3 4 0 0 0 1
+    9 5 4 2 0 0 0 1
+    9 8 5 2 0 0 0 1
+    10 4 1 4 0 0 0 1
+    10 9 4 4 0 0 0 1
+    11 1 0 2 0 0 0 1
+    11 10 1 2 0 0 0 1
+    2 11 0 4 0 0 0 1
+    2 6 11 4 0 0 0 1
+    7 12 6 1 0 0 0 1
+    7 13 12 1 0 0 0 1
+    14 7 8 8 0 0 0 1
+    14 13 7 8 0 0 0 1
+    15 8 9 1 0 0 0 1
+    15 14 8 1 0 0 0 1
+    16 9 10 8 0 0 0 1
+    16 15 9 8 0 0 0 1
+    17 10 11 1 0 0 0 1
+    17 16 10 1 0 0 0 1
+    6 17 11 8 0 0 0 1
+    6 12 17 8 0 0 0 1
+    13 18 12 2 0 0 0 1
+    13 19 18 2 0 0 0 1
+    20 13 14 4 0 0 0 1
+    20 19 13 4 0 0 0 1
+    21 14 15 2 0 0 0 1
+    21 20 14 2 0 0 0 1
+    22 15 16 4 0 0 0 1
+    22 21 15 4 0 0 0 1
+    23 16 17 2 0 0 0 1
+    23 22 16 2 0 0 0 1
+    12 23 17 4 0 0 0 1
+    12 18 23 4 0 0 0 1
+    19 20 18 1 0 0 0 1
+    18 20 23 1 0 0 0 1
+    20 21 23 1 0 0 0 1
+    22 23 21 1 0 0 0 1
+  position -0.00527985021 0.130658999 0
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  orientation 0 0 0 0
+endnode
+node emitter fire!92
+  parent dag_claysm
+  #part-number 7
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 1
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Normal
+  texture fxpa_smoke01
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 1
+  blastRadius 0.200000003
+  blastLength 1
+  position -0.0566473007 -0.206116006 0.174661994
+  orientation 1 0 0 -4.71238995
+  xsize 100
+  ysize 99
+  threshold 0
+  combinetime 0
+  colorStart 0.474510014 0.454901993 0.407842994
+  colorEnd 0.819607973 0.803921998 0.745097995
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 4
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 10
+  lifeExp 2.5
+  mass 0.0900000036
+  spread 2.96706009
+  particleRot 0.5
+  velocity 2
+  randvel 0.5
+  bounce_co 0
+  blurlength 10
+  fps 10
+  frameStart 0
+  frameEnd 24
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node dummy claysm_ground
+  parent dag_claysm
+  #part-number 8
+  position -0.00141234999 0.00497986004 0.0268786997
+  orientation 0 0 0 0
+endnode
+node dummy claysm_hand
+  parent dag_claysm
+  #part-number 9
+  position 9.85717998e-005 0.00188159 0.49713099
+  orientation 0 0 0 0
+endnode
+node dummy claysm_head
+  parent dag_claysm
+  #part-number 10
+  position 9.85717998e-005 -0.000825906987 0.537620008
+  orientation 0 0 0 0
+endnode
+node dummy claysm_head_hit
+  parent dag_claysm
+  #part-number 11
+  position 9.85717998e-005 0.0206067003 0.516331017
+  orientation 0 0 0 0
+endnode
+node dummy claysm_impact
+  parent dag_claysm
+  #part-number 12
+  position 9.85717998e-005 -0.00408336986 0.362105012
+  orientation 0 0 0 0
+endnode
+endmodelgeom dag_claysm
+
+#MAXANIM ASCII
+newanim damage dag_claysm
+  length 0.133332998
+  transtime 0
+  animroot dag_claysm
+node dummy dag_claysm
+  parent NULL
+  #part-number 0
+endnode
+node emitter chunkywood144
+  parent dag_claysm
+  #part-number 1
+endnode
+node trimesh damage_claysm
+  parent dag_claysm
+  #part-number 2
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  positionkey 3
+    0 -0.00086730998 -0.130658999 0
+    0.0333333015 -0.00086730998 -0.130658999 0.0244580992
+    0.133332998 -0.00086730998 -0.130658999 0
+  orientationkey 4
+    0 0 0 0 0
+    0.0333333015 0.371336102 -0.928463161 0.0081025809 -0.0469942018
+    0.100000001 -0.599948883 0.799969792 0.0104720974 -0.0436326005
+    0.133332998 0 0 0 0
+endnode
+node dummy clays2
+  parent damage_claysm
+  #part-number 3
+endnode
+node dummy clays3
+  parent damage_claysm
+  #part-number 4
+endnode
+node dummy clays1
+  parent damage_claysm
+  #part-number 5
+endnode
+node dummy sshad
+  parent damage_claysm
+  #part-number 6
+endnode
+node emitter fire!92
+  parent dag_claysm
+  #part-number 7
+endnode
+node dummy claysm_ground
+  parent dag_claysm
+  #part-number 8
+endnode
+node dummy claysm_hand
+  parent dag_claysm
+  #part-number 9
+endnode
+node dummy claysm_head
+  parent dag_claysm
+  #part-number 10
+endnode
+node dummy claysm_head_hit
+  parent dag_claysm
+  #part-number 11
+endnode
+node dummy claysm_impact
+  parent dag_claysm
+  #part-number 12
+endnode
+node dummy claysm_pwk
+  parent dag_claysm
+  #part-number -1
+endnode
+node dummy nowalk3
+  parent claysm_pwk
+  #part-number 14
+endnode
+doneanim damage dag_claysm
+
+#MAXANIM ASCII
+newanim dead dag_claysm
+  length 0.0333333015
+  transtime 0
+  animroot dag_claysm
+node dummy dag_claysm
+  parent NULL
+  #part-number 0
+endnode
+node emitter chunkywood144
+  parent dag_claysm
+  #part-number 1
+endnode
+node trimesh damage_claysm
+  parent dag_claysm
+  #part-number 2
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  positionkey 2
+    0 -0.00086730998 -0.130658999 -6.95144987
+    0.0333333015 -0.00086730998 -0.130658999 -6.95144987
+endnode
+node dummy clays2
+  parent damage_claysm
+  #part-number 3
+endnode
+node dummy clays3
+  parent damage_claysm
+  #part-number 4
+endnode
+node dummy clays1
+  parent damage_claysm
+  #part-number 5
+endnode
+node dummy sshad
+  parent damage_claysm
+  #part-number 6
+endnode
+node emitter fire!92
+  parent dag_claysm
+  #part-number 7
+endnode
+node dummy claysm_ground
+  parent dag_claysm
+  #part-number 8
+endnode
+node dummy claysm_hand
+  parent dag_claysm
+  #part-number 9
+endnode
+node dummy claysm_head
+  parent dag_claysm
+  #part-number 10
+endnode
+node dummy claysm_head_hit
+  parent dag_claysm
+  #part-number 11
+endnode
+node dummy claysm_impact
+  parent dag_claysm
+  #part-number 12
+endnode
+node dummy claysm_pwk
+  parent dag_claysm
+  #part-number -1
+endnode
+node dummy nowalk3
+  parent claysm_pwk
+  #part-number 14
+endnode
+doneanim dead dag_claysm
+
+#MAXANIM ASCII
+newanim default dag_claysm
+  length 0
+  transtime 0.25
+  animroot dag_claysm
+node dummy dag_claysm
+  parent NULL
+  #part-number 0
+endnode
+node emitter chunkywood144
+  parent dag_claysm
+  #part-number 1
+endnode
+node dummy damage_claysm
+  parent dag_claysm
+  #part-number 2
+endnode
+node dummy clays2
+  parent damage_claysm
+  #part-number 3
+endnode
+node dummy clays3
+  parent damage_claysm
+  #part-number 4
+endnode
+node dummy clays1
+  parent damage_claysm
+  #part-number 5
+endnode
+node dummy sshad
+  parent damage_claysm
+  #part-number 6
+endnode
+node emitter fire!92
+  parent dag_claysm
+  #part-number 7
+endnode
+node dummy claysm_ground
+  parent dag_claysm
+  #part-number 8
+endnode
+node dummy claysm_hand
+  parent dag_claysm
+  #part-number 9
+endnode
+node dummy claysm_head
+  parent dag_claysm
+  #part-number 10
+endnode
+node dummy claysm_head_hit
+  parent dag_claysm
+  #part-number 11
+endnode
+node dummy claysm_impact
+  parent dag_claysm
+  #part-number 12
+endnode
+node dummy claysm_pwk
+  parent dag_claysm
+  #part-number -1
+endnode
+node dummy nowalk3
+  parent claysm_pwk
+  #part-number 14
+endnode
+doneanim default dag_claysm
+
+#MAXANIM ASCII
+newanim die dag_claysm
+  length 0.166666999
+  transtime 0
+  animroot dag_claysm
+  event 0 detonate
+node dummy dag_claysm
+  parent NULL
+  #part-number 0
+endnode
+node emitter chunkywood144
+  parent dag_claysm
+  #part-number 1
+endnode
+node trimesh damage_claysm
+  parent dag_claysm
+  #part-number 2
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  positionkey 2
+    0 -0.00086730998 -0.130658999 0
+    0.166666999 -0.00086730998 -0.130658999 -6.95144987
+endnode
+node dummy clays2
+  parent damage_claysm
+  #part-number 3
+endnode
+node dummy clays3
+  parent damage_claysm
+  #part-number 4
+endnode
+node dummy clays1
+  parent damage_claysm
+  #part-number 5
+endnode
+node dummy sshad
+  parent damage_claysm
+  #part-number 6
+endnode
+node emitter fire!92
+  parent dag_claysm
+  #part-number 7
+endnode
+node dummy claysm_ground
+  parent dag_claysm
+  #part-number 8
+endnode
+node dummy claysm_hand
+  parent dag_claysm
+  #part-number 9
+endnode
+node dummy claysm_head
+  parent dag_claysm
+  #part-number 10
+endnode
+node dummy claysm_head_hit
+  parent dag_claysm
+  #part-number 11
+endnode
+node dummy claysm_impact
+  parent dag_claysm
+  #part-number 12
+endnode
+node dummy claysm_pwk
+  parent dag_claysm
+  #part-number -1
+endnode
+node dummy nowalk3
+  parent claysm_pwk
+  #part-number 14
+endnode
+doneanim die dag_claysm
+
+donemodel dag_claysm

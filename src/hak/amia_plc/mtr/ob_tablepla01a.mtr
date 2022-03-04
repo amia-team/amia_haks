@@ -1,0 +1,9 @@
+ 
+renderhint NormalAndSpecMapped 
+ 
+// Textures 
+texture0 ob_tablepla01a 
+texture1 ob_tablepla01a_n 
+texture2 ob_tablepla01a_s 
+texture3 null 
+texture4 null 

@@ -1,0 +1,9 @@
+ 
+renderhint NormalAndSpecMapped 
+ 
+// Textures 
+texture0 ob_g35corpse02 
+texture1 ob_g35corpse02_n 
+texture2 ob_g35corpse02_s 
+texture3 null 
+texture4 null 

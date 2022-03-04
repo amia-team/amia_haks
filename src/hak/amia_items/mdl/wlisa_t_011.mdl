@@ -1,0 +1,16 @@
+#MAXMODEL ASCII
+# model: wLisa_t_011
+filedependancy wLisa_t_011.max
+newmodel wLisa_t_011
+setsupermodel wLisa_t_011 NULL
+classification character
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom wLisa_t_011
+node dummy wLisa_t_011
+  parent NULL
+  #part-number 0
+endnode
+endmodelgeom wLisa_t_011
+
+donemodel wLisa_t_011

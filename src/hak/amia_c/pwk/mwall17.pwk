@@ -1,0 +1,19 @@
+# Exported from Wayland's NWN Maxscript v0.3b at 9/5/2008 5:24:39 PM
+# mdl file
+#
+node trimesh plane01
+    parent mwall17_pwk
+    diffuse 0.8000 0.8000 0.8000
+    ambient 0.2000 0.2000 0.2000
+    specular 0.0000 0.0000 0.0000
+    render 0
+    bitmap NULL
+    verts 4
+        -0.963202 -1.08999 0.0
+        1.25028 -1.08999 0.0
+        1.25028 1.13342 0.0
+        -0.963202 1.13342 0.0
+    faces 2
+        0 1 2 0 0 0 0 1
+        2 3 0 0 0 0 0 1
+endnode

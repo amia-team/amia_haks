@@ -1,9 +1,0 @@
- 
-renderhint NormalAndSpecMapped 
- 
-// Textures 
-texture0 ob_bannerZ04 
-texture1 ob_bannerZ04_n 
-texture2 ob_bannerZ04_s 
-texture3 null 
-texture4 null 

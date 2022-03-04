@@ -1,0 +1,145 @@
+#MAXMODEL ASCIIfiledependancy Unknown
+newmodel djintail01
+setsupermodel djintail01 NULL
+classification Character
+setanimationscale 1.0
+#MAXGEOM  ASCII
+
+beginmodelgeom djintail01
+
+node dummy djintail01
+ parent NULL
+endnode
+
+node dummy rootdummy
+  parent djintail01
+  position 0.0 0.20 0.25
+  orientation 0 0 0 0
+  wirecolor 1 1 1
+endnode
+
+
+node emitter Wolke
+  parent rootdummy
+  position 0.0 0.0 -0.25
+  orientation 0.000 0.000 0.000 0.0
+    colorStart 0.5 0.5 0.99
+    colorEnd 1.000 0.800 1.00
+    alphaStart 0.500000
+    alphaEnd 0.0
+    sizeStart 0.700
+    sizeEnd 0.50000
+    sizeStart_y 0.0
+    sizeEnd_y 0.0
+    frameStart 0
+    frameEnd 24
+    birthrate 10
+    spawnType 0
+    lifeExp 0.5
+    mass 0.0000
+    spread 0.0
+    particleRot 0.050
+    velocity 0.05
+    randvel 0.001
+    fps 20
+    random 0
+    inherit 1
+    inherit_local 1
+    inherit_part 0
+    inheritvel 0
+    xsize 55.0
+    ysize 55.0
+    bounce 0
+    bounce_co 0.0
+    loop 0
+    update Fountain
+    render Normal
+    Blend Normal
+    deadspace 0.0
+    blurlength 10.0
+    lightningDelay 0.0
+    lightningRadius 0.0
+    lightningScale 0.0
+    blastRadius 0.0
+    blastLength 0.0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0.0
+    p2p_bezier3 0.0
+    combinetime 0.0
+    drag 0.500000
+    grav -1.00
+    threshold 0.0
+    texture fxpa_Smoke01
+    xgrid 4
+    ygrid 4
+    affectedByWind 1
+    m_isTinted 0
+    Splat 0
+endnode
+node emitter Antrieb
+  parent rootdummy
+  position 0.0 -0.019320 -0.3
+  orientation 0.00 -1.0 0.0 3.141590
+    colorStart 0.6 0.6 0.9
+    colorEnd 0.800 1.000 1.0
+    alphaStart 0.80
+    alphaEnd 0.0
+    sizeStart 0.800
+    sizeEnd 0.200
+    sizeStart_y 0.0
+    sizeEnd_y 0.0
+    frameStart 0
+    frameEnd 24
+    birthrate 40
+    spawnType 0
+    lifeExp 1.2
+    mass 0.20
+    spread 0.5
+    particleRot 0.50
+    velocity 0.20
+    randvel 0.001
+    fps 20
+    random 0
+    inherit 1
+    inherit_local 1
+    inherit_part 0
+    inheritvel 0
+    xsize 5.0
+    ysize 5.0
+    bounce 0
+    bounce_co 0.0
+    loop 0
+    update Fountain
+    render Normal
+    Blend Normal
+    deadspace 0.0
+    blurlength 10.0
+    lightningDelay 0.0
+    lightningRadius 0.0
+    lightningScale 0.0
+    blastRadius 0.0
+    blastLength 0.0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0.0
+    p2p_bezier3 0.0
+    combinetime 0.0
+    drag 0.00
+    grav 0.00
+    threshold 0.0
+    texture fxpa_Smoke01
+    xgrid 4
+    ygrid 4
+    affectedByWind 1
+    m_isTinted 0
+    Splat 0
+endnode
+
+endmodelgeom c_djin01
+
+donemodel c_djin01

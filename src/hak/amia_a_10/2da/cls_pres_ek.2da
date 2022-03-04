@@ -1,7 +1,0 @@
-2DA V2.0
-
-  LABEL           ReqType  ReqParam1 ReqParam2 
-0 Base_Attack     BAB      5         ****      
-1 "Martial Prof." FEATOR   45        ****      
-2 "Elven Prof."   FEATOR   256       ****      
-3 "Arcane level"  ARCSPELL 5         ****      

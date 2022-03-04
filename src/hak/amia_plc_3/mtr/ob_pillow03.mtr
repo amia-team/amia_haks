@@ -1,9 +1,0 @@
- 
-renderhint NormalAndSpecMapped 
- 
-// Textures 
-texture0 ob_pillow03 
-texture1 ob_pillow03_n 
-texture2 ob_pillow03_s 
-texture3 null 
-texture4 null 

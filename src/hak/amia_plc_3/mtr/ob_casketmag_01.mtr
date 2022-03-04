@@ -1,9 +1,0 @@
- 
-renderhint NormalAndSpecMapped 
- 
-// Textures 
-texture0 ob_casketmag_01 
-texture1 ob_casketmag_1_n 
-texture2 ob_casketmag_1_s 
-texture3 null 
-texture4 null 

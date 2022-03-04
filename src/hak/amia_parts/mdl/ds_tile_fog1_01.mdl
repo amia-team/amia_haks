@@ -1,0 +1,54 @@
+#MAXMODEL ASCII
+# model: ds_tile_fog1_01
+filedependancy ds_tile_fog1_01.max
+newmodel ds_tile_fog1_01
+setsupermodel ds_tile_fog1_01 NULL
+classification CHARACTER
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom ds_tile_fog1_01
+node dummy ds_tile_fog1_01
+  parent NULL
+endnode
+node dummy ds_tile_fog1_01a
+  parent ds_tile_fog1_01
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0313726 0.239216 0.541176 
+endnode
+node trimesh Plane687
+  parent ds_tile_fog1_01
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 1
+  alpha 1.0
+  transparencyhint 1
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 1
+  center 0.0 0.0 0.0 
+  bitmap tsw01_fog01
+  verts 4
+      -5.0000000    5.0000000    0.0000000
+      -5.0000000   -5.0000000    0.0000000
+       5.0000000    5.0000000    0.0000000
+       5.0000000   -5.0000000    0.0000000
+  tverts 4
+       6.0000401  -56.0005989  0
+       6.0000401  -59.0005989  0
+       9.0000696  -56.0005989  0
+       9.0000696  -59.0005989  0
+  faces 2
+    0 1 2  1  0 1 2   1
+    3 2 1  1  3 2 1   1
+  position 0 0 0.3
+  orientation 0 0 0 0
+endnode
+endmodelgeom ds_tile_fog1_01
+donemodel ds_tile_fog1_01

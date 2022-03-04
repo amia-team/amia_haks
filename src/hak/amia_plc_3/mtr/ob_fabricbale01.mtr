@@ -1,9 +1,0 @@
- 
-renderhint NormalAndSpecMapped 
- 
-// Textures 
-texture0 ob_fabricbale01 
-texture1 ob_fabricbale1_n 
-texture2 ob_fabricbale1_s 
-texture3 null 
-texture4 null 

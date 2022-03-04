@@ -1,9 +1,0 @@
- 
-renderhint NormalAndSpecMapped 
- 
-// Textures 
-texture0 ob_tablemag13k 
-texture1 ob_tablemag13k_n 
-texture2 ob_tablemag13k_s 
-texture3 null 
-texture4 null 

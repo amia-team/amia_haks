@@ -1,0 +1,46 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: PLC_GalleryShed
+filedependancy gallery shed v10.max
+node trimesh Plane02
+  parent damage65_pwk
+  position -0.0520155 -0.0235629 0
+  orientation 0 0 0 0
+  wirecolor 0.527344 0.527344 0.527344
+  ambient 0.523438 0.429688 0.03125
+  diffuse 0.523438 0.429688 0.03125
+  specular 0 0 0
+  shininess 1
+  bitmap NULL
+  verts 16
+    2.79014 4.83785 0
+    1.29014 4.83785 0
+    -1.30986 4.83785 0
+    -2.80986 4.83785 0
+    1.29014 4.13785 0
+    -1.30986 4.13785 0
+    1.79014 4.13785 0
+    -1.80986 4.13785 0
+    2.79014 -4.76215 0
+    1.79014 -4.06215 0
+    -1.80986 -4.06215 0
+    -2.80986 -4.76215 0
+    1.29014 -4.06215 0
+    -1.30986 -4.06215 0
+    1.29014 -4.76215 0
+    -1.30986 -4.76215 0
+  faces 12
+    1 4 0  1  0 0 0  0
+    5 2 3  1  0 0 0  0
+    4 6 0  1  0 0 0  0
+    7 5 3  1  0 0 0  0
+    8 0 9  1  0 0 0  0
+    6 9 0  1  0 0 0  0
+    10 7 11  1  0 0 0  0
+    3 11 7  1  0 0 0  0
+    9 12 8  1  0 0 0  0
+    13 10 11  1  0 0 0  0
+    12 14 8  1  0 0 0  0
+    15 13 11  1  0 0 0  0
+endnode

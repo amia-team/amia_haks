@@ -1,0 +1,198 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: FX_LavaSDG
+filedependancy sen_dungeonA07_lava.max
+newmodel FX_LavaSDG
+setsupermodel FX_LavaSDG NULL
+classification Effect
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom FX_LavaSDG
+node dummy FX_LavaSDG
+  parent NULL
+endnode
+node emitter FX_LavaSpout
+  parent FX_LavaSDG
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 0.542969 0.542969 0.542969
+    colorStart 0.996079 0.988235 0.745098
+    colorEnd 1 1 1
+    alphaStart 1
+    alphaEnd 0
+    sizeStart 0.2
+    sizeEnd 3.5
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 0
+    birthrate 0
+    spawnType 0
+    lifeExp 1.3
+    mass 0.5
+    spread 0.523599
+    particleRot 0.3
+    velocity 4
+    randvel 1.4
+    fps 0
+    random 0
+    inherit 0
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 0
+    ysize 0
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Fountain
+    render Normal
+    Blend Lighten
+    update_sel 1
+    render_sel 1
+    blend_sel 3
+    deadspace 0
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_sdg_lava
+    xgrid 1
+    ygrid 1
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+node emitter FX_LavaBase
+  parent FX_LavaSDG
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 0.542969 0.542969 0.542969
+    colorStart 0.0980392 0.0980392 0.0980392
+    colorEnd 0 0 0
+    alphaStart 1
+    alphaEnd 0
+    sizeStart 4
+    sizeEnd 4
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 0
+    birthrate 0
+    spawnType 0
+    lifeExp 3
+    mass 0
+    spread 1.0472
+    particleRot 0
+    velocity 0
+    randvel 0
+    fps 1
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 300
+    ysize 300
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Fountain
+    render Billboard_to_World_Z
+    Blend Lighten
+    update_sel 1
+    render_sel 4
+    blend_sel 3
+    deadspace 0
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_sdg_lava
+    xgrid 1
+    ygrid 1
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+endmodelgeom FX_LavaSDG
+
+#MAXANIM ASCII
+newanim default FX_LavaSDG
+  length 6.66667
+  transtime 0.25
+  animroot FX_LavaSDG
+node dummy FX_LavaSDG
+  parent NULL
+endnode
+node emitter FX_LavaSpout
+  parent FX_LavaSDG
+    birthratekey
+      0  0
+      0.0333333  90
+      0.3  50
+      0.433333  0
+      0.8  20
+      0.866667  50
+      1.2  50
+      1.23333  0
+      1.5  0
+      1.53333  30
+      1.8  30
+      1.86667  0
+      2.46667  0
+    endlist
+    velocitykey
+      0.0333333  4
+      0.3  3
+      1.86667  3
+      2.46667  3
+    endlist
+endnode
+node emitter FX_LavaBase
+  parent FX_LavaSDG
+    colorEndkey
+      0  0 0 0
+      0.3  0.454902 0.454902 0.454902
+    endlist
+    birthratekey
+      0  0
+      0.3  30
+      0.566667  30
+      0.9  5
+      1.36667  5
+      1.76667  5
+      1.9  0
+    endlist
+endnode
+doneanim default FX_LavaSDG
+donemodel FX_LavaSDG

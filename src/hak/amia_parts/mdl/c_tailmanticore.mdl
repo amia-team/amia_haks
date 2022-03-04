@@ -1,0 +1,3828 @@
+# Exported from NWmax 0.8 b47 at 8/1/2006 1:11:58 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: c_tailmanticore
+filedependancy Unknown
+newmodel c_tailmanticore
+setsupermodel c_tailmanticore NULL
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom c_tailmanticore
+node dummy c_tailmanticore
+  parent NULL
+endnode
+node dummy tail
+  parent c_tailmanticore
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.721569 0.894118 0.6 
+endnode
+node trimesh Cat_tailbase
+  parent tail
+  position 0.0 0.0188751 0.0539926
+  orientation 1.0 0.0 0.0 -0.23562
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 12
+  center undefined
+  bitmap c_manticore
+  verts 35
+    -0.0400585 -0.0141865 -0.0432805
+    0.0 -0.0129487 -0.074526
+    0.0 -0.301651 -0.143198
+    -0.0179856 -0.308763 -0.115056
+    0.0 -0.0415081 0.0288203
+    0.0 -0.316862 -0.0926472
+    0.0 0.0639591 0.050266
+    0.0 0.04791 -0.00538068
+    0.0 -0.332343 -0.120959
+    0.0400585 -0.0141865 -0.0432805
+    0.0179855 -0.308331 -0.116751
+    -0.00893199 -0.204852 0.0299131
+    -0.00945808 -0.162555 -0.0226054
+    0.000597156 -0.153261 -0.043051
+    -0.000383397 -0.161017 -0.0203485
+    -0.012121 -0.126442 0.128934
+    -0.00741931 -0.0670828 0.026842
+    -0.000797133 -0.0576298 -0.0159506
+    0.00940158 -0.0645039 0.0255114
+    -0.012121 -0.166916 0.112762
+    -0.00741931 -0.107558 0.0106701
+    -0.00079714 -0.0981045 -0.0321225
+    0.00940158 -0.104979 0.00933942
+    -0.012121 -0.19673 0.0980122
+    -0.00741931 -0.137371 -0.00407935
+    -0.000797143 -0.127918 -0.0468721
+    0.00940158 -0.134792 -0.00541001
+    0.0118578 -0.225669 0.0184815
+    -0.00391459 -0.183371 -0.0316154
+    -0.000237993 -0.174077 -0.0541011
+    0.00542426 -0.181833 -0.0320943
+    -0.0153173 -0.258346 0.00650204
+    -0.00846932 -0.215349 -0.0449943
+    0.00324434 -0.207261 -0.0650666
+    0.000692232 -0.215261 -0.0425719
+  faces 42
+    0 1 2  1  0 1 2  0
+    2 3 0  1  2 3 0  0
+    4 0 3  1  4 0 3  0
+    3 5 4  1  3 5 4  0
+    4 6 0  1  4 6 0  0
+    7 1 0  1  7 1 0  0
+    3 2 8  1  3 2 8  0
+    3 8 5  1  3 8 5  0
+    1 9 2  1  1 0 2  0
+    10 2 9  1  9 2 0  0
+    9 4 10  1  0 4 9  0
+    5 10 4  1  5 9 4  0
+    6 4 9  1  6 4 0  0
+    1 7 9  1  1 7 0  0
+    2 10 8  1  2 9 8  0
+    8 10 5  1  8 9 5  0
+    7 6 9  1  7 6 0  0
+    6 7 0  1  6 7 0  0
+    11 12 13  1  10 11 12  0
+    11 14 12  1  10 11 13  0
+    13 12 14  1  12 11 13  0
+    11 13 14  1  10 12 11  0
+    15 16 17  1  10 11 12  0
+    15 18 16  1  10 11 13  0
+    17 16 18  1  12 11 13  0
+    15 17 18  1  10 12 11  0
+    19 20 21  1  10 11 12  0
+    19 22 20  1  10 11 13  0
+    21 20 22  1  12 11 13  0
+    19 21 22  1  10 12 11  0
+    23 24 25  1  10 11 12  0
+    23 26 24  1  10 11 13  0
+    25 24 26  1  12 11 13  0
+    23 25 26  1  10 12 11  0
+    27 28 29  1  10 11 12  0
+    27 30 28  1  10 11 13  0
+    29 28 30  1  12 11 13  0
+    27 29 30  1  10 12 11  0
+    31 32 33  1  10 11 12  0
+    31 34 32  1  10 11 13  0
+    33 32 34  1  12 11 13  0
+    31 33 34  1  10 12 11  0
+  tverts 14
+    0.962209 0.92612 0
+    0.949675 0.902305 0
+    0.703713 0.95065 0
+    0.708104 0.974772 0
+    0.966464 0.991109 0
+    0.709729 0.994833 0
+    0.994269 0.97568 0
+    0.981653 0.928021 0
+    0.687912 0.978495 0
+    0.707842 0.973318 0
+    0.692846 0.0112743 0
+    0.711835 0.0225157 0
+    0.749311 0.0102936 0
+    0.711835 0.0225157 0
+endnode
+node danglymesh Cat_tailtip
+  parent Cat_tailbase
+  position 0.0 -0.311739 -0.144421
+  orientation -1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 12
+  center undefined
+  period 6.0
+  tightness 3.0
+  displacement 0.1
+  showdispl true
+  displtype 1
+  center undefined
+  bitmap c_manticore
+  verts 34
+    0.0 -0.0077871 0.050011
+    0.00172104 -0.239832 0.00642132
+    0.0149601 -0.238747 -0.00909524
+    0.0179855 0.000743376 0.0259097
+    0.00172107 -0.237407 -0.0282642
+    0.0 0.00742342 -0.000536983
+    -0.00779386 -0.510177 0.0279815
+    0.0342928 -0.496374 0.0868242
+    0.0 -0.536077 0.102721
+    0.0 0.0190101 0.0294572
+    -0.0107785 -0.240195 -0.00559297
+    -0.0179856 0.000743376 0.0259097
+    -0.0468734 -0.493671 0.0918212
+    -0.00779386 -0.467192 0.120193
+    0.0632654 -0.61657 0.237669
+    0.0188281 -0.471859 0.126478
+    -0.0100248 -0.444055 0.0867861
+    0.0285746 -0.495527 0.110914
+    -0.130992 -0.591165 0.174565
+    -0.0481447 -0.445189 0.0902613
+    -0.0103713 -0.418858 0.0576924
+    -0.0301913 -0.45839 0.110281
+    0.00241521 -0.716754 0.108021
+    0.000788472 -0.530607 0.0829961
+    -0.022069 -0.479667 0.0750144
+    -0.00963231 -0.54534 0.0590864
+    -0.0913713 -0.617657 0.0226595
+    -0.0318723 -0.44071 0.0433614
+    -0.0155087 -0.389345 0.0267794
+    -0.0116667 -0.457895 0.029446
+    0.111278 -0.631617 0.0329471
+    0.0352134 -0.459886 0.0340245
+    0.0191973 -0.410521 0.0561127
+    0.02012 -0.479065 0.051391
+  faces 44
+    0 1 2  1  0 1 2  0
+    0 2 3  1  0 2 3  0
+    2 4 5  1  2 4 5  0
+    6 7 8  1  6 7 8  0
+    3 5 9  1  3 5 9  0
+    3 9 0  1  3 9 0  0
+    5 10 11  1  5 10 3  0
+    1 10 12  1  1 10 11  0
+    12 10 4  1  11 10 4  0
+    12 4 6  1  11 4 6  0
+    13 1 12  1  12 1 11  0
+    12 8 13  1  11 8 12  0
+    12 6 8  1  11 6 8  0
+    5 11 9  1  5 3 9  0
+    9 11 0  1  9 3 0  0
+    3 2 5  1  3 2 5  0
+    2 1 7  1  2 1 7  0
+    4 2 6  1  4 2 6  0
+    6 2 7  1  6 2 7  0
+    1 13 7  1  1 12 7  0
+    8 7 13  1  8 7 12  0
+    10 0 11  1  10 0 3  0
+    10 1 0  1  10 1 0  0
+    4 10 5  1  4 10 5  0
+    14 15 16  1  13 14 15  0
+    14 17 15  1  13 14 16  0
+    16 15 17  1  15 14 16  0
+    14 16 17  1  13 15 14  0
+    18 19 20  1  13 14 15  0
+    18 21 19  1  13 14 16  0
+    20 19 21  1  15 14 16  0
+    18 20 21  1  13 15 14  0
+    22 23 24  1  13 14 15  0
+    22 25 23  1  13 14 16  0
+    24 23 25  1  15 14 16  0
+    22 24 25  1  13 15 14  0
+    26 27 28  1  13 14 15  0
+    26 29 27  1  13 14 16  0
+    28 27 29  1  15 14 16  0
+    26 28 29  1  13 15 14  0
+    30 31 32  1  13 14 15  0
+    30 33 31  1  13 14 16  0
+    32 31 33  1  15 14 16  0
+    30 32 33  1  13 15 14  0
+  tverts 17
+    0.28807 0.51123 0
+    0.372104 0.32585 0
+    0.384778 0.329605 0
+    0.306498 0.522741 0
+    0.400437 0.334243 0
+    0.327213 0.533148 0
+    0.404807 0.0967098 0
+    0.353444 0.0973388 0
+    0.347557 0.0614727 0
+    0.300195 0.537245 0
+    0.382139 0.32776 0
+    0.348801 0.0986609 0
+    0.32039 0.115412 0
+    0.69083 0.00893191 0
+    0.711559 0.021449 0
+    0.752799 0.00839655 0
+    0.711559 0.021449 0
+  constraints 34
+    0.0
+    0.0
+    0.0
+    0.0
+    0.0
+    0.0
+    0.0
+    0.0
+    0.0
+    0.0
+    0.0
+    0.0
+    0.0
+    0.0
+    60.0
+    0.0
+    0.0
+    0.0
+    60.0
+    0.0
+    0.0
+    0.0
+    60.0
+    0.0
+    0.0
+    0.0
+    60.0
+    0.0
+    0.0
+    0.0
+    60.0
+    0.0
+    0.0
+    0.0
+endnode
+endmodelgeom c_tailmanticore
+#NWmax ANIM ASCII
+newanim creadyr c_tailmanticore
+  length 1.66667
+  transtime 0.5
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            1.03333 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+        endlist
+        orientationkey
+            1.03333 0.0 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.852675 -0.0891654 -0.514776 -0.332609
+            0.666667 -0.526588 -0.383221 0.758845 -0.213908
+            0.833333 -0.475177 -0.379105 0.794032 -0.221887
+            1.5 -0.864924 -0.0996699 -0.491906 -0.319754
+            1.66667 -0.852675 -0.0891653 -0.514776 -0.332609
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.876292 0.163407 0.453223 -0.365976
+            0.3 0.973008 0.230742 0.00373454 -0.144808
+            0.633333 0.364652 -0.0277413 -0.930731 -0.128516
+            0.833333 0.845789 0.0601393 -0.530116 -0.168256
+            1.03333 0.991667 0.128798 0.00259084 -0.256503
+            1.4 0.889566 0.13382 0.436765 -0.428403
+            1.66667 0.876292 0.163407 0.453223 -0.365976
+        endlist
+    endnode
+doneanim creadyr c_tailmanticore
+#NWmax ANIM ASCII
+newanim creadyl c_tailmanticore
+  length 2.0
+  transtime 0.5
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.366667 0.0 0.0 0.0
+            0.633333 0.0 0.0 0.0
+            1.7 0.0 0.0 0.0
+            1.96667 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.366667 0.0 0.0 0.0 0.0
+            0.633333 0.0 0.0 0.0 0.0
+            1.7 0.0 0.0 0.0 0.0
+            1.96667 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.965899 -0.0910009 -0.242401 -0.681129
+            0.8 -0.944807 -0.0836564 0.316766 -0.561325
+            1.0 -0.935574 -0.082569 0.343341 -0.558984
+            1.8 -0.97153 -0.0914429 -0.218556 -0.687996
+            2.0 -0.965898 -0.0910015 -0.242404 -0.68113
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.876292 0.163407 0.453223 -0.365976
+            0.366667 0.973008 0.230742 0.00373464 -0.144808
+            0.766667 0.364653 -0.0277418 -0.93073 -0.128516
+            1.0 0.84579 0.0601391 -0.530116 -0.168256
+            1.23333 0.991667 0.128798 0.00259106 -0.256503
+            1.7 0.889566 0.13382 0.436765 -0.428403
+            2.0 0.876292 0.163407 0.453223 -0.365976
+        endlist
+    endnode
+doneanim creadyl c_tailmanticore
+#NWmax ANIM ASCII
+newanim cdamagel c_tailmanticore
+  length 0.333333
+  transtime 0.15
+  animroot c_tailmanticore
+  event 0.1 snd_footstep
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.873025 -0.482527 0.0706728 -0.299512
+            0.1 -0.921439 -0.383771 0.0605848 -0.397198
+            0.166667 -0.922971 -0.282317 0.261574 -0.511237
+            0.266667 -0.951685 -0.204269 0.229281 -0.658051
+            0.333333 -0.965723 -0.155844 0.207587 -0.794035
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.931099 -0.0531612 -0.360871 -0.292997
+            0.1 0.501598 -0.119662 -0.856785 -0.534335
+            0.166667 0.433111 -0.124338 -0.892723 -0.613839
+            0.333333 0.887031 -0.0661941 -0.45694 -0.30731
+        endlist
+    endnode
+doneanim cdamagel c_tailmanticore
+#NWmax ANIM ASCII
+newanim cdamager c_tailmanticore
+  length 0.333333
+  transtime 0.15
+  animroot c_tailmanticore
+  event 0.1 snd_footstep
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.0333333 0.0 0.0 0.0
+            0.3 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0333333 0.0 0.0 0.0 0.0
+            0.3 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.873025 -0.482527 0.0706728 -0.299512
+            0.1 -0.921439 -0.383772 0.0605848 -0.397198
+            0.166667 -0.922971 -0.282317 0.261574 -0.511237
+            0.266667 -0.951685 -0.204269 0.229281 -0.65805
+            0.333333 -0.965723 -0.155844 0.207587 -0.794035
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.931099 -0.0531611 -0.360871 -0.292997
+            0.1 0.501598 -0.119662 -0.856785 -0.534335
+            0.166667 0.433111 -0.124338 -0.892723 -0.613839
+            0.333333 0.887031 -0.0661939 -0.456941 -0.30731
+        endlist
+    endnode
+doneanim cdamager c_tailmanticore
+#NWmax ANIM ASCII
+newanim cdamages c_tailmanticore
+  length 0.333333
+  transtime 0.15
+  animroot c_tailmanticore
+  event 0.1 snd_footstep
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.873025 -0.482527 0.0706727 -0.299512
+            0.1 -0.921438 -0.383772 0.0605847 -0.397198
+            0.166667 -0.922971 -0.282317 0.261574 -0.511237
+            0.266667 -0.951685 -0.204269 0.229281 -0.65805
+            0.333333 -0.965723 -0.155844 0.207587 -0.794035
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.931099 -0.0531611 -0.360871 -0.292997
+            0.1 0.501598 -0.119662 -0.856785 -0.534335
+            0.166667 0.433111 -0.124338 -0.892723 -0.613839
+            0.333333 0.887031 -0.066194 -0.456941 -0.30731
+        endlist
+    endnode
+doneanim cdamages c_tailmanticore
+#NWmax ANIM ASCII
+newanim cpause1 c_tailmanticore
+  length 2.0
+  transtime 0.7
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.0333333 0.0 0.0 0.0
+            0.3 0.0 0.0 0.0
+            0.933333 0.0 0.0 0.0
+            1.2 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0333333 0.0 0.0 0.0 0.0
+            0.3 0.0 0.0 0.0 0.0
+            0.933333 0.0 0.0 0.0 0.0
+            1.2 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.997631 -0.0078804 -0.0683429 -0.148697
+            0.733333 -0.813364 -0.0810445 0.576083 -0.390246
+            0.966667 -0.803248 -0.082515 0.589901 -0.410679
+            1.76667 -0.999069 -0.0204603 0.0379803 -0.160259
+            2.0 -0.997631 -0.00788018 -0.0683448 -0.148697
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.560702 0.0420149 0.826951 -0.20271
+            0.233333 0.870188 -0.0359347 -0.491408 -0.130739
+            0.733333 0.699908 -0.0469928 -0.712686 -0.162382
+            1.1 0.58675 0.0407396 0.808742 -0.193758
+            1.73333 0.34036 0.0504051 0.938943 -0.332223
+            2.0 0.560704 0.0420149 0.82695 -0.20271
+        endlist
+    endnode
+doneanim cpause1 c_tailmanticore
+#NWmax ANIM ASCII
+newanim ca1slashl c_tailmanticore
+  length 1.0
+  transtime 0.25
+  animroot c_tailmanticore
+  event 0.366667 snd_footstep
+  event 0.5 hit
+  event 0.666667 snd_footstep
+  event 0.8 snd_footstep
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.2 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.2 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 0.998963 0.00243132 -0.045461 -0.192064
+            0.166667 -0.997262 -0.00718647 -0.0736049 -0.11823
+            0.466667 0.999747 0.00368935 -0.0222041 -0.390985
+            0.533333 0.999891 0.00395867 -0.0142031 -0.60195
+            0.633333 0.99994 0.00410297 -0.0101094 -0.824307
+            0.766667 0.999871 0.00400878 -0.0155632 -0.550689
+            0.866667 -0.999671 -0.0048234 -0.025176 -0.342205
+            1.0 -0.965899 -0.0910009 -0.242401 -0.681129
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.999223 0.00219037 -0.0393574 -0.408889
+            0.466667 -0.995449 -0.0275987 -0.0912124 -0.167904
+            0.633333 0.976368 -0.045813 -0.211205 -0.0734781
+            0.766667 0.999062 -0.00282287 -0.0432029 -0.368787
+            0.866667 0.999447 -0.00074447 -0.0332577 -0.480331
+            1.0 0.876291 0.163407 0.453225 -0.365976
+        endlist
+    endnode
+doneanim ca1slashl c_tailmanticore
+#NWmax ANIM ASCII
+newanim cwalk c_tailmanticore
+  length 1.16667
+  transtime 0.4
+  animroot c_tailmanticore
+  event 0.3 snd_footstep
+  event 0.566667 snd_footstep
+  event 1.0 snd_footstep
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.2 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.2 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 0.944421 -0.279143 0.173634 -0.386716
+            0.133333 0.844045 -0.228683 0.48507 -0.451809
+            0.266667 0.852433 -0.246993 0.460817 -0.420687
+            0.466667 0.942472 -0.289018 -0.167973 -0.405566
+            0.6 0.842153 -0.28809 -0.455831 -0.445366
+            0.7 0.708383 -0.327837 -0.625074 -0.425543
+            0.833333 0.581118 -0.364834 -0.72746 -0.399395
+            0.9 0.513807 -0.405938 -0.755788 -0.373081
+            0.966667 0.699003 -0.423323 -0.576362 -0.324331
+            1.16667 0.944421 -0.279143 0.173635 -0.386716
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.909789 -0.119491 0.3975 -0.375486
+            0.366667 0.69259 -0.11534 0.712051 -0.24501
+            0.6 0.966814 -0.251691 0.0438519 -0.212781
+            0.966667 0.970585 -0.146855 -0.190783 -0.392922
+            1.16667 0.909789 -0.119491 0.3975 -0.375486
+        endlist
+    endnode
+doneanim cwalk c_tailmanticore
+#NWmax ANIM ASCII
+newanim cclosel c_tailmanticore
+  length 1.0
+  transtime 0.3
+  animroot c_tailmanticore
+  event 0.5 hit
+  event 0.8 snd_footstep
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.0333333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.999739 -0.00893264 -0.0210439 -0.384074
+            0.0666667 -0.999283 -0.0120834 -0.0358769 -0.231025
+            0.1 -0.998402 -0.0159768 -0.0542133 -0.154555
+            0.133333 -0.998253 -0.0165126 -0.0567358 -0.147816
+            0.333333 -0.47742 -0.455691 -0.751276 -0.218178
+            0.633333 0.764939 -0.35856 0.535073 -0.16597
+            0.833333 -0.999736 -0.00895916 -0.0211695 -0.381944
+            1.0 -0.999739 -0.00893259 -0.021044 -0.384074
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.999456 0.00312012 -0.0328364 -0.486639
+            0.233333 -0.987169 -0.031349 -0.15657 -0.0995772
+            0.466667 0.98866 -0.0144111 -0.149477 -0.105887
+            0.7 0.999676 0.00427743 -0.0251104 -0.63455
+            1.0 0.999456 0.00312013 -0.0328365 -0.486639
+        endlist
+    endnode
+doneanim cclosel c_tailmanticore
+#NWmax ANIM ASCII
+newanim ca1slashr c_tailmanticore
+  length 1.0
+  transtime 0.25
+  animroot c_tailmanticore
+  event 0.466667 hit
+  event 0.8 snd_footstep
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.0333333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.965899 -0.0910008 -0.242401 -0.681129
+            0.133333 -0.991801 0.0256441 -0.125194 -0.54371
+            0.333333 -0.554586 0.0300565 -0.831583 -0.157313
+            0.433333 0.986129 -0.0585961 -0.155296 -0.62973
+            0.466667 0.999938 0.00405603 -0.0103311 -0.809812
+            0.7 0.94912 0.176712 0.260661 -0.511946
+            0.833333 0.81502 0.160412 0.556785 -0.348629
+            1.0 -0.965899 -0.0910009 -0.242401 -0.681129
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.876292 0.163407 0.453223 -0.365976
+            0.133333 -0.995036 -0.0332404 -0.0937946 -0.158334
+            0.333333 0.837144 -0.121046 -0.533421 -0.0288018
+            0.433333 0.986687 -0.0274613 -0.160298 -0.0970596
+            0.7 0.999547 0.00239042 -0.0300125 -0.533864
+            0.833333 0.997992 -0.00279406 -0.0632855 -0.251877
+            1.0 0.876292 0.163407 0.453223 -0.365976
+        endlist
+    endnode
+doneanim ca1slashr c_tailmanticore
+#NWmax ANIM ASCII
+newanim ca1stab c_tailmanticore
+  length 1.0
+  transtime 0.25
+  animroot c_tailmanticore
+  event 0.366667 snd_footstep
+  event 0.466667 snd_footstep
+  event 0.5 hit
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.0333333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.965899 -0.0910009 -0.242401 -0.681129
+            0.2 -0.786206 -0.490966 0.375276 -0.17708
+            0.266667 -0.634354 -0.672341 -0.381514 -0.155628
+            0.4 0.432179 -0.805992 -0.404472 -0.106501
+            0.5 0.996529 -0.0831366 0.0041884 -1.1145
+            0.633333 0.993044 -0.116215 -0.0189096 -0.688984
+            0.833333 -0.984399 -0.150945 -0.0904071 -0.105755
+            1.0 -0.965899 -0.0910009 -0.242401 -0.681129
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.876292 0.163407 0.453223 -0.365976
+            0.266667 -0.989341 -0.0476089 -0.137615 -0.108187
+            0.4 0.99994 -0.00553231 0.00947432 -0.19842
+            0.5 -0.967464 0.203032 -0.150969 -0.0570805
+            0.633333 0.995984 -0.00740189 0.0892293 -0.347158
+            0.833333 0.998855 -0.0203466 -0.0432887 -0.161118
+            1.0 0.876292 0.163407 0.453223 -0.365976
+        endlist
+    endnode
+doneanim ca1stab c_tailmanticore
+#NWmax ANIM ASCII
+newanim ccloseh c_tailmanticore
+  length 1.0
+  transtime 0.25
+  animroot c_tailmanticore
+  event 0.5 hit
+  event 0.566667 snd_footstep
+  event 0.866667 snd_footstep
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.0333333 0.0 0.0 0.0
+            0.433333 0.0 0.0 0.0
+            0.7 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0333333 0.0 0.0 0.0 0.0
+            0.433333 0.0 0.0 0.0 0.0
+            0.7 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.999739 -0.00893266 -0.0210437 -0.384074
+            0.0666667 -0.999283 -0.0120835 -0.0358767 -0.231025
+            0.1 -0.998402 -0.0159768 -0.0542129 -0.154555
+            0.133333 -0.998253 -0.0165126 -0.0567355 -0.147816
+            0.333333 -0.477421 -0.455691 -0.751276 -0.218178
+            0.6 0.764939 -0.35856 0.535073 -0.16597
+            0.8 -0.999736 -0.00895915 -0.0211693 -0.381944
+            1.0 -0.999739 -0.00893262 -0.0210437 -0.384074
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.999456 0.00312014 -0.0328364 -0.486639
+            0.233333 -0.987169 -0.0313489 -0.156569 -0.0995776
+            0.466667 0.98866 -0.014411 -0.149476 -0.105887
+            0.666667 0.999676 0.00427745 -0.0251104 -0.63455
+            1.0 0.999456 0.00312014 -0.0328364 -0.486639
+        endlist
+    endnode
+doneanim ccloseh c_tailmanticore
+#NWmax ANIM ASCII
+newanim creach c_tailmanticore
+  length 1.0
+  transtime 0.25
+  animroot c_tailmanticore
+  event 0.5 hit
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.0333333 0.0 0.0 0.0
+            0.433333 0.0 0.0 0.0
+            0.7 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0333333 0.0 0.0 0.0 0.0
+            0.433333 0.0 0.0 0.0 0.0
+            0.7 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.999713 -0.00579066 -0.0232248 -0.366628
+            0.0666667 -0.999769 -0.00475949 -0.0209629 -0.408789
+            0.266667 0.999131 0.0006799 -0.0416693 -0.219608
+            0.333333 0.99711 0.00293965 -0.0759154 -0.114919
+            0.5 0.999677 0.00389788 -0.0250988 -0.345249
+            0.6 0.999958 0.00421684 -0.00809534 -0.996859
+            0.666667 0.999965 0.00423338 -0.00719276 -1.10031
+            0.8 0.99995 0.00419673 -0.00911374 -0.899764
+            1.0 -0.999713 -0.00579065 -0.0232248 -0.366628
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.99784 -0.00180218 -0.0656613 -0.242557
+            0.0666667 0.999459 -0.00109863 -0.0328602 -0.483719
+            0.266667 -0.950991 -0.0913844 -0.295407 -0.0509382
+            0.333333 -0.998949 -0.0198793 -0.0413031 -0.345297
+            0.5 -0.995418 -0.0335685 -0.0895352 -0.164897
+            0.6 0.989946 -0.0311686 -0.137971 -0.111387
+            0.666667 0.999584 0.0 -0.0288537 -0.552772
+            0.8 0.99934 -0.00212706 -0.0362718 -0.436893
+            1.0 0.99784 -0.00180217 -0.0656615 -0.242557
+        endlist
+    endnode
+doneanim creach c_tailmanticore
+#NWmax ANIM ASCII
+newanim cparryr c_tailmanticore
+  length 1.0
+  transtime 0.3
+  animroot c_tailmanticore
+  event 0.666667 snd_footstep
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.933333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.933333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.999739 -0.00893261 -0.0210437 -0.384074
+            0.4 0.764939 -0.358561 0.535072 -0.165969
+            0.633333 -0.193575 -0.567881 0.800025 -0.0777169
+            1.0 -0.999739 -0.00893242 -0.021044 -0.384074
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.999456 0.00312015 -0.0328364 -0.486639
+            0.233333 0.98866 -0.0144114 -0.149476 -0.105887
+            0.633333 0.999508 0.00336825 -0.0311803 -0.512368
+            1.0 0.999456 0.00312013 -0.0328364 -0.486639
+        endlist
+    endnode
+doneanim cparryr c_tailmanticore
+#NWmax ANIM ASCII
+newanim cparryl c_tailmanticore
+  length 1.0
+  transtime 0.3
+  animroot c_tailmanticore
+  event 0.666667 snd_footstep
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.933333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.933333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.900313 -0.147285 -0.409566 -0.255296
+            0.266667 -0.929198 -0.133696 -0.344552 -0.300974
+            0.533333 -0.801809 -0.179275 -0.570056 -0.185705
+            0.766667 -0.883888 -0.153869 -0.441663 -0.237493
+            1.0 -0.900313 -0.147285 -0.409566 -0.255296
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.948812 0.0435702 -0.312821 -0.360331
+            0.266667 0.920275 0.0394477 -0.389277 -0.290313
+            0.533333 0.873766 0.0336692 -0.48518 -0.233269
+            0.766667 0.969296 0.0470725 -0.241349 -0.464491
+            1.0 0.948812 0.0435701 -0.312821 -0.360331
+        endlist
+    endnode
+doneanim cparryl c_tailmanticore
+#NWmax ANIM ASCII
+newanim cdodgelr c_tailmanticore
+  length 1.0
+  transtime 0.3
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.933333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.933333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.929198 -0.133696 -0.344552 -0.300974
+            0.233333 -0.898345 -0.171293 -0.404519 -0.221901
+            0.4 0.991008 -0.133135 0.013357 -0.391711
+            0.5 0.994413 -0.104661 0.0137696 -0.519928
+            0.733333 0.990073 -0.140451 0.00540808 -0.356601
+            0.9 -0.796007 -0.207605 -0.568571 -0.165658
+            1.0 -0.929198 -0.133696 -0.344552 -0.300974
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.944844 0.0429561 -0.324692 -0.347347
+            0.3 0.19971 -0.0207542 -0.979635 -0.115584
+            0.466667 0.199713 -0.0207544 -0.979635 -0.115584
+            0.566667 0.944844 0.0429562 -0.324692 -0.347347
+            0.733333 0.978785 0.0489993 -0.198944 -0.559735
+            0.9 0.974194 0.0480316 -0.220545 -0.506895
+            1.0 0.944844 0.0429563 -0.324693 -0.347347
+        endlist
+    endnode
+doneanim cdodgelr c_tailmanticore
+#NWmax ANIM ASCII
+newanim cdodges c_tailmanticore
+  length 1.0
+  transtime 0.29
+  animroot c_tailmanticore
+  event 0.2 snd_footstep
+  event 0.866667 snd_footstep
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.933333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.933333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.929198 -0.133696 -0.344552 -0.300974
+            0.2 -0.576671 -0.2188 -0.787132 -0.137408
+            0.333333 0.145776 -0.219428 -0.964676 -0.114052
+            0.433333 -0.656732 -0.20733 -0.725064 -0.147077
+            0.566667 -0.961296 -0.243838 0.128265 -0.197294
+            0.7 -0.53615 -0.221428 -0.814563 -0.131373
+            0.833333 -0.370894 -0.231857 -0.899266 -0.119397
+            0.9 -0.831789 -0.171143 -0.528051 -0.199965
+            1.0 -0.929198 -0.133696 -0.344552 -0.300974
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.944844 0.0429562 -0.324693 -0.347347
+            0.2 0.944844 0.0429558 -0.324691 -0.347348
+            0.333333 0.944844 0.0429556 -0.324691 -0.347349
+            0.433333 0.944845 0.0429552 -0.324689 -0.34735
+            0.566667 0.944844 0.0429563 -0.324693 -0.347347
+            0.7 0.944844 0.0429562 -0.324692 -0.347347
+            0.833333 0.944844 0.042956 -0.324692 -0.347348
+            0.9 0.944844 0.0429557 -0.324691 -0.347349
+            1.0 0.944845 0.0429554 -0.32469 -0.34735
+        endlist
+    endnode
+doneanim cdodges c_tailmanticore
+#NWmax ANIM ASCII
+newanim ckdbck c_tailmanticore
+  length 1.0
+  transtime 0.15
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.965537 -0.250869 0.0693011 -0.560029
+            0.0666667 0.211114 -0.971606 0.106832 -0.138423
+            0.166667 0.987535 -0.155246 -0.0259355 -0.887815
+            0.3 0.973773 -0.227509 0.00235838 -0.617909
+            0.4 0.977228 -0.210648 0.0255614 -0.6259
+            0.633333 0.540628 -0.593348 0.596371 -0.16207
+            1.0 -0.741741 -0.294462 0.602588 -0.229533
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.96973 -0.187973 -0.15585 -0.696764
+            0.0666667 -0.285265 -0.874323 -0.392663 -0.16069
+            0.166667 -0.986699 -0.162288 -0.0093442 -0.903937
+            0.3 0.960327 -0.199647 -0.194711 -0.499689
+            0.4 0.984603 -0.0965215 -0.145745 -0.751552
+            0.633333 0.752922 -0.301305 -0.585084 -0.150057
+            1.0 0.982564 0.00270703 -0.185906 -0.496586
+        endlist
+    endnode
+doneanim ckdbck c_tailmanticore
+#NWmax ANIM ASCII
+newanim ckdbckps c_tailmanticore
+  length 2.03333
+  transtime 0.5
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.0333333 0.0 0.0 0.0
+            0.9 0.0 0.0 0.0
+            1.16667 0.0 0.0 0.0
+            1.73333 0.0 0.0 0.0
+            2.0 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0333333 0.0 0.0 0.0 0.0
+            0.9 0.0 0.0 0.0 0.0
+            1.16667 0.0 0.0 0.0 0.0
+            1.73333 0.0 0.0 0.0 0.0
+            2.0 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.741741 -0.294462 0.602588 -0.229533
+            0.1 -0.736112 -0.291554 0.610849 -0.231676
+            0.4 -0.667671 -0.256926 0.698716 -0.260747
+            0.533333 -0.656004 -0.251128 0.711753 -0.26636
+            0.633333 -0.662793 -0.254503 0.704226 -0.26306
+            0.9 -0.735299 -0.291147 0.61202 -0.231979
+            1.0 -0.741741 -0.294462 0.602588 -0.229533
+            1.03333 -0.741741 -0.294462 0.602588 -0.229533
+            1.13333 -0.736111 -0.291554 0.610849 -0.231676
+            1.43333 -0.667671 -0.256926 0.698716 -0.260747
+            1.56667 -0.656007 -0.251123 0.711752 -0.26636
+            1.66667 -0.662793 -0.254503 0.704226 -0.26306
+            1.93333 -0.735299 -0.291147 0.61202 -0.231978
+            2.03333 -0.741741 -0.294462 0.602588 -0.229533
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.982564 0.0027068 -0.185906 -0.496586
+            0.3 0.927748 -0.0427683 -0.370748 -0.486704
+            0.633333 0.982439 0.00231723 -0.186569 -0.478128
+            0.833333 0.997011 0.0318583 -0.07039 -0.485679
+            1.0 0.982563 0.00270649 -0.185909 -0.496586
+            1.03333 0.982564 0.00270646 -0.185907 -0.496588
+            1.33333 0.927747 -0.0427687 -0.37075 -0.486704
+            1.66667 0.982439 0.00231721 -0.18657 -0.478128
+            1.86667 0.997011 0.0318583 -0.0703895 -0.485679
+            2.03333 0.982564 0.00270686 -0.185906 -0.496586
+        endlist
+    endnode
+doneanim ckdbckps c_tailmanticore
+#NWmax ANIM ASCII
+newanim ckdbckdmg c_tailmanticore
+  length 0.333333
+  transtime 0.15
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.2 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.2 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.524028 0.851698 -0.00239321 -0.373553
+            0.333333 -0.741739 -0.294467 0.602588 -0.229534
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.760422 -0.112603 -0.639593 -0.375107
+            0.166667 0.357961 -0.185779 -0.915068 -0.475108
+            0.333333 0.982564 0.00270701 -0.185906 -0.496586
+        endlist
+    endnode
+doneanim ckdbckdmg c_tailmanticore
+#NWmax ANIM ASCII
+newanim ckdbckdie c_tailmanticore
+  length 1.0
+  transtime 0.25
+  animroot c_tailmanticore
+  event 0.466667 snd_hitground
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.366667 0.0 0.0 0.0
+            0.633333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.366667 0.0 0.0 0.0 0.0
+            0.633333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.74174 -0.294463 0.602589 -0.229533
+            0.133333 0.641615 0.725814 0.248042 -0.269839
+            0.366667 0.311494 0.391041 -0.866059 -0.473652
+            0.4 0.707932 0.473579 0.523981 -0.424082
+            0.633333 0.656083 0.659489 0.366918 -0.415813
+            0.9 0.550975 0.817822 0.16611 -0.437153
+            1.0 0.514161 0.846453 0.138405 -0.481222
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.982564 0.00270691 -0.185906 -0.496586
+            0.133333 0.902253 0.158469 0.401032 -0.533329
+            0.366667 0.975582 0.018409 -0.218863 -0.499902
+            0.4 0.812707 -0.0645514 -0.579086 -0.600949
+            0.566667 0.896484 -0.0166076 -0.442764 -0.54455
+            0.633333 0.82595 -0.048323 -0.561668 -0.598694
+            0.7 0.952235 0.0286749 -0.304018 -0.51174
+            0.9 0.993146 0.102663 -0.0558715 -0.488136
+            1.0 0.958046 0.0490189 -0.282392 -0.508478
+        endlist
+    endnode
+doneanim ckdbckdie c_tailmanticore
+#NWmax ANIM ASCII
+newanim cdead c_tailmanticore
+  length 0.0666667
+  transtime 0.5
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 0.514161 0.846453 0.138405 -0.481222
+            0.0666667 0.514161 0.846453 0.138405 -0.481222
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.958046 0.0490193 -0.282392 -0.508478
+            0.0666667 0.958046 0.0490192 -0.282391 -0.508479
+        endlist
+    endnode
+doneanim cdead c_tailmanticore
+#NWmax ANIM ASCII
+newanim cguptokdb c_tailmanticore
+  length 1.0
+  transtime 0.25
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.3 0.0 0.0 0.0
+            0.566667 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.3 0.0 0.0 0.0 0.0
+            0.566667 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.4 0.919415 0.279104 0.277086 -0.494502
+            0.6 -0.157182 -0.964865 0.210546 -0.487095
+            0.9 -0.741742 -0.29446 0.602588 -0.229533
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.4 0.947723 0.0249078 -0.31812 -0.311686
+            0.6 -0.420787 -0.138041 -0.896595 -0.105542
+            0.9 0.982564 0.00270684 -0.185906 -0.496586
+        endlist
+    endnode
+doneanim cguptokdb c_tailmanticore
+#NWmax ANIM ASCII
+newanim cgustandb c_tailmanticore
+  length 1.0
+  transtime 0.25
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.74174 -0.294463 0.602589 -0.229533
+            0.366667 0.540629 -0.593348 0.596371 -0.16207
+            1.0 -0.999771 -0.00472755 -0.0208929 -0.410248
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.982564 0.00270688 -0.185906 -0.496586
+            0.366667 0.752923 -0.301306 -0.585083 -0.150057
+            1.0 0.996855 -0.0142143 -0.077962 -0.199018
+        endlist
+    endnode
+doneanim cgustandb c_tailmanticore
+#NWmax ANIM ASCII
+newanim ccwalkf c_tailmanticore
+  length 0.5
+  transtime 0.25
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.2 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.2 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 0.977981 -0.0566419 -0.200861 -0.303777
+            0.133333 -0.909431 -0.233792 -0.343912 -0.350823
+            0.2 -0.969946 -0.216597 -0.11086 -0.222219
+            0.233333 -0.82637 -0.439782 0.351716 -0.063669
+            0.266667 0.943394 -0.0644187 0.325359 -0.116554
+            0.333333 0.993143 -0.0798093 -0.0854204 -0.230676
+            0.366667 0.982854 -0.0806779 -0.165801 -0.272397
+            0.4 0.958308 -0.0858882 -0.272525 -0.310371
+            0.433333 0.937131 -0.0811045 -0.339423 -0.344787
+            0.5 0.977981 -0.0566417 -0.200858 -0.303777
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 -0.852969 -0.36822 -0.369943 -0.528299
+            0.5 -0.852969 -0.36822 -0.369943 -0.528299
+        endlist
+    endnode
+doneanim ccwalkf c_tailmanticore
+#NWmax ANIM ASCII
+newanim ccwalkb c_tailmanticore
+  length 0.5
+  transtime 0.25
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.433333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.433333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 0.977981 -0.0566411 -0.200859 -0.303777
+            0.0666667 0.937131 -0.0811047 -0.339423 -0.344787
+            0.1 0.958309 -0.0858876 -0.272522 -0.310371
+            0.133333 0.982854 -0.080678 -0.165799 -0.272397
+            0.166667 0.993144 -0.0798093 -0.0854187 -0.230676
+            0.233333 0.943392 -0.0644194 0.325363 -0.116553
+            0.266667 -0.826371 -0.439783 0.351714 -0.063669
+            0.3 -0.969946 -0.216597 -0.110863 -0.222219
+            0.366667 -0.909431 -0.233792 -0.343912 -0.350823
+            0.5 0.977982 -0.0566408 -0.200857 -0.303776
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 -0.852969 -0.36822 -0.369943 -0.528299
+            0.5 -0.852969 -0.368221 -0.369943 -0.528298
+        endlist
+    endnode
+doneanim ccwalkb c_tailmanticore
+#NWmax ANIM ASCII
+newanim ccwalkl c_tailmanticore
+  length 0.5
+  transtime 0.25
+  animroot c_tailmanticore
+  event 0.1 snd_footstep
+  event 0.2 snd_footstep
+  event 0.266667 snd_footstep
+  event 0.4 snd_footstep
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.919869 -0.114981 -0.374995 -0.333002
+            0.2 -0.981912 -0.188645 0.0161592 -0.30853
+            0.266667 -0.915533 -0.226147 0.332652 -0.32729
+            0.333333 -0.707138 -0.239303 0.66535 -0.414565
+            0.4 -0.986404 -0.113511 -0.11884 -0.468091
+            0.5 -0.919869 -0.114981 -0.374995 -0.333002
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.944844 0.0429563 -0.324693 -0.347347
+            0.5 0.944844 0.0429559 -0.324692 -0.347348
+        endlist
+    endnode
+doneanim ccwalkl c_tailmanticore
+#NWmax ANIM ASCII
+newanim ccwalkr c_tailmanticore
+  length 0.5
+  transtime 0.25
+  animroot c_tailmanticore
+  event 0.166667 snd_footstep
+  event 0.4 snd_footstep
+  event 0.466667 snd_footstep
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.1 0.0 0.0 0.0
+            0.366667 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.1 0.0 0.0 0.0 0.0
+            0.366667 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.919868 0.114982 0.374996 -0.333002
+            0.1 -0.986404 0.113511 0.118841 -0.468091
+            0.166667 -0.707138 0.239303 -0.665349 -0.414565
+            0.233333 -0.915534 0.226146 -0.332648 -0.32729
+            0.3 -0.981912 0.188645 -0.0161552 -0.30853
+            0.5 -0.919867 0.114982 0.374998 -0.333002
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.944843 -0.0429562 0.324693 -0.347347
+            0.5 0.944844 -0.0429559 0.324692 -0.347348
+        endlist
+    endnode
+doneanim ccwalkr c_tailmanticore
+#NWmax ANIM ASCII
+newanim cgetmid c_tailmanticore
+  length 0.5
+  transtime 0.25
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.99913 -0.0195799 -0.0368243 -0.209621
+            0.333333 0.342341 -0.555436 -0.757822 -0.203986
+            0.5 0.944062 -0.329759 0.00232388 -0.227537
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.912159 0.188476 -0.363926 -0.0453472
+            0.233333 -0.999401 0.00638376 -0.0340144 -0.54363
+            0.466667 -0.998498 0.0155099 -0.0525467 -0.340833
+            0.5 -0.997279 0.0239708 -0.0697195 -0.252733
+        endlist
+    endnode
+doneanim cgetmid c_tailmanticore
+#NWmax ANIM ASCII
+newanim chturnl c_tailmanticore
+  length 2.0
+  transtime 0.25
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.0333333 0.0 0.0 0.0
+            1.1 0.0 0.0 0.0
+            1.36667 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0333333 0.0 0.0 0.0 0.0
+            1.1 0.0 0.0 0.0 0.0
+            1.36667 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.999771 -0.00472765 -0.0208929 -0.410248
+            0.966667 -0.997929 0.0185039 0.0616088 -0.409832
+            2.0 -0.999771 -0.00472765 -0.0208929 -0.410248
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.996855 -0.0142152 -0.0779641 -0.199018
+            0.333333 0.984347 -0.0529969 -0.168084 -0.248194
+            1.3 0.919199 0.169625 0.355388 -0.110851
+            2.0 0.996855 -0.0142152 -0.077964 -0.199018
+        endlist
+    endnode
+doneanim chturnl c_tailmanticore
+#NWmax ANIM ASCII
+newanim chturnr c_tailmanticore
+  length 2.0
+  transtime 0.25
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.1 0.0 0.0 0.0
+            0.366667 0.0 0.0 0.0
+            0.766667 0.0 0.0 0.0
+            1.03333 0.0 0.0 0.0
+            1.6 0.0 0.0 0.0
+            1.86667 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.1 0.0 0.0 0.0 0.0
+            0.366667 0.0 0.0 0.0 0.0
+            0.766667 0.0 0.0 0.0 0.0
+            1.03333 0.0 0.0 0.0 0.0
+            1.6 0.0 0.0 0.0 0.0
+            1.86667 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.999771 -0.00472765 -0.0208929 -0.410248
+            0.966667 -0.997929 0.0185039 0.0616088 -0.409832
+            2.0 -0.999771 -0.00472765 -0.0208929 -0.410248
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.996855 -0.0142152 -0.0779641 -0.199018
+            0.333333 0.984347 -0.0529968 -0.168084 -0.248194
+            1.3 0.919199 0.169625 0.355388 -0.110851
+            2.0 0.996855 -0.0142152 -0.0779641 -0.199018
+        endlist
+    endnode
+doneanim chturnr c_tailmanticore
+#NWmax ANIM ASCII
+newanim ctaunt c_tailmanticore
+  length 1.83333
+  transtime 0.25
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.0666667 0.0 0.0 0.0
+            0.333333 0.0 0.0 0.0
+            0.9 0.0 0.0 0.0
+            1.16667 0.0 0.0 0.0
+            1.26667 0.0 0.0 0.0
+            1.53333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0666667 0.0 0.0 0.0 0.0
+            0.333333 0.0 0.0 0.0 0.0
+            0.9 0.0 0.0 0.0 0.0
+            1.16667 0.0 0.0 0.0 0.0
+            1.26667 0.0 0.0 0.0 0.0
+            1.53333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.999771 -0.00472765 -0.0208929 -0.410248
+            0.8 -0.999509 -0.00490199 -0.0309501 -0.279389
+            1.0 -0.786207 -0.490966 0.375274 -0.17708
+            1.06667 -0.634354 -0.672341 -0.381514 -0.155628
+            1.2 -0.706102 -0.62177 -0.338853 -0.132555
+            1.66667 -0.991589 -0.0621774 -0.113512 -0.333567
+            1.83333 -0.999771 -0.00472754 -0.0208925 -0.410248
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.952092 0.0174641 0.305314 -0.263297
+            0.266667 0.951064 0.0253451 0.307954 -0.156607
+            0.8 0.99147 -0.0283946 -0.127205 -0.120885
+            1.06667 -0.989341 -0.0476078 -0.137614 -0.108187
+            1.2 0.99994 -0.00553201 0.00947362 -0.19842
+            1.66667 0.94262 0.0392339 0.331555 -0.293579
+            1.83333 0.952092 0.0174634 0.305313 -0.263297
+        endlist
+    endnode
+doneanim ctaunt c_tailmanticore
+#NWmax ANIM ASCII
+newanim cconjure1 c_tailmanticore
+  length 2.0
+  transtime 0.25
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.433333 0.0 0.0 0.0
+            0.7 0.0 0.0 0.0
+            1.76667 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.433333 0.0 0.0 0.0 0.0
+            0.7 0.0 0.0 0.0 0.0
+            1.76667 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.999771 -0.00472772 -0.0208929 -0.410248
+            0.966667 -0.997929 0.0185038 0.0616087 -0.409832
+            2.0 -0.999771 -0.00472772 -0.0208929 -0.410248
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.996855 -0.0142152 -0.0779643 -0.199018
+            0.333333 0.984347 -0.0529968 -0.168084 -0.248194
+            1.3 0.919199 0.169625 0.355388 -0.110851
+            2.0 0.996855 -0.0142152 -0.0779641 -0.199018
+        endlist
+    endnode
+doneanim cconjure1 c_tailmanticore
+#NWmax ANIM ASCII
+newanim ccastoutlp c_tailmanticore
+  length 1.0
+  transtime 0.25
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.766667 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.766667 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.95874 -0.281581 0.039119 -0.139471
+            0.5 -0.946101 -0.181288 0.26838 -0.139407
+            1.0 -0.95874 -0.281581 0.039119 -0.139471
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.996855 -0.0142151 -0.0779641 -0.199018
+            0.166667 0.984347 -0.0529968 -0.168084 -0.248194
+            0.666667 0.919199 0.169625 0.355387 -0.110851
+            1.0 0.996855 -0.0142151 -0.0779638 -0.199018
+        endlist
+    endnode
+doneanim ccastoutlp c_tailmanticore
+#NWmax ANIM ASCII
+newanim cappear c_tailmanticore
+  length 2.0
+  transtime 0.25
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.266667 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.266667 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.997631 -0.00788039 -0.0683422 -0.148697
+            0.733333 -0.813364 -0.0810444 0.576083 -0.390246
+            0.966667 -0.803248 -0.0825149 0.589901 -0.410679
+            1.76667 -0.999069 -0.0204604 0.0379806 -0.16026
+            2.0 -0.997631 -0.00788056 -0.0683423 -0.148697
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.560702 0.0420152 0.826951 -0.20271
+            0.233333 0.870188 -0.0359341 -0.491408 -0.130739
+            0.733333 0.699907 -0.0469924 -0.712686 -0.162382
+            1.1 0.586751 0.04074 0.808742 -0.193758
+            1.73333 0.34036 0.0504052 0.938943 -0.332223
+            2.0 0.560703 0.042015 0.82695 -0.20271
+        endlist
+    endnode
+doneanim cappear c_tailmanticore
+#NWmax ANIM ASCII
+newanim cdisappear c_tailmanticore
+  length 2.0
+  transtime 0.25
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.997631 -0.00788049 -0.0683423 -0.148697
+            0.733333 -0.813364 -0.0810445 0.576083 -0.390246
+            0.966667 -0.803248 -0.0825149 0.589901 -0.410679
+            1.76667 -0.999069 -0.0204604 0.0379807 -0.16026
+            2.0 -0.997631 -0.00788056 -0.0683423 -0.148697
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.560702 0.0420151 0.826951 -0.20271
+            0.233333 0.870188 -0.0359342 -0.491408 -0.130739
+            0.733333 0.699907 -0.0469924 -0.712686 -0.162382
+            1.1 0.586751 0.0407398 0.808742 -0.193758
+            1.73333 0.34036 0.0504052 0.938943 -0.332223
+            2.0 0.560704 0.0420151 0.82695 -0.20271
+        endlist
+    endnode
+doneanim cdisappear c_tailmanticore
+#NWmax ANIM ASCII
+newanim ccastout c_tailmanticore
+  length 0.5
+  transtime 0.25
+  animroot c_tailmanticore
+  event 0.5 cast
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.999771 -0.00472776 -0.020893 -0.410248
+            0.4 -0.980126 -0.197296 0.0206537 -0.174037
+            0.466667 0.928353 -0.365566 0.0672479 -0.241042
+            0.5 0.963714 -0.261955 0.05134 -0.436883
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.996855 -0.0142152 -0.077964 -0.199018
+            0.133333 0.984347 -0.0529969 -0.168084 -0.248194
+            0.4 0.994969 -0.0226435 -0.0975866 -0.207788
+            0.466667 0.895558 0.22176 -0.385743 -0.0703429
+            0.5 0.99567 -0.0198511 -0.090809 -0.199061
+        endlist
+    endnode
+doneanim ccastout c_tailmanticore
+#NWmax ANIM ASCII
+newanim cgetmidlp c_tailmanticore
+  length 0.0333333
+  transtime 0.5
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 0.944062 -0.329759 0.002323 -0.227537
+            0.0333333 0.944062 -0.329759 0.00232302 -0.227537
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 -0.997279 0.0239706 -0.0697195 -0.252733
+            0.0333333 -0.997279 0.0239706 -0.0697195 -0.252733
+        endlist
+    endnode
+doneanim cgetmidlp c_tailmanticore
+#NWmax ANIM ASCII
+newanim cspasm c_tailmanticore
+  length 1.0
+  transtime 0.25
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.535071 -0.250693 0.806754 -0.367695
+            0.133333 -0.146006 -0.931165 -0.334087 -0.0240435
+            0.3 -0.602823 -0.106008 0.790802 -0.3915
+            0.433333 -0.956852 -0.056149 0.285098 -0.390527
+            0.533333 -0.827949 0.228639 -0.512078 -0.218794
+            0.633333 0.0374509 0.341299 -0.939208 -0.355009
+            0.833333 0.547176 -0.343726 0.763184 -0.267496
+            0.866667 0.308859 -0.362993 0.879115 -0.253685
+            1.0 -0.535071 -0.250693 0.806754 -0.367695
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.729364 0.0322954 0.683364 -0.156009
+            0.133333 -0.863595 0.107532 0.492585 -0.190065
+            0.3 0.994758 0.0185512 -0.100561 -0.539512
+            0.433333 0.953556 0.0350338 -0.299173 -0.418793
+            0.533333 -0.413989 0.184364 0.891416 -0.423118
+            0.633333 -0.191196 0.168676 0.96695 -0.152211
+            0.766667 0.253271 -0.0431946 -0.966431 -0.449253
+            0.866667 0.926107 0.0396837 -0.375168 -0.432142
+            1.0 0.729362 0.0322955 0.683365 -0.156009
+        endlist
+    endnode
+doneanim cspasm c_tailmanticore
+#NWmax ANIM ASCII
+newanim crun c_tailmanticore
+  length 0.833333
+  transtime 0.25
+  animroot c_tailmanticore
+  event 0.266667 snd_footstep
+  event 0.4 snd_footstep
+  event 0.566667 snd_footstep
+  event 0.666667 snd_footstep
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 0.983862 0.0539834 0.170593 -0.229204
+            0.0666667 0.815567 -0.0264032 0.578061 -0.200003
+            0.1 0.404914 -0.0214783 0.914103 -0.110342
+            0.133333 -0.627936 -0.00115602 0.778264 -0.110518
+            0.233333 -0.971078 -0.0226111 0.237689 -0.17235
+            0.466667 -0.837194 -0.345259 -0.42415 -0.157892
+            0.566667 0.905658 -0.395714 -0.152298 -0.0347571
+            0.766667 0.988464 -0.130215 0.0773462 -0.3513
+            0.833333 0.983862 0.0539842 0.170592 -0.229204
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.973472 0.222458 -0.0535201 -0.330782
+            0.0666667 0.976188 0.160893 -0.1455 -0.344097
+            0.233333 -0.802336 0.592976 0.0680934 -0.119987
+            0.466667 -0.635752 0.494053 0.59307 -0.184255
+            0.566667 0.644341 0.761846 -0.0664497 -0.168761
+            0.766667 0.940509 0.286307 -0.18295 -0.363316
+            0.833333 0.973472 0.222458 -0.0535181 -0.330782
+        endlist
+    endnode
+doneanim crun c_tailmanticore
+#NWmax ANIM ASCII
+newanim ccturnr c_tailmanticore
+  length 0.5
+  transtime 0.25
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 0.849271 -0.100738 -0.518257 -0.348384
+            0.1 0.984235 -0.0576642 -0.167204 -0.270039
+            0.233333 0.997761 -0.0431498 -0.0511004 -0.23857
+            0.333333 0.958891 -0.0771605 -0.273083 -0.266067
+            0.4 0.835381 -0.110281 -0.538495 -0.331285
+            0.5 0.849271 -0.100738 -0.518257 -0.348384
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 -0.541057 -0.18918 -0.819432 -0.660045
+            0.5 -0.541056 -0.18918 -0.819432 -0.660045
+        endlist
+    endnode
+doneanim ccturnr c_tailmanticore
+#NWmax ANIM ASCII
+newanim cdisappearlp c_tailmanticore
+  length 2.0
+  transtime 0.25
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.997631 -0.00787998 -0.0683423 -0.148697
+            0.733333 -0.813363 -0.0810443 0.576083 -0.390246
+            0.966667 -0.803248 -0.0825148 0.589901 -0.410679
+            1.76667 -0.999069 -0.02046 0.0379808 -0.16026
+            2.0 -0.997631 -0.00787969 -0.0683454 -0.148697
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.560701 0.0420153 0.826952 -0.20271
+            0.233333 0.870187 -0.0359342 -0.491409 -0.130739
+            0.733333 0.699908 -0.0469924 -0.712686 -0.162382
+            1.1 0.58675 0.0407401 0.808742 -0.193758
+            1.73333 0.34036 0.0504054 0.938943 -0.332223
+            2.0 0.560703 0.0420153 0.82695 -0.20271
+        endlist
+    endnode
+doneanim cdisappearlp c_tailmanticore
+#NWmax ANIM ASCII
+newanim victoryfr c_tailmanticore
+  length 1.83333
+  transtime 0.25
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.0666667 0.0 0.0 0.0
+            0.333333 0.0 0.0 0.0
+            0.9 0.0 0.0 0.0
+            1.16667 0.0 0.0 0.0
+            1.26667 0.0 0.0 0.0
+            1.53333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0666667 0.0 0.0 0.0 0.0
+            0.333333 0.0 0.0 0.0 0.0
+            0.9 0.0 0.0 0.0 0.0
+            1.16667 0.0 0.0 0.0 0.0
+            1.26667 0.0 0.0 0.0 0.0
+            1.53333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.999771 -0.00472759 -0.0208929 -0.410248
+            0.8 -0.999509 -0.0049019 -0.0309501 -0.279388
+            1.0 -0.786207 -0.490966 0.375275 -0.17708
+            1.06667 -0.634354 -0.672341 -0.381514 -0.155628
+            1.2 -0.706102 -0.621771 -0.338853 -0.132554
+            1.66667 -0.991589 -0.0621773 -0.113512 -0.333567
+            1.83333 -0.999771 -0.00472742 -0.0208925 -0.410248
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.952092 0.0174642 0.305314 -0.263297
+            0.266667 0.951063 0.0253452 0.307954 -0.156607
+            0.8 0.99147 -0.0283945 -0.127205 -0.120885
+            1.06667 -0.989341 -0.0476078 -0.137613 -0.108187
+            1.2 0.99994 -0.00553191 0.00947388 -0.19842
+            1.66667 0.94262 0.039234 0.331555 -0.293579
+            1.83333 0.952092 0.0174635 0.305313 -0.263297
+        endlist
+    endnode
+doneanim victoryfr c_tailmanticore
+#NWmax ANIM ASCII
+newanim victorymg c_tailmanticore
+  length 1.83333
+  transtime 0.25
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.0666667 0.0 0.0 0.0
+            0.333333 0.0 0.0 0.0
+            0.9 0.0 0.0 0.0
+            1.16667 0.0 0.0 0.0
+            1.26667 0.0 0.0 0.0
+            1.53333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0666667 0.0 0.0 0.0 0.0
+            0.333333 0.0 0.0 0.0 0.0
+            0.9 0.0 0.0 0.0 0.0
+            1.16667 0.0 0.0 0.0 0.0
+            1.26667 0.0 0.0 0.0 0.0
+            1.53333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.999771 -0.00472761 -0.0208929 -0.410248
+            0.8 -0.999509 -0.00490192 -0.0309501 -0.279389
+            1.0 -0.786207 -0.490966 0.375275 -0.17708
+            1.06667 -0.634354 -0.672341 -0.381514 -0.155628
+            1.2 -0.706102 -0.62177 -0.338853 -0.132554
+            1.66667 -0.991589 -0.0621774 -0.113512 -0.333567
+            1.83333 -0.999771 -0.00472751 -0.0208925 -0.410248
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.952091 0.0174641 0.305314 -0.263297
+            0.266667 0.951063 0.0253452 0.307955 -0.156607
+            0.8 0.99147 -0.0283945 -0.127205 -0.120885
+            1.06667 -0.989341 -0.0476078 -0.137613 -0.108187
+            1.2 0.99994 -0.00553195 0.0094739 -0.19842
+            1.66667 0.94262 0.039234 0.331555 -0.293579
+            1.83333 0.952092 0.0174634 0.305313 -0.263297
+        endlist
+    endnode
+doneanim victorymg c_tailmanticore
+#NWmax ANIM ASCII
+newanim victoryh c_tailmanticore
+  length 1.83333
+  transtime 0.25
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.0666667 0.0 0.0 0.0
+            0.333333 0.0 0.0 0.0
+            0.9 0.0 0.0 0.0
+            1.16667 0.0 0.0 0.0
+            1.26667 0.0 0.0 0.0
+            1.53333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0666667 0.0 0.0 0.0 0.0
+            0.333333 0.0 0.0 0.0 0.0
+            0.9 0.0 0.0 0.0 0.0
+            1.16667 0.0 0.0 0.0 0.0
+            1.26667 0.0 0.0 0.0 0.0
+            1.53333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.999771 -0.00472769 -0.0208929 -0.410248
+            0.8 -0.999509 -0.00490205 -0.0309501 -0.279389
+            1.0 -0.786207 -0.490967 0.375274 -0.17708
+            1.06667 -0.634354 -0.672341 -0.381514 -0.155628
+            1.2 -0.706102 -0.62177 -0.338853 -0.132555
+            1.66667 -0.991589 -0.0621775 -0.113512 -0.333567
+            1.83333 -0.999771 -0.00472757 -0.0208925 -0.410248
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.952091 0.0174641 0.305314 -0.263297
+            0.266667 0.951063 0.0253452 0.307955 -0.156607
+            0.8 0.99147 -0.0283945 -0.127204 -0.120885
+            1.06667 -0.989341 -0.0476079 -0.137613 -0.108187
+            1.2 0.99994 -0.00553196 0.00947403 -0.19842
+            1.66667 0.94262 0.039234 0.331555 -0.293579
+            1.83333 0.952092 0.0174634 0.305313 -0.263297
+        endlist
+    endnode
+doneanim victoryh c_tailmanticore
+#NWmax ANIM ASCII
+newanim taunt c_tailmanticore
+  length 1.83333
+  transtime 0.25
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.0666667 0.0 0.0 0.0
+            0.333333 0.0 0.0 0.0
+            0.9 0.0 0.0 0.0
+            1.16667 0.0 0.0 0.0
+            1.26667 0.0 0.0 0.0
+            1.53333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0666667 0.0 0.0 0.0 0.0
+            0.333333 0.0 0.0 0.0 0.0
+            0.9 0.0 0.0 0.0 0.0
+            1.16667 0.0 0.0 0.0 0.0
+            1.26667 0.0 0.0 0.0 0.0
+            1.53333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.999771 -0.00472776 -0.0208929 -0.410248
+            0.8 -0.999509 -0.00490214 -0.0309501 -0.279389
+            1.0 -0.786207 -0.490966 0.375274 -0.17708
+            1.06667 -0.634354 -0.672341 -0.381513 -0.155628
+            1.2 -0.706102 -0.62177 -0.338853 -0.132555
+            1.66667 -0.991589 -0.0621775 -0.113512 -0.333567
+            1.83333 -0.999771 -0.00472757 -0.0208925 -0.410248
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.952091 0.0174641 0.305314 -0.263297
+            0.266667 0.951063 0.0253452 0.307955 -0.156607
+            0.8 0.99147 -0.0283945 -0.127204 -0.120885
+            1.06667 -0.989341 -0.0476078 -0.137613 -0.108187
+            1.2 0.99994 -0.00553196 0.00947395 -0.19842
+            1.66667 0.94262 0.039234 0.331555 -0.293579
+            1.83333 0.952092 0.0174634 0.305313 -0.263297
+        endlist
+    endnode
+doneanim taunt c_tailmanticore
+#NWmax ANIM ASCII
+newanim appear c_tailmanticore
+  length 2.0
+  transtime 0.25
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.266667 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.266667 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.997631 -0.00788045 -0.0683421 -0.148697
+            0.733333 -0.813364 -0.0810444 0.576083 -0.390246
+            0.966667 -0.803248 -0.0825148 0.589901 -0.410679
+            1.76667 -0.999069 -0.0204604 0.0379808 -0.16026
+            2.0 -0.997631 -0.00788059 -0.0683421 -0.148697
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.560701 0.0420152 0.826951 -0.20271
+            0.233333 0.870188 -0.0359342 -0.491408 -0.130739
+            0.733333 0.699907 -0.0469925 -0.712686 -0.162382
+            1.1 0.58675 0.0407398 0.808743 -0.193758
+            1.73333 0.34036 0.0504053 0.938943 -0.332223
+            2.0 0.560703 0.0420151 0.826951 -0.20271
+        endlist
+    endnode
+doneanim appear c_tailmanticore
+#NWmax ANIM ASCII
+newanim disappear c_tailmanticore
+  length 2.0
+  transtime 0.25
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.997631 -0.00788051 -0.0683421 -0.148697
+            0.733333 -0.813364 -0.0810444 0.576083 -0.390246
+            0.966667 -0.803248 -0.0825149 0.589901 -0.410679
+            1.76667 -0.999069 -0.0204605 0.0379808 -0.16026
+            2.0 -0.997631 -0.00788066 -0.0683421 -0.148697
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.560702 0.0420152 0.826951 -0.20271
+            0.233333 0.870188 -0.0359343 -0.491409 -0.130739
+            0.733333 0.699907 -0.0469926 -0.712687 -0.162382
+            1.1 0.58675 0.0407398 0.808743 -0.193758
+            1.73333 0.34036 0.0504053 0.938943 -0.332223
+            2.0 0.560703 0.0420151 0.82695 -0.20271
+        endlist
+    endnode
+doneanim disappear c_tailmanticore
+#NWmax ANIM ASCII
+newanim disappearlp c_tailmanticore
+  length 2.0
+  transtime 0.25
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.997631 -0.00788058 -0.0683421 -0.148697
+            0.733333 -0.813364 -0.0810444 0.576083 -0.390246
+            0.966667 -0.803248 -0.0825149 0.589901 -0.410679
+            1.76667 -0.999069 -0.0204605 0.0379807 -0.16026
+            2.0 -0.997631 -0.00788039 -0.0683454 -0.148697
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.560701 0.0420151 0.826951 -0.20271
+            0.233333 0.870187 -0.0359344 -0.491409 -0.130739
+            0.733333 0.699907 -0.0469926 -0.712686 -0.162382
+            1.1 0.58675 0.0407398 0.808743 -0.193758
+            1.73333 0.34036 0.0504053 0.938943 -0.332223
+            2.0 0.560703 0.0420152 0.82695 -0.20271
+        endlist
+    endnode
+doneanim disappearlp c_tailmanticore
+#NWmax ANIM ASCII
+newanim 1hslashl c_tailmanticore
+  length 1.0
+  transtime 0.25
+  animroot c_tailmanticore
+  event 0.366667 snd_footstep
+  event 0.5 hit
+  event 0.666667 snd_footstep
+  event 0.8 snd_footstep
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.2 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.2 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 0.998963 0.00243124 -0.0454605 -0.192064
+            0.166667 -0.997262 -0.00718671 -0.0736038 -0.11823
+            0.466667 0.999747 0.00368934 -0.0222038 -0.390985
+            0.533333 0.999891 0.00395868 -0.0142029 -0.601949
+            0.633333 0.99994 0.00410299 -0.0101093 -0.824306
+            0.766667 0.999871 0.00400879 -0.015563 -0.550689
+            0.866667 -0.999671 -0.00482351 -0.0251757 -0.342206
+            1.0 -0.965899 -0.091001 -0.242401 -0.68113
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.999223 0.00219044 -0.0393577 -0.408889
+            0.466667 -0.995449 -0.0275984 -0.0912129 -0.167904
+            0.633333 0.976367 -0.0458125 -0.211207 -0.073478
+            0.766667 0.999062 -0.00282279 -0.0432032 -0.368787
+            0.866667 0.999447 -0.00074442 -0.0332579 -0.480331
+            1.0 0.876291 0.163407 0.453224 -0.365976
+        endlist
+    endnode
+doneanim 1hslashl c_tailmanticore
+#NWmax ANIM ASCII
+newanim 2wslashl c_tailmanticore
+  length 1.0
+  transtime 0.25
+  animroot c_tailmanticore
+  event 0.366667 snd_footstep
+  event 0.5 hit
+  event 0.666667 snd_footstep
+  event 0.8 snd_footstep
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.2 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.2 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 0.998963 0.00243131 -0.0454603 -0.192064
+            0.166667 -0.997262 -0.00718667 -0.0736034 -0.11823
+            0.466667 0.999747 0.00368938 -0.0222037 -0.390985
+            0.533333 0.999891 0.00395872 -0.0142028 -0.601949
+            0.633333 0.99994 0.00410303 -0.0101092 -0.824306
+            0.766667 0.999871 0.00400883 -0.0155629 -0.550689
+            0.866667 -0.999671 -0.00482352 -0.0251756 -0.342206
+            1.0 -0.965899 -0.091001 -0.242401 -0.68113
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.999223 0.00219046 -0.0393577 -0.408889
+            0.466667 -0.995449 -0.0275983 -0.0912129 -0.167904
+            0.633333 0.976367 -0.0458123 -0.211207 -0.073478
+            0.766667 0.999062 -0.00282277 -0.0432032 -0.368787
+            0.866667 0.999447 -0.000744406 -0.0332579 -0.480331
+            1.0 0.876291 0.163407 0.453224 -0.365976
+        endlist
+    endnode
+doneanim 2wslashl c_tailmanticore
+#NWmax ANIM ASCII
+newanim nwslashl c_tailmanticore
+  length 1.0
+  transtime 0.25
+  animroot c_tailmanticore
+  event 0.366667 snd_footstep
+  event 0.5 hit
+  event 0.666667 snd_footstep
+  event 0.8 snd_footstep
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.2 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.2 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 0.998963 0.00243124 -0.0454602 -0.192064
+            0.166667 -0.997262 -0.0071868 -0.0736033 -0.11823
+            0.466667 0.999747 0.00368935 -0.0222037 -0.390985
+            0.533333 0.999891 0.0039587 -0.0142028 -0.601949
+            0.633333 0.99994 0.00410301 -0.0101092 -0.824306
+            0.766667 0.999871 0.00400881 -0.0155629 -0.550689
+            0.866667 -0.999671 -0.00482357 -0.0251756 -0.342206
+            1.0 -0.965899 -0.091001 -0.242401 -0.68113
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.999223 0.0021905 -0.0393577 -0.408889
+            0.466667 -0.995449 -0.0275982 -0.091213 -0.167904
+            0.633333 0.976367 -0.0458121 -0.211207 -0.073478
+            0.766667 0.999062 -0.00282272 -0.0432033 -0.368787
+            0.866667 0.999447 -0.000744371 -0.033258 -0.480331
+            1.0 0.876291 0.163407 0.453224 -0.365976
+        endlist
+    endnode
+doneanim nwslashl c_tailmanticore
+#NWmax ANIM ASCII
+newanim 2hslashl c_tailmanticore
+  length 1.0
+  transtime 0.25
+  animroot c_tailmanticore
+  event 0.366667 snd_footstep
+  event 0.5 hit
+  event 0.666667 snd_footstep
+  event 0.8 snd_footstep
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.2 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.2 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 0.998963 0.00243114 -0.0454601 -0.192064
+            0.166667 -0.997262 -0.00718697 -0.0736032 -0.11823
+            0.466667 0.999747 0.00368931 -0.0222036 -0.390985
+            0.533333 0.999891 0.00395868 -0.0142028 -0.601949
+            0.633333 0.99994 0.004103 -0.0101092 -0.824306
+            0.766667 0.999871 0.00400878 -0.0155629 -0.550689
+            0.866667 -0.999671 -0.00482363 -0.0251755 -0.342206
+            1.0 -0.965899 -0.0910011 -0.242401 -0.681129
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.999223 0.0021905 -0.0393577 -0.408889
+            0.466667 -0.995449 -0.0275982 -0.0912129 -0.167904
+            0.633333 0.976367 -0.0458121 -0.211207 -0.0734781
+            0.766667 0.999062 -0.00282272 -0.0432032 -0.368787
+            0.866667 0.999447 -0.000744372 -0.0332579 -0.480331
+            1.0 0.876291 0.163407 0.453224 -0.365976
+        endlist
+    endnode
+doneanim 2hslashl c_tailmanticore
+#NWmax ANIM ASCII
+newanim plslashl c_tailmanticore
+  length 1.0
+  transtime 0.25
+  animroot c_tailmanticore
+  event 0.366667 snd_footstep
+  event 0.5 hit
+  event 0.666667 snd_footstep
+  event 0.8 snd_footstep
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.2 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.2 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 0.998963 0.00243117 -0.0454599 -0.192064
+            0.166667 -0.997262 -0.00718698 -0.0736029 -0.11823
+            0.466667 0.999747 0.00368933 -0.0222035 -0.390985
+            0.533333 0.999891 0.0039587 -0.0142027 -0.601949
+            0.633333 0.99994 0.00410302 -0.0101091 -0.824306
+            0.766667 0.999871 0.0040088 -0.0155628 -0.550689
+            0.866667 -0.999671 -0.00482365 -0.0251754 -0.342206
+            1.0 -0.965899 -0.0910011 -0.242401 -0.681129
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.999223 0.00219051 -0.0393577 -0.408889
+            0.466667 -0.995449 -0.0275982 -0.091213 -0.167904
+            0.633333 0.976367 -0.045812 -0.211207 -0.0734781
+            0.766667 0.999062 -0.00282271 -0.0432032 -0.368787
+            0.866667 0.999447 -0.000744363 -0.0332579 -0.480331
+            1.0 0.876291 0.163407 0.453224 -0.365976
+        endlist
+    endnode
+doneanim plslashl c_tailmanticore
+#NWmax ANIM ASCII
+newanim 1hslashr c_tailmanticore
+  length 1.0
+  transtime 0.25
+  animroot c_tailmanticore
+  event 0.466667 hit
+  event 0.8 snd_footstep
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.0333333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.965899 -0.0910011 -0.242401 -0.68113
+            0.133333 -0.991801 0.0256438 -0.125194 -0.54371
+            0.333333 -0.554588 0.0300557 -0.831582 -0.157313
+            0.433333 0.986129 -0.0585962 -0.155296 -0.62973
+            0.466667 0.999938 0.00405602 -0.0103308 -0.809812
+            0.7 0.94912 0.176712 0.260662 -0.511946
+            0.833333 0.81502 0.160412 0.556786 -0.348629
+            1.0 -0.965899 -0.0910011 -0.242401 -0.68113
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.876292 0.163407 0.453223 -0.365976
+            0.133333 -0.995036 -0.0332398 -0.0937955 -0.158334
+            0.333333 0.837141 -0.121042 -0.533426 -0.0288019
+            0.433333 0.986686 -0.0274605 -0.1603 -0.0970597
+            0.7 0.999547 0.00239051 -0.0300128 -0.533864
+            0.833333 0.997992 -0.00279378 -0.0632862 -0.251877
+            1.0 0.876292 0.163407 0.453223 -0.365976
+        endlist
+    endnode
+doneanim 1hslashr c_tailmanticore
+#NWmax ANIM ASCII
+newanim 2wslashr c_tailmanticore
+  length 1.0
+  transtime 0.25
+  animroot c_tailmanticore
+  event 0.466667 hit
+  event 0.8 snd_footstep
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.0333333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.965899 -0.0910011 -0.242401 -0.68113
+            0.133333 -0.991801 0.0256438 -0.125194 -0.54371
+            0.333333 -0.554588 0.0300555 -0.831582 -0.157314
+            0.433333 0.986129 -0.0585963 -0.155296 -0.629729
+            0.466667 0.999938 0.004056 -0.0103308 -0.809812
+            0.7 0.94912 0.176712 0.260662 -0.511946
+            0.833333 0.81502 0.160412 0.556786 -0.348629
+            1.0 -0.965899 -0.0910011 -0.242401 -0.68113
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.876292 0.163407 0.453223 -0.365976
+            0.133333 -0.995036 -0.0332397 -0.0937953 -0.158334
+            0.333333 0.837144 -0.121042 -0.533422 -0.0288019
+            0.433333 0.986686 -0.0274602 -0.160299 -0.0970597
+            0.7 0.999547 0.00239054 -0.0300127 -0.533864
+            0.833333 0.997992 -0.00279373 -0.063286 -0.251877
+            1.0 0.876292 0.163407 0.453223 -0.365976
+        endlist
+    endnode
+doneanim 2wslashr c_tailmanticore
+#NWmax ANIM ASCII
+newanim nwslashr c_tailmanticore
+  length 1.0
+  transtime 0.25
+  animroot c_tailmanticore
+  event 0.466667 hit
+  event 0.8 snd_footstep
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.0333333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.965899 -0.0910011 -0.242401 -0.68113
+            0.133333 -0.991801 0.0256437 -0.125194 -0.54371
+            0.333333 -0.554588 0.0300553 -0.831582 -0.157314
+            0.433333 0.986129 -0.0585963 -0.155296 -0.629729
+            0.466667 0.999938 0.00405598 -0.0103308 -0.809812
+            0.7 0.94912 0.176712 0.260662 -0.511946
+            0.833333 0.81502 0.160412 0.556786 -0.348629
+            1.0 -0.965899 -0.0910011 -0.242401 -0.68113
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.876292 0.163407 0.453223 -0.365976
+            0.133333 -0.995036 -0.0332397 -0.0937952 -0.158334
+            0.333333 0.837144 -0.121042 -0.533421 -0.0288019
+            0.433333 0.986686 -0.0274602 -0.160299 -0.0970598
+            0.7 0.999547 0.00239056 -0.0300126 -0.533864
+            0.833333 0.997992 -0.00279366 -0.0632859 -0.251877
+            1.0 0.876292 0.163407 0.453223 -0.365976
+        endlist
+    endnode
+doneanim nwslashr c_tailmanticore
+#NWmax ANIM ASCII
+newanim 2hslashr c_tailmanticore
+  length 1.0
+  transtime 0.25
+  animroot c_tailmanticore
+  event 0.466667 hit
+  event 0.8 snd_footstep
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.0333333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.965899 -0.0910011 -0.242401 -0.68113
+            0.133333 -0.991801 0.0256437 -0.125194 -0.54371
+            0.333333 -0.554588 0.0300553 -0.831582 -0.157314
+            0.433333 0.986129 -0.0585963 -0.155296 -0.629729
+            0.466667 0.999938 0.00405598 -0.0103307 -0.809812
+            0.7 0.94912 0.176712 0.260662 -0.511946
+            0.833333 0.81502 0.160412 0.556786 -0.348629
+            1.0 -0.965899 -0.0910012 -0.242401 -0.68113
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.876292 0.163407 0.453223 -0.365976
+            0.133333 -0.995036 -0.0332397 -0.0937951 -0.158334
+            0.333333 0.837146 -0.121041 -0.53342 -0.028802
+            0.433333 0.986686 -0.0274601 -0.160299 -0.0970597
+            0.7 0.999547 0.00239061 -0.0300126 -0.533864
+            0.833333 0.997992 -0.00279362 -0.0632859 -0.251877
+            1.0 0.876292 0.163407 0.453223 -0.365976
+        endlist
+    endnode
+doneanim 2hslashr c_tailmanticore
+#NWmax ANIM ASCII
+newanim plslashr c_tailmanticore
+  length 1.0
+  transtime 0.25
+  animroot c_tailmanticore
+  event 0.466667 hit
+  event 0.8 snd_footstep
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.0333333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.965899 -0.0910012 -0.242401 -0.68113
+            0.133333 -0.991801 0.0256436 -0.125194 -0.54371
+            0.333333 -0.554589 0.0300553 -0.831582 -0.157313
+            0.433333 0.986129 -0.0585963 -0.155296 -0.629729
+            0.466667 0.999938 0.00405602 -0.0103306 -0.809812
+            0.7 0.94912 0.176712 0.260662 -0.511946
+            0.833333 0.815019 0.160412 0.556787 -0.348629
+            1.0 -0.965899 -0.0910012 -0.242401 -0.68113
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.876292 0.163407 0.453223 -0.365976
+            0.133333 -0.995036 -0.0332397 -0.0937951 -0.158334
+            0.333333 0.837145 -0.121041 -0.53342 -0.028802
+            0.433333 0.986686 -0.0274599 -0.160299 -0.0970597
+            0.7 0.999547 0.00239061 -0.0300127 -0.533864
+            0.833333 0.997992 -0.00279363 -0.0632858 -0.251877
+            1.0 0.876292 0.163407 0.453223 -0.365976
+        endlist
+    endnode
+doneanim plslashr c_tailmanticore
+#NWmax ANIM ASCII
+newanim 1hstab c_tailmanticore
+  length 1.0
+  transtime 0.25
+  animroot c_tailmanticore
+  event 0.366667 snd_footstep
+  event 0.466667 snd_footstep
+  event 0.5 hit
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.0333333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.965899 -0.0910012 -0.242401 -0.68113
+            0.2 -0.786206 -0.490965 0.375277 -0.177081
+            0.266667 -0.634355 -0.672341 -0.381511 -0.155629
+            0.4 0.432177 -0.805995 -0.404469 -0.106501
+            0.5 0.996529 -0.0831365 0.00418878 -1.1145
+            0.633333 0.993044 -0.116215 -0.018909 -0.688983
+            0.833333 -0.9844 -0.150946 -0.0904033 -0.105756
+            1.0 -0.965899 -0.0910012 -0.242401 -0.68113
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.876292 0.163407 0.453223 -0.365976
+            0.266667 -0.989341 -0.0476074 -0.137616 -0.108187
+            0.4 0.99994 -0.00553168 0.0094736 -0.19842
+            0.5 -0.967463 0.203035 -0.150971 -0.0570805
+            0.633333 0.995984 -0.00740156 0.0892289 -0.347158
+            0.833333 0.998855 -0.0203458 -0.0432895 -0.161118
+            1.0 0.876292 0.163407 0.453223 -0.365976
+        endlist
+    endnode
+doneanim 1hstab c_tailmanticore
+#NWmax ANIM ASCII
+newanim 2wstab c_tailmanticore
+  length 1.0
+  transtime 0.25
+  animroot c_tailmanticore
+  event 0.366667 snd_footstep
+  event 0.466667 snd_footstep
+  event 0.5 hit
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.0333333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.965899 -0.0910012 -0.242401 -0.68113
+            0.2 -0.786206 -0.490965 0.375277 -0.177081
+            0.266667 -0.634355 -0.672342 -0.381511 -0.155628
+            0.4 0.432177 -0.805995 -0.404469 -0.106501
+            0.5 0.996529 -0.0831365 0.00418876 -1.1145
+            0.633333 0.993044 -0.116215 -0.018909 -0.688983
+            0.833333 -0.9844 -0.150946 -0.0904035 -0.105755
+            1.0 -0.965899 -0.0910012 -0.242401 -0.68113
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.876292 0.163407 0.453223 -0.365976
+            0.266667 -0.989341 -0.0476077 -0.137616 -0.108187
+            0.4 0.99994 -0.00553174 0.00947355 -0.19842
+            0.5 -0.967463 0.203034 -0.150971 -0.0570805
+            0.633333 0.995984 -0.00740159 0.0892289 -0.347158
+            0.833333 0.998855 -0.0203458 -0.0432895 -0.161118
+            1.0 0.876292 0.163407 0.453223 -0.365976
+        endlist
+    endnode
+doneanim 2wstab c_tailmanticore
+#NWmax ANIM ASCII
+newanim nwstab c_tailmanticore
+  length 1.0
+  transtime 0.25
+  animroot c_tailmanticore
+  event 0.366667 snd_footstep
+  event 0.466667 snd_footstep
+  event 0.5 hit
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.0333333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.965899 -0.0910012 -0.242401 -0.68113
+            0.2 -0.786206 -0.490966 0.375278 -0.17708
+            0.266667 -0.634355 -0.672342 -0.381511 -0.155628
+            0.4 0.432177 -0.805995 -0.404469 -0.106501
+            0.5 0.996529 -0.0831365 0.00418879 -1.1145
+            0.633333 0.993044 -0.116215 -0.018909 -0.688983
+            0.833333 -0.9844 -0.150946 -0.0904032 -0.105755
+            1.0 -0.965899 -0.0910012 -0.242401 -0.68113
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.876292 0.163407 0.453223 -0.365976
+            0.266667 -0.989341 -0.0476079 -0.137616 -0.108187
+            0.4 0.99994 -0.00553168 0.00947382 -0.19842
+            0.5 -0.967463 0.203034 -0.15097 -0.0570805
+            0.633333 0.995984 -0.00740156 0.089229 -0.347158
+            0.833333 0.998855 -0.0203458 -0.0432893 -0.161118
+            1.0 0.876292 0.163407 0.453223 -0.365976
+        endlist
+    endnode
+doneanim nwstab c_tailmanticore
+#NWmax ANIM ASCII
+newanim 2hstab c_tailmanticore
+  length 1.0
+  transtime 0.25
+  animroot c_tailmanticore
+  event 0.366667 snd_footstep
+  event 0.466667 snd_footstep
+  event 0.5 hit
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.0333333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.965899 -0.0910012 -0.242401 -0.681129
+            0.2 -0.786206 -0.490966 0.375278 -0.17708
+            0.266667 -0.634354 -0.672342 -0.381511 -0.155628
+            0.4 0.432178 -0.805994 -0.404469 -0.106501
+            0.5 0.996529 -0.0831365 0.00418877 -1.1145
+            0.633333 0.993044 -0.116215 -0.018909 -0.688983
+            0.833333 -0.9844 -0.150946 -0.0904034 -0.105755
+            1.0 -0.965899 -0.0910012 -0.242401 -0.68113
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.876292 0.163407 0.453223 -0.365976
+            0.266667 -0.989341 -0.0476077 -0.137616 -0.108187
+            0.4 0.99994 -0.00553178 0.00947377 -0.19842
+            0.5 -0.967463 0.203034 -0.15097 -0.0570806
+            0.633333 0.995984 -0.00740157 0.089229 -0.347158
+            0.833333 0.998855 -0.0203458 -0.0432892 -0.161118
+            1.0 0.876292 0.163407 0.453223 -0.365976
+        endlist
+    endnode
+doneanim 2hstab c_tailmanticore
+#NWmax ANIM ASCII
+newanim plstab c_tailmanticore
+  length 1.0
+  transtime 0.25
+  animroot c_tailmanticore
+  event 0.366667 snd_footstep
+  event 0.466667 snd_footstep
+  event 0.5 hit
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.0333333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.965899 -0.0910012 -0.242401 -0.681129
+            0.2 -0.786206 -0.490966 0.375277 -0.17708
+            0.266667 -0.634354 -0.672342 -0.381511 -0.155628
+            0.4 0.432178 -0.805994 -0.404469 -0.106501
+            0.5 0.996529 -0.0831365 0.00418876 -1.1145
+            0.633333 0.993044 -0.116215 -0.018909 -0.688983
+            0.833333 -0.9844 -0.150946 -0.0904036 -0.105755
+            1.0 -0.965899 -0.0910012 -0.242401 -0.681129
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.876292 0.163407 0.453223 -0.365976
+            0.266667 -0.989341 -0.0476076 -0.137616 -0.108187
+            0.4 0.99994 -0.00553172 0.00947378 -0.19842
+            0.5 -0.967463 0.203034 -0.15097 -0.0570806
+            0.633333 0.995984 -0.00740158 0.089229 -0.347158
+            0.833333 0.998855 -0.0203458 -0.0432893 -0.161118
+            1.0 0.876292 0.163407 0.453223 -0.365976
+        endlist
+    endnode
+doneanim plstab c_tailmanticore
+#NWmax ANIM ASCII
+newanim dodgelr c_tailmanticore
+  length 1.0
+  transtime 0.3
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.933333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.933333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.929199 -0.133697 -0.344551 -0.300974
+            0.233333 -0.898345 -0.171293 -0.404518 -0.221901
+            0.4 0.991008 -0.133135 0.0133579 -0.39171
+            0.5 0.994413 -0.104661 0.0137704 -0.519928
+            0.733333 0.990073 -0.140451 0.00540916 -0.356601
+            0.9 -0.796008 -0.207606 -0.568569 -0.165658
+            1.0 -0.929199 -0.133697 -0.344551 -0.300974
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.944844 0.0429564 -0.324692 -0.347347
+            0.3 0.199709 -0.0207532 -0.979635 -0.115584
+            0.466667 0.199712 -0.0207533 -0.979635 -0.115584
+            0.566667 0.944844 0.0429565 -0.324693 -0.347347
+            0.733333 0.978785 0.0489995 -0.198944 -0.559735
+            0.9 0.974193 0.0480318 -0.220545 -0.506895
+            1.0 0.944844 0.0429566 -0.324693 -0.347347
+        endlist
+    endnode
+doneanim dodgelr c_tailmanticore
+#NWmax ANIM ASCII
+newanim dodges c_tailmanticore
+  length 1.0
+  transtime 0.29
+  animroot c_tailmanticore
+  event 0.2 snd_footstep
+  event 0.866667 snd_footstep
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.933333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.933333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.929199 -0.133697 -0.344551 -0.300974
+            0.2 -0.576672 -0.218801 -0.787131 -0.137407
+            0.333333 0.145776 -0.21943 -0.964676 -0.114052
+            0.433333 -0.656733 -0.207331 -0.725063 -0.147077
+            0.566667 -0.961296 -0.243839 0.128267 -0.197294
+            0.7 -0.536151 -0.221429 -0.814562 -0.131373
+            0.833333 -0.370895 -0.231859 -0.899266 -0.119397
+            0.9 -0.83179 -0.171144 -0.528049 -0.199965
+            1.0 -0.929199 -0.133697 -0.344551 -0.300974
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.944844 0.0429564 -0.324693 -0.347347
+            0.2 0.944844 0.0429561 -0.324692 -0.347348
+            0.333333 0.944844 0.0429558 -0.324691 -0.347349
+            0.433333 0.944845 0.0429555 -0.32469 -0.34735
+            0.566667 0.944843 0.0429566 -0.324693 -0.347347
+            0.7 0.944844 0.0429565 -0.324693 -0.347347
+            0.833333 0.944844 0.0429562 -0.324692 -0.347348
+            0.9 0.944844 0.0429559 -0.324691 -0.347349
+            1.0 0.944845 0.0429556 -0.32469 -0.34735
+        endlist
+    endnode
+doneanim dodges c_tailmanticore
+#NWmax ANIM ASCII
+newanim damages c_tailmanticore
+  length 0.333333
+  transtime 0.15
+  animroot c_tailmanticore
+  event 0.1 snd_footstep
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.873025 -0.482527 0.0706742 -0.299512
+            0.1 -0.921438 -0.383772 0.0605859 -0.397198
+            0.166667 -0.922971 -0.282317 0.261574 -0.511238
+            0.266667 -0.951685 -0.204269 0.229282 -0.658051
+            0.333333 -0.965723 -0.155844 0.207587 -0.794035
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.931099 -0.0531609 -0.360871 -0.292997
+            0.1 0.501598 -0.119662 -0.856785 -0.534335
+            0.166667 0.433111 -0.124338 -0.892723 -0.613838
+            0.333333 0.887031 -0.0661938 -0.456941 -0.30731
+        endlist
+    endnode
+doneanim damages c_tailmanticore
+#NWmax ANIM ASCII
+newanim damageb c_tailmanticore
+  length 0.333333
+  transtime 0.15
+  animroot c_tailmanticore
+  event 0.1 snd_footstep
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.873025 -0.482527 0.0706742 -0.299512
+            0.1 -0.921438 -0.383772 0.0605859 -0.397198
+            0.166667 -0.922971 -0.282317 0.261574 -0.511237
+            0.266667 -0.951685 -0.204269 0.229282 -0.658051
+            0.333333 -0.965723 -0.155844 0.207587 -0.794035
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.931099 -0.0531608 -0.360871 -0.292997
+            0.1 0.501598 -0.119662 -0.856785 -0.534335
+            0.166667 0.433111 -0.124338 -0.892723 -0.613839
+            0.333333 0.887031 -0.0661937 -0.456941 -0.30731
+        endlist
+    endnode
+doneanim damageb c_tailmanticore
+#NWmax ANIM ASCII
+newanim kdfrnt c_tailmanticore
+  length 1.0
+  transtime 0.15
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.965537 -0.25087 0.0693018 -0.560029
+            0.0666667 0.211114 -0.971606 0.106835 -0.138423
+            0.166667 0.987535 -0.155246 -0.025935 -0.887815
+            0.3 0.973773 -0.227509 0.00235909 -0.617909
+            0.4 0.977228 -0.210648 0.0255621 -0.6259
+            0.633333 0.540628 -0.593348 0.596373 -0.162071
+            1.0 -0.74174 -0.294463 0.602589 -0.229534
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.96973 -0.187973 -0.15585 -0.696764
+            0.0666667 -0.285266 -0.874322 -0.392663 -0.16069
+            0.166667 -0.986699 -0.162288 -0.00934419 -0.903937
+            0.3 0.960327 -0.199647 -0.194711 -0.499689
+            0.4 0.984602 -0.0965215 -0.145745 -0.751551
+            0.633333 0.752922 -0.301305 -0.585085 -0.150057
+            1.0 0.982564 0.00270712 -0.185906 -0.496586
+        endlist
+    endnode
+doneanim kdfrnt c_tailmanticore
+#NWmax ANIM ASCII
+newanim kdbck c_tailmanticore
+  length 1.0
+  transtime 0.15
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.965537 -0.25087 0.0693018 -0.560029
+            0.0666667 0.211115 -0.971605 0.106835 -0.138423
+            0.166667 0.987535 -0.155246 -0.025935 -0.887815
+            0.3 0.973773 -0.227509 0.00235912 -0.617909
+            0.4 0.977228 -0.210648 0.0255621 -0.6259
+            0.633333 0.540628 -0.593348 0.596373 -0.162071
+            1.0 -0.74174 -0.294463 0.602589 -0.229534
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.96973 -0.187973 -0.15585 -0.696764
+            0.0666667 -0.285266 -0.874322 -0.392663 -0.16069
+            0.166667 -0.986699 -0.162288 -0.00934422 -0.903937
+            0.3 0.960327 -0.199647 -0.194711 -0.499689
+            0.4 0.984602 -0.0965215 -0.145745 -0.751552
+            0.633333 0.752921 -0.301305 -0.585085 -0.150057
+            1.0 0.982564 0.00270708 -0.185906 -0.496586
+        endlist
+    endnode
+doneanim kdbck c_tailmanticore
+#NWmax ANIM ASCII
+newanim kdfrntps c_tailmanticore
+  length 2.03333
+  transtime 0.5
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.0333333 0.0 0.0 0.0
+            0.9 0.0 0.0 0.0
+            1.16667 0.0 0.0 0.0
+            1.73333 0.0 0.0 0.0
+            2.0 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0333333 0.0 0.0 0.0 0.0
+            0.9 0.0 0.0 0.0 0.0
+            1.16667 0.0 0.0 0.0 0.0
+            1.73333 0.0 0.0 0.0 0.0
+            2.0 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.74174 -0.294463 0.602589 -0.229534
+            0.1 -0.73611 -0.291555 0.61085 -0.231676
+            0.4 -0.66767 -0.256926 0.698717 -0.260747
+            0.533333 -0.656003 -0.251129 0.711754 -0.266361
+            0.633333 -0.662792 -0.254504 0.704226 -0.26306
+            0.9 -0.735298 -0.291147 0.612022 -0.231979
+            1.0 -0.74174 -0.294463 0.60259 -0.229534
+            1.03333 -0.74174 -0.294463 0.60259 -0.229534
+            1.13333 -0.73611 -0.291555 0.61085 -0.231676
+            1.43333 -0.66767 -0.256926 0.698717 -0.260747
+            1.56667 -0.656006 -0.251124 0.711753 -0.26636
+            1.66667 -0.662792 -0.254504 0.704226 -0.26306
+            1.93333 -0.735298 -0.291147 0.612022 -0.231979
+            2.03333 -0.741739 -0.294463 0.60259 -0.229534
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.982564 0.00270689 -0.185906 -0.496586
+            0.3 0.927748 -0.0427683 -0.370749 -0.486704
+            0.633333 0.982439 0.00231727 -0.186569 -0.478128
+            0.833333 0.997011 0.0318584 -0.0703902 -0.485679
+            1.0 0.982563 0.00270654 -0.185909 -0.496586
+            1.03333 0.982564 0.00270652 -0.185907 -0.496588
+            1.33333 0.927747 -0.0427687 -0.37075 -0.486704
+            1.66667 0.982439 0.00231728 -0.18657 -0.478128
+            1.86667 0.997011 0.0318584 -0.0703896 -0.485679
+            2.03333 0.982564 0.00270689 -0.185906 -0.496586
+        endlist
+    endnode
+doneanim kdfrntps c_tailmanticore
+#NWmax ANIM ASCII
+newanim kdbckps c_tailmanticore
+  length 2.03333
+  transtime 0.5
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.0333333 0.0 0.0 0.0
+            0.9 0.0 0.0 0.0
+            1.16667 0.0 0.0 0.0
+            1.73333 0.0 0.0 0.0
+            2.0 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0333333 0.0 0.0 0.0 0.0
+            0.9 0.0 0.0 0.0 0.0
+            1.16667 0.0 0.0 0.0 0.0
+            1.73333 0.0 0.0 0.0 0.0
+            2.0 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.741739 -0.294463 0.60259 -0.229534
+            0.1 -0.73611 -0.291555 0.61085 -0.231676
+            0.4 -0.66767 -0.256926 0.698717 -0.260747
+            0.533333 -0.656003 -0.251129 0.711754 -0.266361
+            0.633333 -0.662792 -0.254504 0.704226 -0.26306
+            0.9 -0.735298 -0.291147 0.612022 -0.231979
+            1.0 -0.741739 -0.294463 0.60259 -0.229533
+            1.03333 -0.741739 -0.294463 0.60259 -0.229534
+            1.13333 -0.73611 -0.291555 0.61085 -0.231676
+            1.43333 -0.66767 -0.256926 0.698717 -0.260747
+            1.56667 -0.656006 -0.251124 0.711753 -0.26636
+            1.66667 -0.662792 -0.254504 0.704227 -0.26306
+            1.93333 -0.735298 -0.291147 0.612022 -0.231979
+            2.03333 -0.741739 -0.294463 0.60259 -0.229533
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.982564 0.00270687 -0.185906 -0.496586
+            0.3 0.927748 -0.0427683 -0.370749 -0.486704
+            0.633333 0.982439 0.00231724 -0.186569 -0.478128
+            0.833333 0.997011 0.0318583 -0.0703901 -0.485679
+            1.0 0.982563 0.00270651 -0.185909 -0.496586
+            1.03333 0.982564 0.0027065 -0.185907 -0.496588
+            1.33333 0.927747 -0.0427687 -0.37075 -0.486704
+            1.66667 0.982439 0.00231732 -0.18657 -0.478128
+            1.86667 0.997011 0.0318583 -0.0703896 -0.485679
+            2.03333 0.982564 0.00270686 -0.185906 -0.496586
+        endlist
+    endnode
+doneanim kdbckps c_tailmanticore
+#NWmax ANIM ASCII
+newanim kdfrntdmg c_tailmanticore
+  length 0.333333
+  transtime 0.15
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.2 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.2 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.524028 0.851698 -0.00239216 -0.373553
+            0.333333 -0.741737 -0.294468 0.60259 -0.229534
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.760422 -0.112603 -0.639593 -0.375107
+            0.166667 0.357961 -0.185779 -0.915068 -0.475108
+            0.333333 0.982564 0.00270704 -0.185906 -0.496586
+        endlist
+    endnode
+doneanim kdfrntdmg c_tailmanticore
+#NWmax ANIM ASCII
+newanim kdbckdmg c_tailmanticore
+  length 0.333333
+  transtime 0.15
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.2 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.2 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.524028 0.851698 -0.00239226 -0.373553
+            0.333333 -0.741737 -0.294468 0.60259 -0.229534
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.760422 -0.112603 -0.639593 -0.375107
+            0.166667 0.357961 -0.185779 -0.915068 -0.475108
+            0.333333 0.982564 0.00270708 -0.185906 -0.496586
+        endlist
+    endnode
+doneanim kdbckdmg c_tailmanticore
+#NWmax ANIM ASCII
+newanim kdfrntdie c_tailmanticore
+  length 1.0
+  transtime 0.25
+  animroot c_tailmanticore
+  event 0.466667 snd_hitground
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.366667 0.0 0.0 0.0
+            0.633333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.366667 0.0 0.0 0.0 0.0
+            0.633333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.741739 -0.294463 0.60259 -0.229533
+            0.133333 0.641615 0.725813 0.248043 -0.269839
+            0.366667 0.311495 0.391042 -0.866059 -0.473652
+            0.4 0.707931 0.473579 0.523981 -0.424082
+            0.633333 0.656083 0.659489 0.366919 -0.415813
+            0.9 0.550975 0.817822 0.166111 -0.437153
+            1.0 0.514161 0.846453 0.138406 -0.481222
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.982564 0.00270698 -0.185906 -0.496586
+            0.133333 0.902253 0.158469 0.401032 -0.533329
+            0.366667 0.975582 0.0184091 -0.218863 -0.499902
+            0.4 0.812707 -0.0645515 -0.579086 -0.600949
+            0.566667 0.896484 -0.0166076 -0.442764 -0.54455
+            0.633333 0.82595 -0.0483231 -0.561668 -0.598694
+            0.7 0.952235 0.0286749 -0.304018 -0.51174
+            0.9 0.993146 0.102663 -0.0558716 -0.488136
+            1.0 0.958046 0.0490189 -0.282392 -0.508478
+        endlist
+    endnode
+doneanim kdfrntdie c_tailmanticore
+#NWmax ANIM ASCII
+newanim kdbckdie c_tailmanticore
+  length 1.0
+  transtime 0.25
+  animroot c_tailmanticore
+  event 0.466667 snd_hitground
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.366667 0.0 0.0 0.0
+            0.633333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.366667 0.0 0.0 0.0 0.0
+            0.633333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.741739 -0.294463 0.60259 -0.229533
+            0.133333 0.641615 0.725813 0.248043 -0.269839
+            0.366667 0.311495 0.391042 -0.866059 -0.473652
+            0.4 0.707931 0.473579 0.523981 -0.424082
+            0.633333 0.656083 0.659489 0.366919 -0.415813
+            0.9 0.550975 0.817822 0.166111 -0.437153
+            1.0 0.514161 0.846453 0.138406 -0.481222
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.982564 0.00270695 -0.185906 -0.496586
+            0.133333 0.902253 0.158469 0.401032 -0.533329
+            0.366667 0.975582 0.0184091 -0.218863 -0.499902
+            0.4 0.812707 -0.0645515 -0.579086 -0.600949
+            0.566667 0.896484 -0.0166076 -0.442764 -0.54455
+            0.633333 0.82595 -0.0483231 -0.561668 -0.598694
+            0.7 0.952235 0.0286749 -0.304018 -0.51174
+            0.9 0.993146 0.102663 -0.0558716 -0.488136
+            1.0 0.958046 0.049019 -0.282392 -0.508478
+        endlist
+    endnode
+doneanim kdbckdie c_tailmanticore
+#NWmax ANIM ASCII
+newanim spasm c_tailmanticore
+  length 1.0
+  transtime 0.25
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.535071 -0.250693 0.806754 -0.367695
+            0.133333 -0.146001 -0.931171 -0.334073 -0.0240435
+            0.3 -0.602822 -0.106008 0.790802 -0.391501
+            0.433333 -0.956852 -0.0561494 0.285099 -0.390527
+            0.533333 -0.82795 0.228639 -0.512077 -0.218793
+            0.633333 0.0374515 0.341299 -0.939208 -0.355009
+            0.833333 0.547176 -0.343726 0.763185 -0.267496
+            0.866667 0.308859 -0.362992 0.879115 -0.253686
+            1.0 -0.535071 -0.250693 0.806754 -0.367695
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.729363 0.0322958 0.683364 -0.156009
+            0.133333 -0.863595 0.107532 0.492585 -0.190065
+            0.3 0.994758 0.0185512 -0.100561 -0.539512
+            0.433333 0.953555 0.0350338 -0.299173 -0.418792
+            0.533333 -0.41399 0.184364 0.891416 -0.423118
+            0.633333 -0.191199 0.168677 0.96695 -0.152211
+            0.766667 0.25327 -0.0431947 -0.966431 -0.449253
+            0.866667 0.926107 0.0396837 -0.375168 -0.432142
+            1.0 0.729361 0.0322957 0.683367 -0.156009
+        endlist
+    endnode
+doneanim spasm c_tailmanticore
+#NWmax ANIM ASCII
+newanim deadfnt c_tailmanticore
+  length 0.0666667
+  transtime 0.5
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 0.514161 0.846453 0.138406 -0.481222
+            0.0666667 0.514161 0.846453 0.138406 -0.481222
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.958046 0.0490194 -0.282392 -0.508478
+            0.0666667 0.958046 0.0490192 -0.282392 -0.508479
+        endlist
+    endnode
+doneanim deadfnt c_tailmanticore
+#NWmax ANIM ASCII
+newanim deadbck c_tailmanticore
+  length 0.0666667
+  transtime 0.5
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 0.514161 0.846453 0.138406 -0.481222
+            0.0666667 0.514161 0.846453 0.138406 -0.481222
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.958046 0.0490195 -0.282392 -0.508478
+            0.0666667 0.958046 0.0490192 -0.282392 -0.508479
+        endlist
+    endnode
+doneanim deadbck c_tailmanticore
+#NWmax ANIM ASCII
+newanim walk c_tailmanticore
+  length 1.16667
+  transtime 0.4
+  animroot c_tailmanticore
+  event 0.3 snd_footstep
+  event 0.566667 snd_footstep
+  event 1.0 snd_footstep
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.2 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.2 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 0.94442 -0.279143 0.173635 -0.386716
+            0.133333 0.844044 -0.228683 0.485071 -0.451809
+            0.266667 0.852433 -0.246993 0.460818 -0.420687
+            0.466667 0.942472 -0.289018 -0.167972 -0.405566
+            0.6 0.842154 -0.28809 -0.45583 -0.445365
+            0.7 0.708383 -0.327837 -0.625073 -0.425543
+            0.833333 0.581118 -0.364835 -0.72746 -0.399395
+            0.9 0.513808 -0.405939 -0.755788 -0.373081
+            0.966667 0.699003 -0.423324 -0.576361 -0.32433
+            1.16667 0.94442 -0.279143 0.173636 -0.386716
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.909789 -0.119491 0.3975 -0.375486
+            0.366667 0.692589 -0.11534 0.712051 -0.24501
+            0.6 0.966814 -0.251691 0.0438513 -0.212781
+            0.966667 0.970585 -0.146855 -0.190783 -0.392922
+            1.16667 0.909789 -0.119491 0.3975 -0.375486
+        endlist
+    endnode
+doneanim walk c_tailmanticore
+#NWmax ANIM ASCII
+newanim worship c_tailmanticore
+  length 1.16667
+  transtime 0.4
+  animroot c_tailmanticore
+  event 0.3 snd_footstep
+  event 0.566667 snd_footstep
+  event 1.0 snd_footstep
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.2 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.2 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 0.94442 -0.279143 0.173635 -0.386716
+            0.133333 0.844044 -0.228683 0.485071 -0.451809
+            0.266667 0.852433 -0.246994 0.460818 -0.420687
+            0.466667 0.942472 -0.289018 -0.167972 -0.405566
+            0.6 0.842154 -0.28809 -0.45583 -0.445365
+            0.7 0.708383 -0.327837 -0.625073 -0.425543
+            0.833333 0.581118 -0.364835 -0.72746 -0.399395
+            0.9 0.513808 -0.405939 -0.755788 -0.373081
+            0.966667 0.699003 -0.423324 -0.576361 -0.32433
+            1.16667 0.94442 -0.279143 0.173636 -0.386716
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.909789 -0.119491 0.3975 -0.375486
+            0.366667 0.692589 -0.11534 0.712051 -0.24501
+            0.6 0.966814 -0.251691 0.0438516 -0.212781
+            0.966667 0.970585 -0.146855 -0.190783 -0.392922
+            1.16667 0.909789 -0.119491 0.3975 -0.375486
+        endlist
+    endnode
+doneanim worship c_tailmanticore
+#NWmax ANIM ASCII
+newanim pause1 c_tailmanticore
+  length 2.0
+  transtime 0.7
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.0333333 0.0 0.0 0.0
+            0.3 0.0 0.0 0.0
+            0.933333 0.0 0.0 0.0
+            1.2 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0333333 0.0 0.0 0.0 0.0
+            0.3 0.0 0.0 0.0 0.0
+            0.933333 0.0 0.0 0.0 0.0
+            1.2 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.997631 -0.00788167 -0.06834 -0.148697
+            0.733333 -0.813363 -0.081045 0.576083 -0.390246
+            0.966667 -0.803248 -0.0825154 0.589902 -0.410679
+            1.76667 -0.999069 -0.0204616 0.0379831 -0.16026
+            2.0 -0.997631 -0.0078814 -0.0683418 -0.148697
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.560701 0.0420154 0.826952 -0.20271
+            0.233333 0.870187 -0.0359343 -0.491409 -0.130739
+            0.733333 0.699906 -0.0469926 -0.712687 -0.162382
+            1.1 0.58675 0.04074 0.808743 -0.193758
+            1.73333 0.340359 0.0504055 0.938944 -0.332223
+            2.0 0.560703 0.0420154 0.82695 -0.20271
+        endlist
+    endnode
+doneanim pause1 c_tailmanticore
+#NWmax ANIM ASCII
+newanim pausepsn c_tailmanticore
+  length 2.0
+  transtime 0.7
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.0333333 0.0 0.0 0.0
+            0.3 0.0 0.0 0.0
+            0.933333 0.0 0.0 0.0
+            1.2 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0333333 0.0 0.0 0.0 0.0
+            0.3 0.0 0.0 0.0 0.0
+            0.933333 0.0 0.0 0.0 0.0
+            1.2 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.997631 -0.00788169 -0.0683399 -0.148697
+            0.733333 -0.813363 -0.081045 0.576083 -0.390246
+            0.966667 -0.803248 -0.0825154 0.589902 -0.410679
+            1.76667 -0.999069 -0.0204617 0.0379831 -0.16026
+            2.0 -0.997631 -0.00788141 -0.0683419 -0.148697
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.560701 0.0420154 0.826952 -0.20271
+            0.233333 0.870187 -0.0359344 -0.49141 -0.130739
+            0.733333 0.699906 -0.0469927 -0.712688 -0.162382
+            1.1 0.58675 0.0407401 0.808743 -0.193758
+            1.73333 0.340359 0.0504055 0.938944 -0.332223
+            2.0 0.560703 0.0420154 0.826951 -0.20271
+        endlist
+    endnode
+doneanim pausepsn c_tailmanticore
+#NWmax ANIM ASCII
+newanim meditate c_tailmanticore
+  length 2.0
+  transtime 0.7
+  animroot c_tailmanticore
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+        positionkey
+            0.0333333 0.0 0.0 0.0
+            0.3 0.0 0.0 0.0
+            0.933333 0.0 0.0 0.0
+            1.2 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0333333 0.0 0.0 0.0 0.0
+            0.3 0.0 0.0 0.0 0.0
+            0.933333 0.0 0.0 0.0 0.0
+            1.2 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 -0.997631 -0.00788169 -0.06834 -0.148697
+            0.733333 -0.813363 -0.081045 0.576083 -0.390246
+            0.966667 -0.803248 -0.0825155 0.589902 -0.410679
+            1.76667 -0.999069 -0.0204616 0.037983 -0.16026
+            2.0 -0.997631 -0.00788149 -0.0683418 -0.148697
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.560701 0.0420154 0.826952 -0.20271
+            0.233333 0.870187 -0.0359343 -0.49141 -0.130739
+            0.733333 0.699906 -0.0469926 -0.712688 -0.162382
+            1.1 0.58675 0.0407401 0.808743 -0.193758
+            1.73333 0.340359 0.0504055 0.938944 -0.332223
+            2.0 0.560703 0.0420154 0.826951 -0.20271
+        endlist
+    endnode
+doneanim meditate c_tailmanticore
+#NWmax ANIM ASCII
+newanim run c_tailmanticore
+  length 0.833333
+  transtime 0.25
+  animroot c_tailmanticore
+  event 0.266667 snd_footstep
+  event 0.4 snd_footstep
+  event 0.566667 snd_footstep
+  event 0.666667 snd_footstep
+    node dummy c_tailmanticore
+        parent NULL
+    endnode
+    node dummy tail
+        parent c_tailmanticore
+    endnode
+    node trimesh Cat_tailbase
+        parent tail
+        orientationkey
+            0.0 0.983862 0.0539825 0.170594 -0.229205
+            0.0666667 0.815566 -0.0264041 0.578061 -0.200004
+            0.1 0.404914 -0.0214803 0.914102 -0.110343
+            0.133333 -0.627933 -0.00115821 0.778266 -0.110518
+            0.233333 -0.971077 -0.0226126 0.237692 -0.17235
+            0.466667 -0.837193 -0.345261 -0.424149 -0.157892
+            0.566667 0.905658 -0.395718 -0.152287 -0.0347573
+            0.766667 0.988464 -0.130216 0.0773473 -0.351301
+            0.833333 0.983862 0.0539834 0.170594 -0.229205
+        endlist
+    endnode
+    node danglymesh Cat_tailtip
+        parent Cat_tailbase
+        orientationkey
+            0.0 0.973472 0.222458 -0.0535204 -0.330782
+            0.0666667 0.976188 0.160893 -0.1455 -0.344097
+            0.233333 -0.802337 0.592975 0.0680924 -0.119987
+            0.466667 -0.635753 0.494053 0.593069 -0.184255
+            0.566667 0.64434 0.761847 -0.0664505 -0.168761
+            0.766667 0.940509 0.286307 -0.18295 -0.363316
+            0.833333 0.973472 0.222458 -0.0535185 -0.330782
+        endlist
+    endnode
+doneanim run c_tailmanticore
+donemodel c_tailmanticore

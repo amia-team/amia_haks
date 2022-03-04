@@ -1,0 +1,25 @@
+2DA V2.0
+
+   FeatLabel                FeatIndex List GrantedOnLevel OnMenu
+1  WeapProfSim              46        3    1              0
+2  WeapProfEx               44        0    -1             0
+3  WeapProfMar              45        3    1              0
+4 DefArrow                  8         0    -1             0
+5 TwoWeap                   41        0    -1             0
+6 Ambidex                   1         0    -1             0
+7 ArmProfLgt                3         3    1              0        
+8 ArmProfMed                4         3    1              0        
+9 ArmProfHvy                2         3    1              0
+10 FEAT_KC_SWORDS           1166      3    1              1
+11 FEAT_KC_ENTREA           1167      3    1              1
+12 FEAT_KC_ENTREA           1168      3    2              1 
+13 FEAT_KC_ENTREA           1169      3    3              1 
+14 FEAT_KC_ENTREA           1170      3    4              1 
+15 FEAT_KC_ENTREA           1171      3    5              1  
+16 FEAT_KC_BULWAR           1172      3    2              1 
+17 FEAT_KC_MEDICA           1173      3    3              1 
+18 FEAT_KC_ORDNAN           1174      3    4              1 
+19 FEAT_KC_CHARGE           1175      3    5              1 
+20 FEAT_KC_SHIELD           1176      3    5              1
+21 FEAT_KC_STAND_DOWN	    1206      3    1		  1
+22 Shield                   32        3    1              0      

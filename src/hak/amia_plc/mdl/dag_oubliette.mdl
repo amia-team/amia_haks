@@ -1,0 +1,1062 @@
+#MAXMODEL ASCII
+# model: dag_oubliette
+filedependancy dag_oubliette.max
+newmodel dag_oubliette
+setsupermodel dag_oubliette null
+classification character
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom dag_oubliette
+node dummy dag_oubliette
+  parent NULL
+  #part-number 0
+endnode
+node trimesh damage_oubliette
+  parent dag_oubliette
+  #part-number 1
+  ambient 0.0705882013 0 1
+  diffuse 1 0.501960993 0.643136978
+  specular 0 0 0
+  shininess 24
+  shadow 0
+  render 0
+  bitmap NULL
+  verts 12
+    -0.195415005 -0.186215997 0
+    -0.195415005 0.186215997 0
+    0.195415005 0.186215997 0
+    0.195415005 -0.186215997 0
+    -0.195415005 -0.186215997 0.5
+    0.195415005 -0.186215997 0.5
+    0.195415005 0.186215997 0.5
+    -0.195415005 0.186215997 0.5
+    0.103944004 -0.0990512967 0.25
+    -0.103944004 -0.0990512967 0.25
+    0.103944004 0.0990512967 0.25
+    -0.103944004 0.0990512967 0.25
+  faces 20
+    0 1 2 1 0 0 0 0
+    2 3 0 1 0 0 0 0
+    4 5 6 1 0 0 0 0
+    6 7 4 1 0 0 0 0
+    0 3 8 1 0 0 0 0
+    8 9 0 1 0 0 0 0
+    9 8 5 1 0 0 0 0
+    5 4 9 1 0 0 0 0
+    3 2 10 1 0 0 0 0
+    10 8 3 1 0 0 0 0
+    8 10 6 1 0 0 0 0
+    6 5 8 1 0 0 0 0
+    2 1 11 1 0 0 0 0
+    11 10 2 1 0 0 0 0
+    10 11 7 1 0 0 0 0
+    7 6 10 1 0 0 0 0
+    1 0 9 1 0 0 0 0
+    9 11 1 1 0 0 0 0
+    11 9 4 1 0 0 0 0
+    4 7 11 1 0 0 0 0
+  position -0.00086730998 -0.130658999 0
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  orientation 0 0 0 0
+endnode
+node trimesh hole
+  parent damage_oubliette
+  #part-number 2
+  ambient 0 0 0
+  diffuse 0 0 0
+  specular 0 0 0
+  shininess 20
+  shadow 0
+  bitmap black
+  verts 25
+    0 0 0.00999999978
+    -0.145097002 -0.541509986 0.00999999978
+    0 -0.560612023 0.00999999978
+    -0.280306011 -0.485505015 0.00999999978
+    -0.396412998 -0.396412998 0.00999999978
+    -0.485505015 -0.280306011 0.00999999978
+    -0.541509986 -0.145097002 0.00999999978
+    -0.560612023 0 0.00999999978
+    0.560612023 0 0.00999999978
+    0.541509986 0.145097002 0.00999999978
+    0.145097002 0.541509986 0.00999999978
+    0 0.560612023 0.00999999978
+    0.280306011 0.485505015 0.00999999978
+    0.396412998 0.396412998 0.00999999978
+    0.485505015 0.280306011 0.00999999978
+    0.541509986 -0.145097002 0.00999999978
+    0.485505015 -0.280306011 0.00999999978
+    0.396412998 -0.396412998 0.00999999978
+    0.280306011 -0.485505015 0.00999999978
+    0.145097002 -0.541509986 0.00999999978
+    -0.541509986 0.145097002 0.00999999978
+    -0.485505015 0.280306011 0.00999999978
+    -0.396412998 0.396412998 0.00999999978
+    -0.280306011 0.485505015 0.00999999978
+    -0.145097002 0.541509986 0.00999999978
+  tverts 47
+    2.50833011 0.0666666999 0
+    2.50833011 0.0666666999 0
+    3.00999999 0.0666666999 0
+    2.00667 0.0666666999 0
+    2.00667 0.0666666999 0
+    1.505 0.0666666999 0
+    1.505 0.0666666999 0
+    1 0.0666666999 0
+    1 0.0666666999 0
+    0.5 0.0666666999 0
+    0.5 0.0666666999 0
+    12.04 0.0666666999 0
+    12.04 0.0666666999 0
+    6.01999998 0.0666666999 0
+    6.52166986 0.0666666999 0
+    6.01999998 0.0666666999 0
+    8.52832985 0.0666666999 0
+    9.02999973 0.0666666999 0
+    8.52832985 0.0666666999 0
+    8.02667046 0.0666666999 0
+    8.02667046 0.0666666999 0
+    7.5250001 0.0666666999 0
+    7.5250001 0.0666666999 0
+    7.02333021 0.0666666999 0
+    7.02333021 0.0666666999 0
+    6.52166986 0.0666666999 0
+    5.5183301 0.0666666999 0
+    5.5183301 0.0666666999 0
+    5.01667023 0.0666666999 0
+    5.01667023 0.0666666999 0
+    4.51499987 0.0666666999 0
+    4.51499987 0.0666666999 0
+    4.01332998 0.0666666999 0
+    3.51167011 0.0666666999 0
+    3.51167011 0.0666666999 0
+    3.00999999 0.0666666999 0
+    11.5382996 0.0666666999 0
+    11.0367002 0.0666666999 0
+    11.5382996 0.0666666999 0
+    10.5349998 0.0666666999 0
+    11.0367002 0.0666666999 0
+    10.0333004 0.0666666999 0
+    10.5349998 0.0666666999 0
+    9.53166962 0.0666666999 0
+    10.0333004 0.0666666999 0
+    9.53166962 0.0666666999 0
+    4.01332998 0.0668049008 0
+  faces 24
+    0 1 2 1 0 1 2 1
+    0 3 1 1 3 4 0 1
+    0 4 3 1 5 6 3 1
+    0 5 4 1 7 8 5 1
+    0 6 5 1 9 10 7 1
+    0 7 6 1 11 12 9 1
+    8 9 0 1 13 14 15 1
+    10 11 0 1 16 17 18 1
+    12 10 0 1 19 16 20 1
+    13 12 0 1 21 19 22 1
+    14 13 0 1 23 21 24 1
+    9 14 0 1 14 23 25 1
+    8 0 15 1 13 26 27 1
+    15 0 16 1 26 28 29 1
+    16 0 17 1 28 30 31 1
+    18 0 19 1 32 33 34 1
+    19 0 2 1 33 2 35 1
+    0 20 7 1 11 36 12 1
+    0 21 20 1 36 37 38 1
+    0 22 21 1 37 39 40 1
+    0 23 22 1 39 41 42 1
+    0 24 23 1 41 43 44 1
+    0 11 24 1 43 17 45 1
+    17 0 18 1 30 46 32 1
+  position 0.00086730998 0.130658999 0
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  orientation 0 0 0 0
+endnode
+node trimesh innerring
+  parent damage_oubliette
+  #part-number 3
+  ambient 0 0 0
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 20
+  shadow 0
+  bitmap pdag_stones
+  verts 48
+    -0.145097002 -0.541509986 0.00999999978
+    0 -0.560612023 0.150000006
+    0 -0.560612023 0.00999999978
+    -0.145097002 -0.541509986 0.150000006
+    -0.280306011 -0.485505015 0.00999999978
+    -0.280306011 -0.485505015 0.150000006
+    -0.396412998 -0.396412998 0.00999999978
+    -0.396412998 -0.396412998 0.150000006
+    -0.485505015 -0.280306011 0.00999999978
+    -0.485505015 -0.280306011 0.150000006
+    -0.541509986 -0.145097002 0.00999999978
+    -0.541509986 -0.145097002 0.150000006
+    -0.560612023 0 0.00999999978
+    -0.560612023 0 0.150000006
+    0.560612023 0 0.150000006
+    0.541509986 0.145097002 0.00999999978
+    0.560612023 0 0.00999999978
+    0.541509986 0.145097002 0.150000006
+    0.145097002 0.541509986 0.150000006
+    0 0.560612023 0.00999999978
+    0.145097002 0.541509986 0.00999999978
+    0 0.560612023 0.150000006
+    0.280306011 0.485505015 0.150000006
+    0.280306011 0.485505015 0.00999999978
+    0.396412998 0.396412998 0.150000006
+    0.396412998 0.396412998 0.00999999978
+    0.485505015 0.280306011 0.150000006
+    0.485505015 0.280306011 0.00999999978
+    0.541509986 -0.145097002 0.150000006
+    0.541509986 -0.145097002 0.00999999978
+    0.485505015 -0.280306011 0.150000006
+    0.485505015 -0.280306011 0.00999999978
+    0.396412998 -0.396412998 0.150000006
+    0.396412998 -0.396412998 0.00999999978
+    0.280306011 -0.485505015 0.150000006
+    0.280306011 -0.485505015 0.00999999978
+    0.145097002 -0.541509986 0.150000006
+    0.145097002 -0.541509986 0.00999999978
+    -0.541509986 0.145097002 0.00999999978
+    -0.541509986 0.145097002 0.150000006
+    -0.485505015 0.280306011 0.00999999978
+    -0.485505015 0.280306011 0.150000006
+    -0.396412998 0.396412998 0.00999999978
+    -0.396412998 0.396412998 0.150000006
+    -0.280306011 0.485505015 0.00999999978
+    -0.280306011 0.485505015 0.150000006
+    -0.145097002 0.541509986 0.00999999978
+    -0.145097002 0.541509986 0.150000006
+  tverts 6
+    0.5 0 0
+    1 0.75 0
+    1 0 0
+    0.5 0.75 0
+    0 0 0
+    0 0.75 0
+  faces 48
+    0 1 2 1 0 1 2 1
+    0 3 1 1 0 3 1 1
+    4 3 0 1 4 3 0 1
+    4 5 3 1 4 5 3 1
+    6 5 4 1 0 1 2 1
+    6 7 5 1 0 3 1 1
+    8 7 6 1 4 3 0 1
+    8 9 7 1 4 5 3 1
+    10 9 8 1 0 1 2 1
+    10 11 9 1 0 3 1 1
+    12 11 10 1 4 3 0 1
+    12 13 11 1 4 5 3 1
+    14 15 16 1 5 0 4 1
+    14 17 15 1 5 3 0 1
+    18 19 20 1 3 2 0 1
+    18 21 19 1 3 1 2 1
+    22 20 23 1 5 0 4 1
+    22 18 20 1 5 3 0 1
+    24 23 25 1 3 2 0 1
+    24 22 23 1 3 1 2 1
+    26 25 27 1 5 0 4 1
+    26 24 25 1 5 3 0 1
+    17 27 15 1 3 2 0 1
+    17 26 27 1 3 1 2 1
+    28 16 29 1 3 2 0 1
+    28 14 16 1 3 1 2 1
+    30 29 31 1 5 0 4 1
+    30 28 29 1 5 3 0 1
+    32 31 33 1 3 2 0 1
+    32 30 31 1 3 1 2 1
+    34 33 35 1 5 0 4 1
+    34 32 33 1 5 3 0 1
+    36 35 37 1 3 2 0 1
+    36 34 35 1 3 1 2 1
+    1 37 2 1 5 0 4 1
+    1 36 37 1 5 3 0 1
+    38 13 12 1 0 1 2 1
+    38 39 13 1 0 3 1 1
+    40 39 38 1 4 3 0 1
+    40 41 39 1 4 5 3 1
+    42 41 40 1 0 1 2 1
+    42 43 41 1 0 3 1 1
+    44 43 42 1 4 3 0 1
+    44 45 43 1 4 5 3 1
+    46 45 44 1 0 1 2 1
+    46 47 45 1 0 3 1 1
+    19 47 46 1 4 3 0 1
+    19 21 47 1 4 5 3 1
+  position 0.00086730998 0.130658999 0
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  orientation 0 0 0 0
+endnode
+node trimesh outterring
+  parent damage_oubliette
+  #part-number 4
+  ambient 0 0 0
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 20
+  bitmap pdag_stones
+  verts 72
+    0 -0.560612023 0.150000006
+    -0.202202007 -0.754630029 0.150000006
+    0 -0.78125 0.150000006
+    -0.145097002 -0.541509986 0.150000006
+    -0.390625 -0.676581979 0.150000006
+    -0.280306011 -0.485505015 0.150000006
+    -0.552426994 -0.552426994 0.150000006
+    -0.396412998 -0.396412998 0.150000006
+    -0.676581979 -0.390625 0.150000006
+    -0.485505015 -0.280306011 0.150000006
+    -0.754630029 -0.202202007 0.150000006
+    -0.541509986 -0.145097002 0.150000006
+    -0.78125 0 0.150000006
+    -0.560612023 0 0.150000006
+    0.78125 0 0.150000006
+    0.541509986 0.145097002 0.150000006
+    0.560612023 0 0.150000006
+    0.754630029 0.202202007 0.150000006
+    0.202202007 0.754630029 0.150000006
+    0 0.560612023 0.150000006
+    0.145097002 0.541509986 0.150000006
+    0 0.78125 0.150000006
+    0.390625 0.676581979 0.150000006
+    0.280306011 0.485505015 0.150000006
+    0.552426994 0.552426994 0.150000006
+    0.396412998 0.396412998 0.150000006
+    0.676581979 0.390625 0.150000006
+    0.485505015 0.280306011 0.150000006
+    0.541509986 -0.145097002 0.150000006
+    0.754630029 -0.202202007 0.150000006
+    0.485505015 -0.280306011 0.150000006
+    0.676581979 -0.390625 0.150000006
+    0.396412998 -0.396412998 0.150000006
+    0.552426994 -0.552426994 0.150000006
+    0.280306011 -0.485505015 0.150000006
+    0.390625 -0.676581979 0.150000006
+    0.145097002 -0.541509986 0.150000006
+    0.202202007 -0.754630029 0.150000006
+    -0.541509986 0.145097002 0.150000006
+    -0.754630029 0.202202007 0.150000006
+    -0.485505015 0.280306011 0.150000006
+    -0.676581979 0.390625 0.150000006
+    -0.396412998 0.396412998 0.150000006
+    -0.552426994 0.552426994 0.150000006
+    -0.280306011 0.485505015 0.150000006
+    -0.390625 0.676581979 0.150000006
+    -0.145097002 0.541509986 0.150000006
+    -0.202202007 0.754630029 0.150000006
+    -0.78125 0 0
+    -0.754630029 -0.202202007 0
+    -0.676581979 -0.390625 0
+    -0.552426994 -0.552426994 0
+    -0.390625 -0.676581979 0
+    -0.202202007 -0.754630029 0
+    0 -0.78125 0
+    0.754630029 0.202202007 0
+    0.78125 0 0
+    0.676581979 0.390625 0
+    0.552426994 0.552426994 0
+    0.390625 0.676581979 0
+    0.202202007 0.754630029 0
+    0 0.78125 0
+    0.202202007 -0.754630029 0
+    0.390625 -0.676581979 0
+    0.552426994 -0.552426994 0
+    0.676581979 -0.390625 0
+    0.754630029 -0.202202007 0
+    -0.202202007 0.754630029 0
+    -0.390625 0.676581979 0
+    -0.552426994 0.552426994 0
+    -0.676581979 0.390625 0
+    -0.754630029 0.202202007 0
+  tverts 10
+    0.5 1 0
+    0 0.5 0
+    0.5 0.5 0
+    0 1 0
+    1 1 0
+    0.501111984 0.5 0
+    1 0.5 0
+    0.501414001 1 0
+    0.00141390995 1 0
+    0.00111198996 0.5 0
+  faces 96
+    0 1 2 1 0 1 2 1
+    0 3 1 1 0 3 1 1
+    3 4 1 1 4 5 6 1
+    3 5 4 1 4 7 5 1
+    5 6 4 1 2 8 9 1
+    5 7 6 1 2 0 8 1
+    7 8 6 1 4 2 6 1
+    7 9 8 1 4 0 2 1
+    9 10 8 1 0 1 2 1
+    9 11 10 1 0 3 1 1
+    11 12 10 1 6 7 5 1
+    11 13 12 1 6 4 7 1
+    14 15 16 1 6 7 5 1
+    14 17 15 1 6 4 7 1
+    18 19 20 1 0 1 2 1
+    18 21 19 1 0 3 1 1
+    22 20 23 1 4 5 6 1
+    22 18 20 1 4 7 5 1
+    24 23 25 1 2 8 9 1
+    24 22 23 1 2 0 8 1
+    26 25 27 1 4 5 6 1
+    26 24 25 1 4 7 5 1
+    17 27 15 1 0 1 2 1
+    17 26 27 1 0 3 1 1
+    14 28 29 1 0 1 2 1
+    14 16 28 1 0 3 1 1
+    29 30 31 1 4 5 6 1
+    29 28 30 1 4 7 5 1
+    31 32 33 1 2 8 9 1
+    31 30 32 1 2 0 8 1
+    33 34 35 1 4 5 6 1
+    33 32 34 1 4 7 5 1
+    35 36 37 1 0 1 2 1
+    35 34 36 1 0 3 1 1
+    37 0 2 1 6 7 5 1
+    37 36 0 1 6 4 7 1
+    38 12 13 1 0 1 2 1
+    38 39 12 1 0 3 1 1
+    40 39 38 1 4 5 6 1
+    40 41 39 1 4 7 5 1
+    42 41 40 1 2 8 9 1
+    42 43 41 1 2 0 8 1
+    44 43 42 1 4 5 6 1
+    44 45 43 1 4 7 5 1
+    46 45 44 1 0 1 2 1
+    46 47 45 1 0 3 1 1
+    19 47 46 1 6 7 5 1
+    19 21 47 1 6 4 7 1
+    48 10 12 2 4 2 6 1
+    48 49 10 2 4 0 2 1
+    49 8 10 2 0 1 2 1
+    49 50 8 2 0 3 1 1
+    50 6 8 2 4 2 6 1
+    50 51 6 2 4 0 2 1
+    51 4 6 2 0 1 2 1
+    51 52 4 2 0 3 1 1
+    52 1 4 2 4 2 6 1
+    52 53 1 2 4 0 2 1
+    53 2 1 2 0 1 2 1
+    53 54 2 2 0 3 1 1
+    14 55 17 2 6 0 2 1
+    14 56 55 2 6 4 0 1
+    17 57 26 2 2 3 1 1
+    17 55 57 2 2 0 3 1
+    26 58 24 2 6 0 2 1
+    26 57 58 2 6 4 0 1
+    24 59 22 2 2 3 1 1
+    24 58 59 2 2 0 3 1
+    22 60 18 2 6 0 2 1
+    22 59 60 2 6 4 0 1
+    18 61 21 2 2 3 1 1
+    18 60 61 2 2 0 3 1
+    2 62 37 2 6 0 2 1
+    2 54 62 2 6 4 0 1
+    37 63 35 2 2 3 1 1
+    37 62 63 2 2 0 3 1
+    35 64 33 2 6 0 2 1
+    35 63 64 2 6 4 0 1
+    33 65 31 2 2 3 1 1
+    33 64 65 2 2 0 3 1
+    31 66 29 2 6 0 2 1
+    31 65 66 2 6 4 0 1
+    29 56 14 2 2 3 1 1
+    29 66 56 2 2 0 3 1
+    61 47 21 2 4 2 6 1
+    61 67 47 2 4 0 2 1
+    67 45 47 2 0 1 2 1
+    67 68 45 2 0 3 1 1
+    68 43 45 2 4 2 6 1
+    68 69 43 2 4 0 2 1
+    69 41 43 2 0 1 2 1
+    69 70 41 2 0 3 1 1
+    70 39 41 2 4 2 6 1
+    70 71 39 2 4 0 2 1
+    71 12 39 2 0 1 2 1
+    71 48 12 2 0 3 1 1
+  position 0.00086730998 0.130658999 0
+  orientation 0 0 0 0
+endnode
+node emitter fire!90
+  parent dag_oubliette
+  #part-number 5
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 1
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Normal
+  texture fxpa_smoke01
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 1
+  blastRadius 0.200000003
+  blastLength 1
+  position -0.0566472001 -0.206116006 0.174661994
+  orientation 1 0 0 -4.71238995
+  xsize 100
+  ysize 99
+  threshold 0
+  combinetime 0
+  colorStart 0.474510014 0.454901993 0.407842994
+  colorEnd 0.819607973 0.803921998 0.745097995
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 4
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 10
+  lifeExp 2.5
+  mass 0.0900000036
+  spread 2.96706009
+  particleRot 0.5
+  velocity 2
+  randvel 0.5
+  bounce_co 0
+  blurlength 10
+  fps 10
+  frameStart 0
+  frameEnd 24
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node dummy oubliette_impact
+  parent dag_oubliette
+  #part-number 6
+  position -0.00509371981 0.426263005 0.0617043003
+  orientation 0 0 0 0
+endnode
+node dummy oubliette_hand
+  parent dag_oubliette
+  #part-number 7
+  position 9.84494036e-005 0.474750996 0.0732610002
+  orientation 0 0 0 0
+endnode
+node dummy oubliette_head_hit
+  parent dag_oubliette
+  #part-number 8
+  position 9.84287035e-005 0.0206067003 0.174403995
+  orientation 0 0 0 0
+endnode
+node dummy oubliette_ground
+  parent dag_oubliette
+  #part-number 9
+  position -0.00141246 0.00497986004 0.0268786997
+  orientation 0 0 0 0
+endnode
+node dummy oubliette_head
+  parent dag_oubliette
+  #part-number 10
+  position 9.84279977e-005 -0.00082589098 0.191504002
+  orientation 0 0 0 0
+endnode
+node emitter chunkywood27
+  parent dag_oubliette
+  #part-number 11
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 1
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Normal
+  texture fxpa_cloud02
+  chunkName plc_chunk_s01
+  xgrid 5
+  ygrid 5
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0.0180057008 -0.0205956995 0.329926014
+  xsize 89
+  ysize 40
+  threshold 0
+  combinetime 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.100000001
+  sizeEnd 0.100000001
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 3
+  lifeExp 0.75
+  mass 3
+  spread 1.22172999
+  particleRot 5
+  velocity 8
+  randvel 0.300000012
+  bounce_co 0.5
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 24
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  orientation 0 0 0 0
+endnode
+node emitter chunkywood28
+  parent dag_oubliette
+  #part-number 12
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 1
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Normal
+  texture fxpa_cloud02
+  chunkName plc_chunk_s02
+  xgrid 5
+  ygrid 5
+  loop 0
+  deadspace 0
+  twosidedtex 1
+  blastRadius 0
+  blastLength 0
+  position 0.0180057008 -0.0205956995 0.436147004
+  xsize 89
+  ysize 40
+  threshold 0
+  combinetime 0
+  colorStart 0.482353002 0.435294002 0.31764701
+  colorEnd 0.584313989 0.533333004 0.407842994
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.100000001
+  sizeEnd 0.100000001
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 3
+  lifeExp 0.75
+  mass 3
+  spread 1.22172999
+  particleRot 2.9000001
+  velocity 8
+  randvel 0.300000012
+  bounce_co 0.5
+  blurlength 10
+  fps 0
+  frameStart 0
+  frameEnd 24
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  orientation 0 0 0 0
+endnode
+endmodelgeom dag_oubliette
+
+#MAXANIM ASCII
+newanim damage dag_oubliette
+  length 0.133332998
+  transtime 0
+  animroot dag_oubliette
+node dummy dag_oubliette
+  parent NULL
+  #part-number 0
+endnode
+node trimesh damage_oubliette
+  parent dag_oubliette
+  #part-number 1
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  positionkey 4
+    0 -0.00086730998 -0.130658999 0
+    0.0333333015 -0.000867311028 -0.146777004 0
+    0.0666666999 -0.000867311028 -0.130600005 0
+    0.133332998 -0.00086730998 -0.130658999 0
+endnode
+node dummy hole
+  parent damage_oubliette
+  #part-number 2
+endnode
+node dummy innerring
+  parent damage_oubliette
+  #part-number 3
+endnode
+node dummy outterring
+  parent damage_oubliette
+  #part-number 4
+endnode
+node emitter fire!90
+  parent dag_oubliette
+  #part-number 5
+endnode
+node dummy oubliette_impact
+  parent dag_oubliette
+  #part-number 6
+endnode
+node dummy oubliette_hand
+  parent dag_oubliette
+  #part-number 7
+endnode
+node dummy oubliette_head_hit
+  parent dag_oubliette
+  #part-number 8
+endnode
+node dummy oubliette_ground
+  parent dag_oubliette
+  #part-number 9
+  positionkey 2
+    0 -0.00141246 0.00497986004 0.0268786997
+    0.133332998 -0.00119126996 0.00497986004 0.0268786997
+endnode
+node dummy oubliette_head
+  parent dag_oubliette
+  #part-number 10
+endnode
+node emitter chunkywood27
+  parent dag_oubliette
+  #part-number 11
+  positionkey 3
+    0 0.0180099998 -0.0205956995 0.329926014
+    0.0666666999 0.0180057008 -0.0205956995 0.329926014
+    0.133332998 0.0180099998 -0.0205956995 0.329926014
+  orientationkey 3
+    0 0 0 0 0
+    0.0666666999 0 0 0 0
+    0.133332998 0 0 0 0
+endnode
+node emitter chunkywood28
+  parent dag_oubliette
+  #part-number 12
+  positionkey 3
+    0 0.0180099998 -0.0205956995 0.436147004
+    0.0666666999 0.0180057008 -0.0205956995 0.436147004
+    0.133332998 0.0180099998 -0.0205956995 0.436147004
+  orientationkey 3
+    0 0 0 0 0
+    0.0666666999 0 0 0 0
+    0.133332998 0 0 0 0
+endnode
+node dummy dag_oubliette_pwk
+  parent dag_oubliette
+  #part-number -1
+endnode
+node dummy nowalk
+  parent dag_oubliette_pwk
+  #part-number 14
+endnode
+node dummy oub_pwk_use01
+  parent dag_oubliette_pwk
+  #part-number 15
+endnode
+node dummy oub_pwk_use02
+  parent dag_oubliette_pwk
+  #part-number 16
+endnode
+doneanim damage dag_oubliette
+
+#MAXANIM ASCII
+newanim dead dag_oubliette
+  length 0.0333333015
+  transtime 0
+  animroot dag_oubliette
+node dummy dag_oubliette
+  parent NULL
+  #part-number 0
+endnode
+node trimesh damage_oubliette
+  parent dag_oubliette
+  #part-number 1
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  positionkey 2
+    0 -0.00086730998 -0.130658999 -6.95144987
+    0.0333333015 -0.00086730998 -0.130658999 -6.95144987
+endnode
+node dummy hole
+  parent damage_oubliette
+  #part-number 2
+endnode
+node dummy innerring
+  parent damage_oubliette
+  #part-number 3
+endnode
+node dummy outterring
+  parent damage_oubliette
+  #part-number 4
+endnode
+node emitter fire!90
+  parent dag_oubliette
+  #part-number 5
+endnode
+node dummy oubliette_impact
+  parent dag_oubliette
+  #part-number 6
+endnode
+node dummy oubliette_hand
+  parent dag_oubliette
+  #part-number 7
+endnode
+node dummy oubliette_head_hit
+  parent dag_oubliette
+  #part-number 8
+endnode
+node dummy oubliette_ground
+  parent dag_oubliette
+  #part-number 9
+endnode
+node dummy oubliette_head
+  parent dag_oubliette
+  #part-number 10
+endnode
+node emitter chunkywood27
+  parent dag_oubliette
+  #part-number 11
+  positionkey 2
+    0 0.0180057008 -0.0205956995 0.329926014
+    0.0333333015 0.0180057008 -0.0205956995 0.329926014
+  orientationkey 2
+    0 0 0 0 0
+    0.0333333015 0 0 0 0
+endnode
+node emitter chunkywood28
+  parent dag_oubliette
+  #part-number 12
+  positionkey 2
+    0 0.0180057008 -0.0205956995 0.436147004
+    0.0333333015 0.0180057008 -0.0205956995 0.436147004
+  orientationkey 2
+    0 0 0 0 0
+    0.0333333015 0 0 0 0
+endnode
+node dummy dag_oubliette_pwk
+  parent dag_oubliette
+  #part-number -1
+endnode
+node dummy nowalk
+  parent dag_oubliette_pwk
+  #part-number 14
+endnode
+node dummy oub_pwk_use01
+  parent dag_oubliette_pwk
+  #part-number 15
+endnode
+node dummy oub_pwk_use02
+  parent dag_oubliette_pwk
+  #part-number 16
+endnode
+doneanim dead dag_oubliette
+
+#MAXANIM ASCII
+newanim default dag_oubliette
+  length 0
+  transtime 0.25
+  animroot dag_oubliette
+node dummy dag_oubliette
+  parent NULL
+  #part-number 0
+endnode
+node dummy damage_oubliette
+  parent dag_oubliette
+  #part-number 1
+endnode
+node dummy hole
+  parent damage_oubliette
+  #part-number 2
+endnode
+node dummy innerring
+  parent damage_oubliette
+  #part-number 3
+endnode
+node dummy outterring
+  parent damage_oubliette
+  #part-number 4
+endnode
+node emitter fire!90
+  parent dag_oubliette
+  #part-number 5
+endnode
+node dummy oubliette_impact
+  parent dag_oubliette
+  #part-number 6
+endnode
+node dummy oubliette_hand
+  parent dag_oubliette
+  #part-number 7
+endnode
+node dummy oubliette_head_hit
+  parent dag_oubliette
+  #part-number 8
+endnode
+node dummy oubliette_ground
+  parent dag_oubliette
+  #part-number 9
+endnode
+node dummy oubliette_head
+  parent dag_oubliette
+  #part-number 10
+endnode
+node emitter chunkywood27
+  parent dag_oubliette
+  #part-number 11
+endnode
+node emitter chunkywood28
+  parent dag_oubliette
+  #part-number 12
+endnode
+node dummy dag_oubliette_pwk
+  parent dag_oubliette
+  #part-number -1
+endnode
+node dummy nowalk
+  parent dag_oubliette_pwk
+  #part-number 14
+endnode
+node dummy oub_pwk_use01
+  parent dag_oubliette_pwk
+  #part-number 15
+endnode
+node dummy oub_pwk_use02
+  parent dag_oubliette_pwk
+  #part-number 16
+endnode
+doneanim default dag_oubliette
+
+#MAXANIM ASCII
+newanim die dag_oubliette
+  length 0.166666999
+  transtime 0
+  animroot dag_oubliette
+  event 0 detonate
+node dummy dag_oubliette
+  parent NULL
+  #part-number 0
+endnode
+node trimesh damage_oubliette
+  parent dag_oubliette
+  #part-number 1
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  positionkey 2
+    0 -0.00086730998 -0.130658999 0
+    0.166666999 -0.00086730998 -0.130658999 -6.95144987
+endnode
+node dummy hole
+  parent damage_oubliette
+  #part-number 2
+endnode
+node dummy innerring
+  parent damage_oubliette
+  #part-number 3
+endnode
+node dummy outterring
+  parent damage_oubliette
+  #part-number 4
+endnode
+node emitter fire!90
+  parent dag_oubliette
+  #part-number 5
+endnode
+node dummy oubliette_impact
+  parent dag_oubliette
+  #part-number 6
+endnode
+node dummy oubliette_hand
+  parent dag_oubliette
+  #part-number 7
+endnode
+node dummy oubliette_head_hit
+  parent dag_oubliette
+  #part-number 8
+endnode
+node dummy oubliette_ground
+  parent dag_oubliette
+  #part-number 9
+endnode
+node dummy oubliette_head
+  parent dag_oubliette
+  #part-number 10
+endnode
+node emitter chunkywood27
+  parent dag_oubliette
+  #part-number 11
+endnode
+node emitter chunkywood28
+  parent dag_oubliette
+  #part-number 12
+endnode
+node dummy dag_oubliette_pwk
+  parent dag_oubliette
+  #part-number -1
+endnode
+node dummy nowalk
+  parent dag_oubliette_pwk
+  #part-number 14
+endnode
+node dummy oub_pwk_use01
+  parent dag_oubliette_pwk
+  #part-number 15
+endnode
+node dummy oub_pwk_use02
+  parent dag_oubliette_pwk
+  #part-number 16
+endnode
+doneanim die dag_oubliette
+
+donemodel dag_oubliette

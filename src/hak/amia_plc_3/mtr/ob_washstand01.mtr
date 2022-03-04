@@ -1,9 +1,0 @@
- 
-renderhint NormalAndSpecMapped 
- 
-// Textures 
-texture0 ob_washstand01 
-texture1 ob_washstand01_n 
-texture2 ob_washstand01_s 
-texture3 null 
-texture4 null 

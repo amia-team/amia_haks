@@ -1,0 +1,79 @@
+{
+  "__data_type": "ITP ",
+  "MAIN": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 2
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Wall"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "black"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Hut, Large"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "hut_large"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Hut, Small"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "hut_small"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Doors"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "hut_door"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "+ Eraser"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "eraser"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 8282
+        }
+      }
+    ]
+  }
+}

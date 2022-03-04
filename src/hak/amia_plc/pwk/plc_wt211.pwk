@@ -1,0 +1,16 @@
+# Exported from NWmax 0.8 b60 at 24.04.2015 14:50:18
+# pwk file
+#
+#NWmax PWKMESH  ASCII
+node dummy 211_pwk_use01
+  parent plc_wt211_pwk
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.839216 0.898039 0.65098 
+endnode
+node dummy 211_pwk_use02
+  parent plc_wt211_pwk
+  position 0.0639237 0.190729 0.2
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.568627 0.109804 0.694118 
+endnode

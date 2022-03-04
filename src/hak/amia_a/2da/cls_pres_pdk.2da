@@ -1,0 +1,11 @@
+2DA V2.0
+
+    LABEL        ReqType  ReqParam1     ReqParam2
+0   Base_Attack  BAB      5             ****
+1   Persuade     SKILL    12            4
+2   Discipline   SKILL    3             8
+3   Lore	 SKILL    7             4
+5   Taunt	 SKILL	  18 		4
+4   ScriptVar    VAR      DLA_AllowPDK  0
+5   Toughness    FEAT     40            ****
+6   SkillFocusDisc    FEAT     175            ****

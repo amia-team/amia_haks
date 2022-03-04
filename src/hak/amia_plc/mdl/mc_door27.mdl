@@ -1,0 +1,1323 @@
+# Exported from NWmax 0.8 b60 at 22.02.2016 14:37:00
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: mc_door27
+#local file: Unknown
+filedependancy Unknown
+newmodel mc_door27
+setsupermodel mc_door27 NULL
+classification Door
+#NWmax GEOM  ASCII
+beginmodelgeom mc_door27
+node dummy mc_door27
+  parent NULL
+endnode
+node dummy double01
+  parent mc_door27
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.568627 0.109804 0.694118 
+endnode
+node dummy helper01
+  parent double01
+  position -0.71 0.0499999 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.568627 0.109804 0.694118 
+endnode
+node trimesh door06
+  parent helper01
+  position 0.0 -0.0499999 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.54902 0.803922 0.0431373 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center 35.5999 -5.24521e-005 119.0 
+  bitmap arc_bramanw_01
+  verts 44
+    0.705 -0.03 0.04
+    0.715 -0.03 2.34
+    -0.00300201 -0.03 2.34
+    -0.00300201 -0.03 0.04
+    0.705 0.03 0.04
+    0.715 0.03 2.34
+    -0.00300201 0.03 2.34
+    -0.00300201 0.03 0.04
+    0.535 -0.0500012 1.29
+    0.585 -0.0500012 1.29
+    0.585 -0.105001 1.29
+    0.535 -0.105001 1.29
+    0.58 -0.135001 1.105
+    0.54 -0.135001 1.105
+    0.575 -0.0499999 0.94
+    0.545 -0.0499999 0.94
+    0.585 -0.0500014 1.33
+    0.585 -0.120001 1.305
+    0.58 -0.150001 1.11
+    0.575 -0.0599999 0.95
+    0.58 -0.0799998 0.91
+    0.535 -0.0500014 1.33
+    0.535 -0.120001 1.305
+    0.54 -0.150001 1.11
+    0.545 -0.0599999 0.95
+    0.54 -0.0799998 0.91
+    0.535 0.0499988 1.29
+    0.585 0.104999 1.29
+    0.585 0.0499988 1.29
+    0.535 0.104999 1.29
+    0.58 0.134999 1.105
+    0.54 0.134999 1.105
+    0.575 0.0500001 0.94
+    0.545 0.0500001 0.94
+    0.585 0.119999 1.305
+    0.585 0.0499986 1.33
+    0.58 0.149999 1.11
+    0.575 0.0600001 0.95
+    0.58 0.0800002 0.91
+    0.535 0.119999 1.305
+    0.535 0.0499986 1.33
+    0.54 0.149999 1.11
+    0.545 0.0600001 0.95
+    0.54 0.0800002 0.91
+  faces 68
+    4 7 6  0  4 5 6  1
+    4 6 5  0  7 8 9  1
+    0 3 7  0  10 11 12  1
+    7 4 0  0  13 14 15  1
+    3 2 6  0  16 17 18  1
+    6 7 3  0  19 3 20  1
+    2 1 5  0  21 22 23  1
+    5 6 2  0  24 2 25  1
+    1 0 4  0  26 27 28  1
+    4 5 1  0  0 1 29  1
+    3 0 2  0  33 34 35  1
+    2 0 1  0  32 30 31  1
+    8 9 10  1  36 37 38  5
+    10 11 8  1  38 39 36  5
+    11 10 12  1  39 38 40  5
+    12 13 11  1  40 41 39  5
+    13 12 14  1  41 40 42  5
+    14 15 13  1  42 43 41  5
+    9 16 17  2  36 37 38  4
+    17 10 9  2  38 39 36  4
+    10 17 18  2  39 38 40  4
+    18 12 10  2  40 41 39  4
+    12 18 19  2  41 40 42  4
+    19 14 12  2  42 43 41  4
+    14 19 20  2  43 42 44  4
+    16 21 22  1  36 37 45  6
+    22 17 16  1  45 46 36  6
+    17 22 23  1  46 45 47  6
+    23 18 17  1  47 48 46  6
+    18 23 24  1  48 47 49  6
+    24 19 18  1  49 50 48  6
+    19 24 25  1  51 52 44  6
+    25 20 19  1  44 53 51  6
+    21 8 11  2  36 37 38  3
+    11 22 21  2  38 39 36  3
+    22 11 13  2  39 38 40  3
+    13 23 22  2  40 41 39  3
+    23 13 15  2  41 40 42  3
+    15 24 23  2  42 43 41  3
+    24 15 25  2  43 42 44  3
+    26 27 28  1  36 38 37  5
+    27 26 29  1  38 36 39  5
+    29 30 27  1  39 40 38  5
+    30 29 31  1  40 39 41  5
+    31 32 30  1  41 42 40  5
+    32 31 33  1  42 41 43  5
+    28 34 35  2  36 38 37  4
+    34 28 27  2  38 36 39  4
+    27 36 34  2  39 40 38  4
+    36 27 30  2  40 39 41  4
+    30 37 36  2  41 42 40  4
+    37 30 32  2  42 41 43  4
+    32 38 37  2  43 44 42  4
+    35 39 40  1  36 45 37  6
+    39 35 34  1  45 36 46  6
+    34 41 39  1  46 47 45  6
+    41 34 36  1  47 46 48  6
+    36 42 41  1  48 49 47  6
+    42 36 37  1  49 48 50  6
+    37 43 42  1  51 44 52  6
+    43 37 38  1  44 51 53  6
+    40 29 26  2  36 38 37  3
+    29 40 39  2  38 36 39  3
+    39 31 29  2  39 40 38  3
+    31 39 41  2  40 39 41  3
+    41 33 31  2  41 42 40  3
+    33 41 42  2  42 41 43  3
+    42 43 33  2  43 44 42  3
+  tverts 54
+    0.233444 0.98931 0
+    0.233444 0.374942 0
+    0.0234137 0.680556 0
+    0.216299 0.98931 0
+    0.0262712 0.98931 0
+    0.419744 0.98931 0
+    0.419744 0.374942 0
+    0.0262712 0.98931 0
+    0.419744 0.374942 0
+    0.0234137 0.374942 0
+    0.0262712 0.696256 0
+    0.419744 0.696256 0
+    0.419744 0.680556 0
+    0.419744 0.680556 0
+    0.0262712 0.680556 0
+    0.0262712 0.696256 0
+    0.233444 0.98931 0
+    0.233444 0.374942 0
+    0.216299 0.374942 0
+    0.216299 0.374942 0
+    0.233444 0.98931 0
+    0.0234137 0.696256 0
+    0.419744 0.696256 0
+    0.419744 0.680556 0
+    0.419744 0.680556 0
+    0.0234137 0.696256 0
+    0.216299 0.374942 0
+    0.216299 0.98931 0
+    0.233444 0.98931 0
+    0.216299 0.374942 0
+    0.0243662 0.98931 0
+    0.0215086 0.374942 0
+    0.417839 0.374942 0
+    0.417839 0.98931 0
+    0.0243662 0.98931 0
+    0.417839 0.374942 0
+    0.991849 0.108233 0
+    0.993926 0.25641 0
+    0.921012 0.257047 0
+    0.918934 0.10887 0
+    0.848098 0.257683 0
+    0.84602 0.109506 0
+    0.775184 0.258319 0
+    0.773106 0.110142 0
+    0.702271 0.258956 0
+    0.896708 0.257259 0
+    0.89463 0.109081 0
+    0.799489 0.258108 0
+    0.797411 0.10993 0
+    0.702149 0.258957 0
+    0.700071 0.11078 0
+    0.787689 0.110015 0
+    0.789767 0.258192 0
+    0.700193 0.110779 0
+endnode
+node dummy helper02
+  parent double01
+  position 0.71 0.0500001 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0313726 0.431373 0.52549 
+endnode
+node trimesh door07
+  parent helper02
+  position 0.0 -0.0500001 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.54902 0.803922 0.0431373 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center -35.6 -0.000254154 119.0 
+  bitmap arc_bramanw_01
+  verts 44
+    -0.715 -0.03 0.04
+    -0.705 -0.03 2.34
+    0.00300003 -0.03 2.34
+    0.00300003 -0.03 0.04
+    -0.715 0.03 0.04
+    -0.705 0.03 2.34
+    0.00300003 0.03 2.34
+    0.00300003 0.03 0.04
+    -0.585 -0.0500026 1.29
+    -0.535 -0.0500025 1.29
+    -0.535 -0.105002 1.29
+    -0.585 -0.105003 1.29
+    -0.539999 -0.135002 1.105
+    -0.579999 -0.135003 1.105
+    -0.544998 -0.0500025 0.94
+    -0.574998 -0.0500026 0.94
+    -0.535 -0.0500025 1.33
+    -0.535 -0.120002 1.305
+    -0.539999 -0.150002 1.11
+    -0.544998 -0.0600025 0.95
+    -0.539998 -0.0800025 0.91
+    -0.585 -0.0500026 1.33
+    -0.585 -0.120003 1.305
+    -0.579999 -0.150003 1.11
+    -0.574998 -0.0600026 0.95
+    -0.579998 -0.0800026 0.91
+    -0.585 0.0499974 1.29
+    -0.535 0.104998 1.29
+    -0.535 0.0499975 1.29
+    -0.585 0.104997 1.29
+    -0.54 0.134998 1.105
+    -0.58 0.134997 1.105
+    -0.544999 0.0499975 0.94
+    -0.574998 0.0499974 0.94
+    -0.535001 0.119998 1.305
+    -0.535001 0.0499975 1.33
+    -0.54 0.149998 1.11
+    -0.544999 0.0599975 0.95
+    -0.539998 0.0799975 0.91
+    -0.585001 0.119997 1.305
+    -0.585 0.0499974 1.33
+    -0.58 0.149997 1.11
+    -0.574999 0.0599974 0.95
+    -0.579998 0.0799974 0.91
+  faces 68
+    7 4 6  0  5 4 6  1
+    6 4 5  0  8 7 9  1
+    3 0 7  0  11 10 12  1
+    4 7 0  0  14 13 15  1
+    2 3 6  0  17 16 18  1
+    7 6 3  0  3 19 20  1
+    1 2 5  0  22 21 23  1
+    6 5 2  0  2 24 25  1
+    0 1 4  0  27 26 28  1
+    5 4 1  0  1 0 29  1
+    0 3 2  0  34 33 35  1
+    0 2 1  0  30 32 31  1
+    8 9 10  1  36 37 38  5
+    10 11 8  1  38 39 36  5
+    11 10 12  1  39 38 40  5
+    12 13 11  1  40 41 39  5
+    13 12 14  1  41 40 42  5
+    14 15 13  1  42 43 41  5
+    9 16 17  2  36 37 38  4
+    17 10 9  2  38 39 36  4
+    10 17 18  2  39 38 40  4
+    18 12 10  2  40 41 39  4
+    12 18 19  2  41 40 42  4
+    19 14 12  2  42 43 41  4
+    14 19 20  2  43 42 44  4
+    16 21 22  1  36 37 45  6
+    22 17 16  1  45 46 36  6
+    17 22 23  1  46 45 47  6
+    23 18 17  1  47 48 46  6
+    18 23 24  1  48 47 49  6
+    24 19 18  1  49 50 48  6
+    19 24 25  1  51 52 44  6
+    25 20 19  1  44 53 51  6
+    21 8 11  2  36 37 38  3
+    11 22 21  2  38 39 36  3
+    22 11 13  2  39 38 40  3
+    13 23 22  2  40 41 39  3
+    23 13 15  2  41 40 42  3
+    15 24 23  2  42 43 41  3
+    24 15 25  2  43 42 44  3
+    26 27 28  1  36 38 37  5
+    27 26 29  1  38 36 39  5
+    29 30 27  1  39 40 38  5
+    30 29 31  1  40 39 41  5
+    31 32 30  1  41 42 40  5
+    32 31 33  1  42 41 43  5
+    28 34 35  2  36 38 37  4
+    34 28 27  2  38 36 39  4
+    27 36 34  2  39 40 38  4
+    36 27 30  2  40 39 41  4
+    30 37 36  2  41 42 40  4
+    37 30 32  2  42 41 43  4
+    32 38 37  2  43 44 42  4
+    35 39 40  1  36 45 37  6
+    39 35 34  1  45 36 46  6
+    34 41 39  1  46 47 45  6
+    41 34 36  1  47 46 48  6
+    36 42 41  1  48 49 47  6
+    42 36 37  1  49 48 50  6
+    37 43 42  1  51 44 52  6
+    43 37 38  1  44 51 53  6
+    40 29 26  2  36 38 37  3
+    29 40 39  2  38 36 39  3
+    39 31 29  2  39 40 38  3
+    31 39 41  2  40 39 41  3
+    41 33 31  2  41 42 40  3
+    33 41 42  2  42 41 43  3
+    42 43 33  2  43 44 42  3
+  tverts 54
+    0.233444 0.98931 0
+    0.233444 0.374942 0
+    0.0234137 0.680556 0
+    0.216299 0.98931 0
+    0.0262712 0.98931 0
+    0.419744 0.98931 0
+    0.419744 0.374942 0
+    0.0262712 0.98931 0
+    0.419744 0.374942 0
+    0.0234137 0.374942 0
+    0.0262712 0.696256 0
+    0.419744 0.696256 0
+    0.419744 0.680556 0
+    0.419744 0.680556 0
+    0.0262712 0.680556 0
+    0.0262712 0.696256 0
+    0.233444 0.98931 0
+    0.233444 0.374942 0
+    0.216299 0.374942 0
+    0.216299 0.374942 0
+    0.233444 0.98931 0
+    0.0234137 0.696256 0
+    0.419744 0.696256 0
+    0.419744 0.680556 0
+    0.419744 0.680556 0
+    0.0234137 0.696256 0
+    0.216299 0.374942 0
+    0.216299 0.98931 0
+    0.233444 0.98931 0
+    0.216299 0.374942 0
+    0.0243662 0.98931 0
+    0.0215086 0.374942 0
+    0.417839 0.374942 0
+    0.417839 0.98931 0
+    0.0243662 0.98931 0
+    0.417839 0.374942 0
+    0.977282 0.718482 0
+    0.977282 0.862134 0
+    0.90595 0.862134 0
+    0.90595 0.718482 0
+    0.834619 0.862134 0
+    0.834619 0.718482 0
+    0.763287 0.862134 0
+    0.763287 0.718482 0
+    0.691956 0.862134 0
+    0.882173 0.862134 0
+    0.882173 0.718482 0
+    0.787065 0.862134 0
+    0.787065 0.718482 0
+    0.691837 0.862134 0
+    0.691837 0.718482 0
+    0.777554 0.718482 0
+    0.777554 0.862134 0
+    0.691956 0.718482 0
+endnode
+node dummy mc_door27grnd
+  parent mc_door27
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.894118 0.839216 0.6 
+endnode
+node dummy mc_door27head
+  parent mc_door27
+  position 0.0 0.0 2.50064
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.894118 0.839216 0.6 
+endnode
+node dummy mc_door27hhit
+  parent mc_door27
+  position 0.0 0.0 2.17507
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.894118 0.839216 0.6 
+endnode
+node dummy mc_door27impc
+  parent mc_door27
+  position 0.0 0.0 1.63648
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.894118 0.839216 0.6 
+endnode
+node emitter fire!07
+  parent mc_door27
+  position 0.0 0.0288672 0.928905
+  orientation 1.0 0.0 0.0 -4.71239
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 0
+  spawnType 0
+  xSize 100.0
+  ySize 99.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.47451 0.439216 0.364706 
+  colorEnd 0.819608 0.796079 0.709804 
+  alphaStart 1.0
+  alphaEnd 0.0
+  sizeStart 4.0
+  sizeEnd 1.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 10
+  lifeExp 2.5
+  mass 0.09
+  spread 2.96706
+  particleRot 0.5
+  velocity 2.0
+  randvel 0.5
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 1
+  xgrid 4
+  ygrid 4
+  fps 10
+  framestart 0
+  frameend 24
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.2
+  blastLength 1.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node trimesh sam
+  parent mc_door27
+  position -1.0 0.0 0.0
+  orientation 0.0 0.0 -1.0 -1.5708
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 0.0
+  transparencyhint 1
+  selfillumcolor 0.0705882 0.0 1.0 
+  ambient 0.2 0.2 0.2 
+  diffuse 0.8 0.8 0.8 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center -0.000369668 -100.0 117.0 
+  bitmap NULL
+  verts 8
+    -0.0285582 -0.291896 0.0
+    -0.0285561 -1.71189 0.0
+    -0.0285561 -1.71189 2.34
+    -0.0285582 -0.291896 2.34
+    0.0285508 -1.70811 0.0
+    0.0285487 -0.288104 0.0
+    0.0285508 -1.70811 2.34
+    0.0285487 -0.288104 2.34
+  faces 4
+    0 1 2  1  0 1 2  18
+    2 3 0  1  2 3 0  18
+    4 5 6  1  1 0 2  18
+    7 6 5  1  3 2 0  18
+  tverts 4
+    0.0004995 0.0004997 0
+    0.49427 0.0004995 0
+    0.494271 0.876312 0
+    0.0004998 0.876312 0
+endnode
+endmodelgeom mc_door27
+#NWmax ANIM ASCII
+newanim trans mc_door27
+  length 0.0333333
+  transtime 0.0
+  animroot mc_door27
+    node dummy mc_door27
+        parent NULL
+    endnode
+    node dummy double01
+        parent mc_door27
+    endnode
+    node dummy helper01
+        parent double01
+    endnode
+    node trimesh door06
+        parent helper01
+    endnode
+    node dummy helper02
+        parent double01
+    endnode
+    node trimesh door07
+        parent helper02
+    endnode
+    node dummy mc_door27grnd
+        parent mc_door27
+    endnode
+    node dummy mc_door27head
+        parent mc_door27
+    endnode
+    node dummy mc_door27hhit
+        parent mc_door27
+    endnode
+    node dummy mc_door27impc
+        parent mc_door27
+    endnode
+    node emitter fire!07
+        parent mc_door27
+    endnode
+    node trimesh sam
+        parent mc_door27
+        alphakey
+            0.0 0.25 
+            0.0333333 0.25 
+        endlist
+    endnode
+    node dummy mc_door27_DWK
+        parent mc_door27
+    endnode
+    node dummy 27_DWK_dp_closed_01
+        parent mc_door27_DWK
+    endnode
+    node dummy 27_DWK_dp_closed_02
+        parent mc_door27_DWK
+    endnode
+    node dummy 27_DWK_dp_open1_01
+        parent mc_door27_DWK
+    endnode
+    node dummy 27_DWK_dp_open2_01
+        parent mc_door27_DWK
+    endnode
+    node trimesh 27_DWK_wg_closed
+        parent mc_door27_DWK
+    endnode
+    node trimesh 27_DWK_wg_open2
+        parent mc_door27_DWK
+    endnode
+    node trimesh 27_DWK_wg_open1
+        parent mc_door27_DWK
+    endnode
+doneanim trans mc_door27
+#NWmax ANIM ASCII
+newanim opening1 mc_door27
+  length 0.666667
+  transtime 0.25
+  animroot mc_door27
+    node dummy mc_door27
+        parent NULL
+    endnode
+    node dummy double01
+        parent mc_door27
+    endnode
+    node dummy helper01
+        parent double01
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.666667 0.0 0.0 1.0 -3.0
+        endlist
+    endnode
+    node trimesh door06
+        parent helper01
+    endnode
+    node dummy helper02
+        parent double01
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.666667 0.0 0.0 -1.0 -3.0
+        endlist
+    endnode
+    node trimesh door07
+        parent helper02
+    endnode
+    node dummy mc_door27grnd
+        parent mc_door27
+    endnode
+    node dummy mc_door27head
+        parent mc_door27
+    endnode
+    node dummy mc_door27hhit
+        parent mc_door27
+    endnode
+    node dummy mc_door27impc
+        parent mc_door27
+    endnode
+    node emitter fire!07
+        parent mc_door27
+    endnode
+    node trimesh sam
+        parent mc_door27
+        alphakey
+            0.0 0.0 
+            0.666667 0.0 
+        endlist
+    endnode
+    node dummy mc_door27_DWK
+        parent mc_door27
+    endnode
+    node dummy 27_DWK_dp_closed_01
+        parent mc_door27_DWK
+    endnode
+    node dummy 27_DWK_dp_closed_02
+        parent mc_door27_DWK
+    endnode
+    node dummy 27_DWK_dp_open1_01
+        parent mc_door27_DWK
+    endnode
+    node dummy 27_DWK_dp_open2_01
+        parent mc_door27_DWK
+    endnode
+    node trimesh 27_DWK_wg_closed
+        parent mc_door27_DWK
+    endnode
+    node trimesh 27_DWK_wg_open2
+        parent mc_door27_DWK
+    endnode
+    node trimesh 27_DWK_wg_open1
+        parent mc_door27_DWK
+    endnode
+doneanim opening1 mc_door27
+#NWmax ANIM ASCII
+newanim opened1 mc_door27
+  length 0.0333333
+  transtime 0.0
+  animroot mc_door27
+    node dummy mc_door27
+        parent NULL
+    endnode
+    node dummy double01
+        parent mc_door27
+    endnode
+    node dummy helper01
+        parent double01
+        orientationkey
+            0.0 0.0 0.0 1.0 -3.0
+            0.0333333 0.0 0.0 1.0 -3.0
+        endlist
+    endnode
+    node trimesh door06
+        parent helper01
+    endnode
+    node dummy helper02
+        parent double01
+        orientationkey
+            0.0 0.0 0.0 -1.0 -3.0
+            0.0333333 0.0 0.0 -1.0 -3.0
+        endlist
+    endnode
+    node trimesh door07
+        parent helper02
+    endnode
+    node dummy mc_door27grnd
+        parent mc_door27
+    endnode
+    node dummy mc_door27head
+        parent mc_door27
+    endnode
+    node dummy mc_door27hhit
+        parent mc_door27
+    endnode
+    node dummy mc_door27impc
+        parent mc_door27
+    endnode
+    node emitter fire!07
+        parent mc_door27
+    endnode
+    node trimesh sam
+        parent mc_door27
+        alphakey
+            0.0 0.0 
+            0.0333333 0.0 
+        endlist
+    endnode
+    node dummy mc_door27_DWK
+        parent mc_door27
+    endnode
+    node dummy 27_DWK_dp_closed_01
+        parent mc_door27_DWK
+    endnode
+    node dummy 27_DWK_dp_closed_02
+        parent mc_door27_DWK
+    endnode
+    node dummy 27_DWK_dp_open1_01
+        parent mc_door27_DWK
+    endnode
+    node dummy 27_DWK_dp_open2_01
+        parent mc_door27_DWK
+    endnode
+    node trimesh 27_DWK_wg_closed
+        parent mc_door27_DWK
+    endnode
+    node trimesh 27_DWK_wg_open2
+        parent mc_door27_DWK
+    endnode
+    node trimesh 27_DWK_wg_open1
+        parent mc_door27_DWK
+    endnode
+doneanim opened1 mc_door27
+#NWmax ANIM ASCII
+newanim closing1 mc_door27
+  length 0.666667
+  transtime 0.25
+  animroot mc_door27
+    node dummy mc_door27
+        parent NULL
+    endnode
+    node dummy double01
+        parent mc_door27
+    endnode
+    node dummy helper01
+        parent double01
+        orientationkey
+            0.0 0.0 0.0 1.0 -3.0
+            0.666667 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh door06
+        parent helper01
+    endnode
+    node dummy helper02
+        parent double01
+        orientationkey
+            0.0 0.0 0.0 -1.0 -3.0
+            0.666667 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh door07
+        parent helper02
+    endnode
+    node dummy mc_door27grnd
+        parent mc_door27
+    endnode
+    node dummy mc_door27head
+        parent mc_door27
+    endnode
+    node dummy mc_door27hhit
+        parent mc_door27
+    endnode
+    node dummy mc_door27impc
+        parent mc_door27
+    endnode
+    node emitter fire!07
+        parent mc_door27
+    endnode
+    node trimesh sam
+        parent mc_door27
+        alphakey
+            0.0 0.0 
+            0.666667 0.0 
+        endlist
+    endnode
+    node dummy mc_door27_DWK
+        parent mc_door27
+    endnode
+    node dummy 27_DWK_dp_closed_01
+        parent mc_door27_DWK
+    endnode
+    node dummy 27_DWK_dp_closed_02
+        parent mc_door27_DWK
+    endnode
+    node dummy 27_DWK_dp_open1_01
+        parent mc_door27_DWK
+    endnode
+    node dummy 27_DWK_dp_open2_01
+        parent mc_door27_DWK
+    endnode
+    node trimesh 27_DWK_wg_closed
+        parent mc_door27_DWK
+    endnode
+    node trimesh 27_DWK_wg_open2
+        parent mc_door27_DWK
+    endnode
+    node trimesh 27_DWK_wg_open1
+        parent mc_door27_DWK
+    endnode
+doneanim closing1 mc_door27
+#NWmax ANIM ASCII
+newanim opening2 mc_door27
+  length 0.666667
+  transtime 0.25
+  animroot mc_door27
+    node dummy mc_door27
+        parent NULL
+    endnode
+    node dummy double01
+        parent mc_door27
+    endnode
+    node dummy helper01
+        parent double01
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.666667 0.0 0.0 1.0 -2.2
+        endlist
+    endnode
+    node trimesh door06
+        parent helper01
+    endnode
+    node dummy helper02
+        parent double01
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.666667 0.0 0.0 -1.0 -2.2
+        endlist
+    endnode
+    node trimesh door07
+        parent helper02
+    endnode
+    node dummy mc_door27grnd
+        parent mc_door27
+    endnode
+    node dummy mc_door27head
+        parent mc_door27
+    endnode
+    node dummy mc_door27hhit
+        parent mc_door27
+    endnode
+    node dummy mc_door27impc
+        parent mc_door27
+    endnode
+    node emitter fire!07
+        parent mc_door27
+    endnode
+    node trimesh sam
+        parent mc_door27
+        alphakey
+            0.0 0.0 
+            0.666667 0.0 
+        endlist
+    endnode
+    node dummy mc_door27_DWK
+        parent mc_door27
+    endnode
+    node dummy 27_DWK_dp_closed_01
+        parent mc_door27_DWK
+    endnode
+    node dummy 27_DWK_dp_closed_02
+        parent mc_door27_DWK
+    endnode
+    node dummy 27_DWK_dp_open1_01
+        parent mc_door27_DWK
+    endnode
+    node dummy 27_DWK_dp_open2_01
+        parent mc_door27_DWK
+    endnode
+    node trimesh 27_DWK_wg_closed
+        parent mc_door27_DWK
+    endnode
+    node trimesh 27_DWK_wg_open2
+        parent mc_door27_DWK
+    endnode
+    node trimesh 27_DWK_wg_open1
+        parent mc_door27_DWK
+    endnode
+doneanim opening2 mc_door27
+#NWmax ANIM ASCII
+newanim opened2 mc_door27
+  length 0.0333333
+  transtime 0.0
+  animroot mc_door27
+    node dummy mc_door27
+        parent NULL
+    endnode
+    node dummy double01
+        parent mc_door27
+    endnode
+    node dummy helper01
+        parent double01
+        orientationkey
+            0.0 0.0 0.0 1.0 -2.2
+            0.0333333 0.0 0.0 1.0 -2.2
+        endlist
+    endnode
+    node trimesh door06
+        parent helper01
+    endnode
+    node dummy helper02
+        parent double01
+        orientationkey
+            0.0 0.0 0.0 -1.0 -2.2
+            0.0333333 0.0 0.0 -1.0 -2.2
+        endlist
+    endnode
+    node trimesh door07
+        parent helper02
+    endnode
+    node dummy mc_door27grnd
+        parent mc_door27
+    endnode
+    node dummy mc_door27head
+        parent mc_door27
+    endnode
+    node dummy mc_door27hhit
+        parent mc_door27
+    endnode
+    node dummy mc_door27impc
+        parent mc_door27
+    endnode
+    node emitter fire!07
+        parent mc_door27
+    endnode
+    node trimesh sam
+        parent mc_door27
+        alphakey
+            0.0 0.0 
+            0.0333333 0.0 
+        endlist
+    endnode
+    node dummy mc_door27_DWK
+        parent mc_door27
+    endnode
+    node dummy 27_DWK_dp_closed_01
+        parent mc_door27_DWK
+    endnode
+    node dummy 27_DWK_dp_closed_02
+        parent mc_door27_DWK
+    endnode
+    node dummy 27_DWK_dp_open1_01
+        parent mc_door27_DWK
+    endnode
+    node dummy 27_DWK_dp_open2_01
+        parent mc_door27_DWK
+    endnode
+    node trimesh 27_DWK_wg_closed
+        parent mc_door27_DWK
+    endnode
+    node trimesh 27_DWK_wg_open2
+        parent mc_door27_DWK
+    endnode
+    node trimesh 27_DWK_wg_open1
+        parent mc_door27_DWK
+    endnode
+doneanim opened2 mc_door27
+#NWmax ANIM ASCII
+newanim closing2 mc_door27
+  length 0.666667
+  transtime 0.25
+  animroot mc_door27
+    node dummy mc_door27
+        parent NULL
+    endnode
+    node dummy double01
+        parent mc_door27
+    endnode
+    node dummy helper01
+        parent double01
+        orientationkey
+            0.0 0.0 0.0 1.0 -2.2
+            0.666667 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh door06
+        parent helper01
+    endnode
+    node dummy helper02
+        parent double01
+        orientationkey
+            0.0 0.0 0.0 -1.0 -2.2
+            0.666667 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh door07
+        parent helper02
+    endnode
+    node dummy mc_door27grnd
+        parent mc_door27
+    endnode
+    node dummy mc_door27head
+        parent mc_door27
+    endnode
+    node dummy mc_door27hhit
+        parent mc_door27
+    endnode
+    node dummy mc_door27impc
+        parent mc_door27
+    endnode
+    node emitter fire!07
+        parent mc_door27
+    endnode
+    node trimesh sam
+        parent mc_door27
+        alphakey
+            0.0 0.0 
+            0.666667 0.0 
+        endlist
+    endnode
+    node dummy mc_door27_DWK
+        parent mc_door27
+    endnode
+    node dummy 27_DWK_dp_closed_01
+        parent mc_door27_DWK
+    endnode
+    node dummy 27_DWK_dp_closed_02
+        parent mc_door27_DWK
+    endnode
+    node dummy 27_DWK_dp_open1_01
+        parent mc_door27_DWK
+    endnode
+    node dummy 27_DWK_dp_open2_01
+        parent mc_door27_DWK
+    endnode
+    node trimesh 27_DWK_wg_closed
+        parent mc_door27_DWK
+    endnode
+    node trimesh 27_DWK_wg_open2
+        parent mc_door27_DWK
+    endnode
+    node trimesh 27_DWK_wg_open1
+        parent mc_door27_DWK
+    endnode
+doneanim closing2 mc_door27
+#NWmax ANIM ASCII
+newanim closed mc_door27
+  length 0.0333333
+  transtime 0.0
+  animroot mc_door27
+    node dummy mc_door27
+        parent NULL
+    endnode
+    node dummy double01
+        parent mc_door27
+    endnode
+    node dummy helper01
+        parent double01
+        orientationkey
+            0.0 1.0 0.0 0.0 0.0
+            0.0333333 1.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh door06
+        parent helper01
+    endnode
+    node dummy helper02
+        parent double01
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh door07
+        parent helper02
+    endnode
+    node dummy mc_door27grnd
+        parent mc_door27
+    endnode
+    node dummy mc_door27head
+        parent mc_door27
+    endnode
+    node dummy mc_door27hhit
+        parent mc_door27
+    endnode
+    node dummy mc_door27impc
+        parent mc_door27
+    endnode
+    node emitter fire!07
+        parent mc_door27
+    endnode
+    node trimesh sam
+        parent mc_door27
+        alphakey
+            0.0 0.0 
+            0.0333333 0.0 
+        endlist
+    endnode
+    node dummy mc_door27_DWK
+        parent mc_door27
+    endnode
+    node dummy 27_DWK_dp_closed_01
+        parent mc_door27_DWK
+    endnode
+    node dummy 27_DWK_dp_closed_02
+        parent mc_door27_DWK
+    endnode
+    node dummy 27_DWK_dp_open1_01
+        parent mc_door27_DWK
+    endnode
+    node dummy 27_DWK_dp_open2_01
+        parent mc_door27_DWK
+    endnode
+    node trimesh 27_DWK_wg_closed
+        parent mc_door27_DWK
+    endnode
+    node trimesh 27_DWK_wg_open2
+        parent mc_door27_DWK
+    endnode
+    node trimesh 27_DWK_wg_open1
+        parent mc_door27_DWK
+    endnode
+doneanim closed mc_door27
+#NWmax ANIM ASCII
+newanim die mc_door27
+  length 0.666667
+  transtime 0.25
+  animroot mc_door27
+  event 0.0 detonate
+    node dummy mc_door27
+        parent NULL
+    endnode
+    node dummy double01
+        parent mc_door27
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.666667 0.0 0.0 -3.2
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.666667 -0.702488 -0.47656 -0.528585 -0.460068
+        endlist
+    endnode
+    node dummy helper01
+        parent double01
+    endnode
+    node trimesh door06
+        parent helper01
+    endnode
+    node dummy helper02
+        parent double01
+    endnode
+    node trimesh door07
+        parent helper02
+    endnode
+    node dummy mc_door27grnd
+        parent mc_door27
+    endnode
+    node dummy mc_door27head
+        parent mc_door27
+    endnode
+    node dummy mc_door27hhit
+        parent mc_door27
+    endnode
+    node dummy mc_door27impc
+        parent mc_door27
+    endnode
+    node emitter fire!07
+        parent mc_door27
+    endnode
+    node trimesh sam
+        parent mc_door27
+        alphakey
+            0.0 0.0 
+            0.666667 0.0 
+        endlist
+    endnode
+    node dummy mc_door27_DWK
+        parent mc_door27
+    endnode
+    node dummy 27_DWK_dp_closed_01
+        parent mc_door27_DWK
+    endnode
+    node dummy 27_DWK_dp_closed_02
+        parent mc_door27_DWK
+    endnode
+    node dummy 27_DWK_dp_open1_01
+        parent mc_door27_DWK
+    endnode
+    node dummy 27_DWK_dp_open2_01
+        parent mc_door27_DWK
+    endnode
+    node trimesh 27_DWK_wg_closed
+        parent mc_door27_DWK
+    endnode
+    node trimesh 27_DWK_wg_open2
+        parent mc_door27_DWK
+    endnode
+    node trimesh 27_DWK_wg_open1
+        parent mc_door27_DWK
+    endnode
+doneanim die mc_door27
+#NWmax ANIM ASCII
+newanim dead mc_door27
+  length 0.0333333
+  transtime 0.0
+  animroot mc_door27
+    node dummy mc_door27
+        parent NULL
+    endnode
+    node dummy double01
+        parent mc_door27
+        positionkey
+            0.0 0.0 0.0 -3.2
+            0.0333333 0.0 0.0 -3.2
+        endlist
+        orientationkey
+            0.0 -0.702488 -0.47656 -0.528585 -0.460068
+            0.0333333 -0.702488 -0.47656 -0.528585 -0.460068
+        endlist
+    endnode
+    node dummy helper01
+        parent double01
+    endnode
+    node trimesh door06
+        parent helper01
+    endnode
+    node dummy helper02
+        parent double01
+    endnode
+    node trimesh door07
+        parent helper02
+    endnode
+    node dummy mc_door27grnd
+        parent mc_door27
+    endnode
+    node dummy mc_door27head
+        parent mc_door27
+    endnode
+    node dummy mc_door27hhit
+        parent mc_door27
+    endnode
+    node dummy mc_door27impc
+        parent mc_door27
+    endnode
+    node emitter fire!07
+        parent mc_door27
+    endnode
+    node trimesh sam
+        parent mc_door27
+        alphakey
+            0.0 0.0 
+            0.0333333 0.0 
+        endlist
+    endnode
+    node dummy mc_door27_DWK
+        parent mc_door27
+    endnode
+    node dummy 27_DWK_dp_closed_01
+        parent mc_door27_DWK
+    endnode
+    node dummy 27_DWK_dp_closed_02
+        parent mc_door27_DWK
+    endnode
+    node dummy 27_DWK_dp_open1_01
+        parent mc_door27_DWK
+    endnode
+    node dummy 27_DWK_dp_open2_01
+        parent mc_door27_DWK
+    endnode
+    node trimesh 27_DWK_wg_closed
+        parent mc_door27_DWK
+    endnode
+    node trimesh 27_DWK_wg_open2
+        parent mc_door27_DWK
+    endnode
+    node trimesh 27_DWK_wg_open1
+        parent mc_door27_DWK
+    endnode
+doneanim dead mc_door27
+donemodel mc_door27

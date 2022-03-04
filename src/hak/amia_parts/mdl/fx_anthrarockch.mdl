@@ -1,0 +1,163 @@
+#MAXMODEL ASCII
+# model: fx_anthrarockch
+filedependancy fx_anthrarockch.max
+newmodel fx_anthrarockch
+setsupermodel fx_anthrarockch NULL
+classification effect
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom fx_anthrarockch
+node dummy fx_anthrarockch
+  parent NULL
+  #part-number 0
+endnode
+node trimesh Rocksml
+  parent fx_anthrarockch
+  #part-number 1
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap fxpa_dirt
+  verts 8
+    -0.0499210991 -0.0572988987 -0.0403094999
+    -0.0744261965 0.0505673997 -0.0261733998
+    0.00379136996 0.0287785996 -0.064645201
+    0.066178903 -0.0572988987 -0.0403094999
+    -0.0259335004 -0.0236047003 0.0280609
+    0.022202 -0.0380081981 0.0296090003
+    0.066178903 0.0588010997 0.0757905021
+    -0.0171415005 0.0173428003 0.0757905021
+  tverts 22
+    0.825390995 0.000499903981 0
+    0.999499977 0.928653002 0
+    0.443764001 0.741167009 0
+    0.000499845017 0.000499666028 0
+    0.345041007 0.290426999 0
+    0.687044024 0.166490003 0
+    0.999499977 0.999499977 0
+    0.999499977 0.99950099 0
+    0.407507986 0.99950099 0
+    0.345041007 0.659972012 0
+    0.174609005 0.173613995 0
+    0.999499977 0.173613995 0
+    0.687044024 0.670984983 0
+    0.000499666028 0.173613995 0
+    0.741167009 0.000499486981 0
+    0.443764001 0.000499486981 0
+    0.999499977 0.274172008 0
+    0.592491984 0.99950099 0
+    0.000499635993 0.99950099 0
+    0.0713474005 0.274172008 0
+    0.709572971 0.659972012 0
+    0.357234001 0.99950099 0
+  faces 12
+    0 1 2 1 0 1 2 2
+    2 3 0 1 2 3 0 2
+    4 5 6 1 4 5 6 1
+    6 7 4 1 7 8 9 1
+    0 3 5 2 10 11 12 5
+    5 4 0 2 12 9 10 5
+    3 2 6 4 13 14 7 4
+    6 5 3 4 7 12 11 4
+    2 1 7 2 15 16 17 6
+    7 6 2 2 17 18 15 6
+    1 0 4 4 19 11 20 3
+    4 7 1 4 20 21 19 3
+  position 0 -0.00429114001 0.00168774999
+  orientation 0.855041802 -0.452498913 -0.253274947 -1.15922999
+endnode
+node emitter smoke04
+  parent Rocksml
+  #part-number 2
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Normal
+  texture fxpa_Smoke01
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0.0126767997 -0.0141075002
+  orientation 0 0 0 0
+  colorStart 0.203922004 0.203922004 0.203922004
+  colorEnd 0.0784313977 0.0784313977 0.0784313977
+  alphaStart 0.5
+  alphaEnd 0
+  sizeStart 0.200000003
+  sizeEnd 0.800000012
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 16
+  birthrate 15
+  lifeExp 0.75
+  mass -2
+  spread 1.39626002
+  particleRot -1
+  velocity 0
+  randvel 0.100000001
+  fps 16
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+endmodelgeom fx_anthrarockch
+
+#MAXANIM ASCII
+newanim impact fx_anthrarockch
+  length 4.0999999
+  transtime 0.25
+  animroot fx_anthrarockch
+node dummy fx_anthrarockch
+  parent NULL
+  #part-number 0
+endnode
+node dummy Rocksml
+  parent fx_anthrarockch
+  #part-number 1
+  orientationkey 10
+    0.600000024 0.853328228 -0.456004143 -0.252767086 -1.15216994
+    0.666666985 0.853328228 -0.456004143 -0.252767086 -1.15216994
+    1.03332996 -0.52844578 -0.834411502 0.156532913 -0.682238996
+    1.46667004 -0.944067538 -0.174741909 0.27964583 -2.07563996
+    1.86667001 -0.957470775 0.0530259833 0.283615947 -3.49587011
+    2.29999995 -0.877119839 0.403926939 0.259814978 -5.01769018
+    2.73333001 0.609113038 0.77228713 -0.180427015 -5.55069017
+    3.13333011 0.94169569 0.188148946 -0.278942913 -4.27336979
+    3.56666994 0.95556432 -0.0823344216 -0.283051074 -2.59937
+    4.0999999 0.871421039 -0.417128026 -0.258127004 -1.23497999
+endnode
+node emitter smoke04
+  parent Rocksml
+  #part-number 2
+endnode
+doneanim impact fx_anthrarockch
+
+donemodel fx_anthrarockch

@@ -1,0 +1,70 @@
+# Rewritten by CleanModels 3 Version 3.2.3f Fri May 27 04:51:37 2011
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel plc_chunk_w07
+setsupermodel plc_chunk_w07 null
+setanimationscale 1
+classification CHARACTER
+#MAXGEOM ASCII
+beginmodelgeom plc_chunk_w07
+node dummy plc_chunk_w07
+  parent NULL
+endnode
+node trimesh box49
+  parent plc_chunk_w07
+  orientation 0.922747 0.344593 0.172609 -1.31177
+  wirecolor 1 1 1
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  center 15.4025 0 3.03797
+  bitmap tni01_seat
+  position -0.081 0.043 0
+  verts 8
+    -0.239 -0.071 0
+    -0.134 -0.005 0
+    0.462 0.072 0
+    0.548 -0.071 0
+    0.092 0.072 0.061
+    0.462 -0.071 0.035
+    0.278 0.072 0.035
+    -0.141 0.072 0
+  faces 12
+    0 1 2 1 0 1 2 2
+    2 3 0 1 2 3 0 2
+    4 5 6 2 4 5 6 1
+    5 4 0 2 5 4 0 1
+    0 3 5 4 0 3 7 5
+    3 2 6 8 3 2 6 4
+    6 5 3 8 6 5 3 4
+    6 7 4 4 8 9 10 6
+    7 6 2 4 9 8 2 6
+    1 4 7 8 1 4 9 3
+    4 1 0 8 4 1 0 3
+    1 7 2 1 1 9 2 2
+  tverts 11
+    0.830078 0.888672 0
+    0.861328 0.804688 0
+    0.898438 0.302734 0
+    0.806641 0.265625 0
+    0.90625 0.613281 0
+    0.808594 0.320313 0
+    0.902344 0.457031 0
+    0.783203 0.320313 0
+    0.875 0.457031 0
+    0.912109 0.808594 0
+    0.880859 0.613281 0
+endnode
+endmodelgeom plc_chunk_w07
+donemodel plc_chunk_w07

@@ -1,2 +1,0 @@
-envmaptexture isc01_refl
-alphamean 0.9

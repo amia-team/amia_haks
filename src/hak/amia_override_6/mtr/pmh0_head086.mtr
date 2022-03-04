@@ -1,8 +1,0 @@
-// Shaders
-customshaderVS vslit_sm_nm
-customshaderFS fslit_aniso_nm
-
-renderhint NormalAndSpecMapped
-texture1 pmh0_head075_n
-texture2 pmh0_head075_s
-texture3 pmh0_head075_a

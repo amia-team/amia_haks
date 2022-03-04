@@ -1,0 +1,11 @@
+blending additive
+proceduretype water
+
+distort 1
+
+distortionamplitude 6
+
+speed 4
+
+downsamplemax 0
+downsamplemin 0

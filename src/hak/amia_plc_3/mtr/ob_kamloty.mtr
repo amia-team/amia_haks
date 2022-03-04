@@ -1,9 +1,0 @@
- 
-renderhint NormalAndSpecMapped 
- 
-// Textures 
-texture0 ob_kamloty 
-texture1 ob_kamloty_n 
-texture2 ob_kamloty_s 
-texture3 null 
-texture4 null 
