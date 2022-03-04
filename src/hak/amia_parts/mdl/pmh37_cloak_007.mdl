@@ -2,20 +2,20 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: pmh37_cloak_007
+# model: pmh12_cloak_007
 #local file: Unknown
 filedependancy Unknown
-newmodel pmh37_cloak_007
-setsupermodel pmh37_cloak_007 pmh37
+newmodel pmh12_cloak_007
+setsupermodel pmh12_cloak_007 pmh12
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
-beginmodelgeom pmh37_cloak_007
-node dummy pmh37_cloak_007
+beginmodelgeom pmh12_cloak_007
+node dummy pmh12_cloak_007
   parent NULL
 endnode
 node dummy rootdummy_h
-  parent pmh37_cloak_007
+  parent pmh12_cloak_007
   position 0.0 -0.53 1.47
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.694118 0.109804 0.584314 
@@ -1551,5 +1551,5 @@ node danglymesh Cloak_Skin
     250.0
     250.0
 endnode
-endmodelgeom pmh37_cloak_007
-donemodel pmh37_cloak_007
+endmodelgeom pmh12_cloak_007
+donemodel pmh12_cloak_007

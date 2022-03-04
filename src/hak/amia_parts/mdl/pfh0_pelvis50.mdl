@@ -2,20 +2,20 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: pfh0_pelvis050
+# model: pfh0_pelvis201
 #local file: Unknown
 filedependancy Unknown
-newmodel pfh0_pelvis050
-setsupermodel pfh0_pelvis050 NULL
+newmodel pfh0_pelvis201
+setsupermodel pfh0_pelvis201 NULL
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
-beginmodelgeom pfh0_pelvis050
-node dummy pfh0_pelvis050
+beginmodelgeom pfh0_pelvis201
+node dummy pfh0_pelvis201
   parent NULL
 endnode
-node trimesh pfh0_pelvis050g
-  parent pfh0_pelvis050
+node trimesh pfh0_pelvis201g
+  parent pfh0_pelvis201
   position 0.0 0.0 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -23,7 +23,7 @@ node trimesh pfh0_pelvis050g
   diffuse 1.0 1.0 1.0 
   specular 0.0 0.0 0.0 
   shininess 14.0
-  bitmap pfh0_pelvis050
+  bitmap pfh0_pelvis201
   verts 47
     0.0626354 -0.0655077 -0.0007033
     0.0452565 0.0851852 -0.125621
@@ -435,5 +435,5 @@ node trimesh pfh0_pelvis050g
     0.338789 0.896212 0
     0.175182 0.897829 0
 endnode
-endmodelgeom pfh0_pelvis050
-donemodel pfh0_pelvis050
+endmodelgeom pfh0_pelvis201
+donemodel pfh0_pelvis201

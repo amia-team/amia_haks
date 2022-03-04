@@ -2,20 +2,20 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: pfh34_robe021
+# model: pfh9_robe021
 #local file: Unknown
 filedependancy Unknown
-newmodel pfh34_robe021
-setsupermodel pfh34_robe021 pfh34
+newmodel pfh9_robe021
+setsupermodel pfh9_robe021 pfh9
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
-beginmodelgeom pfh34_robe021
-node dummy pfh34_robe021
+beginmodelgeom pfh9_robe021
+node dummy pfh9_robe021
   parent NULL
 endnode
 node dummy rootdummy_h
-  parent pfh34_robe021
+  parent pfh9_robe021
   position 0.0 -0.45 1.25
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.560784 0.878431 0.341176 
@@ -2505,7 +2505,7 @@ node danglymesh Skirt_B
     250.0
 endnode
 node skin Arm_L
-  parent pfh34_robe021
+  parent pfh9_robe021
   position 0.000249158 -0.024943 1.19027
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -2880,7 +2880,7 @@ node skin Arm_L
      lforearm_g 1.0 
 endnode
 node skin Arm_R
-  parent pfh34_robe021
+  parent pfh9_robe021
   position 0.000249158 -0.024943 1.19027
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -3255,7 +3255,7 @@ node skin Arm_R
      rforearm_g 1.0 
 endnode
 node trimesh rootdummy
-  parent pfh34_robe021
+  parent pfh9_robe021
   position 0.0 0.57 1.64
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -3342,5 +3342,5 @@ node trimesh coat_root
     2 0 4  64  0 0 0  3
     4 6 2  64  0 0 0  3
 endnode
-endmodelgeom pfh34_robe021
-donemodel pfh34_robe021
+endmodelgeom pfh9_robe021
+donemodel pfh9_robe021

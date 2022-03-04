@@ -2,20 +2,20 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: pfh34_robe032
+# model: pfh9_robe032
 #local file: Unknown
 filedependancy Unknown
-newmodel pfh34_robe032
-setsupermodel pfh34_robe032 pfh34
+newmodel pfh9_robe032
+setsupermodel pfh9_robe032 pfh9
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
-beginmodelgeom pfh34_robe032
-node dummy pfh34_robe032
+beginmodelgeom pfh9_robe032
+node dummy pfh9_robe032
   parent NULL
 endnode
 node dummy rootdummy_h
-  parent pfh34_robe032
+  parent pfh9_robe032
   position 0.0 -0.45 1.25
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.568627 0.109804 0.694118 
@@ -865,5 +865,5 @@ node trimesh belt_g1
     0.769812 0.280963 0
     0.583815 0.46629 0
 endnode
-endmodelgeom pfh34_robe032
-donemodel pfh34_robe032
+endmodelgeom pfh9_robe032
+donemodel pfh9_robe032

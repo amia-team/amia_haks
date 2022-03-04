@@ -2,32 +2,32 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: pfh37
+# model: pfh12
 #local file: Unknown
 filedependancy Unknown
-newmodel pfh37
-setsupermodel pfh37 taur_ba
+newmodel pfh12
+setsupermodel pfh12 taur_ba
 classification Character
 setanimationscale 0.85
 #NWmax GEOM  ASCII
-beginmodelgeom pfh37
-node dummy pfh37
+beginmodelgeom pfh12
+node dummy pfh12
   parent NULL
 endnode
 node dummy handconjure
-  parent pfh37
+  parent pfh12
   position 0.0 1.3 2.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.52549 0.231373 0.0313726 
 endnode
 node dummy headconjure
-  parent pfh37
+  parent pfh12
   position 0.0 0.6 2.4
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.52549 0.231373 0.0313726 
 endnode
 node skin HorseBody
-  parent pfh37
+  parent pfh12
   position 0.0 0.284982 1.28979
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.0313726 0.0313726 0.529412 
@@ -939,7 +939,7 @@ node skin HorseBody
      torso1_h 0.659665  rclavicle_h 0.22689  torso_h 0.113445 
 endnode
 node skin HorseTail
-  parent pfh37
+  parent pfh12
   position 0.0014693 -1.45637 1.57631
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.0313726 0.0313726 0.529412 
@@ -1053,7 +1053,7 @@ node skin HorseTail
      tail1_h 0.5  tail2_h 0.5 
 endnode
 node dummy rootdummy_h
-  parent pfh37
+  parent pfh12
   position 0.0 -0.44625 1.2495
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.52549 0.231373 0.0313726 
@@ -3227,5 +3227,5 @@ node dummy TF1R_g
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.603922 0.72549 0.898039 
 endnode
-endmodelgeom pfh37
-donemodel pfh37
+endmodelgeom pfh12
+donemodel pfh12
