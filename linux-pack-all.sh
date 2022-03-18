@@ -1,0 +1,17 @@
+docker run --rm -it -v $(pwd):/nasher urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose amia_top;
+docker run --rm -it -v $(pwd):/nasher urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose amia_parts;
+docker run --rm -it -v $(pwd):/nasher urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose amia_races;
+docker run --rm -it -v $(pwd):/nasher urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose amia_tile1;
+docker run --rm -it -v $(pwd):/nasher urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose amia_tile2;
+docker run --rm -it -v $(pwd):/nasher urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose amia_plc;
+docker run --rm -it -v $(pwd):/nasher urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose amia_items;
+docker run --rm -it -v $(pwd):/nasher urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose amia_rest;
+docker run --rm -it -v $(pwd):/nasher urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose amia_a;
+docker run --rm -it -v $(pwd):/nasher urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose amia_b;
+docker run --rm -it -v $(pwd):/nasher urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose amia_c;
+docker run --rm -it -v $(pwd):/nasher urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose amia_d;
+docker run --rm -it -v $(pwd):/nasher urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose amia_music;
+docker run --rm -it -v $(pwd):/nasher urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose amia_override;
+docker run --rm -it -v $(pwd):/nasher urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose amia_creature;
+docker run --rm -it -v $(pwd):/nasher urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose amia_skybox;
+docker run --rm -it -v $(pwd):/nasher urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose tlk;
