@@ -98,8 +98,4 @@
 94  FEAT_EPIC_BLAST1                     1300      1    -1             0      
 95  FEAT_EPIC_BLAST2                     1301      1    -1             0      
 96  FEAT_EPIC_BLAST3                     1302      1    -1             0      
-97  FEAT_EPIC_BLAST4                     1303      1    -1             0      
-98  FEAT_EPIC_BLAST5                     1304      1    -1             0      
-99  FEAT_EPIC_BLAST6                     1305      1    -1             0      
-100 FEAT_EPIC_BLAST7                     1306      1    -1             0      
-101 FEAT_ESSENCE_NONE                    1299      3    1              1      
+97  FEAT_ESSENCE_NONE                    1299      3    1              1      
