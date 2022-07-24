@@ -1,0 +1,2 @@
+PowerShell -NoProfile -ExecutionPolicy Bypass -Command "docker run --rm -it -v ${pwd}:/nasher -v ${pwd}:\"/root/.local/share/Neverwinter Nights/hak/\" -v ${pwd}:\"/root/.local/share/Neverwinter Nights/hak/\" urothis/nwnee-community-images:nasher-8193.34 unpack amia_parts --clean --verbose"
+echo Finished.
