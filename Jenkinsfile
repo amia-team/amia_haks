@@ -252,7 +252,7 @@ pipeline {
                     sh "./deploy.sh /home/amia/amia_server/test_server/"
                 }
 			}
-        }-
+        }
 		stage('Deploy-Live') {
             when {
                 expression {
