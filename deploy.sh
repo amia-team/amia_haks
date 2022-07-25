@@ -10,5 +10,3 @@ fi
 sudo cp ./*.hak $dir/hak
 # copy *.tlk to dir/tlk
 sudo cp ./*.tlk $dir/tlk
-# Remove all tlk and hak files from current directory
-sudo rm ./*.tlk ./*.hak

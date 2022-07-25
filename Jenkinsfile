@@ -249,6 +249,7 @@ pipeline {
 					sh "./linux-pack-all.sh"
                     sh "./deploy.sh /home/amia/amia_server/server/"
 					sh "./deploy.sh /home/amia/amia_server/test_server/"
+					sh "./cleanup.sh"
                 }
 			}
         }
