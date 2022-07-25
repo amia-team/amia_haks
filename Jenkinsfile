@@ -235,39 +235,20 @@ pipeline {
 				}
 			}
         }
-		stage('Deploy-Test') {
+		stage('Deploy-Haks') {
             when {
                 expression {
                     return params.DEPLOY_ALL == 'Yes'
                 }
-				expression {
-                    return params.ENVIRONMENT == 'Test'
-                }
             }
             steps {
-                discordSend description: "Deploying everything to Test", footer: "Deploying everything to Test", link: env.BUILD_URL, title: "Deploying All Content to Test", webhookURL: params.WEBHOOK
+                discordSend description: "Deploying haks to Test and Live", footer: "Deploying haks to Test and Live", link: env.BUILD_URL, title: "Deploying haks to Test and Live", webhookURL: params.WEBHOOK
 				 script {
                     sh "chmod +x deploy.sh"
                     sh "dos2unix deploy.sh"
-                    sh "./deploy.sh /home/amia/amia_server/test_server/"
-                }
-			}
-        }
-		stage('Deploy-Live') {
-            when {
-                expression {
-                    return params.DEPLOY_ALL == 'Yes'
-                }
-				expression {
-                    return params.ENVIRONMENT == 'Live'
-                }
-            }
-            steps {
-                discordSend description: "Deploying everything Live", footer: "Deploying everything Live", link: env.BUILD_URL, title: "Deploying All Content Live", webhookURL: params.WEBHOOK
-				 script {
-                    sh "chmod +x deploy.sh"
-                    sh "dos2unix deploy.sh"
+					sh "./linux-pack-all.sh"
                     sh "./deploy.sh /home/amia/amia_server/server/"
+					sh "./deploy.sh /home/amia/amia_server/test_server/"
                 }
 			}
         }
