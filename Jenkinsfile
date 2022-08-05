@@ -249,6 +249,8 @@ pipeline {
 					sh "./linux-pack-all.sh"
                     sh "./deploy.sh /home/amia/amia_server/server/"
 					sh "./deploy.sh /home/amia/amia_server/test_server/"
+					sh "chmod +x cleanup.sh"
+                    sh "dos2unix cleanup.sh"
 					sh "./cleanup.sh"
                 }
 			}
