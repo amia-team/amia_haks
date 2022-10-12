@@ -1,0 +1,25 @@
+# Exported from NWmax 0.8 b54 at 12/1/2021 10:32:53 PM
+# pwk file
+#
+#NWmax PWKMESH  ASCII
+node trimesh PWK
+  parent sh_statue_pwk
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.537255 0.0313726 0.431373 
+  bitmap NULL
+  verts 4
+    -0.29661 -0.197842 0.0
+    0.29661 -0.197842 0.0
+    -0.29661 0.197842 0.0
+    0.29661 0.197842 0.0
+  faces 2
+    2 0 3  1  0 0 0  7
+    1 3 0  1  0 0 0  7
+endnode
+node dummy h01_pwk_use01
+  parent sh_statue_pwk
+  position 0.00216145 -0.629548 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.878431 0.776471 0.341176 
+endnode
