@@ -1,0 +1,19 @@
+# Exported from NWmax 0.8 b54 at 2/23/2019 10:32:26 PM
+# pwk file
+#
+#NWmax PWKMESH  ASCII
+node trimesh sh_signpostL01_wg
+  parent sh_signpostL01_pwk
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.521569 0.431373 0.0313726 
+  bitmap NULL
+  verts 4
+    -0.766373 -0.449996 0.0
+    0.766371 -0.45 0.0
+    -0.766368 0.449997 0.0
+    0.766371 0.449997 0.0
+  faces 2
+    1 3 0  1  0 0 0  7
+    2 0 3  1  0 0 0  7
+endnode

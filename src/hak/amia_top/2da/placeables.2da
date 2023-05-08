@@ -16635,3 +16635,12 @@
 16631 "NWN2 Mulsantir theater"                            ****     plc_hsmu06            ****       ****         ****         ****         18           1          0       ****          ****        1      
 16632 "NWN2 Mulsantir inn (sloop)"                        ****     plc_hsmu07            ****       ****         ****         ****         18           1          0       ****          ****        1      
 16633 "NWN2 Mulsantir gate"                               ****     plc_hsmu08            ****       ****         ****         ****         18           1          0       ****          ****        1      
+16634 "Painting Tall 56 - Evermeet"	                      ****     pl_frame_t56          ****       ****         ****         ****         26           1          0       ****          Default     ****   
+16635 "Statue - Cat, Sitting Black"		                  ****     plc_statcat01  	     ****       ****         ****         ****         ****         ****       ****    ****     	 ****        1
+16636 "Statue - Cat, Sitting Black, flipped"    		  ****     plc_statcat02     	 ****       ****         ****         ****         ****         ****       ****    ****      	 ****        1
+16637 "Mirror, Ornate Tall"                    			  ****     plc_magmira           ****       ****         ****         ****         ****         ****       ****    ****       	 ****        1
+16638 "Mirror, Ornate Round"                      		  ****     plc_magmirb           ****       ****         ****         ****         ****         ****       ****    ****     	 ****        1
+16639 "Mirror, Ornate Dragon"                     		  ****     plc_magmirc           ****       ****         ****         ****         ****         ****       ****    ****     	 ****        1
+16640 "Mirror Large"								      ****     it_talmisc_106        ****       ****         ****         ****         26           1          0       ****          default     2      
+16641 "Mirror Medium"								 	  ****     it_midmisc_024        ****       ****         ****         ****         26           1          0       ****          default     2      
+16642 "Mirror Small"									  ****     it_midmisc_029        ****       ****         ****         ****         26           1          0       ****          default     2      
