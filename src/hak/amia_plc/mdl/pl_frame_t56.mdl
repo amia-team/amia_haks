@@ -2,11 +2,11 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: pl_frame_t55
+# model: pl_frame_t56
 #local file: D:\3dsmax7\scenes\pl_frame1.max
 filedependancy pl_frame1.max
-newmodel pl_frame_t55
-setsupermodel pl_frame_t55 NULL
+newmodel pl_frame_t56
+setsupermodel pl_frame_t56 NULL
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
