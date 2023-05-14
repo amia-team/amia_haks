@@ -15,12 +15,16 @@ pipeline {
                     return params.BUILD_ALL == 'No'
                 }
             }
+            steps{
+                echo "Nothing to do."
+            }
         }
         stage('Pack Amia Top') {
             when {
                 changeset "src/hak/amia_top/**/**"
             }
             steps {
+                echo 'Packing Amia top'
                  script {
                     sh "chmod +x pack.sh"
                     sh "dos2unix pack.sh"
@@ -203,7 +207,7 @@ pipeline {
                 }
             }
             steps {
-				script{
+ 				script{
 					sh "chmod +x linux-pack-all.sh"
 					sh "dos2unix linux-pack-all.sh"
 					sh "./linux-pack-all.sh"
@@ -217,7 +221,7 @@ pipeline {
                 }
             }
             steps {
-				 script {
+ 				 script {
                     sh "chmod +x deploy.sh"
                     sh "dos2unix deploy.sh"
 					sh "./linux-pack-all.sh"
@@ -231,11 +235,14 @@ pipeline {
         }
     }
     post {
+        always {
+            echo 'Finalizing results.' 
         }
         success {
             archiveArtifacts artifacts: '*.hak', followSymlinks: false, allowEmptyArchive: true
             archiveArtifacts artifacts: '*.tlk', followSymlinks: false, allowEmptyArchive: true
             archiveArtifacts artifacts: '*.zip', followSymlinks: false, allowEmptyArchive: true
+            echo 'Build complete'
         }
     }
 }
