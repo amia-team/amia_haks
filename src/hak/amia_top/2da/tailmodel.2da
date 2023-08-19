@@ -1657,3 +1657,6 @@
 1653 "Skeleton 1 (2h anims)"                           ps_skel_com04       ****           
 1654 "Skeleton: Priest (alt anims)"                    ps_skel_priest01    ****           
 1655 "Kelpie"		                                   c_eachuisge         default
+1656  "(Mount) Horse, Mummified, Barding"    		   c_horse_mumm1       ****            
+1657  "(Mount) Horse, Mummified, Saddle"    		   c_horse_mumm2       ****            
+1658 "Bunny-hc"                                        c_t_bunny_p2        ****           
