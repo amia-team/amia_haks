@@ -20,10 +20,5 @@
 16 EpicSpellFocus       83486    4084        ife_X2magic   
 17 EpicEnergyResistance 83487    83488       ife_X2EResi   
 18 DevastatingCrit      83482    3909        ife_X2DevCrit 
-19 BlastEssence         16778683 16778684    ife_essence   
-20 EldritchBlast        16778564 16778565    ife_elblast   
-21 EldritchSpear        16778705 16778706    ife_elspear   
-22 EldritchChain        ****     ****        ife_elchain   
-23 EldritchCone         ****     ****        ife_elcone    
-24 EldritchDoom         ****     ****        ife_eldoom    
-25 HideousBlow          ****     ****        ife_hidblow   
+19 EnergyResistance     16778803 16778804    ife_x2eresi   
+20 OtherworldlyPact     16778792 16778675    ife_armorprof 
