@@ -8,8 +8,10 @@
 4  WereBat   FEATOR   1253         ****      
 5  WereRat   FEATOR   1254         ****      
 6  WereChic  FEATOR   1276         ****      
-7  WereOwl   FEATOR   1307         ****      
-8  WereCroc  FEATOR   1308         ****      
-9  WereShark FEATOR   1300         ****      
-10 ScriptVar VAR      Prereq_Lycan 1         
-11 DwD       CLASSNOT 36           ****      
+7  WereOwl   FEATOR   1329         ****      
+8  WereCroc  FEATOR   1330         ****      
+9  WereShark FEATOR   1331         ****      
+10 WereFox   FEATOR   1332         ****     
+11 WereRac   FEATOR   1333         ****      
+12 ScriptVar VAR      Prereq_Lycan 1       
+16 Base_Attack    BAB      6        ****      
