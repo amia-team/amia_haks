@@ -1,0 +1,9 @@
+2DA V2.0
+
+  LABEL     ReqType  ReqParam1      ReqParam2 
+0 Arcane    ARCSPELL 3              ****      
+1 BardOr    CLASSOR  1              ****      
+2 SorcOr    CLASSOR  9              ****      
+3 WizOr     CLASSOR  10             ****      
+4 AssOr     CLASSOR  30             ****      
+5 ScriptVar VAR      X2_AllowPalema 0         
