@@ -1,0 +1,1597 @@
+# Exported from NWmax 0.8 c00 at 10/26/2016 8:55:24 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: WMgSt_t_092
+#local file: E:\The Workshop\Weapons.max
+filedependancy Weapons.max
+newmodel WMgSt_t_092
+setsupermodel WMgSt_t_092 NULL
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom WMgSt_t_092
+node dummy WMgSt_t_092
+  parent NULL
+endnode
+node trimesh Box037
+  parent WMgSt_t_092
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.105882 0.694118 0.580392 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 9
+  selfillumcolor 0.105882 0.694118 0.580392 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  center undefined
+  ambient 0.588 0.588 0.588 
+  diffuse 0.588 0.588 0.588 
+  specular 0.0 0.0 0.0 
+  shininess 10.0
+  bitmap CrystalStaff_Rd
+  verts 16
+    -0.0305632 0.792194 1.4167e-006
+    -2.41505e-007 0.793425 -0.0313343
+    -2.58468e-007 0.898014 1.5535e-006
+    -2.30547e-007 0.793426 0.0313371
+    0.0305628 0.792194 1.406e-006
+    -2.13335e-007 0.687672 1.27103e-006
+    0.0203022 -0.671599 -0.000130684
+    0.0 -0.671802 -0.0211281
+    -0.020302 -0.671599 -0.000130677
+    -0.0211796 -0.631811 -0.000130622
+    0.0211797 -0.631811 -0.00013063
+    0.0 -0.586879 -0.000273619
+    0.0 -0.63183 -0.021127
+    0.0 -0.717106 -0.000130773
+    0.0 -0.671589 0.0183612
+    0.0 -0.631905 0.0184108
+  faces 24
+    0 2 1  1  12 14 13  2
+    3 2 0  1  15 17 16  2
+    3 4 2  1  18 20 19  2
+    3 5 4  1  21 23 22  2
+    3 0 5  1  24 26 25  2
+    0 1 5  1  27 29 28  2
+    4 5 1  1  30 32 31  2
+    4 1 2  1  33 35 34  2
+    9 7 8  1  36 38 37  2
+    11 10 12  1  39 41 40  2
+    11 12 9  1  42 44 43  2
+    7 9 12  1  45 47 46  2
+    10 7 12  1  48 50 49  2
+    7 10 6  1  51 53 52  2
+    6 13 7  1  54 56 55  2
+    8 7 13  1  57 59 58  2
+    14 9 8  1  60 62 61  2
+    9 14 15  1  63 65 64  2
+    14 10 15  1  66 68 67  2
+    11 15 10  1  69 71 70  2
+    11 9 15  1  72 74 73  2
+    10 14 6  1  75 77 76  2
+    13 6 14  1  78 80 79  2
+    13 14 8  1  81 83 82  2
+  tverts 84
+    0.0 0.0 0
+    1.0 0.0 0
+    0.0 1.0 0
+    1.0 1.0 0
+    0.0 0.0 0
+    1.0 0.0 0
+    0.0 1.0 0
+    1.0 1.0 0
+    0.0 0.0 0
+    1.0 0.0 0
+    0.0 1.0 0
+    1.0 1.0 0
+    0.15196 0.628435 0
+    0.150639 0.5865 0
+    0.006765 0.628435 0
+    0.150638 0.670369 0
+    0.15196 0.628435 0
+    0.006765 0.628435 0
+    0.150638 0.670369 0
+    0.006765 0.628435 0
+    0.15196 0.628435 0
+    0.150638 0.670369 0
+    0.15196 0.628435 0
+    0.26417 0.628435 0
+    0.150638 0.670369 0
+    0.26417 0.628435 0
+    0.15196 0.628435 0
+    0.15196 0.628435 0
+    0.26417 0.628435 0
+    0.150639 0.5865 0
+    0.15196 0.628435 0
+    0.150639 0.5865 0
+    0.26417 0.628435 0
+    0.15196 0.628435 0
+    0.006765 0.628435 0
+    0.150639 0.5865 0
+    0.428989 0.960888 0
+    0.467935 0.960888 0
+    0.468134 0.927767 0
+    0.385007 0.96067 0
+    0.429008 0.927768 0
+    0.428989 0.960888 0
+    0.385007 0.96067 0
+    0.428989 0.960888 0
+    0.429008 0.927768 0
+    0.468134 0.927767 0
+    0.429008 0.927768 0
+    0.428989 0.960888 0
+    0.428989 0.960888 0
+    0.429008 0.927768 0
+    0.468134 0.927767 0
+    0.468134 0.927767 0
+    0.467935 0.960888 0
+    0.428989 0.960888 0
+    0.467935 0.960888 0
+    0.468134 0.927767 0
+    0.524888 0.960888 0
+    0.467935 0.960888 0
+    0.524888 0.960888 0
+    0.468134 0.927767 0
+    0.467925 0.988981 0
+    0.467935 0.960888 0
+    0.428989 0.960888 0
+    0.428989 0.960888 0
+    0.429081 0.989057 0
+    0.467925 0.988981 0
+    0.467925 0.988981 0
+    0.429081 0.989057 0
+    0.428989 0.960888 0
+    0.385007 0.96067 0
+    0.428989 0.960888 0
+    0.429081 0.989057 0
+    0.385007 0.96067 0
+    0.429081 0.989057 0
+    0.428989 0.960888 0
+    0.428989 0.960888 0
+    0.467935 0.960888 0
+    0.467925 0.988981 0
+    0.524888 0.960888 0
+    0.467925 0.988981 0
+    0.467935 0.960888 0
+    0.524888 0.960888 0
+    0.467935 0.960888 0
+    0.467925 0.988981 0
+endnode
+endmodelgeom WMgSt_t_092
+
+#NWmax ANIM ASCII
+newanim default
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim default
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim creadyr
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim creadyr
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim creadyl
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim creadyl
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim cwalk
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim cwalk
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim crun
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim crun
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim ccwalkf
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim ccwalkf
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim ccwalkb
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim ccwalkb
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim ccwalkl
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim ccwalkl
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim ccwalkr
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim ccwalkr
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim cgetmid
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim cgetmid
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim cgetmidlp
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim cgetmidlp
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim ccturnr
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim ccturnr
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim ccturnl
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim ccturnl
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim 1hreadyr
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim 1hreadyr
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim 1hreadyl
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim 1hreadyl
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim 2hreadyr
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim 2hreadyr
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim 2hreadyl
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim 2hreadyl
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim cwalkf
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim cwalkf
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim cwalkb
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim cwalkb
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim cwalkl
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim cwalkl
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim cwalkr
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim cwalkr
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim cturnr
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim cturnr
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim run
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim run
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim runfl
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim runfl
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim runfr
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim runfr
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim run_bowl
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim run_bowl
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim run_swordl
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim run_swordl
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim run_swordr
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim run_swordr
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim run_shieldl
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim run_shieldl
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim hturnl
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim hturnl
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim hturnr
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim hturnr
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim cpause1
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim cpause1
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim shieldl
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim shieldl
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim shieldr
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim shieldr
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim shields
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim shields
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim walk
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim walk
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim walkdead
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim walkdead
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim walkinj
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim walkinj
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim walk_swordr
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim walk_swordr
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim walk_swordl
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim walk_swordl
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim walk_shieldl
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim walk_shieldl
+ WMgSt_t_092
+
+
+#NWmax ANIM ASCII
+newanim walk_bowl
+ WMgSt_t_092
+  length 2.33333
+  transtime 0.25
+  animroot WMgSt_t_092
+    node dummy WMgSt_t_092
+        parent NULL
+    endnode
+    node trimesh Box037
+        parent WMgSt_t_092
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0
+            0.666667 0.0 0.0 0.0
+            1.06667 0.0 0.0 0.0
+            1.3 0.0 0.0 0.0
+            1.9 0.0 0.0 0.0
+            2.33333 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 1.0 0.0 -0.0872665
+            0.666667 0.0 1.0 0.0 -1.74533
+            1.06667 0.0 1.0 0.0 -2.79253
+            1.3 0.0 1.0 0.0 -3.49066
+            1.9 0.0 1.0 0.0 -5.06145
+            2.33333 0.0 1.0 0.0 -6.19592
+        endlist
+    endnode
+doneanim walk_bowl
+ WMgSt_t_092
+
+donemodel WMgSt_t_092

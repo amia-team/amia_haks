@@ -1,0 +1,27 @@
+# Exported from NWmax 0.8 b60 at 09.07.2006 19:17:46
+# pwk file
+#
+#NWmax PWKMESH  ASCII
+node trimesh PWK
+  parent plc_bvifenc1_pwk
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.537255 0.0313726 0.431373 
+  bitmap NULL
+  verts 8
+    -0.5 -2.74859 -5e-007
+    0.5 -2.74859 -5e-007
+    -0.5 -1.74859 -5e-007
+    -0.206111 -1.74859 -5e-007
+    0.5 -1.74859 -5e-007
+    0.210775 -1.74859 -5e-007
+    -0.206111 2.74859 -5e-007
+    0.210775 2.74859 -5e-007
+  faces 6
+    6 3 5  0  0 0 0  7
+    6 5 7  0  0 0 0  7
+    3 2 0  0  0 0 0  7
+    3 0 1  0  0 0 0  7
+    5 3 1  0  0 0 0  7
+    1 4 5  0  0 0 0  7
+endnode

@@ -1,0 +1,17 @@
+# Exported from NWmax 0.8 c00 at 10/26/2016 6:07:04 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: WMgSt_b_019
+#local file: E:\The Workshop\Weapons.max
+filedependancy Weapons.max
+newmodel WMgSt_b_019
+setsupermodel WMgSt_b_019 NULL
+classification Item
+#NWmax GEOM  ASCII
+beginmodelgeom WMgSt_b_019
+node dummy WMgSt_b_019
+  parent NULL
+endnode
+endmodelgeom WMgSt_b_019
+donemodel WMgSt_b_019

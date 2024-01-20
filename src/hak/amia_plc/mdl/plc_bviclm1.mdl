@@ -1,0 +1,199 @@
+# Exported from NWmax 0.8 b60 at 09.07.2006 14:49:36
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: plc_bviclm1
+#local file: Unknown
+filedependancy Unknown
+newmodel plc_bviclm1
+setsupermodel plc_bviclm1 NULL
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom plc_bviclm1
+node dummy plc_bviclm1
+  parent NULL
+endnode
+node dummy bviclm1_impact
+  parent plc_bviclm1
+  position 0.0 0.0 0.85
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.839216 0.894118 0.6 
+endnode
+node dummy bviclm1_ground
+  parent plc_bviclm1
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.839216 0.894118 0.6 
+endnode
+node dummy bviclm1_hand
+  parent plc_bviclm1
+  position 0.0 0.0 1.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.839216 0.894118 0.6 
+endnode
+node dummy bviclm1_head
+  parent plc_bviclm1
+  position 0.0 0.0 2.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.839216 0.894118 0.6 
+endnode
+node dummy bviclm1_head_hit
+  parent plc_bviclm1
+  position 0.0 0.0 1.5
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.839216 0.894118 0.6 
+endnode
+node trimesh column
+  parent plc_bviclm1
+  position -0.000883889 -0.00743706 2.35
+  orientation 0.0 0.0 -1.0 -0.785398
+  wirecolor 0.0 1.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 2.0
+  bitmap bvi80_wall04
+  verts 12
+    0.0 -0.25 -1.75
+    0.26 -0.15 1.75
+    0.0 -0.3 1.75
+    0.22 -0.12 -1.75
+    0.26 0.15 1.75
+    0.22 0.13 -1.75
+    0.0 0.3 1.75
+    0.0 0.25 -1.75
+    -0.25 0.15 1.75
+    -0.21 0.13 -1.75
+    -0.25 -0.15 1.75
+    -0.21 -0.12 -1.75
+  faces 12
+    0 1 2  1  0 1 2  3
+    0 3 1  1  0 3 1  3
+    3 4 1  1  3 4 1  3
+    3 5 4  1  3 5 4  3
+    5 6 4  2  12 6 13  3
+    5 7 6  2  14 7 6  3
+    7 8 6  2  7 8 6  3
+    7 9 8  2  7 9 8  3
+    9 10 8  4  9 10 8  3
+    9 11 10  4  9 11 10  3
+    11 2 10  4  11 2 10  3
+    11 0 2  4  11 0 2  3
+  tverts 15
+    0.497295 -0.357881 0
+    0.653653 1.39212 0
+    0.497745 1.39212 0
+    0.657527 -0.357881 0
+    0.846347 1.39212 0
+    0.848406 -0.357881 0
+    0.00225453 1.39212 0
+    0.00270536 -0.357881 0
+    0.153653 1.39212 0
+    0.151594 -0.357881 0
+    0.346347 1.39212 0
+    0.342473 -0.357881 0
+    -0.151594 -0.357881 0
+    -0.153653 1.39212 0
+    -0.151594 -0.357881 0
+endnode
+node trimesh column_bottom
+  parent plc_bviclm1
+  position -0.00795496 -0.000365996 0.3
+  orientation 0.0 0.0 -1.0 -0.785398
+  wirecolor 0.0 1.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 2.0
+  bitmap bvi80_wall04
+  verts 8
+    -0.36 -0.01 0.3
+    0.0 -0.37 0.3
+    0.37 -0.01 0.3
+    0.0 0.36 0.3
+    -0.42 -0.01 -0.3
+    0.0 -0.43 -0.3
+    0.43 -0.01 -0.3
+    0.0 0.42 -0.3
+  faces 10
+    0 1 2  1  0 1 2  1
+    2 3 0  1  2 3 0  1
+    4 5 1  2  4 5 6  5
+    1 0 4  2  6 7 4  5
+    5 6 2  4  5 8 9  4
+    2 1 5  4  9 6 5  4
+    6 7 3  2  10 11 12  6
+    3 2 6  2  12 13 10  6
+    7 4 0  4  11 4 7  3
+    0 3 7  4  7 12 11  3
+  tverts 14
+    0.259685 0.53603 0
+    0.499541 0.53603 0
+    0.499541 0.821458 0
+    0.259685 0.821458 0
+    0.75 0.000249743 0
+    1.25 0.000249743 0
+    1.25 0.49975 0
+    0.750001 0.49975 0
+    1.75 0.000249743 0
+    1.75 0.49975 0
+    -0.25 0.000249743 0
+    0.25 0.000249743 0
+    0.25 0.49975 0
+    -0.250001 0.49975 0
+endnode
+node trimesh column_top
+  parent plc_bviclm1
+  position -0.00795496 -0.000365996 4.05
+  orientation 0.0 0.0 -1.0 -0.785398
+  wirecolor 0.0 1.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 2.0
+  bitmap bvi80_wall04
+  verts 8
+    -0.53 -0.01 0.05
+    0.0 -0.54 0.05
+    0.54 -0.01 0.05
+    0.0 0.53 0.05
+    -0.53 -0.01 -0.05
+    0.0 -0.54 -0.05
+    0.54 -0.01 -0.05
+    0.0 0.53 -0.05
+  faces 12
+    4 5 1  2  0 1 2  5
+    1 0 4  2  2 3 0  5
+    5 6 2  4  1 4 5  4
+    2 1 5  4  5 2 1  4
+    6 7 3  2  6 7 8  6
+    3 2 6  2  8 9 6  6
+    7 4 0  4  7 0 3  3
+    0 3 7  4  3 8 7  3
+    4 7 6  0  10 13 12  1
+    4 6 5  0  10 12 11  1
+    0 1 2  1  14 15 16  1
+    2 3 0  1  16 17 14  1
+  tverts 18
+    0.48735 0.117715 0
+    0.73735 0.117715 0
+    0.73735 0.199215 0
+    0.48735 0.199215 0
+    0.98735 0.117715 0
+    0.98735 0.199215 0
+    -0.0126501 0.117715 0
+    0.23735 0.117715 0
+    0.23735 0.199215 0
+    -0.0126501 0.199215 0
+    0.362382 0.49209 0
+    0.497242 0.35723 0
+    0.634647 0.49209 0
+    0.497242 0.629494 0
+    0.362382 0.49209 0
+    0.497242 0.35723 0
+    0.634647 0.49209 0
+    0.497242 0.629494 0
+endnode
+endmodelgeom plc_bviclm1
+donemodel plc_bviclm1
