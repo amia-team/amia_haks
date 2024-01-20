@@ -1,0 +1,37 @@
+# Exported from NWmax 0.8 b54 at 1/30/2022 10:09:35 AM
+# pwk file
+#
+#NWmax PWKMESH  ASCII
+node trimesh PWK
+  parent chair01_pwk
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.537255 0.0313726 0.431373 
+  bitmap NULL
+  verts 10
+    -0.999997 -0.300003 0.0
+    -0.559602 -0.3 0.0
+    -0.559607 0.25 0.0
+    0.555857 0.25 0.0
+    0.555862 -0.3 0.0
+    1.0 -0.300003 0.0
+    -1.0 0.5 0.0
+    1.0 0.5 0.0
+    -0.904612 0.65 0.0
+    0.900852 0.65 0.0
+  faces 8
+    6 0 2  1  0 0 0  7
+    1 2 0  1  0 0 0  7
+    3 4 7  1  0 0 0  7
+    5 7 4  1  0 0 0  7
+    2 8 6  1  0 0 0  7
+    8 2 9  1  0 0 0  7
+    3 9 2  1  0 0 0  7
+    7 9 3  1  0 0 0  7
+endnode
+node dummy h01_pwk_use01
+  parent chair01_pwk
+  position 0.00216145 -0.629548 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.776471 0.878431 0.341176 
+endnode

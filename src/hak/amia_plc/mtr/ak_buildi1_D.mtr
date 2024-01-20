@@ -1,0 +1,10 @@
+ 
+renderhint NormalAndSpecMapped
+ 
+// Textures 
+texture0 ak_buildi1_D
+texture1 ak_buildi1_N
+texture2 null
+texture3 null
+texture4 null
+texture5 null
