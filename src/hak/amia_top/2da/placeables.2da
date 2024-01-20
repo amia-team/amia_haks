@@ -16754,3 +16754,11 @@
 16750 "Structure: Primitive Tent 5"                       ****     plc_tentprim3a        ****       ****         ****         ****         ****         1          ****    ****          ****        1      
 16751 "Structure: Primitive Tent 6"                       ****     plc_tentprim3b        ****       ****         ****         ****         ****         1          ****    ****          ****        1      
 16752 "Structure: Primitive Tent 7"                       ****     plc_tentprim4         ****       ****         ****         ****         ****         1          ****    ****          ****        1      
+16753 "TLSCards - Single"                                 ****     p_tls_crdsngl         ****       ****         ****         ****         ****         ****       0       ****          ****        1      
+16754 "TLSCards - Spread"                                 ****     p_tls_crdsprd         ****       ****         ****         ****         ****         ****       0       ****          ****        1      
+16755 "TLSCards - Deck"                                   ****     p_tls_crddck          ****       ****         ****         ****         ****         ****       0       ****          ****        1      
+16756 "TLSCards - Chips"                                  ****     p_tls_chps            ****       ****         ****         ****         ****         ****       0       ****          ****        1      
+16757 "TLSCards - Chips"                                  ****     p_tls_chps2           ****       ****         ****         ****         ****         ****       0       ****          ****        1      
+16758 "TLSCards - Chips"                                  ****     p_tls_chps3           ****       ****         ****         ****         ****         ****       0       ****          ****        1      
+16759 "TLSCards - Chips"                                  ****     p_tls_chps4           ****       ****         ****         ****         ****         ****       0       ****          ****        1      
+16760 "TLSCards - Zenner"                                 ****     p_tls_zcrdsprd        ****       ****         ****         ****         ****         ****       0       ****          ****        1      
