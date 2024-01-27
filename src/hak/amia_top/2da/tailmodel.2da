@@ -1680,3 +1680,7 @@
 1676 "Lion_Mount"                                        c_LION_mt           ****           
 1677 "Gallimimus_mt"                                     c_Cradlu_mt         ****           
 1678 "Gallimimus_chariot"                                c_Crodchar1_mt      ****           
+1679 "Horse: Pegasus, Black,Wing*"                       c_pegasus3a         default        
+1680 "Horse: Pegasus, Brown,Wing*"                       c_pegasus2a         default        
+1681 "Horse: Pegasus, White saddle packs,Wing*"          c_pegasus1ba        default        
+1682 "Horse: Pegasus, White saddle,Wing*"                c_pegasus1aa        default        
