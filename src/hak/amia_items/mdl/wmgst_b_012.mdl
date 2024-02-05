@@ -1,22 +1,23 @@
 # Exported from NeverBlender 2.8.35 - Thursday, 2022-01-13
 filedependancy staffs_003.blend
-newmodel WMgSt_b_073
-setsupermodel WMgSt_b_073 null
-classification CHARACTER
+newmodel WMgSt_b_012
+setsupermodel WMgSt_b_012 null
+classification UNKNOWN
 setanimationscale 1.0
-beginmodelgeom WMgSt_b_073
-node dummy WMgSt_b_073
+beginmodelgeom WMgSt_b_012
+node dummy WMgSt_b_012
   parent null
 endnode
-node trimesh g_WMgSt_b_073
-  parent WMgSt_b_073
+node trimesh g_WMgSt_b_012
+  parent WMgSt_b_012
   position  0.00000  0.00002  0.00002
   orientation  0.00000  0.00000 -0.00000  0.00000
   wirecolor 1.00 1.00 1.00
   ambient 1.00 1.00 1.00
-  diffuse 1.00 1.00 1.00
+  diffuse 0.80 0.80 0.80
   specular 0.00 0.00 0.00
-  bitmap necro_brown
+  selfillumcolor 0.00 0.00 0.00
+  bitmap necro_dark
   shininess 1
   verts 460
      0.02807 -0.37745  0.00757
@@ -1872,5 +1873,5 @@ node trimesh g_WMgSt_b_073
     446 447 449  4  489 487 490 0
     451 452 454  4  488 489 487 0
 endnode
-endmodelgeom WMgSt_b_073
-donemodel WMgSt_b_073
+endmodelgeom WMgSt_b_012
+donemodel WMgSt_b_012
