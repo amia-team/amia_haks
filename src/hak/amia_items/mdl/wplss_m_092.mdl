@@ -1,0 +1,12 @@
+# NeverBlender 4.0.0|Blender 4.0.1|2024-02-03
+filedependancy weapons2.blend
+newmodel WPlSs_m_092
+setsupermodel WPlSs_m_092 null
+classification CHARACTER
+setanimationscale 1.0
+beginmodelgeom WPlSs_m_092
+node dummy WPlSs_m_092
+  parent null
+endnode
+endmodelgeom WPlSs_m_092
+donemodel WPlSs_m_092

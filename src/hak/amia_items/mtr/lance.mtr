@@ -1,0 +1,7 @@
+renderhint NormalTangents
+
+// Textures
+texture0 lance_diff
+texture1 lance_norm
+texture2 lance_met
+texture3 lance_r

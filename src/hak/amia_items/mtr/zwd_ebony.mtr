@@ -1,0 +1,8 @@
+// Renderhint
+renderhint NormalAndSpecMapped
+
+// Textures
+texture0 zwd_ebony_d
+texture1 zwd_ebony_n
+texture2 null
+texture3 zwd_ebony_r

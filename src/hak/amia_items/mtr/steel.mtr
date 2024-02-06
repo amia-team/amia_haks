@@ -1,0 +1,9 @@
+// Renderhint
+renderhint NormalAndSpecMapped
+
+// Textures
+texture0 iron_brushed_d
+texture1 iron_brushed_n
+texture2 null
+texture3 iron_brushed_r
+texture4 null

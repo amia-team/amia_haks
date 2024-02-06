@@ -1,0 +1,6 @@
+customshadervs vslit_sm
+customshaderfs fslit_sm
+parameter float Metallicness 0.5
+
+// Textures
+texture0 pike_base
