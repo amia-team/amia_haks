@@ -1,9 +1,0 @@
-// Renderhint
-renderhint NormalAndSpecMapped
-
-// Textures
-texture0 Steel Glossy_BaseColor
-texture1 Steel Glossy_Normal
-texture2 Steel Glossy_SpecularLevel
-texture3 Steel Glossy_Roughness
-texture4 Steel Glossy_Height

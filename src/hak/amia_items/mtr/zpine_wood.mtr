@@ -1,9 +1,0 @@
-// Renderhint
-renderhint NormalAndSpecMapped
-
-// Textures
-texture0 zaged_pine_d
-texture1 zaged_pine_n
-texture2 null
-texture3 zaged_pine_r
-texture4 null

@@ -1,8 +1,0 @@
-// Renderhint
-renderhint NormalAndSpecMapped
-
-// Textures
-texture0 lightiron_d
-texture1 lightiron_n
-texture2 lightiron_met
-texture3 lightiron_r

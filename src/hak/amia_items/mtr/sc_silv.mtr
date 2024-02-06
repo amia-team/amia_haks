@@ -1,9 +1,0 @@
-// Renderhint
-renderhint NormalAndSpecMapped
-
-// Textures
-texture0 sc_silv_d
-texture1 sc_silv_n
-texture2 null
-texture3 sc_silv_r
-texture4 sc_silv_n

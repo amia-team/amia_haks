@@ -1,7 +1,0 @@
-renderhint NormalAndSpecMapped
-
-// Textures
-texture0 carvedwood_b
-texture1 carvedwood_n
-texture2 null
-texture3 carvedwood_r
