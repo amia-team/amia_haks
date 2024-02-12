@@ -1,0 +1,8 @@
+// Renderhint
+renderhint NormalAndSpecMapped
+
+// Textures
+texture0 brownleath_d
+texture1 brownleath_n
+texture2 null
+texture3 brownleath_r

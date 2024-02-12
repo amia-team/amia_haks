@@ -1,0 +1,8 @@
+// Renderhint
+renderhint NormalAndSpecMapped
+
+// Textures
+texture0 Steel_BaseColor
+texture1 Steel_Normal
+texture2 null
+texture3 Steel_Roughness

@@ -1,0 +1,8 @@
+// Renderhint
+renderhint NormalAndSpecMapped
+
+// Textures
+texture0 mahog_d
+texture1 mahog_n
+texture2 null
+texture3 mahog_r

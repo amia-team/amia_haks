@@ -1,0 +1,5 @@
+// Renderhint
+renderhint NormalAndSpecMapped
+
+// Textures
+texture0 zbrushed_iron_d

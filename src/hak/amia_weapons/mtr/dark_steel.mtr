@@ -1,0 +1,7 @@
+renderhint NormalAndSpecMapped
+ 
+// Textures
+texture0 admbsword_d
+texture1 admbsword_n
+texture2 admbsword_met
+texture3 admbsword_r

@@ -1,0 +1,8 @@
+// Renderhint
+renderhint NormalAndSpecMapped
+
+// Textures
+texture0 Mithral_BaseColor
+texture1 Mithral_Normal
+texture2 null
+texture3 Mithral_Roughness
