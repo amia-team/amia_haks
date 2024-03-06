@@ -1,0 +1,1655 @@
+{
+  "__data_type": "ITP ",
+  "MAIN": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 1
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 8
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Aberrations"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 9
+              },
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 21
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Bears"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 22
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Birds"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 23
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Canine"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 24
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Feline"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 25
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Other"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 109
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Aquatic"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 110
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Livestock"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 111
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Reptiles"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 128
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Rodents"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 129
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Swine"
+                    }
+                  }
+                ]
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Animals"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 10
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Constructs"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 11
+              },
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 112
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Chromatic"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 113
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Metallic"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 114
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Other"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 115
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Planar"
+                    }
+                  }
+                ]
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Dragons"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 12
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Elementals"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 13
+              },
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 26
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Other"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 27
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "True Giants"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 28
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Ogres"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 29
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Trolls"
+                    }
+                  }
+                ]
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Giants"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 14
+              },
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 30
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Bugbears"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 31
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Fey"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 32
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Goblins"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 33
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Lizardfolk"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 34
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Minotaurs"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 35
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Orcs"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 36
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Other"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 118
+                    },
+                    "LIST": {
+                      "type": "list",
+                      "value": [
+                        {
+                          "__struct_id": 0,
+                          "ID": {
+                            "type": "byte",
+                            "value": 122
+                          },
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Dwarven"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "ID": {
+                            "type": "byte",
+                            "value": 123
+                          },
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Elven"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "ID": {
+                            "type": "byte",
+                            "value": 124
+                          },
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Halfling"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "ID": {
+                            "type": "byte",
+                            "value": 125
+                          },
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Gnomish"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "ID": {
+                            "type": "byte",
+                            "value": 126
+                          },
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Human"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "ID": {
+                            "type": "byte",
+                            "value": 140
+                          },
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Half-Orc"
+                          }
+                        }
+                      ]
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "People"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 120
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Reptilian"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 121
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Gnolls"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 132
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Aquatic"
+                    }
+                  }
+                ]
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Humanoid"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 15
+              },
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 37
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Insects"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 38
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Arachnids"
+                    }
+                  }
+                ]
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Vermin"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 16
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Magical Beasts"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 17
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Miscellaneous"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 18
+              },
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 39
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Celestials"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 40
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Demons"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 41
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Imps"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 42
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Other"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 43
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Slaadi"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 116
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Devils"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 130
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Shades"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 136
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Yugoloths"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 137
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Mephits"
+                    }
+                  }
+                ]
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Planar"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 19
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Shapechangers"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 20
+              },
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 44
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Ghouls"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 45
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Mummies"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 46
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Other"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 47
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Shadows"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 48
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Skeletons"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 49
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Wraiths"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 50
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Zombies"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 131
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Vampires"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 138
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Wights"
+                    }
+                  }
+                ]
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Undead"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 127
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Plants"
+              }
+            }
+          ]
+        },
+        "NAME": {
+          "type": "cexostring",
+          "value": "Monsters"
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 2
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 51
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Dwarves"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 52
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Elves"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 53
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Gnomes"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 54
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Half-Elves"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 55
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Halflings"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 56
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Half-Orcs"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 57
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Humans"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 58
+              },
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 76
+                    },
+                    "LIST": {
+                      "type": "list",
+                      "value": [
+                        {
+                          "__struct_id": 0,
+                          "ID": {
+                            "type": "byte",
+                            "value": 78
+                          },
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Kohlingen"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "ID": {
+                            "type": "byte",
+                            "value": 79
+                          },
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Bloodspear Keep"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "ID": {
+                            "type": "byte",
+                            "value": 80
+                          },
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Blue Lagoon"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "ID": {
+                            "type": "byte",
+                            "value": 81
+                          },
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Brokentooth"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "ID": {
+                            "type": "byte",
+                            "value": 82
+                          },
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Dale"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "ID": {
+                            "type": "byte",
+                            "value": 83
+                          },
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Eilistraeen Shrine"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "ID": {
+                            "type": "byte",
+                            "value": 84
+                          },
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Moonpier"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "ID": {
+                            "type": "byte",
+                            "value": 85
+                          },
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Oakmist Vale"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "ID": {
+                            "type": "byte",
+                            "value": 86
+                          },
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Quagmire Camp"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "ID": {
+                            "type": "byte",
+                            "value": 87
+                          },
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Quagmire Warren"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "ID": {
+                            "type": "byte",
+                            "value": 88
+                          },
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Ridgewood"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "ID": {
+                            "type": "byte",
+                            "value": 89
+                          },
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Salandrans"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "ID": {
+                            "type": "byte",
+                            "value": 90
+                          },
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Southport"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "ID": {
+                            "type": "byte",
+                            "value": 91
+                          },
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Traveller's Rest"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "ID": {
+                            "type": "byte",
+                            "value": 92
+                          },
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Winya Ravana"
+                          }
+                        }
+                      ]
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Amia Island"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "ID": {
+                      "type": "byte",
+                      "value": 77
+                    },
+                    "LIST": {
+                      "type": "list",
+                      "value": [
+                        {
+                          "__struct_id": 0,
+                          "ID": {
+                            "type": "byte",
+                            "value": 93
+                          },
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Barak Runedar"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "ID": {
+                            "type": "byte",
+                            "value": 94
+                          },
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Forrstakkr"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "ID": {
+                            "type": "byte",
+                            "value": 95
+                          },
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Obsidian Isle"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "ID": {
+                            "type": "byte",
+                            "value": 96
+                          },
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Ostland"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "ID": {
+                            "type": "byte",
+                            "value": 97
+                          },
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Wiltun"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "ID": {
+                            "type": "byte",
+                            "value": 98
+                          },
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Belenoth"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "ID": {
+                            "type": "byte",
+                            "value": 99
+                          },
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Chillwyck"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "ID": {
+                            "type": "byte",
+                            "value": 100
+                          },
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Djedet"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "ID": {
+                            "type": "byte",
+                            "value": 101
+                          },
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Endir's Point"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "ID": {
+                            "type": "byte",
+                            "value": 102
+                          },
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Hangman's Cove"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "ID": {
+                            "type": "byte",
+                            "value": 103
+                          },
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "L'Obsul"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "ID": {
+                            "type": "byte",
+                            "value": 104
+                          },
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Nes'ek"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "ID": {
+                            "type": "byte",
+                            "value": 105
+                          },
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Shadowscape"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "ID": {
+                            "type": "byte",
+                            "value": 106
+                          },
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Triumvir"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "ID": {
+                            "type": "byte",
+                            "value": 107
+                          },
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Zanshibon"
+                          }
+                        }
+                      ]
+                    },
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Other Regions"
+                    }
+                  }
+                ]
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Settlement"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 117
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Creatures"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 63
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Deities"
+              }
+            }
+          ]
+        },
+        "NAME": {
+          "type": "cexostring",
+          "value": "NPCs"
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 3
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 59
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Merchants"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 60
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Quests"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 61
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Templates"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 62
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Invasion"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 119
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Miscellaneous"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 139
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "DTS"
+              }
+            }
+          ]
+        },
+        "NAME": {
+          "type": "cexostring",
+          "value": "Tools"
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 5
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 64
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Standard"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 65
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Epic"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 4
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Raids"
+              }
+            }
+          ]
+        },
+        "NAME": {
+          "type": "cexostring",
+          "value": "Bosses"
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 6
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 133
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Rancher"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 134
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Trainers"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 141
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Hunter"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 142
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Maintenance"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 143
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Summons"
+              }
+            }
+          ]
+        },
+        "NAME": {
+          "type": "cexostring",
+          "value": "Job System"
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 7
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 66
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Animal Companions"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 67
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Summon Creature"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 68
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Undead"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 69
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Planar"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 70
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "EMD/EDK"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 71
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Shadows"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 72
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Blackguard"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 73
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Pale Master"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 74
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Warlock"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 75
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Blades"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 108
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Familiars"
+              }
+            }
+          ]
+        },
+        "NAME": {
+          "type": "cexostring",
+          "value": "Summons"
+        }
+      }
+    ]
+  }
+}
