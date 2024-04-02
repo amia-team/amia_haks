@@ -164,6 +164,18 @@ pipeline {
                 }
             }
         }
+        stage('Pack Amia Override 2') {
+            when {
+                changeset "src/hak/amia_override2/**/**"
+            }
+            steps {
+                 script {
+                    sh "chmod +x pack.sh"
+                    sh "dos2unix pack.sh"
+                    sh "./pack.sh hak amia_override2"
+                }
+            }
+        }
         stage('Pack Amia Creature') {
             when {
                 changeset "src/hak/amia_creature/**/**"
@@ -185,6 +197,18 @@ pipeline {
                     sh "chmod +x pack.sh"
                     sh "dos2unix pack.sh"
                     sh "./pack.sh hak amia_skybox"
+                }
+            }
+        }
+        stage('Pack Amia Weapons') {
+            when {
+                changeset "src/hak/amia_weapons/**/**"
+            }
+            steps {
+                 script {
+                    sh "chmod +x pack.sh"
+                    sh "dos2unix pack.sh"
+                    sh "./pack.sh hak amia_weapons"
                 }
             }
         }
