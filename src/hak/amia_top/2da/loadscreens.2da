@@ -737,3 +737,9 @@
 733 senUNDERDARK02      AREA_TRANSITION_SENUD_02       LS_SDG01_02     SDG01   ****   
 734 senUNDERDARK03      AREA_TRANSITION_SENUD_03       LS_SDG01_03     SDG01   ****   
 735 senUNDERDARK04      AREA_TRANSITION_SENUD_04       LS_SDG01_04     SDG01   ****   
+736 Maztica01           AREA_TRANSITION_AZTEC_01       AZ2_LS_FARM     AZ2     ****   
+737 Maztica02           AREA_TRANSITION_AZTEC_02       AZ2_LS_HUT      AZ2     ****   
+738 Maztica03           AREA_TRANSITION_AZTEC_03       AZ2_LS_JUNGLE   AZ2     ****   
+739 Maztica04           AREA_TRANSITION_AZTEC_04       AZ2_LS_MOUNTAIN AZ2     ****   
+740 Maztica05           AREA_TRANSITION_AZTEC_05       AZ2_LS_TEMPLE1  AZ2     ****   
+741 Maztica06           AREA_TRANSITION_AZTEC_06       AZ2_LS_TEMPLE2  AZ2     ****   
