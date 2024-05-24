@@ -12,6 +12,7 @@ docker run --rm -t -v "$(pwd):/nasher" urothis/nwnee-community-images:nasher-819
 docker run --rm -t -v "$(pwd):/nasher" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes amia_override;
 docker run --rm -t -v "$(pwd):/nasher" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes amia_override2;
 docker run --rm -t -v "$(pwd):/nasher" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes amia_creature;
+docker run --rm -t -v "$(pwd):/nasher" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes amia_creature2;
 docker run --rm -t -v "$(pwd):/nasher" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes amia_skybox;
 docker run --rm -t -v "$(pwd):/nasher" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes amia_weapons;
 docker run --rm -t -v "$(pwd):/nasher" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes tlk;

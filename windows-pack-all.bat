@@ -30,6 +30,8 @@ PowerShell -NoProfile -ExecutionPolicy Bypass -Command "docker run --rm -t -u ${
 
 PowerShell -NoProfile -ExecutionPolicy Bypass -Command "docker run --rm -t -u ${id -u}:${id -g} -v ${pwd}:/nasher cltalmadge/nasher:0.20.2 pack --verbose amia_creature"
 
+PowerShell -NoProfile -ExecutionPolicy Bypass -Command "docker run --rm -t -u ${id -u}:${id -g} -v ${pwd}:/nasher cltalmadge/nasher:0.20.2 pack --verbose amia_creature2"
+
 PowerShell -NoProfile -ExecutionPolicy Bypass -Command "docker run --rm -t -u ${id -u}:${id -g} -v ${pwd}:/nasher cltalmadge/nasher:0.20.2 pack --verbose amia_skybox"
 
 PowerShell -NoProfile -ExecutionPolicy Bypass -Command "docker run --rm -t -u ${id -u}:${id -g} -v ${pwd}:/nasher cltalmadge/nasher:0.20.2 pack --verbose amia_weapons"

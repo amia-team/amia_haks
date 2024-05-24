@@ -188,6 +188,18 @@ pipeline {
                 }
             }
         }
+		stage('Pack Amia Creature 2') {
+            when {
+                changeset "src/hak/amia_creature2/**/**"
+            }
+            steps {
+                 script {
+                    sh "chmod +x pack.sh"
+                    sh "dos2unix pack.sh"
+                    sh "./pack.sh hak amia_creature2"
+                }
+            }
+        }
         stage('Pack Amia Skybox') {
             when {
                 changeset "src/hak/amia_skybox/**/**"
