@@ -2,32 +2,32 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: c_blackcat
+# model: c_whitecat
 #local file: Unknown
 filedependancy Unknown
-newmodel c_blackcat
-setsupermodel c_blackcat NULL
+newmodel c_whitecat
+setsupermodel c_whitecat NULL
 classification Character
 setanimationscale 0.4
 #NWmax GEOM  ASCII
-beginmodelgeom c_blackcat
-node dummy c_blackcat
+beginmodelgeom c_whitecat
+node dummy c_whitecat
   parent NULL
 endnode
 node dummy headconjure
-  parent c_blackcat
+  parent c_whitecat
   position 0.0 0.409728 0.67938
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.878431 0.776471 0.341176 
 endnode
 node dummy handconjure
-  parent c_blackcat
+  parent c_whitecat
   position 0.0 0.471588 0.297674
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.878431 0.776471 0.341176 
 endnode
 node dummy rootdummy
-  parent c_blackcat
+  parent c_whitecat
   position 0.0 -0.0630944 0.315815
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.878431 0.776471 0.341176 
@@ -52,7 +52,7 @@ node trimesh Cat_hips
   specular 0.05 0.05 0.05 
   shininess 26
   center undefined
-  bitmap c_blackcat
+  bitmap c_whitecat
   verts 18
     0.0575772 -0.00783092 0.0573856
     0.0 -0.000583932 0.0903808
@@ -141,7 +141,7 @@ node trimesh Cat_Lbackthigh
   specular 0.05 0.05 0.05 
   shininess 26
   center undefined
-  bitmap c_blackcat
+  bitmap c_whitecat
   verts 15
     -0.00748424 0.109342 -0.038482
     -0.0559328 0.0707888 -0.109226
@@ -222,7 +222,7 @@ node trimesh Cat_Lbackforepaw
   specular 0.05 0.05 0.05 
   shininess 26
   center undefined
-  bitmap c_blackcat
+  bitmap c_whitecat
   verts 12
     0.0206422 0.0506352 -0.0382704
     -0.0217192 0.017624 -0.00380541
@@ -291,7 +291,7 @@ node trimesh Cat_Lbackpaw
   specular 0.05 0.05 0.05 
   shininess 26
   center undefined
-  bitmap c_blackcat
+  bitmap c_whitecat
   verts 9
     0.00947844 -0.00474784 -0.0454288
     0.0215425 0.0288518 -0.000647704
@@ -348,7 +348,7 @@ node trimesh Cat_Lbackthigh01
   specular 0.05 0.05 0.05 
   shininess 26
   center undefined
-  bitmap c_blackcat
+  bitmap c_whitecat
   verts 15
     0.00748416 0.109342 -0.038482
     0.044804 0.0726744 0.0452312
@@ -429,7 +429,7 @@ node trimesh Cat_Lbackforepaw01
   specular 0.05 0.05 0.05 
   shininess 26
   center undefined
-  bitmap c_blackcat
+  bitmap c_whitecat
   verts 12
     -0.0206422 0.0506352 -0.0382704
     -0.0208034 0.0302151 -0.00537156
@@ -498,7 +498,7 @@ node trimesh Cat_Lbackpaw01
   specular 0.05 0.05 0.05 
   shininess 26
   center undefined
-  bitmap c_blackcat
+  bitmap c_whitecat
   verts 9
     -0.00947852 -0.00474792 -0.0454288
     -6.47936e-005 -0.0347132 -0.0205051
@@ -555,7 +555,7 @@ node trimesh Cat_tailbase
   specular 0.05 0.05 0.05 
   shininess 26
   center undefined
-  bitmap c_blackcat
+  bitmap c_whitecat
   verts 11
     -0.0273698 -0.00141326 -0.00467732
     0.0 -0.00433652 -0.0247418
@@ -618,7 +618,7 @@ node trimesh Cat_tailtip
   specular 0.05 0.05 0.05 
   shininess 26
   center undefined
-  bitmap c_blackcat
+  bitmap c_whitecat
   verts 14
     0.0 -0.00532044 0.0341699
     0.0 -0.12618 0.00931732
@@ -698,7 +698,7 @@ node trimesh Cat_thorax
   specular 0.05 0.05 0.05 
   shininess 26
   center undefined
-  bitmap c_blackcat
+  bitmap c_whitecat
   verts 25
     0.0587116 0.269531 -0.0151648
     0.0 0.203198 -0.11935
@@ -815,7 +815,7 @@ node trimesh Cat_neck
   specular 0.05 0.05 0.05 
   shininess 26
   center undefined
-  bitmap c_blackcat
+  bitmap c_whitecat
   verts 15
     0.0 0.00930556 0.0844544
     0.0 -0.024883 0.0932232
@@ -894,7 +894,7 @@ node trimesh Cat_head
   specular 0.05 0.05 0.05 
   shininess 26
   center undefined
-  bitmap c_blackcat
+  bitmap c_whitecat
   verts 68
     -5.10388e-007 0.0570148 -0.0128911
     0.04538 0.01812 -0.0188331
@@ -1148,7 +1148,7 @@ node trimesh ears
   specular 0.05 0.05 0.05 
   shininess 26
   center undefined
-  bitmap c_blackcat
+  bitmap c_whitecat
   verts 12
     0.047266 -0.0056556 0.0264657
     0.0547152 0.0127047 0.0362211
@@ -1202,7 +1202,7 @@ node trimesh jaw
   specular 0.05 0.05 0.05 
   shininess 26
   center undefined
-  bitmap c_blackcat
+  bitmap c_whitecat
   verts 40
     0.0331794 -0.0165378 -0.0428944
     -5.09528e-007 -0.0283198 -0.0272464
@@ -1378,7 +1378,7 @@ node trimesh Cat_Lfrontbicep01
   specular 0.05 0.05 0.05 
   shininess 26
   center undefined
-  bitmap c_blackcat
+  bitmap c_whitecat
   verts 16
     -0.00672184 0.0234906 -0.10242
     0.0200395 0.044778 -0.049338
@@ -1463,7 +1463,7 @@ node trimesh Cat_Lfrontforepaw01
   specular 0.05 0.05 0.05 
   shininess 26
   center undefined
-  bitmap c_blackcat
+  bitmap c_whitecat
   verts 10
     2.26402e-005 0.00771984 -0.105477
     0.0374112 0.0092856 0.0181413
@@ -1524,7 +1524,7 @@ node trimesh Cat_Lfrontpaw01
   specular 0.05 0.05 0.05 
   shininess 26
   center undefined
-  bitmap c_blackcat
+  bitmap c_whitecat
   verts 10
     0.00350228 0.00461592 -0.0456004
     -0.0222258 0.0482468 -0.0480144
@@ -1591,7 +1591,7 @@ node trimesh Cat_Lfrontbicep
   specular 0.05 0.05 0.05 
   shininess 26
   center undefined
-  bitmap c_blackcat
+  bitmap c_whitecat
   verts 16
     0.0067218 0.0234906 -0.10242
     -0.0425792 -0.0043108 -0.158305
@@ -1676,7 +1676,7 @@ node trimesh Cat_Lfrontforepaw
   specular 0.05 0.05 0.05 
   shininess 26
   center undefined
-  bitmap c_blackcat
+  bitmap c_whitecat
   verts 10
     -2.26593e-005 0.00771992 -0.105477
     -0.0341954 -0.00560508 -0.100957
@@ -1737,7 +1737,7 @@ node trimesh Cat_Lfrontpaw
   specular 0.05 0.05 0.05 
   shininess 26
   center undefined
-  bitmap c_blackcat
+  bitmap c_whitecat
   verts 10
     -0.0163688 -0.0302178 -0.00611408
     -0.00350228 0.00461604 -0.0456004
@@ -1779,7 +1779,7 @@ node trimesh Cat_Lfrontpaw
     0.300678 0.831888 0
 endnode
 node skin catfront
-  parent c_blackcat
+  parent c_whitecat
   position 0.0 -0.766777 0.0
   orientation 0.0 0.0 -1.0 -3.14159
   wirecolor 0.109804 0.34902 0.694118 
@@ -1788,7 +1788,7 @@ node skin catfront
   diffuse 1.0 1.0 1.0 
   specular 0.0 0.0 0.0 
   shininess 26.0
-  bitmap c_blackcat
+  bitmap c_whitecat
   verts 1547
     0.044216 -1.09515 0.416208
     0.041102 -1.09679 0.406696
@@ -9855,7 +9855,7 @@ node skin catfront
      Cat_head 1.0 
 endnode
 node skin catback
-  parent c_blackcat
+  parent c_whitecat
   position 0.0 -0.766777 0.0
   orientation 0.0 0.0 -1.0 -3.14159
   wirecolor 0.109804 0.34902 0.694118 
@@ -9864,7 +9864,7 @@ node skin catback
   diffuse 1.0 1.0 1.0 
   specular 0.0 0.0 0.0 
   shininess 26.0
-  bitmap c_blackcat
+  bitmap c_whitecat
   verts 559
     -0.00614615 -0.429206 0.350939
     -0.0206697 -0.43122 0.351283
@@ -13044,27 +13044,27 @@ node skin catback
      Cat_Lbackpaw 1.0 
      Cat_Lbackpaw01 1.0 
 endnode
-endmodelgeom c_blackcat
+endmodelgeom c_whitecat
 #NWmax ANIM ASCII
-newanim ca1slashl c_blackcat
+newanim ca1slashl c_whitecat
   length 1.0
   transtime 0.25
-  animroot c_blackcat
+  animroot c_whitecat
   event 0.5 snd_footstep
   event 0.533333 snd_footstep
   event 0.666667 snd_footstep
   event 0.933333 snd_footstep
-    node dummy c_blackcat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 0.0 -0.0630944 0.288538
             0.266667 0.0 -0.137479 0.284838
@@ -13503,26 +13503,26 @@ newanim ca1slashl c_blackcat
             1.0 0.996188 -0.00175749 -0.0872117 -1.23518
         endlist
     endnode
-doneanim ca1slashl c_blackcat
+doneanim ca1slashl c_whitecat
 #NWmax ANIM ASCII
-newanim ca1slashr c_blackcat
+newanim ca1slashr c_whitecat
   length 1.0
   transtime 0.25
-  animroot c_blackcat
+  animroot c_whitecat
   event 0.533333 snd_footstep
   event 0.6 snd_footstep
   event 0.933333 snd_footstep
-    node dummy c_blackcat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 0.0 -0.0630944 0.288538
             0.266667 0.0 -0.0630944 0.267056
@@ -13927,26 +13927,26 @@ newanim ca1slashr c_blackcat
             1.0 -0.996188 0.00175747 0.0872117 -5.04801
         endlist
     endnode
-doneanim ca1slashr c_blackcat
+doneanim ca1slashr c_whitecat
 #NWmax ANIM ASCII
-newanim ca1stab c_blackcat
+newanim ca1stab c_whitecat
   length 0.966667
   transtime 0.25
-  animroot c_blackcat
+  animroot c_whitecat
   event 0.433333 snd_footstep
   event 0.533333 snd_footstep
   event 0.9 snd_footstep
-    node dummy c_blackcat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 0.0 -0.0630944 0.288538
             0.2 0.0 -0.0630944 0.224438
@@ -14351,26 +14351,26 @@ newanim ca1stab c_blackcat
             0.966667 -0.996188 0.00175748 0.0872116 -5.04801
         endlist
     endnode
-doneanim ca1stab c_blackcat
+doneanim ca1stab c_whitecat
 #NWmax ANIM ASCII
-newanim creach c_blackcat
+newanim creach c_whitecat
   length 1.0
   transtime 0.25
-  animroot c_blackcat
+  animroot c_whitecat
   event 0.4 snd_footstep
   event 0.5 snd_footstep
   event 0.933333 snd_footstep
-    node dummy c_blackcat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 0.0 -0.0630944 0.315815
             0.0666667 0.0 -0.137479 0.266894
@@ -14774,23 +14774,23 @@ newanim creach c_blackcat
             1.0 0.996188 -0.00175761 -0.0872122 -1.23518
         endlist
     endnode
-doneanim creach c_blackcat
+doneanim creach c_whitecat
 #NWmax ANIM ASCII
-newanim cconjure1 c_blackcat
+newanim cconjure1 c_whitecat
   length 1.33333
   transtime 0.25
-  animroot c_blackcat
-    node dummy c_blackcat
+  animroot c_whitecat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 0.0 -0.0654328 0.290514
             0.166667 0.0 -0.0541092 0.27655
@@ -15043,24 +15043,24 @@ newanim cconjure1 c_blackcat
             1.33333 -0.994934 -0.00528741 0.100396 -5.24483
         endlist
     endnode
-doneanim cconjure1 c_blackcat
+doneanim cconjure1 c_whitecat
 #NWmax ANIM ASCII
-newanim ccastout c_blackcat
+newanim ccastout c_whitecat
   length 0.5
   transtime 0.25
-  animroot c_blackcat
+  animroot c_whitecat
   event 0.5 cast
-    node dummy c_blackcat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 0.0 -0.0654328 0.290514
             0.133333 0.0 -0.0908388 0.261046
@@ -15289,24 +15289,24 @@ newanim ccastout c_blackcat
             0.5 -0.954829 -0.0476466 0.293312 -5.59695
         endlist
     endnode
-doneanim ccastout c_blackcat
+doneanim ccastout c_whitecat
 #NWmax ANIM ASCII
-newanim cparryl c_blackcat
+newanim cparryl c_whitecat
   length 1.0
   transtime 0.25
-  animroot c_blackcat
+  animroot c_whitecat
   event 0.933333 snd_footstep
-    node dummy c_blackcat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 0.0 -0.0630944 0.288538
             0.333333 0.0 -0.0331101 0.269374
@@ -15603,24 +15603,24 @@ newanim cparryl c_blackcat
             1.0 -0.996188 0.00175764 0.0872116 -5.04801
         endlist
     endnode
-doneanim cparryl c_blackcat
+doneanim cparryl c_whitecat
 #NWmax ANIM ASCII
-newanim cparryr c_blackcat
+newanim cparryr c_whitecat
   length 1.0
   transtime 0.25
-  animroot c_blackcat
+  animroot c_whitecat
   event 0.7 snd_footstep
-    node dummy c_blackcat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 0.0 -0.0630944 0.288538
             0.333333 0.0 -0.0630944 0.244589
@@ -15943,26 +15943,26 @@ newanim cparryr c_blackcat
             1.0 -0.996188 0.00175753 0.0872116 -5.04801
         endlist
     endnode
-doneanim cparryr c_blackcat
+doneanim cparryr c_whitecat
 #NWmax ANIM ASCII
-newanim cdodgelr c_blackcat
+newanim cdodgelr c_whitecat
   length 1.0
   transtime 0.3
-  animroot c_blackcat
+  animroot c_whitecat
   event 0.366667 snd_footstep
   event 0.633333 snd_footstep
   event 0.933333 snd_footstep
-    node dummy c_blackcat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 0.0 -0.0630944 0.315815
             0.1 0.0 -0.105454 0.301879
@@ -16326,26 +16326,26 @@ newanim cdodgelr c_blackcat
             1.0 0.0 0.0 0.0 0.0
         endlist
     endnode
-doneanim cdodgelr c_blackcat
+doneanim cdodgelr c_whitecat
 #NWmax ANIM ASCII
-newanim cdodges c_blackcat
+newanim cdodges c_whitecat
   length 1.0
   transtime 0.3
-  animroot c_blackcat
+  animroot c_whitecat
   event 0.133333 snd_footstep
   event 0.233333 snd_footstep
   event 0.933333 snd_footstep
-    node dummy c_blackcat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 0.0 -0.0630944 0.315815
             0.133333 0.0 -0.0630944 0.277246
@@ -16731,23 +16731,23 @@ newanim cdodges c_blackcat
             1.0 0.996838 -0.0291454 -0.0739223 -0.995929
         endlist
     endnode
-doneanim cdodges c_blackcat
+doneanim cdodges c_whitecat
 #NWmax ANIM ASCII
-newanim creadyr c_blackcat
+newanim creadyr c_whitecat
   length 2.0
   transtime 0.5
-  animroot c_blackcat
-    node dummy c_blackcat
+  animroot c_whitecat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 0.0 -0.0630944 0.288538
             0.4 0.0 -0.0653408 0.271162
@@ -16980,23 +16980,23 @@ newanim creadyr c_blackcat
             2.0 0.996188 -0.00175746 -0.0872116 -1.23518
         endlist
     endnode
-doneanim creadyr c_blackcat
+doneanim creadyr c_whitecat
 #NWmax ANIM ASCII
-newanim creadyl c_blackcat
+newanim creadyl c_whitecat
   length 2.0
   transtime 0.5
-  animroot c_blackcat
-    node dummy c_blackcat
+  animroot c_whitecat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 0.0 -0.0630944 0.288538
             0.4 0.0 -0.0653408 0.271162
@@ -17229,24 +17229,24 @@ newanim creadyl c_blackcat
             2.0 0.996188 -0.00175746 -0.0872116 -1.23518
         endlist
     endnode
-doneanim creadyl c_blackcat
+doneanim creadyl c_whitecat
 #NWmax ANIM ASCII
-newanim cdamagel c_blackcat
+newanim cdamagel c_whitecat
   length 0.333333
   transtime 0.125
-  animroot c_blackcat
+  animroot c_whitecat
   event 0.2 snd_footstep
-    node dummy c_blackcat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 0.0 -0.16537 0.312194
             0.0333333 0.0 -0.185826 0.315815
@@ -17455,24 +17455,24 @@ newanim cdamagel c_blackcat
             0.333333 0.996188 -0.00175749 -0.0872116 -1.23518
         endlist
     endnode
-doneanim cdamagel c_blackcat
+doneanim cdamagel c_whitecat
 #NWmax ANIM ASCII
-newanim cdamager c_blackcat
+newanim cdamager c_whitecat
   length 0.333333
   transtime 0.125
-  animroot c_blackcat
+  animroot c_whitecat
   event 0.2 snd_footstep
-    node dummy c_blackcat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 0.0 -0.16537 0.312194
             0.0333333 0.0 -0.185826 0.315815
@@ -17681,24 +17681,24 @@ newanim cdamager c_blackcat
             0.333333 0.996188 -0.0017575 -0.0872116 -1.23518
         endlist
     endnode
-doneanim cdamager c_blackcat
+doneanim cdamager c_whitecat
 #NWmax ANIM ASCII
-newanim cdamages c_blackcat
+newanim cdamages c_whitecat
   length 0.333333
   transtime 0.125
-  animroot c_blackcat
+  animroot c_whitecat
   event 0.2 snd_footstep
-    node dummy c_blackcat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 0.0 -0.16537 0.312194
             0.0333333 0.0 -0.185826 0.315815
@@ -17907,23 +17907,23 @@ newanim cdamages c_blackcat
             0.333333 0.996188 -0.00175749 -0.0872115 -1.23518
         endlist
     endnode
-doneanim cdamages c_blackcat
+doneanim cdamages c_whitecat
 #NWmax ANIM ASCII
-newanim ckdbck c_blackcat
+newanim ckdbck c_whitecat
   length 0.666667
   transtime 0.125
-  animroot c_blackcat
-    node dummy c_blackcat
+  animroot c_whitecat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 0.0 -0.0630948 0.315815
             0.1 0.0 -0.0918352 0.227232
@@ -18210,23 +18210,23 @@ newanim ckdbck c_blackcat
             0.666667 0.914635 -0.199665 -0.351534 -1.65499
         endlist
     endnode
-doneanim ckdbck c_blackcat
+doneanim ckdbck c_whitecat
 #NWmax ANIM ASCII
-newanim ckdbckps c_blackcat
+newanim ckdbckps c_whitecat
   length 0.8
   transtime 0.25
-  animroot c_blackcat
-    node dummy c_blackcat
+  animroot c_whitecat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 -0.0298743 -0.116199 0.208083
             0.4 -0.0298743 -0.116199 0.21469
@@ -18436,23 +18436,23 @@ newanim ckdbckps c_blackcat
             0.8 0.914635 -0.199665 -0.351534 -1.65499
         endlist
     endnode
-doneanim ckdbckps c_blackcat
+doneanim ckdbckps c_whitecat
 #NWmax ANIM ASCII
-newanim ckdbckdie c_blackcat
+newanim ckdbckdie c_whitecat
   length 1.0
   transtime 0.25
-  animroot c_blackcat
-    node dummy c_blackcat
+  animroot c_whitecat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 -0.0298743 -0.116199 0.208083
             0.1 0.0 -0.0225311 0.2591
@@ -18756,23 +18756,23 @@ newanim ckdbckdie c_blackcat
             1.0 0.919346 0.377699 -0.110211 -1.85504
         endlist
     endnode
-doneanim ckdbckdie c_blackcat
+doneanim ckdbckdie c_whitecat
 #NWmax ANIM ASCII
-newanim cguptokdb c_blackcat
+newanim cguptokdb c_whitecat
   length 1.33333
   transtime 0.25
-  animroot c_blackcat
-    node dummy c_blackcat
+  animroot c_whitecat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 0.141488 -0.00876968 0.063144
             0.366667 0.12944 -0.00876968 0.071144
@@ -19131,25 +19131,25 @@ newanim cguptokdb c_blackcat
             1.33333 0.979394 -0.0423138 -0.197478 -1.59561
         endlist
     endnode
-doneanim cguptokdb c_blackcat
+doneanim cguptokdb c_whitecat
 #NWmax ANIM ASCII
-newanim cgustandb c_blackcat
+newanim cgustandb c_whitecat
   length 1.0
   transtime 0.25
-  animroot c_blackcat
+  animroot c_whitecat
   event 0.466667 snd_footstep
   event 0.833333 snd_footstep
-    node dummy c_blackcat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 -0.0298743 -0.116199 0.208083
             0.233333 0.0 -0.0630948 0.228299
@@ -19417,27 +19417,27 @@ newanim cgustandb c_blackcat
             1.0 -0.890626 0.0223196 0.454189 -0.0250865
         endlist
     endnode
-doneanim cgustandb c_blackcat
+doneanim cgustandb c_whitecat
 #NWmax ANIM ASCII
-newanim cwalk c_blackcat
+newanim cwalk c_whitecat
   length 0.833333
   transtime 0.4
-  animroot c_blackcat
+  animroot c_whitecat
   event 0.233333 snd_footstep
   event 0.366667 snd_footstep
   event 0.666667 snd_footstep
   event 0.766667 snd_footstep
-    node dummy c_blackcat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 0.0 -0.00593492 0.296102
             0.2 0.0 -0.00593492 0.291787
@@ -19772,27 +19772,27 @@ newanim cwalk c_blackcat
             0.833333 0.995643 0.0327647 0.0873039 -2.18662
         endlist
     endnode
-doneanim cwalk c_blackcat
+doneanim cwalk c_whitecat
 #NWmax ANIM ASCII
-newanim crun c_blackcat
+newanim crun c_whitecat
   length 0.5
   transtime 0.2
-  animroot c_blackcat
+  animroot c_whitecat
   event 0.0666667 snd_footstep
   event 0.133333 snd_footstep
   event 0.266667 snd_footstep
   event 0.366667 snd_footstep
-    node dummy c_blackcat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 0.0 -0.0630944 0.297457
             0.133333 0.0 -0.0630944 0.328476
@@ -20074,25 +20074,25 @@ newanim crun c_blackcat
             0.5 0.997259 -0.0722791 0.0158103 -0.86684
         endlist
     endnode
-doneanim crun c_blackcat
+doneanim crun c_whitecat
 #NWmax ANIM ASCII
-newanim ccwalkf c_blackcat
+newanim ccwalkf c_whitecat
   length 0.5
   transtime 0.25
-  animroot c_blackcat
+  animroot c_whitecat
   event 0.3 snd_footstep
   event 0.333333 snd_footstep
-    node dummy c_blackcat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 0.0 -0.0630944 0.260493
             0.133333 0.0 -0.089298 0.297245
@@ -20384,25 +20384,25 @@ newanim ccwalkf c_blackcat
             0.5 0.997765 -0.00711051 -0.0664452 -1.54579
         endlist
     endnode
-doneanim ccwalkf c_blackcat
+doneanim ccwalkf c_whitecat
 #NWmax ANIM ASCII
-newanim ccwalkb c_blackcat
+newanim ccwalkb c_whitecat
   length 0.5
   transtime 0.25
-  animroot c_blackcat
+  animroot c_whitecat
   event 0.3 snd_footstep
   event 0.366667 snd_footstep
-    node dummy c_blackcat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 0.0 -0.0630944 0.260493
             0.133333 0.0 -0.0363988 0.296165
@@ -20694,24 +20694,24 @@ newanim ccwalkb c_blackcat
             0.5 0.997765 -0.00711053 -0.0664453 -1.54579
         endlist
     endnode
-doneanim ccwalkb c_blackcat
+doneanim ccwalkb c_whitecat
 #NWmax ANIM ASCII
-newanim ccwalkl c_blackcat
+newanim ccwalkl c_whitecat
   length 0.5
   transtime 0.25
-  animroot c_blackcat
+  animroot c_whitecat
   event 0.3 snd_footstep
-    node dummy c_blackcat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 0.0 -0.0630944 0.288538
             0.0666667 0.036551 -0.0630944 0.293025
@@ -21009,23 +21009,23 @@ newanim ccwalkl c_blackcat
             0.5 0.996188 -0.00175736 -0.0872118 -1.23518
         endlist
     endnode
-doneanim ccwalkl c_blackcat
+doneanim ccwalkl c_whitecat
 #NWmax ANIM ASCII
-newanim ccwalkr c_blackcat
+newanim ccwalkr c_whitecat
   length 0.5
   transtime 0.25
-  animroot c_blackcat
-    node dummy c_blackcat
+  animroot c_whitecat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 0.0 -0.0630944 0.288538
             0.0666667 -0.0159409 -0.0630944 0.294535
@@ -21323,23 +21323,23 @@ newanim ccwalkr c_blackcat
             0.5 0.996188 -0.00175737 -0.0872119 -1.23518
         endlist
     endnode
-doneanim ccwalkr c_blackcat
+doneanim ccwalkr c_whitecat
 #NWmax ANIM ASCII
-newanim cpause1 c_blackcat
+newanim cpause1 c_whitecat
   length 1.63333
   transtime 0.6
-  animroot c_blackcat
-    node dummy c_blackcat
+  animroot c_whitecat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 0.0 -0.0424548 0.289818
             0.8 0.0 -0.0420052 0.285685
@@ -21546,23 +21546,23 @@ newanim cpause1 c_blackcat
             1.63333 0.999846 -0.00719038 -0.015988 -0.729869
         endlist
     endnode
-doneanim cpause1 c_blackcat
+doneanim cpause1 c_whitecat
 #NWmax ANIM ASCII
-newanim chturnl c_blackcat
+newanim chturnl c_whitecat
   length 1.63333
   transtime 0.2
-  animroot c_blackcat
-    node dummy c_blackcat
+  animroot c_whitecat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 0.0 -0.0424548 0.289818
             0.8 0.0 -0.0420052 0.285685
@@ -21759,23 +21759,23 @@ newanim chturnl c_blackcat
             1.63333 0.999959 -0.00442469 -0.00787784 -0.730068
         endlist
     endnode
-doneanim chturnl c_blackcat
+doneanim chturnl c_whitecat
 #NWmax ANIM ASCII
-newanim chturnr c_blackcat
+newanim chturnr c_whitecat
   length 1.63333
   transtime 0.2
-  animroot c_blackcat
-    node dummy c_blackcat
+  animroot c_whitecat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 0.0 -0.0424548 0.289818
             0.8 0.0 -0.0420052 0.285685
@@ -21974,23 +21974,23 @@ newanim chturnr c_blackcat
             1.63333 0.999915 -0.00601257 -0.0116027 -0.734455
         endlist
     endnode
-doneanim chturnr c_blackcat
+doneanim chturnr c_whitecat
 #NWmax ANIM ASCII
-newanim ctaunt c_blackcat
+newanim ctaunt c_whitecat
   length 1.0
   transtime 0.3
-  animroot c_blackcat
-    node dummy c_blackcat
+  animroot c_whitecat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 0.0 -0.0630944 0.315815
             0.0666667 0.0 -0.0630944 0.304295
@@ -22296,25 +22296,25 @@ newanim ctaunt c_blackcat
             1.0 0.999065 -0.0214339 -0.0375429 -1.41488
         endlist
     endnode
-doneanim ctaunt c_blackcat
+doneanim ctaunt c_whitecat
 #NWmax ANIM ASCII
-newanim ccloseh c_blackcat
+newanim ccloseh c_whitecat
   length 1.0
   transtime 0.25
-  animroot c_blackcat
+  animroot c_whitecat
   event 0.566667 snd_footstep
   event 0.666667 snd_footstep
-    node dummy c_blackcat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 0.0 -0.0630944 0.288538
             0.166667 0.0 -0.009629 0.268612
@@ -22685,23 +22685,23 @@ newanim ccloseh c_blackcat
             1.0 0.996188 -0.00175745 -0.0872116 -1.23518
         endlist
     endnode
-doneanim ccloseh c_blackcat
+doneanim ccloseh c_whitecat
 #NWmax ANIM ASCII
-newanim cclosel c_blackcat
+newanim cclosel c_whitecat
   length 1.0
   transtime 0.25
-  animroot c_blackcat
-    node dummy c_blackcat
+  animroot c_whitecat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 0.0 -0.0630944 0.288538
             0.2 0.0 -0.0841824 0.283062
@@ -23041,23 +23041,23 @@ newanim cclosel c_blackcat
             1.0 0.996188 -0.00175728 -0.0872118 -1.23518
         endlist
     endnode
-doneanim cclosel c_blackcat
+doneanim cclosel c_whitecat
 #NWmax ANIM ASCII
-newanim ckdbckdmg c_blackcat
+newanim ckdbckdmg c_whitecat
   length 0.333333
   transtime 0.125
-  animroot c_blackcat
-    node dummy c_blackcat
+  animroot c_whitecat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 -0.0298743 -0.116199 0.208083
             0.133333 0.0 -0.0630948 0.190597
@@ -23237,23 +23237,23 @@ newanim ckdbckdmg c_blackcat
             0.333333 0.914635 -0.199665 -0.351534 -1.65499
         endlist
     endnode
-doneanim ckdbckdmg c_blackcat
+doneanim ckdbckdmg c_whitecat
 #NWmax ANIM ASCII
-newanim cgetmid c_blackcat
+newanim cgetmid c_whitecat
   length 0.5
   transtime 0.25
-  animroot c_blackcat
-    node dummy c_blackcat
+  animroot c_whitecat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 0.0 -0.0630944 0.288538
             0.166667 0.0 -0.009629 0.268612
@@ -23509,23 +23509,23 @@ newanim cgetmid c_blackcat
             0.5 -0.95007 -0.110776 0.291711 -5.41197
         endlist
     endnode
-doneanim cgetmid c_blackcat
+doneanim cgetmid c_whitecat
 #NWmax ANIM ASCII
-newanim ccastoutlp c_blackcat
+newanim ccastoutlp c_whitecat
   length 1.0
   transtime 0.3
-  animroot c_blackcat
-    node dummy c_blackcat
+  animroot c_whitecat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 0.0 -0.05444 0.308875
             0.2 0.0 -0.0542212 0.296718
@@ -23732,23 +23732,23 @@ newanim ccastoutlp c_blackcat
             1.0 0.960098 0.0392735 -0.276894 -0.738302
         endlist
     endnode
-doneanim ccastoutlp c_blackcat
+doneanim ccastoutlp c_whitecat
 #NWmax ANIM ASCII
-newanim cgetmidlp c_blackcat
+newanim cgetmidlp c_whitecat
   length 0.0333333
   transtime 0.5
-  animroot c_blackcat
-    node dummy c_blackcat
+  animroot c_whitecat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 0.0 0.0559172 0.314525
             0.0333333 0.0 0.0559172 0.314525
@@ -23903,23 +23903,23 @@ newanim cgetmidlp c_blackcat
             0.0333333 -0.95007 -0.110776 0.291711 -5.41197
         endlist
     endnode
-doneanim cgetmidlp c_blackcat
+doneanim cgetmidlp c_whitecat
 #NWmax ANIM ASCII
-newanim cappear c_blackcat
+newanim cappear c_whitecat
   length 1.63333
   transtime 0.3
-  animroot c_blackcat
-    node dummy c_blackcat
+  animroot c_whitecat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 0.0 -0.0424548 0.289818
             0.8 0.0 -0.0420052 0.285685
@@ -24126,23 +24126,23 @@ newanim cappear c_blackcat
             1.63333 0.999846 -0.00719036 -0.015988 -0.729869
         endlist
     endnode
-doneanim cappear c_blackcat
+doneanim cappear c_whitecat
 #NWmax ANIM ASCII
-newanim cdisappear c_blackcat
+newanim cdisappear c_whitecat
   length 1.63333
   transtime 0.3
-  animroot c_blackcat
-    node dummy c_blackcat
+  animroot c_whitecat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 0.0 -0.0424548 0.289818
             0.8 0.0 -0.0420052 0.285685
@@ -24349,23 +24349,23 @@ newanim cdisappear c_blackcat
             1.63333 0.999846 -0.00719036 -0.015988 -0.729869
         endlist
     endnode
-doneanim cdisappear c_blackcat
+doneanim cdisappear c_whitecat
 #NWmax ANIM ASCII
-newanim cspasm c_blackcat
+newanim cspasm c_whitecat
   length 1.0
   transtime 0.2
-  animroot c_blackcat
-    node dummy c_blackcat
+  animroot c_whitecat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 0.0 -0.0726464 0.197694
             1.0 0.0 -0.0726464 0.197694
@@ -24656,23 +24656,23 @@ newanim cspasm c_blackcat
             1.0 0.991439 -0.0222534 0.128664 -1.68461
         endlist
     endnode
-doneanim cspasm c_blackcat
+doneanim cspasm c_whitecat
 #NWmax ANIM ASCII
-newanim cdisappearlp c_blackcat
+newanim cdisappearlp c_whitecat
   length 1.63333
   transtime 0.3
-  animroot c_blackcat
-    node dummy c_blackcat
+  animroot c_whitecat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 0.0 -0.0424548 0.289818
             0.8 0.0 -0.0420052 0.285685
@@ -24879,27 +24879,27 @@ newanim cdisappearlp c_blackcat
             1.63333 0.999846 -0.00719036 -0.015988 -0.729869
         endlist
     endnode
-doneanim cdisappearlp c_blackcat
+doneanim cdisappearlp c_whitecat
 #NWmax ANIM ASCII
-newanim ccturnr c_blackcat
+newanim ccturnr c_whitecat
   length 0.5
   transtime 0.25
-  animroot c_blackcat
+  animroot c_whitecat
   event 0.0666667 snd_footstep
   event 0.166667 snd_footstep
   event 0.266667 snd_footstep
   event 0.433333 snd_footstep
-    node dummy c_blackcat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 0.0 -0.0630944 0.288538
             0.1 -0.0083512 -0.066434 0.291133
@@ -25157,23 +25157,23 @@ newanim ccturnr c_blackcat
             0.5 0.996188 -0.00175747 -0.0872116 -1.23518
         endlist
     endnode
-doneanim ccturnr c_blackcat
+doneanim ccturnr c_whitecat
 #NWmax ANIM ASCII
-newanim cdead c_blackcat
+newanim cdead c_whitecat
   length 0.466667
   transtime 0.25
-  animroot c_blackcat
-    node dummy c_blackcat
+  animroot c_whitecat
+    node dummy c_whitecat
         parent NULL
     endnode
     node dummy headconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy handconjure
-        parent c_blackcat
+        parent c_whitecat
     endnode
     node dummy rootdummy
-        parent c_blackcat
+        parent c_whitecat
         positionkey
             0.0 0.141488 -0.00876968 0.063144
             0.466667 0.141488 -0.00876968 0.063144
@@ -25328,5 +25328,5 @@ newanim cdead c_blackcat
             0.466667 0.919346 0.377699 -0.110211 -1.85504
         endlist
     endnode
-doneanim cdead c_blackcat
-donemodel c_blackcat
+doneanim cdead c_whitecat
+donemodel c_whitecat
