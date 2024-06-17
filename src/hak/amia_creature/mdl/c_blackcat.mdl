@@ -1352,6 +1352,12 @@ node dummy head
   orientation -1.0 0.0 0.0 -0.018072
   wirecolor 0.337255 0.337255 0.337255 
 endnode
+node dummy wings
+  parent Cat_head
+  position -5.35839e-006 -0.208855 -0.110748
+  orientation 1.0 0.0 0.0 -1.5708
+  wirecolor 0.0235294 0.52549 0.443137 
+endnode
 node trimesh Cat_Lfrontbicep01
   parent Cat_thorax
   position 0.05104 0.219069 0.00822544
