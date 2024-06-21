@@ -1553,6 +1553,17 @@
                             "type": "cexostring",
                             "value": "Winya Ravana"
                           }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "ID": {
+                            "type": "byte",
+                            "value": 153
+                          },
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Crouching Lemur"
+                          }
                         }
                       ]
                     },
