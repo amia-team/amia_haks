@@ -346,10 +346,10 @@
 342  FEAT_DEATHLESS_VIGOR_HP_BONUS                    3
 343  FEAT_EPIC_DEATHLESS_VIGOR_HP_BONUS               5
 344  ****                                             ****
-345  FEAT_DEFENSIVES_STANCE_STR_BONUS                 4
-346  FEAT_DEFENSIVES_STANCE_CON_BONUS                 4
-347  FEAT_DEFENSIVES_STANCE_SAVE_BONUS                5
-348  FEAT_DEFENSIVES_STANCE_DODGE_BONUS               5
+345  FEAT_DEFENSIVES_STANCE_STR_BONUS                 0
+346  FEAT_DEFENSIVES_STANCE_CON_BONUS                 0
+347  FEAT_DEFENSIVES_STANCE_SAVE_BONUS                0
+348  FEAT_DEFENSIVES_STANCE_DODGE_BONUS               0
 349  ****                                             ****
 350  FEAT_DRAGON_HD6                                  6
 351  FEAT_DRAGON_HD8                                  8
@@ -418,3 +418,4 @@
 414  CHARGEN_ABILITY_NEUTRAL_VALUE                    10
 415  CHARGEN_ABILITY_MODIFIER_INCREMENT               2
 416  CHARGEN_SKILL_MAX_LEVEL_1_BONUS                  3
+417  SKILL_HIDE_IN_PLAIN_SIGHT_COOLDOWN	              6000

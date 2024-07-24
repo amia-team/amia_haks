@@ -183,7 +183,6 @@
 179    FEAT_EPIC_OVERWHELMING_CRITICAL_DOUBLEAXE           744          1      -1                0
 180    FEAT_EPIC_OVERWHELMING_CRITICAL_TWOBLADEDSWORD      745          1      -1                0
 181    FEAT_EPIC_OVERWHELMING_CRITICAL_TRIDENT             1078         1      -1                0 
-182    FEAT_EPIC_PERFECT_HEALTH                            747          1      -1                0
 183    FEAT_EPIC_TOUGHNESS_1                               754          1      -1                0
 184    FEAT_EPIC_TOUGHNESS_2                               755          1      -1                0
 185    FEAT_EPIC_TOUGHNESS_3                               756          1      -1                0
@@ -205,4 +204,7 @@
 201    TwoWeap                                             41           1      -1                0        
 202    DD_RESIST_POISON                                    383          3       5                0        
 203    DD_RESIST_DISEASE                                   426          3      10                0        
-204    DD_PERFECT_HEALTH                                   747          1      10                0        
+204    LIVING_BULWARK                                      1334         3      7                 1
+205    STONEGUARD                                          1335         3      9                 1
+206    DEFENDERS_DUTY                                      1336         3      11                1      
+207    DD_PERFECT_HEALTH                                   747          3      20                0  
