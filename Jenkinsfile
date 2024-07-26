@@ -251,6 +251,11 @@ pipeline {
 			}
         }
 		stage('Deploy-Haks') {
+            when {
+                expression {
+                    return params.DEPLOY_ALL == 'Yes'
+                }
+            }
             steps {
  				 script {
                     sh "chmod +x deploy.sh"
