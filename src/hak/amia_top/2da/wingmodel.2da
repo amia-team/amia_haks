@@ -312,5 +312,7 @@
 308 Pegasus_Black                   c_wingsraven     ****          
 309 "Dragon PLT Large"              c_pltdrgwings3   default       
 310 "UnArmored Angel"               c_wingsunarman   default       
-311 "UnArmoredRainbow Angel"        c_wingsrainunarm evmap_irrid
-312 "wings: Pazuzu"                 c_wingspazu      ****
+311 "UnArmoredRainbow Angel"        c_wingsrainunarm evmap_irrid   
+312 "wings: Pazuzu"                 c_wingspazu      ****          
+313 "Armored Dark Angel"            c_dwingsarman    default       
+314 "UnArmored Dark Angel"          c_dwingsunarman  default       
