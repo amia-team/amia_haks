@@ -1,0 +1,6 @@
+// Renderhint
+renderhint NormalAndSpecMapped
+
+// Textures
+texture0 C_RedWings
+texture1 C_RedWings_N

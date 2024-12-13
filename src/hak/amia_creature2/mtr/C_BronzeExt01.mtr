@@ -1,0 +1,8 @@
+// Renderhint
+renderhint NormalAndSpecMapped
+
+// Textures
+texture0 C_BronzeWin
+texture1 C_BronzeWin_N
+texture2 C_BronzeWin_s
+texture3 C_BronzeWin_r
