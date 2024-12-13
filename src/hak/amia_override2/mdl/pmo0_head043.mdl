@@ -1,17 +1,17 @@
-newmodel pmo0_head039
-setsupermodel pmo0_head039 null
+newmodel pmo0_head043
+setsupermodel pmo0_head043 null
 classification CHARACTER
 setanimationscale 1.0
-beginmodelgeom pmo0_head039
-node dummy pmo0_head039
+beginmodelgeom pmo0_head043
+node dummy pmo0_head043
   parent null
 endnode
-node danglymesh pmo0_head039g
-  parent pmo0_head039
+node danglymesh pmo0_head043g
+  parent pmo0_head043
   position -0.00507 -0.00914 -0.00732
   orientation  0.00000  0.70711  0.70711  3.14159
   wirecolor 0.89 0.84 0.60
-  bitmap pmo0_head039
+  bitmap pmo0_head043
   shininess 1
   ambient 1.00 1.00 1.00
   diffuse 1.00 1.00 1.00
@@ -2763,5 +2763,5 @@ node danglymesh pmo0_head039g
       0.0
       0.0
 endnode
-endmodelgeom pmo0_head039
-donemodel pmo0_head039
+endmodelgeom pmo0_head043
+donemodel pmo0_head043
