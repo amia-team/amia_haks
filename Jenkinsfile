@@ -269,8 +269,7 @@ pipeline {
                 }
 			}
         }
-        }
-		stage('Deploy-Haks-Dev') {
+        stage('Deploy-Haks-Dev') {
             when {
                 expression {
                     return params.DEPLOY_DEV == 'Yes'
@@ -288,7 +287,9 @@ pipeline {
                 }
 			}
         }
-    }
+        }
+
+
     post {
         always {
             echo 'Finalizing results.' 
