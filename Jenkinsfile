@@ -269,6 +269,25 @@ pipeline {
                 }
 			}
         }
+        }
+		stage('Deploy-Haks-Dev') {
+            when {
+                expression {
+                    return params.DEPLOY_DEV == 'Yes'
+                }
+            }
+            steps {
+ 				 script {
+                    sh "chmod +x deploy.sh"
+                    sh "dos2unix deploy.sh"
+					sh "./linux-pack-all.sh"
+                    sh "./deploy.sh /home/amia/dev_server/server/"
+					sh "chmod +x cleanup.sh"
+                    sh "dos2unix cleanup.sh"
+					sh "./cleanup.sh"
+                }
+			}
+        }
     }
     post {
         always {
