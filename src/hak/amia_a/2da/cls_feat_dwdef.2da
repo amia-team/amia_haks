@@ -207,4 +207,6 @@
 204    LIVING_BULWARK                                      1334         3      7                 1
 205    STONEGUARD                                          1335         3      9                 1
 206    DEFENDERS_DUTY                                      1336         3      11                1      
-207    DD_PERFECT_HEALTH                                   747          3      20                0  
+207    DD_PERFECT_HEALTH                                   747          3      20                0
+208    PLAYER_TOOLS                                        1337          1      99                1
+209    DM_TOOLS                                            1338          1      99                1       

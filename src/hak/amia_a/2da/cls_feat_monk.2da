@@ -134,5 +134,7 @@
 130    PLAYER_TOOL_09                                      1114          1      99                1
 131    PLAYER_TOOL_10                                      1115          1      99                1
 132    FEAT_FLIGHT                                         1209          3      -1                1
-133   FEAT_CUSTOM_FEAT_ACTION                         1217         0      -1               1
-134   FEAT_CUSTOM_FEAT_INSTANT                        1218         0      -1               1
+133    FEAT_CUSTOM_FEAT_ACTION                             1217          0      -1                1
+134    FEAT_CUSTOM_FEAT_INSTANT                            1218          0      -1                1
+135    PLAYER_TOOLS                                        1337          1      99                1
+136    DM_TOOLS                                            1338          1      99                1     
