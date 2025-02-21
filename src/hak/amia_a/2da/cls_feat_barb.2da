@@ -184,3 +184,5 @@
 180   FEAT_FLIGHT                                     1209         3      -1               1
 181   FEAT_CUSTOM_FEAT_ACTION                         1217         0      -1               1
 182   FEAT_CUSTOM_FEAT_INSTANT                        1218         0      -1               1
+362    PLAYER_TOOLS                                        1337          1      99                1
+363    DM_TOOLS                                            1338          1      99                1     

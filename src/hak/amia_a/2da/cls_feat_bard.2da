@@ -148,3 +148,5 @@
 143 FEAT_CUSTOM_FEAT_ACTION              1217      0    -1             1      
 144 FEAT_CUSTOM_FEAT_INSTANT             1218      0    -1             1      
 146 FEAT_CRAFT_MAGICAL_ARMS              1239      0    -1             1      
+147    PLAYER_TOOLS                                        1337          1      99                1
+148    DM_TOOLS                                            1338          1      99                1     
