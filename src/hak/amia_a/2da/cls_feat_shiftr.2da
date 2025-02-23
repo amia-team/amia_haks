@@ -129,3 +129,5 @@
 125  ElementalShape4                           342       3    24             0      
 126  FEAT_EPIC_DRUID_INFINITE_ELEMENTAL        1069      3    24             0      
 127  FEAT_FLIGHT                               1209      3    -1             1      
+128   PLAYER_TOOLS                           1337        1      99               1
+129  DM_TOOLS                               1338        1      99               1     

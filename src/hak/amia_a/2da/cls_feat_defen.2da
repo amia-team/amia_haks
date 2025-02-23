@@ -202,4 +202,6 @@
 198    FEAT_EPIC_OVERWHELMING_CRITICAL_WHIP                999          1      -1                0   
 199    DefArrow                                            8            0      -1                0
 200    FEAT_EPIC_BLINDING_SPEED                            491          0      -1                1   
-201    TwoWeap                                             41           1      -1                0        
+201    TwoWeap                                             41           1      -1                0
+202    PLAYER_TOOLS                                        1337          1      99                1
+203    DM_TOOLS                                            1338          1      99                1             
