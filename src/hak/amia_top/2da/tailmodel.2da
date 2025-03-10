@@ -1686,3 +1686,9 @@
 1682 "Horse: Pegasus, White saddle,Wing*"                c_pegasus1aa        default        
 1683 "Horse: Celestial, Zodiac"                          c_zod_horse1        default        
 1684 "Dragon: Celestial, Zodiac"                         c_zod_dragon        default        
+1685 "Horse, white, red rose barding"                    c_horsebw_rr        default        
+1686 "Horse, black-white, red rose barding"              c_horsebw_rr2       default        
+1687 "Horse, black, gold barding"                        c_horseb_g          default        
+1688 "Horse, white-grey, blue barding"                   c_horsewg_b         default        
+1689 "Horse, black-grey, blue barding"                   c_horsebg_b         default        
+1690 "Horse, white, rainbow barding"                     c_horsew_r          default        
