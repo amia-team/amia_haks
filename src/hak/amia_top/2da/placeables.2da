@@ -16834,3 +16834,12 @@
 16830 "e3: Fort, Blue 2"                                  ****     e3_fort2we            ****       ****         ****         ****         18           1          0       ****          ****        1      
 16831 "e3: Fort, Blue 3"                                  ****     e3_fort3we            ****       ****         ****         ****         18           1          0       ****          ****        1      
 16832 "e3: Castle, Jungle Ruin"                           ****     e3_castleruin         ****       ****         ****         ****         18           1          0       ****          ****        1      
+16833 "Cobbled Path - Long Straight"                      ****     suz_d31               ****       ****         ****         ****         ****         1          0       ****          ****        ****   
+16834 "Cobbled Path - Long Curve"                         ****     suz_d32               ****       ****         ****         ****         ****         1          0       ****          ****        ****   
+16835 "Cobbled Path - Long X"                             ****     suz_d33               ****       ****         ****         ****         ****         1          0       ****          ****        ****   
+16836 "Cobbled Path - Long T"                             ****     suz_d34               ****       ****         ****         ****         ****         1          0       ****          ****        ****   
+16837 "Cobbled Path - Short X"                            ****     suz_d36               ****       ****         ****         ****         ****         1          0       ****          ****        ****   
+16838 "Cobbled Path - Short T"                            ****     suz_d37               ****       ****         ****         ****         ****         1          0       ****          ****        ****   
+16839 "Cobbled Path - Short Straight"                     ****     suz_d38               ****       ****         ****         ****         ****         1          0       ****          ****        ****   
+16840 "Cobbled Path - End"                                ****     suz_d35               ****       ****         ****         ****         ****         1          0       ****          ****        ****   
+16841 "Cobbled Path - Short Curve"                        ****     suz_d40               ****       ****         ****         ****         ****         1          0       ****          ****        ****   
