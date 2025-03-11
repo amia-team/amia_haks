@@ -1,0 +1,169 @@
+#MAXMODEL ASCII
+# model: vfx_dr_immblze
+filedependancy vfx_dr_immblze.max
+newmodel vfx_dr_immblze
+setsupermodel vfx_dr_immblze NULL
+classification EFFECT
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vfx_dr_immblze
+node dummy vfx_dr_immblze
+  parent NULL
+endnode
+
+node dummy Dummy01
+  parent vfx_dr_immblze
+  position 0 0 0
+  orientation 0 0 0 0
+endnode
+
+node emitter OmenEmitter01
+  parent vfx_dr_immblze
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 1
+  spawntype 0
+  update Single
+  render Billboard_to_Local_Z
+  blend Lighten
+  texture vfx_dr_immblze
+  xgrid 8
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0 0.05
+  orientation 0 0 0 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 31
+  birthrate 1
+  lifeExp -1
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 30
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+
+  
+endmodelgeom vfx_dr_immblze
+
+#MAXANIM ASCII
+newanim impact vfx_dr_immblze
+  length 3.0
+  transtime 0.25
+  animroot vfx_dr_immblze
+
+  node dummy vfx_dr_immblze
+    parent NULL
+  endnode
+
+  node emitter OmenEmitter01
+    parent vfx_dr_immblze
+    alphaStartkey 3
+         0.0000000    0.0000000
+         2.5    0.5000000
+         3.0     1.0000000
+    alphaEndkey 3
+         0.0000000    0.0000000
+         2.5    0.5000000
+         3.0     1.0000000
+    sizeStartkey 4
+         0.0000000    0
+         1.0333333    1
+         2.5    1.5
+         3.0    1.5
+    sizeEndkey 4
+         0.0000000    0
+         1.0333333    1
+         2.5    1.5
+         3.0   1.5 		 
+  endnode 
+ 
+doneanim impact vfx_dr_immblze
+
+#MAXANIM ASCII
+newanim duration vfx_dr_immblze
+  length 4
+  transtime 0.25  
+  animroot vfx_dr_immblze
+  
+  node dummy vfx_dr_immblze
+    parent NULL
+  endnode
+
+  node emitter OmenEmitter01
+    parent vfx_dr_immblze
+
+    orientationkey 5
+         0.0    0.0000000    0.0000000    0.0000000    0.0000000
+         1.0   -0.0000000   -0.0000000    1.0000000   -1.5707999
+         2.0   -0.0000000   -0.0000000    1.0000000   -3.1415901
+         3.0   -0.0000000   -0.0000000    1.0000000   -4.7123899
+         4.0    0.0000000    0.0000000    0.0000000    0.0000000
+		 
+  endnode
+  
+  
+  
+  
+doneanim duration vfx_dr_immblze
+
+#MAXANIM ASCII
+newanim cessation vfx_dr_immblze
+  length 0.666667
+  transtime 0.25
+  animroot vfx_dr_immblze
+
+  node dummy vfx_dr_immblze
+    parent NULL
+  endnode
+
+  node emitter OmenEmitter01
+    parent vfx_dr_immblze
+    alphaStartkey 3
+         0.0000000    1.0000000
+         0.0333333    0.5000000
+         0.666667     0.0000000
+    alphaEndkey 3
+         0.0000000    1.0000000
+         0.0333333    0.5000000
+         0.666667     0.0000000
+  endnode 
+  
+doneanim cessation vfx_dr_immblze
+
+donemodel vfx_dr_immblze

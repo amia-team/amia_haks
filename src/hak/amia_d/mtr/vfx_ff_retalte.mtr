@@ -1,0 +1,9 @@
+renderhint NormalAndSpecMapped
+ 
+// Textures 
+texture0 vfx_ff_retalte_d
+texture1 vfx_ff_retalte_n
+texture2 vfx_ff_retalte_s
+texture3 vfx_ff_retalte_r
+texture4 null
+texture5 vfx_ff_retalte_d
