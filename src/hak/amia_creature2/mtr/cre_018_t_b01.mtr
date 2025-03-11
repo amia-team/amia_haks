@@ -1,0 +1,10 @@
+ 
+renderhint NormalAndSpecMapped
+ 
+// Textures 
+texture0 cre_018_t_b01_d
+texture1 cre_018_t_b01_n
+texture2 null
+texture3 cre_018_t_b01_r
+texture4 null
+texture5 cre_018_t_b01_i
