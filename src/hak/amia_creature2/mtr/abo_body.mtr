@@ -1,0 +1,8 @@
+renderhint NormalAndSpecMapped
+
+texture0 abo_body // Diffuse
+texture1 null // Normal
+texture2 abo_body_s // Specular
+texture3 abo_body_r // Roughness
+texture4 null // Height
+texture5 null // Illumination
