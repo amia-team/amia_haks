@@ -1,0 +1,8 @@
+
+renderhint NormalAndSpecMapped
+
+// Textures
+texture0 bastardsword1_d
+texture1 null
+texture2 bastardsword1_s
+texture3 bastardsword1_r
