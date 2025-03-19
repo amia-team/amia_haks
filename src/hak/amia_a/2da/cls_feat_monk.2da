@@ -21,7 +21,7 @@
 17         ImprovedEvasion                           212       3    9              0      
 18         DiamondBody                               214       3    11             0      
 19         DiamondSoul                               215       3    12             0      
-20         MONK_POE                                  1225      3    12             1      
+20         MonkPoe_Base                              1225      3    12             1      
 21         KiBarrier                                 1344      3    14             1      
 22         EmptyBody                                 297       3    15             1      
 23         QuiveringPalmNew                          1345      3    17             1      
@@ -30,7 +30,7 @@
 26         PerfectSelf                               216       3    20             1      
 27         KiStrike2                                 343       3    24             0      
 28         KiStrike3                                 344       3    30             0      
-29         MONK_POE_CRASHINGMETEOR                   1227      3    99             1      
+29         MonkPoe_CrashingMeteor                    1227      3    99             1      
 30         BodyKiPoint1                              1347      3    7              1      
 31         BodyKiPoint2                              1348      3    11             1      
 32         BodyKiPoint3                              1349      3    15             1      
