@@ -1,0 +1,12 @@
+# NeverBlender 4.0.9|Blender 4.0.2|2025-03-09
+filedependancy new_weapons1.blend
+newmodel wswls_b_093
+setsupermodel wswls_b_093 null
+classification CHARACTER
+setanimationscale 1.0
+beginmodelgeom wswls_b_093
+node dummy wswls_b_093
+  parent null
+endnode
+endmodelgeom wswls_b_093
+donemodel wswls_b_093

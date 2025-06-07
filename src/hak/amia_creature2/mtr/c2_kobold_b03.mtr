@@ -1,0 +1,10 @@
+ 
+renderhint NormalAndSpecMapped
+ 
+// Textures 
+texture0 c2_kobold_b03_d
+texture1 c2_kobold_b03_n
+texture2 c2_kobold_b03_s
+texture3 c2_kobold_b03_r
+texture4 null
+texture5 c2_kobold_b03_i

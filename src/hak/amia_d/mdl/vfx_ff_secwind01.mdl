@@ -1,0 +1,470 @@
+#MAXMODEL ASCII
+# model: vfx_ff_secwind01
+filedependancy vfx_ff_secwind01.max
+newmodel vfx_ff_secwind01
+setsupermodel vfx_ff_secwind01 NULL
+classification EFFECT
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom vfx_ff_secwind01
+node dummy vfx_ff_secwind01
+  parent NULL
+endnode
+ 
+node dummy Dummy01
+  parent vfx_ff_secwind01
+  position 0 0 0.5
+  orientation 0 0 -1 -4.71239
+endnode
+node emitter star
+  parent Dummy01
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture vfx_ff_secwind01
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position -0.000980406 0 -0.235267
+  orientation 0 -1 0 -1.5708
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 1
+  sizeEnd 0.8
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 1
+  lifeExp 0.1
+  mass 0
+  spread 0
+  particleRot 5
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter spark
+  parent star
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 1
+  update Fountain
+  render Normal
+  blend Lighten
+  texture vfx_ff_secwind01
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 -0.000247645 -0.000135355
+  orientation 0 1 0 -1.5708
+  colorStart 0.533333 0 0
+  colorEnd 0.533333 0 0
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 0.4
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 3
+  lifeExp 1
+  mass 0
+  spread 3.49066
+  particleRot 0.5
+  velocity 1
+  randvel 0.5
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter spark01
+  parent star
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 1
+  update Fountain
+  render Normal
+  blend Lighten
+  texture vfx_ff_secwind01
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 -0.000247645 -0.000135355
+  orientation 0 1 0 -1.5708
+  colorStart 1 1 1
+  colorEnd 0.533333 0 0
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 0.4
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 10
+  lifeExp 1
+  mass 0
+  spread 6.28319
+  particleRot 0.5
+  velocity 0
+  randvel 0.3
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter star01
+  parent Dummy01
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture vfx_ff_secwind01
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position -0.001231 -1.35172e-07 -0.229365
+  orientation 0 -1 0 -1.5708
+  colorStart 0.533333 0 0
+  colorEnd 0.533333 0 0
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 1
+  sizeEnd 0.8
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 0
+  lifeExp 0.1
+  mass 0
+  spread 0
+  particleRot 5
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter spark02
+  parent star01
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 1
+  update Fountain
+  render Normal
+  blend Lighten
+  texture vfx_ff_secwind01
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 -0.000247645 -0.000135355
+  orientation 0 1 0 -1.5708
+  colorStart 0.533333 0 0
+  colorEnd 0.533333 0 0
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 0.4
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 3
+  lifeExp 1
+  mass 0
+  spread 3.49066
+  particleRot 0.5
+  velocity 1
+  randvel 0.5
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter spark03
+  parent star01
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 1
+  update Fountain
+  render Normal
+  blend Lighten
+  texture vfx_ff_secwind01
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 -0.000247645 -0.000135355
+  orientation 0 1 0 -1.5708
+  colorStart 1 1 1
+  colorEnd 0.533333 0 0
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 0.4
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 10
+  lifeExp 1
+  mass 0
+  spread 6.28319
+  particleRot 0.5
+  velocity 0
+  randvel 0.3
+  fps 0
+  xsize 0
+  ysize 0
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+
+node light flash
+  parent vfx_ff_secwind01
+  ambientonly 0
+  shadow 1
+  isdynamic 1
+  affectdynamic 1
+  lightpriority 1
+  fadingLight 0
+  flareradius 0
+  position -0.00110271 0.0147955 1.05231
+  orientation 0 0 0 0
+  radius 6
+  multiplier 15
+  color 1.0000000     .4            0
+endnode
+
+endmodelgeom vfx_ff_secwind01
+
+#MAXANIM ASCII
+newanim impact vfx_ff_secwind01
+  length 3
+  transtime 0
+  animroot vfx_ff_secwind01
+  event 0.466667 detonate
+  node dummy vfx_ff_secwind01
+    parent NULL
+  endnode
+  node dummy Dummy01
+    parent vfx_ff_secwind01
+    orientationkey 8
+         0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+         0.0333333    0.0000000    0.0000000    0.0000000    0.0000000
+         0.1666670   -0.0000000   -0.0000000   -1.0000000   -1.5707999
+         0.3333330   -0.0000000   -0.0000000   -1.0000000   -3.1415901
+         0.5000000   -0.0000000   -0.0000000   -1.0000000   -4.7123899
+         0.5333330   -0.0000000   -0.0000000   -1.0000000   -4.7123899
+         1.0000000   -0.0000000   -0.0000000   -1.0000000   -4.7123899
+         3.0000000   -0.0000000   -0.0000000   -1.0000000   -4.7123899
+  endnode
+  node emitter star
+    parent Dummy01
+    positionkey 4
+         0.0000000   -1.9945700    0.0000000    1.2517900
+         0.0333333   -1.0112799    0.0000000    0.6108140
+         0.2666670   -0.5061300    0.0000000   -0.0149068
+         0.5000000   -0.0009804    0.0000000   -0.2352670
+    birthratekey 2
+         0.0000000   10.6250000
+         0.5333330    0.6250000
+  endnode
+  node light flash
+    parent vfx_ff_secwind01
+    colorkey 4
+         0.0000000    1.0000000     .4            0
+         0.1333330    1.0000000     .4           0
+         0.4333330    1.0000000     .4            0
+         1.8000000    0 0 0
+    radiuskey 3
+         0.1333330   5.0000000
+         0.4333330   3.0000000
+         1.8000000    3.0000000
+	multiplier 6	 
+  endnode    
+  node emitter spark
+    parent star
+  endnode
+  node emitter spark01
+    parent star
+  endnode
+  node emitter star01
+    parent Dummy01
+    positionkey 4
+         0.0000000    2.0050499    0.0000000    1.2517900
+         0.0333333    0.9694640    0.0000000    0.6108140
+         0.2666670    0.4841160    0.0000000   -0.0119664
+         0.5000000   -0.0012310   -0.0000001   -0.2293650
+    birthratekey 3
+         0.0000000   10.0000000
+         0.5000000   10.0000000
+         0.5333330    0.0000000
+  endnode
+  node emitter spark02
+    parent star01
+  endnode
+  node emitter spark03
+    parent star01
+  endnode
+
+doneanim impact vfx_ff_secwind01
+
+donemodel vfx_ff_secwind01
