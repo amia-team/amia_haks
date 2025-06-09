@@ -262,6 +262,23 @@ pipeline {
                     sh "dos2unix deploy.sh"
 					sh "./linux-pack-all.sh"
                     sh "./deploy.sh /home/amia/amia_server/server/"
+					sh "chmod +x cleanup.sh"
+                    sh "dos2unix cleanup.sh"
+					sh "./cleanup.sh"
+                }
+			}
+        }
+		stage('Deploy-Haks-Test') {
+            when {
+                expression {
+                    return params.DEPLOY_TEST == 'Yes'
+                }
+            }
+            steps {
+ 				 script {
+                    sh "chmod +x deploy.sh"
+                    sh "dos2unix deploy.sh"
+					sh "./linux-pack-all.sh"
 					sh "./deploy.sh /home/amia/amia_server/test_server/"
 					sh "chmod +x cleanup.sh"
                     sh "dos2unix cleanup.sh"
