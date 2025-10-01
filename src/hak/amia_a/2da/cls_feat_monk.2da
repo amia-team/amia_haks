@@ -141,8 +141,8 @@
 137        FEAT_MONKEY_GRIP                          1246      1    -1             1      
 138        MonkPoe_Base                              1357      3    99             1      
 139        MonkPoe_CrashingMeteor                    1359      3    99             1      
-140        MonkSpeedNew                              1339      3    99             1      
-141        MonkDefense                               1340      3    99             1      
+140        MonkSpeedNew                              1339      3    99             0      
+141        MonkDefense                               1340      3    99             0      
 142        StunningStrikeNew                         1341      3    99             1      
 143        EagleStrike                               1342      3    99             1      
 144        AxiomaticStrike                           1343      3    99             1      
