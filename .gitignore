@@ -8,3 +8,4 @@
 # Ignore the nasher directory
 .nasher/
 PackAmiaCreature.bat
+*.kate-swp
