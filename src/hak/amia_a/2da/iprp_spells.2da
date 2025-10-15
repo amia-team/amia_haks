@@ -370,7 +370,7 @@
 366 Inflict_Critical_Wounds        9111     12        4         21000  435        0         1       1          iss_X1InfCri     
 367 BalagarnsIronHorn              9112     7         2         4500   436        0         1       1          iss_X1Bala       
 368 Drown                          9113     15        6         49500  437        0         1       1          iss_X1Drown      
-369 Owls_Insight                   9114     15        5         33750  438        1         1       1          iss_X1OwlIns     
+369 Owls_Insight                   9114     7         5         33750  438        1         1       1          iss_X1OwlIns     
 370 Electric_Jolt                  9115     1         0         500    439        0         1       1          iss_X1EleJol     
 371 Firebrand                      9116     15        5         33750  440        0         1       1          iss_X1Firebra    
 372 Wounding_Whispers              9117     9         3         11250  441        0         1       1          iss_X1WouWhi     
