@@ -513,12 +513,12 @@
 509 ****                           ****     ****      ****      ****   ****       ****      ****    ****       ****             
 510 ****                           ****     ****      ****      ****   ****       ****      ****    ****       ****             
 511 Greater_Magic_Weapon           83618    10        3         11250  545        0         0       1          iss_X2GrMgWeap   
-512 Greater_Magic_Weapon           83619    15        3         11250  545        0         0       1          iss_X2GrMgWeap   
+512 Greater_Magic_Weapon           83618    10        3         11250  545        0         0       1          iss_X2GrMgWeap   
 513 ACTIVATE_ITEM_L                83622    1         1         1      697        1         1       1          iss_ActItem01    
 514 Flame_Weapon                   83850    10        2         4500   542        0         0       1          iss_X2FlmeWeap   
 515 Flame_Weapon                   83848    17        2         4500   542        0         0       1          iss_X2FlmeWeap   
 516 Bless_Weapon                   83851    10        1         3750   537        0         0       1          iss_X2BlssWeap   
-517 Bless_Weapon                   83849    17        1         3750   537        0         0       1          iss_X2BlssWeap   
+517 Bless_Weapon                   83851    10        1         3750   537        0         0       1          iss_X2BlssWeap   
 518 Holy_Sword                     83852    17        4         20000  538        0         0       1          iss_X2HolySwrd   
 519 Keen_Edge                      83853    10        3         11250  539        0         0       1          iss_X2KeenEdge   
 520 Keen_Edge                      83854    17        3         11250  539        0         0       1          iss_X2KeenEdge   
