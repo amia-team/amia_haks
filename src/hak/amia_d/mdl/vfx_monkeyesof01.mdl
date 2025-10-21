@@ -1,0 +1,16 @@
+# Exported from NWmax 0.8 b47 at 1/24/2006 3:26:42 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: vfx_monkeyesof01
+filedependancy Unknown
+newmodel vfx_monkeyesof01
+setsupermodel vfx_monkeyesof01 NULL
+classification Effect
+#NWmax GEOM  ASCII
+beginmodelgeom vfx_monkeyesof01
+node dummy vfx_monkeyesof01
+  parent NULL
+endnode
+endmodelgeom vfx_monkeyesof01
+donemodel vfx_monkeyesof01
