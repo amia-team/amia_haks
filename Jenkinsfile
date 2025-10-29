@@ -224,6 +224,18 @@ pipeline {
                 }
             }
         }
+		stage('Pack Amia Nui') {
+            when {
+                changeset "src/hak/amia_nui/**/**"
+            }
+            steps {
+                 script {
+                    sh "chmod +x pack.sh"
+                    sh "dos2unix pack.sh"
+                    sh "./pack.sh hak amia_nui"
+                }
+            }
+        }
         stage('Pack Amia TLK') {
             when {
                 changeset "src/tlk/amia_tlk/tlk/**"
