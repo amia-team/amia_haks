@@ -1,5 +1,6 @@
 #!/bin/bash
 docker run --rm -t -u $(id -u):$(id -g) -v "$(pwd):/nasher" -v "$(pwd):/root/.local/share/Neverwinter Nights/$1/" cltalmadge/nasher:0.20.2 pack --clean --verbose --yes amia_top;
+docker run --rm -t -u $(id -u):$(id -g) -v "$(pwd):/nasher" -v "$(pwd):/root/.local/share/Neverwinter Nights/$1/" cltalmadge/nasher:0.20.2 pack --clean --verbose --yes amia_nui;
 docker run --rm -t -u $(id -u):$(id -g) -v "$(pwd):/nasher" -v "$(pwd):/root/.local/share/Neverwinter Nights/$1/" cltalmadge/nasher:0.20.2 pack --clean --verbose --yes amia_parts;
 docker run --rm -t -u $(id -u):$(id -g) -v "$(pwd):/nasher" -v "$(pwd):/root/.local/share/Neverwinter Nights/$1/" cltalmadge/nasher:0.20.2 pack --clean --verbose --yes amia_races;
 docker run --rm -t -u $(id -u):$(id -g) -v "$(pwd):/nasher" -v "$(pwd):/root/.local/share/Neverwinter Nights/$1/" cltalmadge/nasher:0.20.2 pack --clean --verbose --yes amia_plc;
