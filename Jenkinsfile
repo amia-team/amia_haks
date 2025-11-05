@@ -323,20 +323,33 @@ pipeline {
         always {
             echo 'Finalizing results.' 
         }
-        success {
-            archiveArtifacts artifacts: '*.hak', followSymlinks: false, allowEmptyArchive: true
-            archiveArtifacts artifacts: '*.tlk', followSymlinks: false, allowEmptyArchive: true
-            archiveArtifacts artifacts: '*.zip', followSymlinks: false, allowEmptyArchive: true
-            echo 'Build complete'
-			script {
-				echo 'Updating NWSync data...'
-				sh '''
-					pushd /home/amia/amia_server/nwsync_test
-					./bin/nwn_nwsync_write --description="Amia Server Data" data/ ../test_server/modules/Amia.mod
-					./bin/nwn_nwsync_prune data
-					popd
-				'''
-			}
+    success {
+        archiveArtifacts artifacts: '*.hak', followSymlinks: false, allowEmptyArchive: true
+        archiveArtifacts artifacts: '*.tlk', followSymlinks: false, allowEmptyArchive: true
+        archiveArtifacts artifacts: '*.zip', followSymlinks: false, allowEmptyArchive: true
+        echo 'Build complete'
+        script {
+            echo 'Updating NWSync data...'
+            sh '''
+                #!/bin/bash
+				pushd /home/amia/amia_server/nwsync_test
+                ./bin/nwn_nwsync_write --description="Amia Server Data" data/ ../test_server/modules/Amia.mod
+                ./bin/nwn_nwsync_prune data
+                popd
+            '''
+        }
+        script {
+            echo 'Resetting test-server via docker-compose...'
+            sh '''
+                #!/bin/bash
+				set -eu
+                DC="docker-compose"
+                pushd /home/amia/amia_server
+                $DC stop test-server
+                $DC rm -f test-server
+                $DC up -d test-server database-test nwsync-test webui
+                popd
+            '''
         }
     }
 }
