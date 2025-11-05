@@ -312,30 +312,30 @@ pipeline {
             echo 'Build complete'
             script {
                 echo 'Updating NWSync data...'
-                sh '''
-                    set -Eeuo pipefail
-                    bash -lc '
-                        pushd /home/amia/amia_server/nwsync_test
+                sh '''#!/bin/bash
+                    set -euo pipefail
+                    cd /home/amia/amia_server/nwsync_test
+                    if [ -f ./bin/nwn_nwsync_write ] && [ -f ../test_server/modules/Amia.mod ]; then
                         ./bin/nwn_nwsync_write --description="Amia Server Data" data/ ../test_server/modules/Amia.mod
                         ./bin/nwn_nwsync_prune data
-                        popd
-                    '
+                    else
+                        echo "NWSync files not found, skipping..."
+                    fi
                 '''
             }
             script {
                 echo 'Resetting test-server via docker-compose...'
-                sh '''
-                    set -Eeuo pipefail
-                    bash -lc '
-                        DC="docker-compose"
-                        pushd /home/amia/amia_server
-                        $DC stop test-server
-                        $DC rm -f test-server
-                        $DC up -d test-server database-test nwsync-test webui
-                        popd
-                    '
+                sh '''#!/bin/bash
+                    set -euo pipefail
+                    cd /home/amia/amia_server
+                    if command -v docker-compose &> /dev/null; then
+                        docker-compose stop test-server || true
+                        docker-compose rm -f test-server || true
+                        docker-compose up -d test-server database-test nwsync-test webui
+                    else
+                        echo "docker-compose not found, skipping..."
+                    fi
                 '''
             }
         }
-    }
 }
