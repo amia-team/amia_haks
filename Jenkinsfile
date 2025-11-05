@@ -328,6 +328,15 @@ pipeline {
             archiveArtifacts artifacts: '*.tlk', followSymlinks: false, allowEmptyArchive: true
             archiveArtifacts artifacts: '*.zip', followSymlinks: false, allowEmptyArchive: true
             echo 'Build complete'
+			script {
+				echo 'Updating NWSync data...'
+				sh '''
+					pushd /home/amia/amia_server/nwsync_test
+					./bin/nwn_nwsync_write --description="Amia Server Data" data/ ../test_server/modules/Amia.mod
+					./bin/nwn_nwsync_prune data
+					popd
+				'''
+			}
         }
     }
 }
