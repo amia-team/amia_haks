@@ -331,24 +331,27 @@ pipeline {
         script {
             echo 'Updating NWSync data...'
             sh '''
-                #!/bin/bash
-				pushd /home/amia/amia_server/nwsync_test
-                ./bin/nwn_nwsync_write --description="Amia Server Data" data/ ../test_server/modules/Amia.mod
-                ./bin/nwn_nwsync_prune data
-                popd
+                set -Eeuo pipefail
+                bash -lc '
+                    pushd /home/amia/amia_server/nwsync_test
+                    ./bin/nwn_nwsync_write --description="Amia Server Data" data/ ../test_server/modules/Amia.mod
+                    ./bin/nwn_nwsync_prune data
+                    popd
+                '
             '''
         }
         script {
             echo 'Resetting test-server via docker-compose...'
             sh '''
-                #!/bin/bash
-				set -eu
-                DC="docker-compose"
-                pushd /home/amia/amia_server
-                $DC stop test-server
-                $DC rm -f test-server
-                $DC up -d test-server database-test nwsync-test webui
-                popd
+                set -Eeuo pipefail
+                bash -lc '
+                    DC="docker-compose"
+                    pushd /home/amia/amia_server
+                    $DC stop test-server
+                    $DC rm -f test-server
+                    $DC up -d test-server database-test nwsync-test webui
+                    popd
+                '
             '''
         }
     }
