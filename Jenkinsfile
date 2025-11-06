@@ -317,7 +317,6 @@ pipeline {
                     cd /home/amia/amia_server/nwsync_test
                     if [ -f ./bin/nwn_nwsync_write ] && [ -f ../test_server/modules/Amia.mod ]; then
                         ./bin/nwn_nwsync_write --description="Amia Server Data" data/ ../test_server/modules/Amia.mod
-                        ./bin/nwn_nwsync_prune data
                     else
                         echo "NWSync files not found, skipping..."
                     fi
@@ -335,6 +334,8 @@ pipeline {
                     else
                         echo "docker-compose not found, skipping..."
                     fi
+                    cd /home/amia/amia_server/nwsync_test
+                    ./bin/nwn_nwsync_prune data
                 '''
             }
         }
