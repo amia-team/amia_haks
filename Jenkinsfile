@@ -311,32 +311,42 @@ pipeline {
             archiveArtifacts artifacts: '*.zip', followSymlinks: false, allowEmptyArchive: true
             echo 'Build complete'
             script {
-                echo 'Updating NWSync data...'
-                sh '''#!/bin/bash
-                    set -euo pipefail
-                    cd /home/amia/amia_server/nwsync_test
-                    if [ -f ./bin/nwn_nwsync_write ] && [ -f ../test_server/modules/Amia.mod ]; then
-                        ./bin/nwn_nwsync_write --description="Amia Server Data" data/ ../test_server/modules/Amia.mod
-                    else
-                        echo "NWSync files not found, skipping..."
-                    fi
-                '''
+				if (params.DEPLOY_TEST == 'Yes') {
+					echo 'Updating NWSync data...'
+					sh '''#!/bin/bash
+						set -euo pipefail
+						cd /home/amia/amia_server/nwsync_test
+						if [ -f ./bin/nwn_nwsync_write ] && [ -f ../test_server/modules/Amia.mod ]; then
+							./bin/nwn_nwsync_write --description="Amia Server Data" data/ ../test_server/modules/Amia.mod
+						else
+							echo "NWSync files not found, skipping..."
+						fi
+					'''
+				}
+				else {
+					echo 'DEPLOY_TEST not selected. Skipping NWSync Update.'
+				}
             }
             script {
-                echo 'Resetting test-server via docker-compose...'
-                sh '''#!/bin/bash
-                    set -euo pipefail
-                    cd /home/amia/amia_server
-                    if command -v docker-compose &> /dev/null; then
-                        docker-compose stop test-server || true
-                        docker-compose rm -f test-server || true
-                        docker-compose up -d test-server database-test nwsync-test webui
-                    else
-                        echo "docker-compose not found, skipping..."
-                    fi
-                    cd /home/amia/amia_server/nwsync_test
-                    ./bin/nwn_nwsync_prune data
-                '''
+				if (params.DEPLOY_TEST == 'Yes') {
+					echo 'Resetting test-server via docker-compose...'
+					sh '''#!/bin/bash
+						set -euo pipefail
+						cd /home/amia/amia_server
+						if command -v docker-compose &> /dev/null; then
+							docker-compose stop test-server || true
+							docker-compose rm -f test-server || true
+							docker-compose up -d test-server database-test nwsync-test webui
+						else
+							echo "docker-compose not found, skipping..."
+						fi
+						cd /home/amia/amia_server/nwsync_test
+						./bin/nwn_nwsync_prune data
+					'''
+				}
+				else {
+					echo 'DEPLOY_TEST not selected. Skipping Restart.'
+				}
             }
         }
     }
