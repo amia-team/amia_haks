@@ -538,6 +538,21 @@
                 "type": "cexostring",
                 "value": "Summon Widgets"
               }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 154
+              },
+              "LIST": {
+                "type": "list",
+                "value": []
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Item Templates"
+              }
             }
           ]
         },
@@ -1316,6 +1331,36 @@
               "NAME": {
                 "type": "cexostring",
                 "value": "Jewelry"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 155
+              },
+              "LIST": {
+                "type": "list",
+                "value": []
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Focuses"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 156
+              },
+              "LIST": {
+                "type": "list",
+                "value": []
+              },
+              "NAME": {
+                "type": "cexostring",
+                "value": "Holdables"
               }
             }
           ]
