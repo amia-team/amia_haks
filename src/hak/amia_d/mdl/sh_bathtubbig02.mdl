@@ -1,0 +1,2126 @@
+# Exported from NWmax 0.8 b54 at 5/4/2020 1:40:38 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: sh_bathtubbig02
+#local file: Unknown
+filedependancy Unknown
+newmodel sh_bathtubbig02
+setsupermodel sh_bathtubbig02 NULL
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom sh_bathtubbig02
+node dummy sh_bathtubbig02
+  parent NULL
+endnode
+node dummy J02_hand
+  parent sh_bathtubbig02
+  position 0.00398926 -0.505197 0.934402
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.223529 0.0313726 0.533333 
+endnode
+node dummy J02_head
+  parent sh_bathtubbig02
+  position 0.00398926 0.0108258 1.5103
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.223529 0.0313726 0.533333 
+endnode
+node dummy J02_head_hit
+  parent sh_bathtubbig02
+  position 0.00398926 0.0108258 1.02882
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.223529 0.0313726 0.533333 
+endnode
+node dummy J02_impact
+  parent sh_bathtubbig02
+  position 0.00398926 0.0109998 0.868134
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.603922 0.72549 0.898039 
+endnode
+node dummy J02_ground
+  parent sh_bathtubbig02
+  position -0.00363281 0.00698791 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.603922 0.72549 0.898039 
+endnode
+node emitter OmenEmitter248
+  parent sh_bathtubbig02
+  position -1.25 0.0 0.37
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 4
+  render Billboard_to_World_Z
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 47.0
+  ySize 78.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 1
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.647059 0.670588 0.847059 
+  colorEnd 0.0 0.0 0.0 
+  alphaStart 0.0
+  alphaEnd 0.7
+  sizeStart 0.8
+  sizeEnd 0.9
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 3
+  lifeExp 3.0
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 0.0
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture PLC_test
+  twosidedtex 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  frameStart 0
+  frameEnd 8
+  random 1
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node emitter ChunkyWood100
+  parent sh_bathtubbig02
+  position -0.000766602 -0.0418286 -2.73459
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawnType 0
+  xSize 89.0
+  ySize 40.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.482353 0.435294 0.317647 
+  colorEnd 0.584314 0.533333 0.407843 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 3
+  lifeExp 0.75
+  mass 3.0
+  spread 1.22173
+  particleRot 2.9
+  velocity 8.0
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10.0
+  loop 0
+  bounce 1
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_cloud02
+  twosidedtex 1
+  xgrid 5
+  ygrid 5
+  fps 0
+  frameStart 0
+  frameEnd 24
+  random 0
+  chunkName PLC_Chunk_S02
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node emitter ChunkyWood101
+  parent sh_bathtubbig02
+  position -0.000766602 -0.0418286 -2.84081
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawnType 0
+  xSize 89.0
+  ySize 40.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 1.0 1.0 
+  colorEnd 1.0 1.0 1.0 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 3
+  lifeExp 0.75
+  mass 3.0
+  spread 1.22173
+  particleRot 5.0
+  velocity 8.0
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10.0
+  loop 0
+  bounce 1
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_cloud02
+  twosidedtex 0
+  xgrid 5
+  ygrid 5
+  fps 0
+  frameStart 0
+  frameEnd 24
+  random 0
+  chunkName PLC_Chunk_S01
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node emitter fire!61
+  parent sh_bathtubbig02
+  position -0.000766602 -0.0418286 -2.91485
+  orientation 1.0 0.0 0.0 -4.71239
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawnType 0
+  xSize 100.0
+  ySize 99.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.47451 0.454902 0.407843 
+  colorEnd 0.819608 0.803922 0.745098 
+  alphaStart 1.0
+  alphaEnd 0.0
+  sizeStart 4.0
+  sizeEnd 1.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 10
+  lifeExp 2.5
+  mass 0.09
+  spread 2.96706
+  particleRot 0.5
+  velocity 2.0
+  randvel 0.5
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 1
+  xgrid 4
+  ygrid 4
+  fps 10
+  frameStart 0
+  frameEnd 24
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.2
+  blastLength 1.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node trimesh damage24
+  parent sh_bathtubbig02
+  position 0.000800171 -0.0592355 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 0.0705882 0.0 1.0 
+  diffuse 1.0 0.501961 0.643137 
+  specular 0.0 0.9 0.105882 
+  shininess 24
+  center 0.0 0.0 25.0 
+  bitmap NULL
+  verts 12
+    -0.195415 -0.186216 0.0
+    -0.195415 0.186216 0.0
+    0.195415 0.186216 0.0
+    0.195415 -0.186216 0.0
+    -0.195415 -0.186216 0.5
+    0.195415 -0.186216 0.5
+    0.195415 0.186216 0.5
+    -0.195415 0.186216 0.5
+    0.103944 -0.0990513 0.25
+    -0.103944 -0.0990513 0.25
+    0.103944 0.0990513 0.25
+    -0.103944 0.0990513 0.25
+  faces 20
+    0 1 2  1  0 0 0  2
+    2 3 0  1  0 0 0  2
+    4 5 6  1  0 0 0  1
+    6 7 4  1  0 0 0  1
+    0 3 8  2  0 0 0  5
+    8 9 0  2  0 0 0  5
+    9 8 5  2  0 0 0  5
+    5 4 9  2  0 0 0  5
+    3 2 10  4  0 0 0  4
+    10 8 3  4  0 0 0  4
+    8 10 6  4  0 0 0  4
+    6 5 8  4  0 0 0  4
+    2 1 11  2  0 0 0  6
+    11 10 2  2  0 0 0  6
+    10 11 7  2  0 0 0  6
+    7 6 10  2  0 0 0  6
+    1 0 9  4  0 0 0  3
+    9 11 1  4  0 0 0  3
+    11 9 4  4  0 0 0  3
+    4 7 11  4  0 0 0  3
+endnode
+node trimesh sh_waterspout
+  parent damage24
+  position -0.000800171 0.0592355 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 10
+  center -219.299 -0.4813 72.4153 
+  bitmap tni01_flrslab
+  verts 43
+    -2.00001 -0.151801 0.948307
+    -2.00001 0.142177 0.948307
+    -2.40776 0.142175 0.93465
+    -2.40776 -0.151806 0.93465
+    -2.14591 -0.00480963 0.5
+    -2.0 0.268592 0.5
+    -2.00001 -0.27821 0.5
+    -2.49999 0.268592 0.5
+    -2.50001 -0.278213 0.5
+    -2.0 0.268587 0.57797
+    -2.00001 -0.278215 0.57797
+    -2.49999 0.268587 0.57797
+    -2.50001 -0.278218 0.57797
+    -2.00001 0.142178 0.752358
+    -2.00001 -0.151801 0.752358
+    -2.0 0.084159 0.778506
+    -2.0 -0.0504495 0.885252
+    -2.00001 -0.0762743 0.877676
+    -2.00001 -0.0770838 0.778506
+    -2.00001 0.083353 0.877676
+    -2.0 0.0546981 0.885252
+    -2.00001 -0.0441631 0.821621
+    -2.08664 -0.0441638 0.821621
+    -2.08663 -0.0504501 0.885252
+    -2.08663 0.0546975 0.885252
+    -2.00001 0.0484157 0.821621
+    -2.08664 0.0484151 0.821621
+    -1.88673 -0.027929 0.759338
+    -1.92111 -0.0455496 0.821381
+    -1.96472 -0.0704442 0.849624
+    -1.94634 -0.0314735 0.757221
+    -1.96472 0.0775168 0.849624
+    -1.92111 0.0526256 0.821381
+    -1.88674 0.035006 0.759338
+    -1.94634 0.0385519 0.757221
+    -1.88598 0.0243965 0.771259
+    -1.88598 -0.0201486 0.771259
+    -1.95746 0.0500658 0.853568
+    -1.92036 0.0344207 0.822402
+    -1.92036 -0.0301681 0.822402
+    -1.95746 -0.0458148 0.853568
+    -1.96456 -0.0383389 0.800657
+    -1.96456 0.0425886 0.800657
+  faces 80
+    0 1 2  1  54 55 56  3
+    2 3 0  1  56 57 54  3
+    5 6 4  1  59 60 58  3
+    7 5 4  2  62 63 61  3
+    8 7 4  1  65 66 64  3
+    6 8 4  2  68 62 67  3
+    6 5 9  4  69 70 71  3
+    9 10 6  4  71 72 69  3
+    5 7 11  8  73 74 75  3
+    11 9 5  8  75 76 73  3
+    7 8 12  4  77 69 72  3
+    12 11 7  4  72 71 77  3
+    8 6 10  8  78 79 76  3
+    10 12 8  8  76 80 78  3
+    10 9 13  4  81 82 83  3
+    13 14 10  4  83 84 81  3
+    9 11 2  2  76 75 85  3
+    2 13 9  16  85 86 76  3
+    11 12 3  32  71 72 87  3
+    3 2 11  32  88 89 71  3
+    3 10 14  2  90 91 92  3
+    10 3 12  16  91 90 93  3
+    14 13 15  1  94 95 96  3
+    16 0 17  8  97 98 99  3
+    2 1 13  8  90 100 92  3
+    3 14 0  64  101 102 103  3
+    17 0 14  8  104 105 106  3
+    18 17 14  16  107 104 106  3
+    19 13 1  2  108 109 110  3
+    15 13 19  2  111 109 108  3
+    14 15 18  32  94 96 112  3
+    20 19 1  4  113 114 115  3
+    1 0 16  4  115 98 97  3
+    16 20 1  4  97 113 115  3
+    16 21 22  1  116 117 118  3
+    22 23 16  1  118 119 116  3
+    20 16 23  2  120 121 122  3
+    23 24 20  2  121 120 123  3
+    21 25 26  2  124 125 126  3
+    26 22 21  2  126 127 124  3
+    25 20 24  1  128 129 130  3
+    24 26 25  1  130 131 128  3
+    27 28 29  1  0 1 2  5
+    29 17 18  1  2 3 4  5
+    18 30 27  1  4 5 0  5
+    29 18 27  1  2 4 0  5
+    15 19 31  8  6 7 8  6
+    31 32 33  8  8 9 10  6
+    33 34 15  8  10 11 6  6
+    31 33 15  8  8 10 6  6
+    27 33 35  2  12 13 14  4
+    35 36 27  2  14 15 12  4
+    32 31 37  1  16 17 18  1
+    37 38 32  2  18 19 16  1
+    28 27 36  4  20 12 15  4
+    36 39 28  8  15 21 20  4
+    35 32 38  4  14 16 19  4
+    32 35 33  16  16 14 13  4
+    40 39 16  16  22 23 24  1
+    36 41 39  1  25 26 27  1
+    39 41 21  4  27 26 28  1
+    21 16 39  32  28 29 27  1
+    35 42 36  32  30 31 32  1
+    41 36 42  32  33 32 31  1
+    42 35 25  8  34 35 36  1
+    38 37 35  64  37 38 35  1
+    35 37 25  128  35 38 36  1
+    20 25 37  16  39 36 38  1
+    34 33 30  64  40 41 42  2
+    27 30 33  64  43 42 41  2
+    42 25 41  64  31 44 33  1
+    21 41 25  64  45 33 44  1
+    29 28 40  2  46 20 47  1
+    39 40 28  64  21 47 20  1
+    31 19 20  32  17 48 49  1
+    20 37 31  256  49 18 17  1
+    15 34 18  64  50 40 51  2
+    30 18 34  64  42 51 40  2
+    17 29 16  64  52 46 53  1
+    40 16 29  128  47 53 46  1
+  tverts 132
+    0.492364 0.121096 0
+    0.476171 0.149365 0
+    0.455629 0.161452 0
+    0.439009 0.174331 0
+    0.439009 0.127806 0
+    0.46429 0.11994 0
+    0.439009 0.135271 0
+    0.439009 0.181722 0
+    0.455629 0.168302 0
+    0.47617 0.15391 0
+    0.492364 0.124011 0
+    0.46429 0.123182 0
+    0.499152 0.152709 0
+    0.487807 0.180098 0
+    0.490047 0.175617 0
+    0.498077 0.156231 0
+    0.469669 0.181569 0
+    0.446204 0.184541 0
+    0.454314 0.173903 0
+    0.47328 0.173782 0
+    0.487367 0.138844 0
+    0.484923 0.145673 0
+    0.516245 0.114441 0
+    0.541012 0.123459 0
+    0.488349 0.11177 0
+    0.492719 0.127045 0
+    0.455704 0.139984 0
+    0.476526 0.150555 0
+    0.439009 0.149541 0
+    0.439009 0.179079 0
+    0.3995 0.180037 0
+    0.390931 0.143022 0
+    0.420482 0.180037 0
+    0.429052 0.143022 0
+    0.455704 0.143731 0
+    0.492719 0.129107 0
+    0.439009 0.153828 0
+    0.476526 0.153545 0
+    0.45905 0.16888 0
+    0.439009 0.183947 0
+    0.534525 0.163071 0
+    0.567801 0.161027 0
+    0.534525 0.122707 0
+    0.567801 0.124751 0
+    0.388187 0.126327 0
+    0.431796 0.126327 0
+    0.472876 0.120149 0
+    0.471598 0.132176 0
+    0.429798 0.180719 0
+    0.434963 0.16825 0
+    0.501667 0.189362 0
+    0.501667 0.0964166 0
+    0.458572 0.111251 0
+    0.453917 0.12249 0
+    0.341414 0.588333 0
+    0.341414 0.390903 0
+    0.573294 0.390903 0
+    0.573294 0.588333 0
+    0.801695 0.628912 0
+    0.297498 0.492971 0
+    0.801889 0.492971 0
+    0.456215 0.624331 0
+    0.136263 0.48839 0
+    0.398516 0.48839 0
+    0.23919 0.504338 0
+    0.801889 0.368397 0
+    0.297498 0.368397 0
+    0.136267 0.624332 0
+    0.398516 0.48839 0
+    0.271387 0.747175 0
+    0.271387 0.379957 0
+    0.342375 0.379957 0
+    0.342375 0.747175 0
+    0.00515866 0.56904 0
+    0.00515866 0.37811 0
+    0.0761492 0.37811 0
+    0.0761492 0.56904 0
+    0.271385 0.379957 0
+    0.00515866 0.37811 0
+    0.00515866 0.56904 0
+    0.0761492 0.37811 0
+    0.352665 0.749436 0
+    0.352665 0.382217 0
+    0.513528 0.467112 0
+    0.513528 0.664541 0
+    0.487406 0.420666 0
+    0.322415 0.56904 0
+    0.671394 0.662281 0
+    0.527632 0.612637 0
+    0.671394 0.464851 0
+    0.486303 0.536649 0
+    0.157286 0.388275 0
+    0.318148 0.388275 0
+    0.157286 0.579205 0
+    0.010363 0.302313 0
+    0.740483 0.308756 0
+    0.595262 0.340317 0
+    0.509869 0.344087 0
+    0.761624 0.2649 0
+    0.574018 0.353602 0
+    0.498901 0.388276 0
+    0.405167 0.420665 0
+    0.237013 0.56904 0
+    0.417765 0.569039 0
+    0.485861 0.350523 0
+    0.661304 0.255672 0
+    0.174577 0.255672 0
+    0.239528 0.349506 0
+    0.435627 0.349997 0
+    0.124342 0.27612 0
+    0.611069 0.27612 0
+    0.189293 0.34898 0
+    0.194796 0.336783 0
+    0.248686 0.344088 0
+    0.177517 0.353602 0
+    0.0313944 0.264901 0
+    0.172878 0.649147 0
+    0.0354451 0.649147 0
+    0.0354451 0.740985 0
+    0.172878 0.740985 0
+    0.636116 0.52586 0
+    0.636116 0.596475 0
+    0.636116 0.596475 0
+    0.636116 0.52586 0
+    0.228284 0.634937 0
+    0.228284 0.75804 0
+    0.0103055 0.75804 0
+    0.0103055 0.634937 0
+    0.0553896 0.649147 0
+    0.195531 0.649147 0
+    0.195529 0.740985 0
+    0.0553867 0.740985 0
+endnode
+node trimesh sh_waterspoutblack
+  parent sh_waterspout
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center -209.96 -0.000115156 84.9999 
+  bitmap PLC_black00
+  verts 4
+    -2.09933 -0.0660434 0.899998
+    -2.09987 -0.0597818 0.8
+    -2.09988 0.0660411 0.899998
+    -2.09933 0.0597817 0.8
+  faces 2
+    0 1 2  1  0 1 2  3
+    2 1 3  1  2 1 3  3
+  tverts 4
+    0.224461 0.666473 0
+    0.229287 0.617616 0
+    0.305195 0.666473 0
+    0.300369 0.617616 0
+endnode
+node emitter fount107
+  parent damage24
+  position -1.9008 0.0592355 0.82
+  orientation 0.0 -1.0 0.0 -1.7017
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 0.0
+  ySize 0.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 1
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 1.0 1.0 
+  colorEnd 1.0 1.0 1.0 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.1
+  sizeEnd 0.5
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 25
+  lifeExp 0.8
+  mass 0.3
+  spread 0.349066
+  particleRot 0.1
+  velocity 0.5
+  randvel 0.3
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture Fxpa_splash
+  twosidedtex 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  frameStart 0
+  frameEnd 0
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node emitter OmenEmitter249
+  parent damage24
+  position -1.5508 0.0592355 0.37
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 4
+  render Billboard_to_World_Z
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 44.0
+  ySize 39.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 1
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 1.0 1.0 
+  colorEnd 0.0 0.0 0.0 
+  alphaStart 1.0
+  alphaEnd 0.0
+  sizeStart 0.0
+  sizeEnd 0.7
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 10
+  lifeExp 3.0
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 0.0
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_ripple
+  twosidedtex 0
+  xgrid 2
+  ygrid 2
+  fps 0
+  frameStart 1
+  frameEnd 1
+  random 1
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node emitter fount108
+  parent damage24
+  position -1.4508 0.0592355 0.375
+  orientation 0.0 1.0 -2.47126e-006 -0.00872665
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 4
+  render Billboard_to_World_Z
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 24.0
+  ySize 34.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 1
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 1.0 1.0 
+  colorEnd 1.0 1.0 1.0 
+  alphaStart 1.0
+  alphaEnd 0.0
+  sizeStart 0.8
+  sizeEnd 1.2
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 3
+  lifeExp 0.5
+  mass 0.3
+  spread 0.909317
+  particleRot 0.1
+  velocity 0.6
+  randvel 0.1
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture Fxpa_splash
+  twosidedtex 0
+  xgrid 1
+  ygrid 1
+  fps 0
+  frameStart 0
+  frameEnd 0
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node trimesh sh_bathtubbig
+  parent damage24
+  position -0.000800171 0.0592355 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 10
+  center 0.0 0.0 25.0 
+  bitmap tni01_flrslab
+  verts 82
+    -2.5 -1.5 0.0
+    -2.0 -1.5 0.0
+    0.0 -1.5 0.0
+    -2.5 -1.0 0.0
+    -2.0 -1.0 0.0
+    0.0 -1.0 0.0
+    -2.5 0.0 0.0
+    -2.0 0.0 0.0
+    0.0 0.0 0.0
+    -2.0 -1.0 0.02
+    -1.5 -1.0 0.02
+    0.0 -1.0 0.02
+    -2.0 -0.5 0.02
+    -1.5 -0.5 0.02
+    0.0 -0.5 0.02
+    -2.0 0.0 0.02
+    -1.5 0.0 0.02
+    0.0 0.0 0.02
+    -2.5 -1.5 0.5
+    -2.0 -1.5 0.5
+    0.0 -1.5 0.5
+    -2.5 0.0 0.5
+    -2.5 -1.0 0.5
+    -2.0 -1.0 0.5
+    -1.5 -1.0 0.5
+    0.0 -1.0 0.5
+    -2.0 0.0 0.5
+    -2.0 -0.5 0.5
+    2.5 -1.5 0.0
+    2.0 -1.5 0.0
+    2.5 -1.0 0.0
+    2.0 -1.0 0.0
+    2.5 0.0 0.0
+    2.0 0.0 0.0
+    2.0 -1.0 0.02
+    1.5 -1.0 0.02
+    2.0 -0.5 0.02
+    1.5 -0.5 0.02
+    2.0 0.0 0.02
+    1.5 0.0 0.02
+    2.5 -1.5 0.5
+    2.0 -1.5 0.5
+    2.5 0.0 0.5
+    2.5 -1.0 0.5
+    2.0 -1.0 0.5
+    1.5 -1.0 0.5
+    2.0 0.0 0.5
+    2.0 -0.5 0.5
+    -2.5 1.5 1.90735e-007
+    -2.0 1.5 1.90735e-007
+    0.0 1.5 1.90735e-007
+    -2.5 1.0 1.71661e-007
+    -2.0 1.0 1.71661e-007
+    0.0 1.0 1.71661e-007
+    -2.0 1.0 0.02
+    -1.5 1.0 0.02
+    0.0 1.0 0.02
+    -2.0 0.5 0.02
+    -1.5 0.5 0.02
+    0.0 0.5 0.02
+    -2.5 1.5 0.5
+    -2.0 1.5 0.5
+    0.0 1.5 0.5
+    -2.5 1.0 0.5
+    -2.0 1.0 0.5
+    -1.5 1.0 0.5
+    0.0 1.0 0.5
+    -2.0 0.5 0.5
+    2.5 1.5 1.90735e-007
+    2.0 1.5 1.90735e-007
+    2.5 1.0 1.71661e-007
+    2.0 1.0 1.71661e-007
+    2.0 1.0 0.02
+    1.5 1.0 0.02
+    2.0 0.5 0.02
+    1.5 0.5 0.02
+    2.5 1.5 0.5
+    2.0 1.5 0.5
+    2.5 1.0 0.5
+    2.0 1.0 0.5
+    1.5 1.0 0.5
+    2.0 0.5 0.5
+  faces 160
+    0 3 4  2  9 10 11  2
+    4 1 0  2  12 13 14  2
+    1 4 5  2  15 16 17  2
+    5 2 1  2  18 19 20  2
+    3 6 7  2  21 22 23  2
+    7 4 3  2  24 25 26  2
+    4 7 8  2  27 28 29  2
+    8 5 4  2  30 31 0  2
+    9 10 13  4  219 220 221  1
+    13 12 9  4  222 223 224  1
+    10 11 14  4  225 226 227  1
+    14 13 10  4  228 229 230  1
+    12 13 16  4  231 232 233  1
+    16 15 12  4  234 235 236  1
+    13 14 17  4  237 238 239  1
+    17 16 13  4  240 241 210  1
+    0 1 19  8  148 149 150  5
+    19 18 0  8  150 151 148  5
+    1 2 20  8  149 152 153  5
+    20 19 1  8  153 150 149  5
+    18 19 24  8  96 97 98  5
+    24 23 18  8  98 99 96  5
+    19 20 25  8  97 100 101  5
+    25 24 19  8  101 98 97  5
+    23 24 10  8  154 155 156  5
+    10 9 23  8  156 157 154  5
+    24 25 11  8  155 158 159  5
+    11 10 24  8  159 156 155  5
+    6 3 22  64  160 161 162  3
+    22 21 6  64  162 163 160  3
+    3 0 18  64  161 148 151  3
+    18 22 3  64  151 162 161  3
+    21 22 27  64  102 103 104  3
+    27 26 21  64  104 105 102  3
+    22 18 23  64  103 96 99  3
+    23 27 22  64  99 104 103  3
+    26 27 12  64  164 165 166  3
+    12 15 26  64  166 167 164  3
+    27 23 9  64  165 154 157  3
+    9 12 27  64  157 166 165  3
+    30 28 31  2  32 33 34  2
+    29 31 28  2  35 36 37  2
+    31 29 5  2  38 39 40  2
+    2 5 29  2  41 42 43  2
+    32 30 33  2  44 45 46  2
+    31 33 30  2  47 48 49  2
+    33 31 8  2  50 51 52  2
+    5 8 31  2  1 53 4  2
+    35 34 37  4  242 243 244  1
+    36 37 34  4  245 246 247  1
+    11 35 14  4  248 249 250  1
+    37 14 35  4  251 252 253  1
+    37 36 39  4  254 255 256  1
+    38 39 36  4  257 258 259  1
+    14 37 17  4  211 260 261  1
+    39 17 37  4  262 263 214  1
+    29 28 41  8  132 133 134  5
+    40 41 28  8  135 134 133  5
+    2 29 20  8  128 132 129  5
+    41 20 29  8  134 129 132  5
+    41 40 45  8  106 107 108  5
+    44 45 40  8  109 108 107  5
+    20 41 25  8  100 106 101  5
+    45 25 41  8  108 101 106  5
+    45 44 35  8  136 137 138  5
+    34 35 44  8  139 138 137  5
+    25 45 11  8  130 136 131  5
+    35 11 45  8  138 131 136  5
+    30 32 43  64  140 141 142  3
+    42 43 32  64  143 142 141  3
+    28 30 40  64  133 140 135  3
+    43 40 30  64  142 135 140  3
+    43 42 47  64  110 111 112  3
+    46 47 42  64  113 112 111  3
+    40 43 44  64  107 110 109  3
+    47 44 43  64  112 109 110  3
+    47 46 36  64  144 145 146  3
+    38 36 46  64  147 146 145  3
+    44 47 34  64  137 144 139  3
+    36 34 47  64  146 139 144  3
+    51 48 52  2  54 55 56  2
+    49 52 48  2  57 58 59  2
+    52 49 53  2  60 61 62  2
+    50 53 49  2  63 64 65  2
+    6 51 7  2  66 67 68  2
+    52 7 51  2  69 70 71  2
+    7 52 8  2  2 72 73  2
+    53 8 52  2  74 75 6  2
+    55 54 58  4  264 265 266  1
+    57 58 54  4  267 268 269  1
+    56 55 59  4  270 271 272  1
+    58 59 55  4  273 274 275  1
+    58 57 16  4  276 277 278  1
+    15 16 57  4  279 280 281  1
+    59 58 17  4  282 283 284  1
+    16 17 58  4  212 285 216  1
+    49 48 61  8  192 193 194  5
+    60 61 48  8  195 194 193  5
+    50 49 62  8  204 192 205  5
+    61 62 49  8  194 206 192  5
+    61 60 65  8  114 115 116  5
+    64 65 60  8  117 116 115  5
+    62 61 66  8  118 114 119  5
+    65 66 61  8  116 119 114  5
+    65 64 55  8  196 197 198  5
+    54 55 64  8  199 198 197  5
+    66 65 56  8  207 196 208  5
+    55 56 65  8  198 209 196  5
+    51 6 63  64  200 188 201  3
+    21 63 6  64  189 201 188  3
+    48 51 60  64  193 200 195  3
+    63 60 51  64  201 195 200  3
+    63 21 67  64  120 102 121  3
+    26 67 21  64  105 121 102  3
+    60 63 64  64  115 120 117  3
+    67 64 63  64  121 117 120  3
+    67 26 57  64  202 190 203  3
+    15 57 26  64  191 203 190  3
+    64 67 54  64  197 202 199  3
+    57 54 67  64  203 199 202  3
+    68 70 71  2  76 77 78  2
+    71 69 68  2  79 80 81  2
+    69 71 53  2  82 83 84  2
+    53 50 69  2  85 86 87  2
+    70 32 33  2  88 89 90  2
+    33 71 70  2  91 92 93  2
+    71 33 8  2  94 5 95  2
+    8 53 71  2  3 7 8  2
+    72 73 75  4  286 287 288  1
+    75 74 72  4  289 290 291  1
+    73 56 59  4  292 293 294  1
+    59 75 73  4  295 296 297  1
+    74 75 39  4  298 299 300  1
+    39 38 74  4  301 302 303  1
+    75 59 17  4  304 217 305  1
+    17 39 75  4  213 215 218  1
+    68 69 77  8  176 177 178  5
+    77 76 68  8  178 179 176  5
+    69 50 62  8  177 172 173  5
+    62 77 69  8  173 178 177  5
+    76 77 80  8  122 123 124  5
+    80 79 76  8  124 125 122  5
+    77 62 66  8  123 118 119  5
+    66 80 77  8  119 124 123  5
+    79 80 73  8  180 181 182  5
+    73 72 79  8  182 183 180  5
+    80 66 56  8  181 174 175  5
+    56 73 80  8  175 182 181  5
+    32 70 78  64  168 184 185  3
+    78 42 32  64  185 169 168  3
+    70 68 76  64  184 176 179  3
+    76 78 70  64  179 185 184  3
+    42 78 81  64  111 126 127  3
+    81 46 42  64  127 113 111  3
+    78 76 79  64  126 122 125  3
+    79 81 78  64  125 127 126  3
+    46 81 74  64  170 186 187  3
+    74 38 46  64  187 171 170  3
+    81 79 72  64  186 180 183  3
+    72 74 81  64  183 187 186  3
+  tverts 306
+    0.703187 0.307407 0
+    0.703187 0.497584 0
+    0.461353 0.307407 0
+    0.461353 0.497584 0
+    0.703187 0.687761 0
+    0.461353 0.687761 0
+    0.219519 0.307407 0
+    0.219519 0.497584 0
+    0.219519 0.687761 0
+    0.763645 0.259863 0
+    0.703187 0.259863 0
+    0.703187 0.307407 0
+    0.703187 0.307407 0
+    0.763645 0.307407 0
+    0.763645 0.259863 0
+    0.763645 0.307407 0
+    0.703187 0.307407 0
+    0.703187 0.497584 0
+    0.703187 0.497584 0
+    0.763645 0.497584 0
+    0.763645 0.307407 0
+    0.703187 0.259863 0
+    0.461353 0.259863 0
+    0.461353 0.307407 0
+    0.461353 0.307407 0
+    0.703187 0.307407 0
+    0.703187 0.259863 0
+    0.703187 0.307407 0
+    0.461353 0.307407 0
+    0.461353 0.497584 0
+    0.461353 0.497584 0
+    0.703187 0.497584 0
+    0.703187 0.735306 0
+    0.763645 0.735306 0
+    0.703187 0.687761 0
+    0.763645 0.687761 0
+    0.703187 0.687761 0
+    0.763645 0.735306 0
+    0.703187 0.687761 0
+    0.763645 0.687761 0
+    0.703187 0.497584 0
+    0.763645 0.497584 0
+    0.703187 0.497584 0
+    0.763645 0.687761 0
+    0.461353 0.735306 0
+    0.703187 0.735306 0
+    0.461353 0.687761 0
+    0.703187 0.687761 0
+    0.461353 0.687761 0
+    0.703187 0.735306 0
+    0.461353 0.687761 0
+    0.703187 0.687761 0
+    0.461353 0.497584 0
+    0.461353 0.497584 0
+    0.219519 0.259863 0
+    0.15906 0.259863 0
+    0.219519 0.307407 0
+    0.15906 0.307407 0
+    0.219519 0.307407 0
+    0.15906 0.259863 0
+    0.219519 0.307407 0
+    0.15906 0.307407 0
+    0.219519 0.497584 0
+    0.15906 0.497584 0
+    0.219519 0.497584 0
+    0.15906 0.307407 0
+    0.461353 0.259863 0
+    0.219519 0.259863 0
+    0.461353 0.307407 0
+    0.219519 0.307407 0
+    0.461353 0.307407 0
+    0.219519 0.259863 0
+    0.219519 0.307407 0
+    0.461353 0.497584 0
+    0.219519 0.497584 0
+    0.461353 0.497584 0
+    0.15906 0.735306 0
+    0.219519 0.735306 0
+    0.219519 0.687761 0
+    0.219519 0.687761 0
+    0.15906 0.687761 0
+    0.15906 0.735306 0
+    0.15906 0.687761 0
+    0.219519 0.687761 0
+    0.219519 0.497584 0
+    0.219519 0.497584 0
+    0.15906 0.497584 0
+    0.15906 0.687761 0
+    0.219519 0.735306 0
+    0.461353 0.735306 0
+    0.461353 0.687761 0
+    0.461353 0.687761 0
+    0.219519 0.687761 0
+    0.219519 0.735306 0
+    0.219519 0.687761 0
+    0.461353 0.497584 0
+    -0.338035 -0.325605 0
+    -0.170427 -0.325605 0
+    -0.00282104 -0.0504031 0
+    -0.170427 -0.0504031 0
+    0.5 -0.325608 0
+    0.5 -0.0504031 0
+    -0.338034 0.5 0
+    -0.338035 -0.0504031 0
+    -0.170427 0.224799 0
+    -0.170427 0.5 0
+    1.17043 -0.325608 0
+    1.33803 -0.325608 0
+    1.00282 -0.0504031 0
+    1.17043 -0.0504031 0
+    1.33803 -0.0504031 0
+    1.33803 0.5 0
+    1.17043 0.224799 0
+    1.17043 0.5 0
+    -0.170427 1.32561 0
+    -0.338034 1.32561 0
+    -0.00282104 1.0504 0
+    -0.170427 1.0504 0
+    0.5 1.32561 0
+    0.5 1.0504 0
+    -0.338034 1.0504 0
+    -0.170427 0.775202 0
+    1.33804 1.32561 0
+    1.17043 1.32561 0
+    1.00282 1.0504 0
+    1.17043 1.0504 0
+    1.33804 1.0504 0
+    1.17043 0.775202 0
+    -0.399172 0.0085808 0
+    -0.399172 0.353301 0
+    -0.399172 0.353301 0
+    -0.399172 0.0223696 0
+    0.245996 0.0085808 0
+    0.533512 0.0085808 0
+    0.245996 0.353301 0
+    0.533512 0.353301 0
+    0.164826 0.353301 0
+    0.533512 0.353301 0
+    0.164826 0.0223696 0
+    0.533512 0.0223696 0
+    0.821032 0.0085808 0
+    1.4002 0.0085808 0
+    0.821032 0.353301 0
+    1.4002 0.353301 0
+    0.902204 0.353301 0
+    1.4002 0.353301 0
+    0.902204 0.0223696 0
+    1.4002 0.0223696 0
+    0.533512 0.0085808 0
+    0.246027 0.0085808 0
+    0.246027 0.353301 0
+    0.533512 0.353301 0
+    -0.399172 0.0085808 0
+    -0.399172 0.353301 0
+    0.533512 0.353301 0
+    0.164891 0.353301 0
+    0.164891 0.0223696 0
+    0.533512 0.0223696 0
+    -0.399172 0.353301 0
+    -0.399172 0.0223696 0
+    1.4002 0.0085808 0
+    0.820999 0.0085808 0
+    0.820999 0.353301 0
+    1.4002 0.353301 0
+    1.4002 0.353301 0
+    0.9023 0.353301 0
+    0.9023 0.0223696 0
+    1.4002 0.0223696 0
+    1.4002 0.0085808 0
+    1.4002 0.353301 0
+    1.4002 0.353301 0
+    1.4002 0.0223696 0
+    -0.399172 0.00858092 0
+    -0.399172 0.353301 0
+    -0.399172 0.353301 0
+    -0.399172 0.0223696 0
+    0.533512 0.00858092 0
+    0.245993 0.00858092 0
+    0.245993 0.353301 0
+    0.533512 0.353301 0
+    0.533512 0.353301 0
+    0.16482 0.353301 0
+    0.16482 0.0223696 0
+    0.533512 0.0223696 0
+    0.821033 0.00858092 0
+    0.821033 0.353301 0
+    0.902197 0.353301 0
+    0.902197 0.0223696 0
+    1.4002 0.0085808 0
+    1.4002 0.353301 0
+    1.4002 0.353301 0
+    1.4002 0.0223696 0
+    0.246027 0.00858092 0
+    0.533512 0.00858092 0
+    0.246027 0.353301 0
+    0.533512 0.353301 0
+    0.164726 0.353301 0
+    0.533512 0.353301 0
+    0.164726 0.0223696 0
+    0.533512 0.0223696 0
+    0.820999 0.00858092 0
+    0.820999 0.353301 0
+    0.902138 0.353301 0
+    0.902138 0.0223696 0
+    -0.399172 0.00858092 0
+    -0.399172 0.353301 0
+    -0.399172 0.353301 0
+    -0.399172 0.353301 0
+    -0.399172 0.0223696 0
+    -0.399172 0.0223696 0
+    -0.0640854 0.222776 0
+    0.504831 0.222776 0
+    -0.0640854 0.502267 0
+    0.504831 0.502267 0
+    1.07375 0.222776 0
+    1.07375 0.502265 0
+    -0.0640853 0.781756 0
+    0.504831 0.781756 0
+    1.07375 0.781756 0
+    -0.206314 0.0166882 0
+    -0.0640854 0.0166882 0
+    -0.0640854 0.222776 0
+    -0.0640854 0.222776 0
+    -0.206314 0.222776 0
+    -0.206314 0.0166882 0
+    -0.0640854 0.0166882 0
+    0.504831 0.0166882 0
+    0.504831 0.222776 0
+    0.504831 0.222776 0
+    -0.0640854 0.222776 0
+    -0.0640854 0.0166882 0
+    -0.206314 0.222776 0
+    -0.0640854 0.222776 0
+    -0.0640854 0.502267 0
+    -0.0640854 0.502267 0
+    -0.206314 0.502267 0
+    -0.206314 0.222776 0
+    -0.0640854 0.222776 0
+    0.504831 0.222776 0
+    0.504831 0.502267 0
+    0.504831 0.502267 0
+    -0.0640854 0.502267 0
+    1.07375 0.0166882 0
+    1.21598 0.0166882 0
+    1.07375 0.222776 0
+    1.21598 0.222776 0
+    1.07375 0.222776 0
+    1.21598 0.0166882 0
+    0.504831 0.0166882 0
+    1.07375 0.0166882 0
+    0.504831 0.222776 0
+    1.07375 0.222776 0
+    0.504831 0.222776 0
+    1.07375 0.0166882 0
+    1.07375 0.222776 0
+    1.21598 0.222776 0
+    1.07375 0.502265 0
+    1.21598 0.502265 0
+    1.07375 0.502265 0
+    1.21598 0.222776 0
+    1.07375 0.222776 0
+    0.504831 0.502267 0
+    1.07375 0.502265 0
+    0.504831 0.502267 0
+    -0.0640853 0.987843 0
+    -0.206314 0.987843 0
+    -0.0640853 0.781756 0
+    -0.206314 0.781756 0
+    -0.0640853 0.781756 0
+    -0.206314 0.987843 0
+    0.504831 0.987843 0
+    -0.0640853 0.987843 0
+    0.504831 0.781756 0
+    -0.0640853 0.781756 0
+    0.504831 0.781756 0
+    -0.0640853 0.987843 0
+    -0.0640853 0.781756 0
+    -0.206314 0.781756 0
+    -0.0640854 0.502267 0
+    -0.206314 0.502267 0
+    -0.0640854 0.502267 0
+    -0.206314 0.781756 0
+    0.504831 0.781756 0
+    -0.0640853 0.781756 0
+    0.504831 0.502267 0
+    0.504831 0.502267 0
+    1.21598 0.987843 0
+    1.07375 0.987843 0
+    1.07375 0.781756 0
+    1.07375 0.781756 0
+    1.21598 0.781756 0
+    1.21598 0.987843 0
+    1.07375 0.987843 0
+    0.504831 0.987843 0
+    0.504831 0.781756 0
+    0.504831 0.781756 0
+    1.07375 0.781756 0
+    1.07375 0.987843 0
+    1.21598 0.781756 0
+    1.07375 0.781756 0
+    1.07375 0.502265 0
+    1.07375 0.502265 0
+    1.21598 0.502265 0
+    1.21598 0.781756 0
+    1.07375 0.781756 0
+    0.504831 0.502267 0
+endnode
+node trimesh sh_bathwaterbig
+  parent sh_bathtubbig
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.647059 0.894118 0.894118 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 0.8
+  transparencyhint 1
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 10
+  center 0.0 0.0 36.0 
+  bitmap tdm01_water01
+  verts 4
+    -2.25 -1.25 0.36
+    2.25 -1.25 0.36
+    -2.25 1.25 0.36
+    2.25 1.25 0.36
+  faces 2
+    2 0 3  1  2 0 3  1
+    1 3 0  1  1 3 0  1
+  tverts 4
+    0.000499547 0.000499964 0
+    0.9995 0.000499547 0
+    0.000499666 0.9995 0
+    0.9995 0.9995 0
+endnode
+endmodelgeom sh_bathtubbig02
+#NWmax ANIM ASCII
+newanim on sh_bathtubbig02
+  length 0.0333333
+  transtime 0.0
+  animroot sh_bathtubbig02
+    node dummy sh_bathtubbig02
+        parent NULL
+    endnode
+    node dummy J02_hand
+        parent sh_bathtubbig02
+    endnode
+    node dummy J02_head
+        parent sh_bathtubbig02
+    endnode
+    node dummy J02_head_hit
+        parent sh_bathtubbig02
+    endnode
+    node dummy J02_impact
+        parent sh_bathtubbig02
+    endnode
+    node dummy J02_ground
+        parent sh_bathtubbig02
+    endnode
+    node emitter OmenEmitter248
+        parent sh_bathtubbig02
+    endnode
+    node emitter ChunkyWood100
+        parent sh_bathtubbig02
+    endnode
+    node emitter ChunkyWood101
+        parent sh_bathtubbig02
+    endnode
+    node emitter fire!61
+        parent sh_bathtubbig02
+    endnode
+    node trimesh damage24
+        parent sh_bathtubbig02
+    endnode
+    node trimesh sh_waterspout
+        parent damage24
+    endnode
+    node trimesh sh_waterspoutblack
+        parent sh_waterspout
+    endnode
+    node emitter fount107
+        parent damage24
+        birthratekey
+            0.0 25 
+            0.0333333 25 
+        endlist
+    endnode
+    node emitter OmenEmitter249
+        parent damage24
+        birthratekey
+            0.0 10 
+            0.0333333 10 
+        endlist
+    endnode
+    node emitter fount108
+        parent damage24
+    endnode
+    node trimesh sh_bathtubbig
+        parent damage24
+    endnode
+    node trimesh sh_bathwaterbig
+        parent sh_bathtubbig
+    endnode
+    node dummy sh_bathtub_pwk
+        parent sh_bathtubbig02
+    endnode
+    node trimesh sh_bathtub_wg
+        parent sh_bathtub_pwk
+    endnode
+    node dummy sh_bathtub_pwk_use01
+        parent sh_bathtub_pwk
+    endnode
+doneanim on sh_bathtubbig02
+#NWmax ANIM ASCII
+newanim on2off sh_bathtubbig02
+  length 0.0333333
+  transtime 0.0
+  animroot sh_bathtubbig02
+    node dummy sh_bathtubbig02
+        parent NULL
+    endnode
+    node dummy J02_hand
+        parent sh_bathtubbig02
+    endnode
+    node dummy J02_head
+        parent sh_bathtubbig02
+    endnode
+    node dummy J02_head_hit
+        parent sh_bathtubbig02
+    endnode
+    node dummy J02_impact
+        parent sh_bathtubbig02
+    endnode
+    node dummy J02_ground
+        parent sh_bathtubbig02
+    endnode
+    node emitter OmenEmitter248
+        parent sh_bathtubbig02
+    endnode
+    node emitter ChunkyWood100
+        parent sh_bathtubbig02
+    endnode
+    node emitter ChunkyWood101
+        parent sh_bathtubbig02
+    endnode
+    node emitter fire!61
+        parent sh_bathtubbig02
+    endnode
+    node trimesh damage24
+        parent sh_bathtubbig02
+    endnode
+    node trimesh sh_waterspout
+        parent damage24
+    endnode
+    node trimesh sh_waterspoutblack
+        parent sh_waterspout
+    endnode
+    node emitter fount107
+        parent damage24
+        birthratekey
+            0.0 25 
+            0.0333333 0 
+        endlist
+    endnode
+    node emitter OmenEmitter249
+        parent damage24
+        birthratekey
+            0.0 10 
+            0.0333333 0 
+        endlist
+    endnode
+    node emitter fount108
+        parent damage24
+    endnode
+    node trimesh sh_bathtubbig
+        parent damage24
+    endnode
+    node trimesh sh_bathwaterbig
+        parent sh_bathtubbig
+    endnode
+    node dummy sh_bathtub_pwk
+        parent sh_bathtubbig02
+    endnode
+    node trimesh sh_bathtub_wg
+        parent sh_bathtub_pwk
+    endnode
+    node dummy sh_bathtub_pwk_use01
+        parent sh_bathtub_pwk
+    endnode
+doneanim on2off sh_bathtubbig02
+#NWmax ANIM ASCII
+newanim off sh_bathtubbig02
+  length 0.0333333
+  transtime 0.0
+  animroot sh_bathtubbig02
+    node dummy sh_bathtubbig02
+        parent NULL
+    endnode
+    node dummy J02_hand
+        parent sh_bathtubbig02
+    endnode
+    node dummy J02_head
+        parent sh_bathtubbig02
+    endnode
+    node dummy J02_head_hit
+        parent sh_bathtubbig02
+    endnode
+    node dummy J02_impact
+        parent sh_bathtubbig02
+    endnode
+    node dummy J02_ground
+        parent sh_bathtubbig02
+    endnode
+    node emitter OmenEmitter248
+        parent sh_bathtubbig02
+    endnode
+    node emitter ChunkyWood100
+        parent sh_bathtubbig02
+    endnode
+    node emitter ChunkyWood101
+        parent sh_bathtubbig02
+    endnode
+    node emitter fire!61
+        parent sh_bathtubbig02
+    endnode
+    node trimesh damage24
+        parent sh_bathtubbig02
+    endnode
+    node trimesh sh_waterspout
+        parent damage24
+    endnode
+    node trimesh sh_waterspoutblack
+        parent sh_waterspout
+    endnode
+    node emitter fount107
+        parent damage24
+        birthratekey
+            0.0 0 
+            0.0333333 0 
+        endlist
+    endnode
+    node emitter OmenEmitter249
+        parent damage24
+        birthratekey
+            0.0 0 
+            0.0333333 0 
+        endlist
+    endnode
+    node emitter fount108
+        parent damage24
+    endnode
+    node trimesh sh_bathtubbig
+        parent damage24
+    endnode
+    node trimesh sh_bathwaterbig
+        parent sh_bathtubbig
+    endnode
+    node dummy sh_bathtub_pwk
+        parent sh_bathtubbig02
+    endnode
+    node trimesh sh_bathtub_wg
+        parent sh_bathtub_pwk
+    endnode
+    node dummy sh_bathtub_pwk_use01
+        parent sh_bathtub_pwk
+    endnode
+doneanim off sh_bathtubbig02
+#NWmax ANIM ASCII
+newanim off2on sh_bathtubbig02
+  length 0.0333333
+  transtime 0.0
+  animroot sh_bathtubbig02
+    node dummy sh_bathtubbig02
+        parent NULL
+    endnode
+    node dummy J02_hand
+        parent sh_bathtubbig02
+    endnode
+    node dummy J02_head
+        parent sh_bathtubbig02
+    endnode
+    node dummy J02_head_hit
+        parent sh_bathtubbig02
+    endnode
+    node dummy J02_impact
+        parent sh_bathtubbig02
+    endnode
+    node dummy J02_ground
+        parent sh_bathtubbig02
+    endnode
+    node emitter OmenEmitter248
+        parent sh_bathtubbig02
+    endnode
+    node emitter ChunkyWood100
+        parent sh_bathtubbig02
+    endnode
+    node emitter ChunkyWood101
+        parent sh_bathtubbig02
+    endnode
+    node emitter fire!61
+        parent sh_bathtubbig02
+    endnode
+    node trimesh damage24
+        parent sh_bathtubbig02
+        positionkey
+            0.0 0.000800171 -0.0592355 0.0
+            0.0333333 0.000800171 -0.0592355 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh sh_waterspout
+        parent damage24
+    endnode
+    node trimesh sh_waterspoutblack
+        parent sh_waterspout
+    endnode
+    node emitter fount107
+        parent damage24
+        birthratekey
+            0.0 0 
+            0.0333333 25 
+        endlist
+    endnode
+    node emitter OmenEmitter249
+        parent damage24
+        birthratekey
+            0.0 0 
+            0.0333333 10 
+        endlist
+    endnode
+    node emitter fount108
+        parent damage24
+    endnode
+    node trimesh sh_bathtubbig
+        parent damage24
+    endnode
+    node trimesh sh_bathwaterbig
+        parent sh_bathtubbig
+    endnode
+    node dummy sh_bathtub_pwk
+        parent sh_bathtubbig02
+    endnode
+    node trimesh sh_bathtub_wg
+        parent sh_bathtub_pwk
+    endnode
+    node dummy sh_bathtub_pwk_use01
+        parent sh_bathtub_pwk
+    endnode
+doneanim off2on sh_bathtubbig02
+#NWmax ANIM ASCII
+newanim damage sh_bathtubbig02
+  length 0.133333
+  transtime 0.0
+  animroot sh_bathtubbig02
+  event 0.0333333 detonate
+    node dummy sh_bathtubbig02
+        parent NULL
+    endnode
+    node dummy J02_hand
+        parent sh_bathtubbig02
+    endnode
+    node dummy J02_head
+        parent sh_bathtubbig02
+    endnode
+    node dummy J02_head_hit
+        parent sh_bathtubbig02
+    endnode
+    node dummy J02_impact
+        parent sh_bathtubbig02
+    endnode
+    node dummy J02_ground
+        parent sh_bathtubbig02
+    endnode
+    node emitter OmenEmitter248
+        parent sh_bathtubbig02
+    endnode
+    node emitter ChunkyWood100
+        parent sh_bathtubbig02
+        positionkey
+            0.133333 -0.000766602 -0.0418286 -2.73459
+        endlist
+    endnode
+    node emitter ChunkyWood101
+        parent sh_bathtubbig02
+        positionkey
+            0.133333 -0.000766602 -0.0418286 -2.84081
+        endlist
+    endnode
+    node emitter fire!61
+        parent sh_bathtubbig02
+        positionkey
+            0.133333 -0.000766602 -0.0418286 -2.91485
+        endlist
+    endnode
+    node trimesh damage24
+        parent sh_bathtubbig02
+        positionkey
+            0.0 0.000800171 -0.0592355 0.0
+            0.0333333 0.000800171 -0.0592355 0.0244581
+            0.133333 0.000800171 -0.0592355 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.371336 -0.928463 0.00810258 -0.0469939
+            0.1 -0.59995 0.799969 0.0104722 -0.0436324
+            0.133333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh sh_waterspout
+        parent damage24
+    endnode
+    node trimesh sh_waterspoutblack
+        parent sh_waterspout
+    endnode
+    node emitter fount107
+        parent damage24
+    endnode
+    node emitter OmenEmitter249
+        parent damage24
+    endnode
+    node emitter fount108
+        parent damage24
+    endnode
+    node trimesh sh_bathtubbig
+        parent damage24
+    endnode
+    node trimesh sh_bathwaterbig
+        parent sh_bathtubbig
+    endnode
+    node dummy sh_bathtub_pwk
+        parent sh_bathtubbig02
+    endnode
+    node trimesh sh_bathtub_wg
+        parent sh_bathtub_pwk
+    endnode
+    node dummy sh_bathtub_pwk_use01
+        parent sh_bathtub_pwk
+    endnode
+doneanim damage sh_bathtubbig02
+#NWmax ANIM ASCII
+newanim die sh_bathtubbig02
+  length 0.166667
+  transtime 0.0
+  animroot sh_bathtubbig02
+  event 0.0333333 detonate
+  event 0.0333333 detonate
+  event 0.0333333 detonate
+    node dummy sh_bathtubbig02
+        parent NULL
+    endnode
+    node dummy J02_hand
+        parent sh_bathtubbig02
+    endnode
+    node dummy J02_head
+        parent sh_bathtubbig02
+    endnode
+    node dummy J02_head_hit
+        parent sh_bathtubbig02
+    endnode
+    node dummy J02_impact
+        parent sh_bathtubbig02
+    endnode
+    node dummy J02_ground
+        parent sh_bathtubbig02
+    endnode
+    node emitter OmenEmitter248
+        parent sh_bathtubbig02
+        birthratekey
+            0.0 3 
+            0.0333333 0 
+        endlist
+    endnode
+    node emitter ChunkyWood100
+        parent sh_bathtubbig02
+    endnode
+    node emitter ChunkyWood101
+        parent sh_bathtubbig02
+    endnode
+    node emitter fire!61
+        parent sh_bathtubbig02
+    endnode
+    node trimesh damage24
+        parent sh_bathtubbig02
+        positionkey
+            0.0 0.000800171 -0.0592355 0.0
+            0.166667 0.000800171 -0.0592355 -3.77999
+        endlist
+    endnode
+    node trimesh sh_waterspout
+        parent damage24
+    endnode
+    node trimesh sh_waterspoutblack
+        parent sh_waterspout
+    endnode
+    node emitter fount107
+        parent damage24
+    endnode
+    node emitter OmenEmitter249
+        parent damage24
+    endnode
+    node emitter fount108
+        parent damage24
+    endnode
+    node trimesh sh_bathtubbig
+        parent damage24
+    endnode
+    node trimesh sh_bathwaterbig
+        parent sh_bathtubbig
+    endnode
+    node dummy sh_bathtub_pwk
+        parent sh_bathtubbig02
+    endnode
+    node trimesh sh_bathtub_wg
+        parent sh_bathtub_pwk
+    endnode
+    node dummy sh_bathtub_pwk_use01
+        parent sh_bathtub_pwk
+    endnode
+doneanim die sh_bathtubbig02
+#NWmax ANIM ASCII
+newanim dead sh_bathtubbig02
+  length 0.0333333
+  transtime 0.0
+  animroot sh_bathtubbig02
+    node dummy sh_bathtubbig02
+        parent NULL
+    endnode
+    node dummy J02_hand
+        parent sh_bathtubbig02
+    endnode
+    node dummy J02_head
+        parent sh_bathtubbig02
+    endnode
+    node dummy J02_head_hit
+        parent sh_bathtubbig02
+    endnode
+    node dummy J02_impact
+        parent sh_bathtubbig02
+    endnode
+    node dummy J02_ground
+        parent sh_bathtubbig02
+    endnode
+    node emitter OmenEmitter248
+        parent sh_bathtubbig02
+    endnode
+    node emitter ChunkyWood100
+        parent sh_bathtubbig02
+    endnode
+    node emitter ChunkyWood101
+        parent sh_bathtubbig02
+    endnode
+    node emitter fire!61
+        parent sh_bathtubbig02
+    endnode
+    node trimesh damage24
+        parent sh_bathtubbig02
+        positionkey
+            0.0 0.000800171 -0.0592355 -3.77999
+            0.0333333 0.000800171 -0.0592355 -3.77999
+        endlist
+    endnode
+    node trimesh sh_waterspout
+        parent damage24
+    endnode
+    node trimesh sh_waterspoutblack
+        parent sh_waterspout
+    endnode
+    node emitter fount107
+        parent damage24
+    endnode
+    node emitter OmenEmitter249
+        parent damage24
+    endnode
+    node emitter fount108
+        parent damage24
+    endnode
+    node trimesh sh_bathtubbig
+        parent damage24
+    endnode
+    node trimesh sh_bathwaterbig
+        parent sh_bathtubbig
+    endnode
+    node dummy sh_bathtub_pwk
+        parent sh_bathtubbig02
+    endnode
+    node trimesh sh_bathtub_wg
+        parent sh_bathtub_pwk
+    endnode
+    node dummy sh_bathtub_pwk_use01
+        parent sh_bathtub_pwk
+    endnode
+doneanim dead sh_bathtubbig02
+#NWmax ANIM ASCII
+newanim default sh_bathtubbig02
+  length 0.0
+  transtime 0.25
+  animroot sh_bathtubbig02
+    node dummy sh_bathtubbig02
+        parent NULL
+    endnode
+    node dummy J02_hand
+        parent sh_bathtubbig02
+    endnode
+    node dummy J02_head
+        parent sh_bathtubbig02
+    endnode
+    node dummy J02_head_hit
+        parent sh_bathtubbig02
+    endnode
+    node dummy J02_impact
+        parent sh_bathtubbig02
+    endnode
+    node dummy J02_ground
+        parent sh_bathtubbig02
+    endnode
+    node emitter OmenEmitter248
+        parent sh_bathtubbig02
+    endnode
+    node emitter ChunkyWood100
+        parent sh_bathtubbig02
+    endnode
+    node emitter ChunkyWood101
+        parent sh_bathtubbig02
+    endnode
+    node emitter fire!61
+        parent sh_bathtubbig02
+    endnode
+    node trimesh damage24
+        parent sh_bathtubbig02
+    endnode
+    node trimesh sh_waterspout
+        parent damage24
+    endnode
+    node trimesh sh_waterspoutblack
+        parent sh_waterspout
+    endnode
+    node emitter fount107
+        parent damage24
+    endnode
+    node emitter OmenEmitter249
+        parent damage24
+    endnode
+    node emitter fount108
+        parent damage24
+    endnode
+    node trimesh sh_bathtubbig
+        parent damage24
+    endnode
+    node trimesh sh_bathwaterbig
+        parent sh_bathtubbig
+    endnode
+    node dummy sh_bathtub_pwk
+        parent sh_bathtubbig02
+    endnode
+    node trimesh sh_bathtub_wg
+        parent sh_bathtub_pwk
+    endnode
+    node dummy sh_bathtub_pwk_use01
+        parent sh_bathtub_pwk
+    endnode
+doneanim default sh_bathtubbig02
+donemodel sh_bathtubbig02

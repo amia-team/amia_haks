@@ -1,0 +1,114 @@
+#MAXMODEL ASCII
+# model: z0_mck_shim1r
+filedependancy z0_mck_shim1r.max
+newmodel z0_mck_shim1r
+setsupermodel z0_mck_shim1r NULL
+classification character
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom z0_mck_shim1r
+node dummy z0_mck_shim1r
+  parent NULL
+  #part-number 0
+endnode
+node trimesh rootdummy
+  parent z0_mck_shim1r
+  #part-number 1
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 5
+  shadow 0
+  transparencyhint 1
+  bitmap NULL
+  verts 8
+    -0.0390000008 -0.0309999995 0
+    -0.0390000008 0.0309999995 0
+    0.0390000008 0.0309999995 0
+    0.0390000008 -0.0309999995 0
+    -0.0390000008 -0.0309999995 0.063000001
+    0.0390000008 -0.0309999995 0.063000001
+    0.0390000008 0.0309999995 0.063000001
+    -0.0390000008 0.0309999995 0.063000001
+  faces 12
+    0 1 2 1 0 0 0 2
+    2 3 0 1 0 0 0 2
+    4 5 6 1 0 0 0 1
+    6 7 4 1 0 0 0 1
+    0 3 5 2 0 0 0 5
+    5 4 0 2 0 0 0 5
+    3 2 6 4 0 0 0 4
+    6 5 3 4 0 0 0 4
+    2 1 7 2 0 0 0 6
+    7 6 2 2 0 0 0 6
+    1 0 4 4 0 0 0 3
+    4 7 1 4 0 0 0 3
+  position 0 0 0
+  scale 1
+  alpha 0
+  orientation 0 0 0 0
+endnode
+node emitter sheen
+  parent rootdummy
+  #part-number 2
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 1
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Single
+  render Billboard_to_World_Z
+  blend Lighten
+  texture zlc_mck_shimmer
+  xgrid 8
+  ygrid 8
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0.5
+  blastLength 1
+  position 0 0 0.00999999978
+  orientation 0 0 -1 -1.57079995
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 0.850000024 0.25 0.25
+  colorEnd 0.850000024 0.25 0.25
+  alphaStart 0.0850000009
+  alphaEnd 0.0850000009
+  sizeStart 10
+  sizeEnd 10
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 10
+  lifeExp -1
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 2
+  blurlength 0
+  fps 32
+  frameStart 0
+  frameEnd 63
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+endmodelgeom z0_mck_shim1r
+
+donemodel z0_mck_shim1r

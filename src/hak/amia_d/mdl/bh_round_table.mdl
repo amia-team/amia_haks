@@ -1,0 +1,951 @@
+#MAXMODEL ASCII
+# model: bh_round_table
+filedependancy bh_round_table.max
+newmodel bh_round_table
+setsupermodel bh_round_table NULL
+classification character
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom bh_round_table
+node dummy bh_round_table
+  parent NULL
+  #part-number 0
+endnode
+node dummy a06_ground
+  parent bh_round_table
+  #part-number 1
+  position -0.0230135005 0.00497986004 0
+  orientation 0 0 0 0
+endnode
+node dummy a06_impact
+  parent bh_round_table
+  #part-number 2
+  position -0.0153914001 0.0246834997 0.747084975
+  orientation 0 0 0 0
+endnode
+node emitter fire!61
+  parent bh_round_table
+  #part-number 3
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 1
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Normal
+  texture fxpa_smoke01
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 1
+  blastRadius 0.200000003
+  blastLength 1
+  position -0.0718452036 -0.0165442005 0.375943005
+  orientation -1 0 0 -1.57079995
+  colorStart 0.607842982 0.568627 0.486274987
+  colorEnd 0.819607973 0.815685987 0.79607898
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 4
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 10
+  lifeExp 2.5
+  mass 0.0900000036
+  spread 2.96706009
+  particleRot 0.5
+  velocity 2
+  randvel 0.5
+  fps 10
+  xsize 132
+  ysize 78
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter ChunkyWood100
+  parent bh_round_table
+  #part-number 4
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 1
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Normal
+  texture fxpa_cloud02
+  chunkName PLC_Chunk_W01
+  xgrid 5
+  ygrid 5
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position -0.0718452036 -0.0165442005 0.449986994
+  orientation 0 0 0 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.100000001
+  sizeEnd 0.100000001
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 2
+  lifeExp 0.75
+  mass 3
+  spread 1.22172999
+  particleRot 5
+  velocity 8
+  randvel 0.300000012
+  fps 0
+  xsize 161
+  ysize 123
+  bounce_co 0.5
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node emitter ChunkyWood101
+  parent bh_round_table
+  #part-number 5
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 1
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Normal
+  texture fxpa_cloud02
+  chunkName PLC_Chunk_W02
+  xgrid 5
+  ygrid 5
+  loop 0
+  deadspace 0
+  twosidedtex 1
+  blastRadius 0
+  blastLength 0
+  position -0.0718452036 -0.0165442005 0.556208014
+  orientation 0 0 0 0
+  colorStart 0.701960981 0.674510002 0.603922009
+  colorEnd 0.854902029 0.847059011 0.823530018
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.100000001
+  sizeEnd 0.100000001
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 1
+  lifeExp 0.75
+  mass 3
+  spread 1.22172999
+  particleRot 2.9000001
+  velocity 8
+  randvel 0.300000012
+  fps 0
+  xsize 98
+  ysize 85
+  bounce_co 0.5
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node dummy a06_hand
+  parent bh_round_table
+  #part-number 6
+  position -0.0153914001 0.0249332003 1.07107997
+  orientation 0 0 0 0
+endnode
+node dummy a06_head_hit
+  parent bh_round_table
+  #part-number 7
+  position -0.0153914001 0.0553178005 0.729763985
+  orientation 0 0 0 0
+endnode
+node dummy a06_head
+  parent bh_round_table
+  #part-number 8
+  position -0.0206498001 0.0364633985 1.41902995
+  orientation 0 0 0 0
+endnode
+node trimesh damage_A06
+  parent bh_round_table
+  #part-number 9
+  ambient 0.0705882013 0 1
+  diffuse 1 0.501960993 0.643136978
+  specular 0 0.899999976 0.105881996
+  shininess 24
+  shadow 0
+  render 0
+  bitmap NULL
+  verts 12
+    -0.195415005 -0.186215997 0
+    -0.195415005 0.186215997 0
+    0.195415005 0.186215997 0
+    0.195415005 -0.186215997 0
+    -0.195415005 -0.186215997 0.5
+    0.195415005 -0.186215997 0.5
+    0.195415005 0.186215997 0.5
+    -0.195415005 0.186215997 0.5
+    0.103944004 -0.0990512967 0.25
+    -0.103944004 -0.0990512967 0.25
+    0.103944004 0.0990512967 0.25
+    -0.103944004 0.0990512967 0.25
+  faces 20
+    0 1 2 1 0 0 0 2
+    2 3 0 1 0 0 0 2
+    4 5 6 1 0 0 0 1
+    6 7 4 1 0 0 0 1
+    0 3 8 2 0 0 0 5
+    8 9 0 2 0 0 0 5
+    9 8 5 2 0 0 0 5
+    5 4 9 2 0 0 0 5
+    3 2 10 4 0 0 0 4
+    10 8 3 4 0 0 0 4
+    8 10 6 4 0 0 0 4
+    6 5 8 4 0 0 0 4
+    2 1 11 2 0 0 0 6
+    11 10 2 2 0 0 0 6
+    10 11 7 2 0 0 0 6
+    7 6 10 2 0 0 0 6
+    1 0 9 4 0 0 0 3
+    9 11 1 4 0 0 0 3
+    11 9 4 4 0 0 0 3
+    4 7 11 4 0 0 0 3
+  position -0.0270693991 -0.00242187991 0
+  orientation 0 0 0 0
+  alpha 1
+  scale 1
+  setfillumcolor 0 0 0
+endnode
+node trimesh Box2502
+  parent damage_A06
+  #part-number 10
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap PLC_wood256
+  verts 8
+    -0.0500000007 -0.0500000007 0
+    -0.0500000007 0.0500000007 0
+    0.0500000007 0.0500000007 0
+    0.0500000007 -0.0500000007 0
+    -0.0500000007 -0.0500000007 0.686011016
+    0.0500000007 -0.0500000007 0.686011016
+    0.0500000007 0.0500000007 0.686011016
+    -0.0500000007 0.0500000007 0.686011016
+  tverts 4
+    1 0 0
+    1 1 0
+    0 1 0
+    0 0 0
+  faces 12
+    0 1 2 1 0 1 2 2
+    2 3 0 1 2 3 0 2
+    4 5 6 1 3 0 1 1
+    6 7 4 1 1 2 3 1
+    0 3 5 2 3 0 1 5
+    5 4 0 2 1 2 3 5
+    3 2 6 4 3 0 1 4
+    6 5 3 4 1 2 3 4
+    2 1 7 2 3 0 1 6
+    7 6 2 2 1 2 3 6
+    1 0 4 4 3 0 1 3
+    4 7 1 4 1 2 3 3
+  position 1.3 1.12 0
+  orientation 0 0 0 0
+endnode
+node trimesh Box2503
+  parent damage_A06
+  #part-number 11
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap PLC_wood256
+  verts 8
+    -0.0500000007 -0.0500000007 0
+    -0.0500000007 0.0500000007 0
+    0.0500000007 0.0500000007 0
+    0.0500000007 -0.0500000007 0
+    -0.0500000007 -0.0500000007 0.686011016
+    0.0500000007 -0.0500000007 0.686011016
+    0.0500000007 0.0500000007 0.686011016
+    -0.0500000007 0.0500000007 0.686011016
+  tverts 4
+    1 0 0
+    1 1 0
+    0 1 0
+    0 0 0
+  faces 12
+    0 1 2 1 0 1 2 2
+    2 3 0 1 2 3 0 2
+    4 5 6 1 3 0 1 1
+    6 7 4 1 1 2 3 1
+    0 3 5 2 3 0 1 5
+    5 4 0 2 1 2 3 5
+    3 2 6 4 3 0 1 4
+    6 5 3 4 1 2 3 4
+    2 1 7 2 3 0 1 6
+    7 6 2 2 1 2 3 6
+    1 0 4 4 3 0 1 3
+    4 7 1 4 1 2 3 3
+  position -1.3 1.12 0
+  orientation 0 0 0 0
+endnode
+node trimesh Cylinder01
+  parent damage_A06
+  #part-number 12
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap roundtable
+  verts 32
+    0.000000 2.997702 0.000000
+    2.769048 1.212177 0.000000
+    3.003420 0.033842 0.000000
+    2.017362 2.221122 0.000000
+    1.178337 2.844753 0.000000
+    -2.177280 2.177280 0.000000
+    -1.178337 2.844753 0.000000
+    -2.703060 1.127262 0.000000
+    -2.937447 -0.051074 0.000000
+    -2.844753 -1.178337 0.000000
+    -2.177280 -2.177280 0.000000
+    -1.178334 -2.844753 0.000000
+    0.256396 -3.042870 0.000000
+    1.178337 -2.844753 0.000000
+    2.177280 -2.177280 0.000000
+    2.844753 -1.178334 0.000000
+    2.769048 1.212177 0.100000
+    3.003420 0.033842 0.100000
+    2.017362 2.221122 0.100000
+    1.178337 2.844753 0.100000
+    0.000000 2.997702 0.100000
+    -1.178337 2.844753 0.100000
+    -2.177280 2.177280 0.100000
+    -2.703060 1.127262 0.100000
+    -2.937447 -0.051074 0.100000
+    -2.844753 -1.178337 0.100000
+    -2.177280 -2.177280 0.100000
+    -1.178334 -2.844753 0.100000
+    0.256396 -3.042870 0.100000
+    1.178337 -2.844753 0.100000
+    2.177280 -2.177280 0.100000
+    2.844753 -1.178334 0.100000
+  tverts 43
+    0.494452 0.99950099 0
+    0.960087001 0.70420599 0
+    0.99950099 0.509330988 0
+    0.833685994 0.871068001 0
+    0.692597985 0.974205017 0
+    0.128326997 0.863816977 0
+    0.296306998 0.974205017 0
+    0.0399130993 0.690163016 0
+    0.000499517017 0.495287001 0
+    0.0160865001 0.308858007 0
+    0.128326997 0.143650994 0
+    0.296306014 0.0332623012 0
+    0.537567019 0.000499457004 0
+    0.692597985 0.0332623012 0
+    0.860576987 0.143649995 0
+    0.972818017 0.308858007 0
+    1.09501004 0.51028502 0
+    1.01437998 0.70420599 0
+    1.02967 0.509330988 0
+    1.07342005 0.736341 0
+    1.00101995 0.796670973 0
+    0.863447011 0.969115019 0
+    0.693751991 1.05859005 0
+    0.494067997 1.07887995 0
+    0.297401011 1.06763995 0
+    0.117625996 0.945622027 0
+    -0.00303243008 0.774347007 0
+    -0.0784443989 0.720050991 0
+    -0.0145829003 0.495287001 0
+    -0.00533404015 0.690163016 0
+    -0.0939994007 0.493995011 0
+    -0.0110619003 0.308858007 0
+    -0.0879845023 0.277736992 0
+    0.00250988011 0.199309006 0
+    0.0341853015 0.302825004 0
+    0.121909998 0.0497176014 0
+    0.292513996 -0.0419539995 0
+    0.544080973 -0.0799587965 0
+    0.691579998 -0.0662064999 0
+    0.870267987 0.0578017011 0
+    0.994674981 0.190258995 0
+    1.08818996 0.277736992 0
+    1.02710998 0.308858007 0
+  faces 60
+    0 1 2 1 0 1 2 2
+    0 3 1 1 0 3 1 2
+    0 4 3 1 0 4 3 2
+    0 5 6 1 0 5 6 2
+    0 7 5 1 0 7 5 2
+    0 8 7 1 0 8 7 2
+    0 9 8 1 0 9 8 2
+    0 10 9 1 0 10 9 2
+    0 11 10 1 0 11 10 2
+    0 12 11 1 0 12 11 2
+    0 13 12 1 0 13 12 2
+    0 14 13 1 0 14 13 2
+    0 15 14 1 0 15 14 2
+    0 2 15 1 0 2 15 2
+    2 16 17 2 39 41 14 3
+    2 1 16 2 39 41 14 3
+    1 18 16 2 20 3 1 3
+    1 3 18 2 20 21 3 3
+    3 19 18 2 21 4 3 3
+    3 4 19 2 21 22 4 3
+    4 20 19 2 39 41 14 3
+    4 0 20 2 39 41 14 3
+    0 21 20 2 39 41 14 3
+    0 6 21 2 39 41 14 3
+    6 22 21 2 24 5 6 3
+    6 5 22 2 24 25 5 3
+    5 23 22 2 25 7 5 3
+    5 7 23 2 25 26 7 3
+    7 24 23 2 39 41 14 3
+    7 8 24 2 39 41 14 3
+    8 25 24 2 39 41 14 3
+    8 9 25 2 39 41 14 3
+    9 26 25 2 33 10 34 3
+    9 10 26 2 33 35 10 3
+    10 27 26 2 35 11 10 3
+    10 11 27 2 35 36 11 3
+    11 28 27 2 39 41 14 3
+    11 12 28 2 39 41 14 3
+    12 29 28 2 39 41 14 3
+    12 13 29 2 39 41 14 3
+    13 30 29 2 38 14 13 3
+    13 14 30 2 38 39 14 3
+    14 31 30 2 39 15 14 3
+    14 15 31 2 39 40 15 3
+    15 17 31 2 39 41 14 3
+    15 2 17 2 39 41 14 3
+    19 17 16 1 4 2 1 1
+    19 16 18 1 4 1 3 1
+    19 20 21 1 4 0 6 1
+    19 21 22 1 4 6 5 1
+    19 22 23 1 4 5 7 1
+    19 23 24 1 4 7 8 1
+    19 24 25 1 4 8 9 1
+    19 25 26 1 4 9 10 1
+    19 26 27 1 4 10 11 1
+    19 27 28 1 4 11 12 1
+    19 28 29 1 4 12 13 1
+    19 29 30 1 4 13 14 1
+    19 30 31 1 4 14 15 1
+    19 31 17 1 4 15 2 1
+  position 0.00282936008 -0.0567064993 0.686011016
+  orientation 0 0 0 0
+endnode
+node trimesh Box2501
+  parent damage_A06
+  #part-number 13
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap PLC_wood256
+  verts 8
+    -0.0500000007 -0.0500000007 0
+    -0.0500000007 0.0500000007 0
+    0.0500000007 0.0500000007 0
+    0.0500000007 -0.0500000007 0
+    -0.0500000007 -0.0500000007 0.686011016
+    0.0500000007 -0.0500000007 0.686011016
+    0.0500000007 0.0500000007 0.686011016
+    -0.0500000007 0.0500000007 0.686011016
+  tverts 4
+    1 0 0
+    1 1 0
+    0 1 0
+    0 0 0
+  faces 12
+    0 1 2 1 0 1 2 2
+    2 3 0 1 2 3 0 2
+    4 5 6 1 3 0 1 1
+    6 7 4 1 1 2 3 1
+    0 3 5 2 3 0 1 5
+    5 4 0 2 1 2 3 5
+    3 2 6 4 3 0 1 4
+    6 5 3 4 1 2 3 4
+    2 1 7 2 3 0 1 6
+    7 6 2 2 1 2 3 6
+    1 0 4 4 3 0 1 3
+    4 7 1 4 1 2 3 3
+  position 1.3 -1.3 0
+  orientation 0 0 0 0
+endnode
+node trimesh Box02
+  parent damage_A06
+  #part-number 14
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap PLC_wood256
+  verts 8
+    -0.0500000007 -0.0500000007 0
+    -0.0500000007 0.0500000007 0
+    0.0500000007 0.0500000007 0
+    0.0500000007 -0.0500000007 0
+    -0.0500000007 -0.0500000007 0.686011016
+    0.0500000007 -0.0500000007 0.686011016
+    0.0500000007 0.0500000007 0.686011016
+    -0.0500000007 0.0500000007 0.686011016
+  tverts 4
+    1 0 0
+    1 1 0
+    0 1 0
+    0 0 0
+  faces 12
+    0 1 2 1 0 1 2 2
+    2 3 0 1 2 3 0 2
+    4 5 6 1 3 0 1 1
+    6 7 4 1 1 2 3 1
+    0 3 5 2 3 0 1 5
+    5 4 0 2 1 2 3 5
+    3 2 6 4 3 0 1 4
+    6 5 3 4 1 2 3 4
+    2 1 7 2 3 0 1 6
+    7 6 2 2 1 2 3 6
+    1 0 4 4 3 0 1 3
+    4 7 1 4 1 2 3 3
+  position -1.3 -1.3 0
+  orientation 0 0 0 0
+endnode
+endmodelgeom bh_round_table
+
+#MAXANIM ASCII
+newanim damage bh_round_table
+  length 0.133332998
+  transtime 0.25
+  animroot bh_round_table
+node dummy bh_round_table
+  parent NULL
+  #part-number 0
+endnode
+node dummy a06_ground
+  parent bh_round_table
+  #part-number 1
+endnode
+node dummy a06_impact
+  parent bh_round_table
+  #part-number 2
+endnode
+node emitter fire!61
+  parent bh_round_table
+  #part-number 3
+endnode
+node emitter ChunkyWood100
+  parent bh_round_table
+  #part-number 4
+endnode
+node emitter ChunkyWood101
+  parent bh_round_table
+  #part-number 5
+endnode
+node dummy a06_hand
+  parent bh_round_table
+  #part-number 6
+endnode
+node dummy a06_head_hit
+  parent bh_round_table
+  #part-number 7
+endnode
+node dummy a06_head
+  parent bh_round_table
+  #part-number 8
+endnode
+node dummy bh_round_table_pwk
+  parent bh_round_table
+  #part-number -1
+endnode
+node dummy a06_pwk_use01
+  parent bh_round_table_pwk
+  #part-number 10
+endnode
+node dummy bh_round_table_wg
+  parent bh_round_table_pwk
+  #part-number 11
+endnode
+node dummy a06_pwk_use02
+  parent bh_round_table_pwk
+  #part-number 12
+endnode
+node trimesh damage_A06
+  parent bh_round_table
+  #part-number 9
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  positionkey 3
+    0 -0.0270693991 -0.00242187991 0
+    0.0333333015 -0.0270693991 -0.00242187991 0.0244580992
+    0.133332998 -0.0270693991 -0.00242187991 0
+  orientationkey 4
+    0 0 0 0 0
+    0.0333333015 0.371336102 -0.928463161 0.00810258184 -0.0469939038
+    0.100000001 -0.599949956 0.799968958 0.0104721989 -0.0436323993
+    0.133332998 0 0 0 0
+endnode
+node dummy Box2502
+  parent damage_A06
+  #part-number 10
+endnode
+node dummy Box2503
+  parent damage_A06
+  #part-number 11
+endnode
+node dummy Cylinder01
+  parent damage_A06
+  #part-number 12
+endnode
+node dummy Box2501
+  parent damage_A06
+  #part-number 13
+endnode
+node dummy Box02
+  parent damage_A06
+  #part-number 14
+endnode
+doneanim damage bh_round_table
+
+#MAXANIM ASCII
+newanim die bh_round_table
+  length 0.166666999
+  transtime 0.25
+  animroot bh_round_table
+  event 0.0333333015 detonate
+  event 0.0333333015 detonate
+  event 0.0333333015 detonate
+node dummy bh_round_table
+  parent NULL
+  #part-number 0
+endnode
+node dummy a06_ground
+  parent bh_round_table
+  #part-number 1
+endnode
+node dummy a06_impact
+  parent bh_round_table
+  #part-number 2
+endnode
+node emitter fire!61
+  parent bh_round_table
+  #part-number 3
+endnode
+node emitter ChunkyWood100
+  parent bh_round_table
+  #part-number 4
+endnode
+node emitter ChunkyWood101
+  parent bh_round_table
+  #part-number 5
+endnode
+node dummy a06_hand
+  parent bh_round_table
+  #part-number 6
+endnode
+node dummy a06_head_hit
+  parent bh_round_table
+  #part-number 7
+endnode
+node dummy a06_head
+  parent bh_round_table
+  #part-number 8
+endnode
+node dummy bh_round_table_pwk
+  parent bh_round_table
+  #part-number -1
+endnode
+node dummy a06_pwk_use01
+  parent bh_round_table_pwk
+  #part-number 10
+endnode
+node dummy bh_round_table_wg
+  parent bh_round_table_pwk
+  #part-number 11
+endnode
+node dummy a06_pwk_use02
+  parent bh_round_table_pwk
+  #part-number 12
+endnode
+node trimesh damage_A06
+  parent bh_round_table
+  #part-number 9
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  positionkey 2
+    0 -0.0270693991 -0.00242187991 0
+    0.166666999 -0.0270693991 -0.00242187991 -3.77998996
+  orientation 0 0 0 0
+endnode
+node dummy Box2502
+  parent damage_A06
+  #part-number 10
+endnode
+node dummy Box2503
+  parent damage_A06
+  #part-number 11
+endnode
+node dummy Cylinder01
+  parent damage_A06
+  #part-number 12
+endnode
+node dummy Box2501
+  parent damage_A06
+  #part-number 13
+endnode
+node dummy Box02
+  parent damage_A06
+  #part-number 14
+endnode
+doneanim die bh_round_table
+
+#MAXANIM ASCII
+newanim dead bh_round_table
+  length 0.0333333015
+  transtime 0.25
+  animroot bh_round_table
+node dummy bh_round_table
+  parent NULL
+  #part-number 0
+endnode
+node dummy a06_ground
+  parent bh_round_table
+  #part-number 1
+endnode
+node dummy a06_impact
+  parent bh_round_table
+  #part-number 2
+endnode
+node emitter fire!61
+  parent bh_round_table
+  #part-number 3
+endnode
+node emitter ChunkyWood100
+  parent bh_round_table
+  #part-number 4
+endnode
+node emitter ChunkyWood101
+  parent bh_round_table
+  #part-number 5
+endnode
+node dummy a06_hand
+  parent bh_round_table
+  #part-number 6
+endnode
+node dummy a06_head_hit
+  parent bh_round_table
+  #part-number 7
+endnode
+node dummy a06_head
+  parent bh_round_table
+  #part-number 8
+endnode
+node dummy bh_round_table_pwk
+  parent bh_round_table
+  #part-number -1
+endnode
+node dummy a06_pwk_use01
+  parent bh_round_table_pwk
+  #part-number 10
+endnode
+node dummy bh_round_table_wg
+  parent bh_round_table_pwk
+  #part-number 11
+endnode
+node dummy a06_pwk_use02
+  parent bh_round_table_pwk
+  #part-number 12
+endnode
+node trimesh damage_A06
+  parent bh_round_table
+  #part-number 9
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  positionkey 2
+    0 -0.0270693991 -0.00242187991 -3.77998996
+    0.0333333015 -0.0270693991 -0.00242187991 -3.77998996
+endnode
+node dummy Box2502
+  parent damage_A06
+  #part-number 10
+endnode
+node dummy Box2503
+  parent damage_A06
+  #part-number 11
+endnode
+node dummy Cylinder01
+  parent damage_A06
+  #part-number 12
+endnode
+node dummy Box2501
+  parent damage_A06
+  #part-number 13
+endnode
+node dummy Box02
+  parent damage_A06
+  #part-number 14
+endnode
+doneanim dead bh_round_table
+
+#MAXANIM ASCII
+newanim default bh_round_table
+  length 0
+  transtime 0.25
+  animroot bh_round_table
+node dummy bh_round_table
+  parent NULL
+  #part-number 0
+endnode
+node dummy a06_ground
+  parent bh_round_table
+  #part-number 1
+endnode
+node dummy a06_impact
+  parent bh_round_table
+  #part-number 2
+endnode
+node emitter fire!61
+  parent bh_round_table
+  #part-number 3
+endnode
+node emitter ChunkyWood100
+  parent bh_round_table
+  #part-number 4
+endnode
+node emitter ChunkyWood101
+  parent bh_round_table
+  #part-number 5
+endnode
+node dummy a06_hand
+  parent bh_round_table
+  #part-number 6
+endnode
+node dummy a06_head_hit
+  parent bh_round_table
+  #part-number 7
+endnode
+node dummy a06_head
+  parent bh_round_table
+  #part-number 8
+endnode
+node dummy bh_round_table_pwk
+  parent bh_round_table
+  #part-number -1
+endnode
+node dummy a06_pwk_use01
+  parent bh_round_table_pwk
+  #part-number 10
+endnode
+node dummy bh_round_table_wg
+  parent bh_round_table_pwk
+  #part-number 11
+endnode
+node dummy a06_pwk_use02
+  parent bh_round_table_pwk
+  #part-number 12
+endnode
+node trimesh damage_A06
+  parent bh_round_table
+  #part-number 9
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  position -0.0270693991 -0.00242187991 0
+  orientation 0 0 0 0
+endnode
+node dummy Box2502
+  parent damage_A06
+  #part-number 10
+endnode
+node dummy Box2503
+  parent damage_A06
+  #part-number 11
+endnode
+node dummy Cylinder01
+  parent damage_A06
+  #part-number 12
+endnode
+node dummy Box2501
+  parent damage_A06
+  #part-number 13
+endnode
+node dummy Box02
+  parent damage_A06
+  #part-number 14
+endnode
+doneanim default bh_round_table
+
+donemodel bh_round_table

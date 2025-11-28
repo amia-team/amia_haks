@@ -1,0 +1,116 @@
+#MAXMODEL ASCII
+# model: z0_flr_black_x2
+filedependancy z0_flr_black_x2.max
+newmodel z0_flr_black_x2
+setsupermodel z0_flr_black_x2 NULL
+classification tile
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom z0_flr_black_x2
+node dummy z0_flr_black_x2
+  parent NULL
+  #part-number 0
+endnode
+node trimesh Plane687
+  parent z0_flr_black_x2
+  #part-number 1
+  ambient 0 0 0
+  diffuse 0 0 0
+  specular 0 0 0
+  shininess 0
+  bitmap black
+  verts 4
+    -5 5 0
+    -5 -5 0
+    5 5 0
+    5 -5 0
+  tverts 4
+    0 1 0
+    0 0 0
+    1 1 0
+    1 0 0
+  faces 2
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+  position 5 5 0.01
+  orientation 0 0 0 0
+  alpha 1
+endnode
+node trimesh Plane688
+  parent z0_flr_black_x2
+  #part-number 2
+  ambient 0 0 0
+  diffuse 0 0 0
+  specular 0 0 0
+  shininess 0
+  bitmap black
+  verts 4
+    -5 5 0
+    -5 -5 0
+    5 5 0
+    5 -5 0
+  tverts 4
+    0 1 0
+    0 0 0
+    1 1 0
+    1 0 0
+  faces 2
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+  position 5 -5 0.01
+  orientation 0 0 0 0
+  alpha 1
+endnode
+node trimesh Plane688_DUP00003
+  parent z0_flr_black_x2
+  #part-number 3
+  ambient 0 0 0
+  diffuse 0 0 0
+  specular 0 0 0
+  shininess 0
+  bitmap black
+  verts 4
+    -5 5 0
+    -5 -5 0
+    5 5 0
+    5 -5 0
+  tverts 4
+    0 1 0
+    0 0 0
+    1 1 0
+    1 0 0
+  faces 2
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+  position -5 -5 0.01
+  orientation 0 0 0 0
+  alpha 1
+endnode
+node trimesh Plane688_DUP00004
+  parent z0_flr_black_x2
+  #part-number 4
+  ambient 0 0 0
+  diffuse 0 0 0
+  specular 0 0 0
+  shininess 0
+  bitmap black
+  verts 4
+    -5 5 0
+    -5 -5 0
+    5 5 0
+    5 -5 0
+  tverts 4
+    0 1 0
+    0 0 0
+    1 1 0
+    1 0 0
+  faces 2
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+  position -5 5 0.01
+  orientation 0 0 0 0
+  alpha 1
+endnode
+endmodelgeom z0_flr_black_x2
+
+donemodel z0_flr_black_x2

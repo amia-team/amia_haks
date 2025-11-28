@@ -1,0 +1,542 @@
+# Exported from NWmax 0.8 b54 at 6/6/2021 11:38:41 AM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: sh_artmv000
+#local file: Unknown
+filedependancy Unknown
+newmodel sh_artmv000
+setsupermodel sh_artmv000 NULL
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom sh_artmv000
+node dummy sh_artmv000
+  parent NULL
+endnode
+node trimesh damage48
+  parent sh_artmv000
+  position -0.000867298 0.01114 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 0.0705882 0.0 1.0 
+  diffuse 1.0 0.501961 0.643137 
+  specular 0.0 0.0 0.0 
+  shininess 24
+  center 0.0 0.0 25.0 
+  bitmap NULL
+  verts 12
+    -0.195415 -0.186216 0.0
+    -0.195415 0.186216 0.0
+    0.195415 0.186216 0.0
+    0.195415 -0.186216 0.0
+    -0.195415 -0.186216 0.5
+    0.195415 -0.186216 0.5
+    0.195415 0.186216 0.5
+    -0.195415 0.186216 0.5
+    0.103944 -0.0990513 0.25
+    -0.103944 -0.0990513 0.25
+    0.103944 0.0990513 0.25
+    -0.103944 0.0990513 0.25
+  faces 20
+    0 1 2  1  0 1 2  0
+    2 3 0  1  0 1 2  0
+    4 5 6  1  0 1 2  0
+    6 7 4  1  0 1 2  0
+    0 3 8  1  0 1 2  0
+    8 9 0  1  0 1 2  0
+    9 8 5  1  0 1 2  0
+    5 4 9  1  0 1 2  0
+    3 2 10  1  0 1 2  0
+    10 8 3  1  0 1 2  0
+    8 10 6  1  0 1 2  0
+    6 5 8  1  0 1 2  0
+    2 1 11  1  0 1 2  0
+    11 10 2  1  0 1 2  0
+    10 11 7  1  0 1 2  0
+    7 6 10  1  0 1 2  0
+    1 0 9  1  0 1 2  0
+    9 11 1  1  0 1 2  0
+    11 9 4  1  0 1 2  0
+    4 7 11  1  0 1 2  0
+  tverts 3
+    0.0 0.0 0
+    0.0 0.0 0
+    0.0 0.0 0
+endnode
+node trimesh sh_artmv
+  parent damage48
+  position 0.000867298 -0.01114 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center 0.0 0.0 175.0 
+  bitmap sh_artmv000
+  verts 16
+    -0.56391 0.0421943 1.00373
+    0.56391 0.0421942 1.00373
+    -0.56391 0.042194 2.49627
+    0.56391 0.0421939 2.49627
+    -0.413534 0.000712441 1.15298
+    0.413534 0.000712441 1.15298
+    -0.413534 0.000712551 2.34701
+    0.413534 0.000712551 2.34701
+    -0.528106 -0.0346631 1.03927
+    0.528106 -0.0346632 1.03927
+    0.528106 -0.0346633 2.46073
+    -0.528106 -0.0346633 2.46073
+    -0.454662 -0.0421943 1.11216
+    0.454662 -0.0421943 1.11216
+    0.454662 -0.0421943 2.38784
+    -0.454662 -0.0421943 2.38784
+  faces 28
+    0 2 3  2  16 18 19  2
+    3 1 0  2  19 17 16  2
+    4 5 7  4  20 21 23  2
+    7 6 4  4  23 22 20  2
+    0 1 9  8  0 1 9  2
+    9 8 0  8  9 8 0  2
+    8 9 13  8  8 9 13  2
+    13 12 8  8  13 12 8  2
+    12 13 5  8  12 13 5  2
+    5 4 12  8  5 4 12  2
+    1 3 10  16  1 3 10  2
+    10 9 1  16  10 9 1  2
+    9 10 14  16  9 10 14  2
+    14 13 9  16  14 13 9  2
+    13 14 7  16  13 14 7  2
+    7 5 13  16  7 5 13  2
+    3 2 11  32  3 2 11  2
+    11 10 3  32  11 10 3  2
+    10 11 15  32  10 11 15  2
+    15 14 10  32  15 14 10  2
+    14 15 6  32  14 15 6  2
+    6 7 14  32  6 7 14  2
+    2 0 8  64  2 0 8  2
+    8 11 2  64  8 11 2  2
+    11 8 12  64  11 8 12  2
+    12 15 11  64  12 15 11  2
+    15 12 4  64  15 12 4  2
+    4 6 15  64  4 6 15  2
+  tverts 24
+    0.00221528 0.333474 0
+    0.501204 0.333474 0
+    0.00221552 0.997948 0
+    0.501204 0.997948 0
+    0.0713351 0.39882 0
+    0.43207 0.39882 0
+    0.0713351 0.932596 0
+    0.43207 0.932596 0
+    0.0212037 0.350813 0
+    0.482216 0.350813 0
+    0.482216 0.980609 0
+    0.0212038 0.980609 0
+    0.0529202 0.379601 0
+    0.450499 0.379601 0
+    0.450499 0.951821 0
+    0.0529205 0.951824 0
+    0.134246 0.470822 0
+    0.367836 0.470822 0
+    0.134246 0.86361 0
+    0.367836 0.86361 0
+    0.506409 0.333139 0
+    0.996601 0.333139 0
+    0.506409 0.998381 0
+    0.996601 0.998381 0
+endnode
+node emitter ChunkyWood142
+  parent sh_artmv000
+  position -0.00216421 -0.00728064 2.24376
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawnType 0
+  xSize 89.0
+  ySize 40.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 1.0 1.0 
+  colorEnd 1.0 1.0 1.0 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 3
+  lifeExp 0.75
+  mass 3.0
+  spread 1.22173
+  particleRot 5.0
+  velocity 8.0
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10.0
+  loop 0
+  bounce 1
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_cloud02
+  twosidedtex 0
+  xgrid 5
+  ygrid 5
+  fps 0
+  frameStart 0
+  frameEnd 24
+  random 0
+  chunkName PLC_Chunk_S01
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node emitter fire!90
+  parent sh_artmv000
+  position 0.00665037 -0.00826465 0.174662
+  orientation 1.0 0.0 0.0 -4.71239
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawnType 0
+  xSize 100.0
+  ySize 99.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.47451 0.454902 0.407843 
+  colorEnd 0.819608 0.803922 0.745098 
+  alphaStart 1.0
+  alphaEnd 0.0
+  sizeStart 4.0
+  sizeEnd 1.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 10
+  lifeExp 2.5
+  mass 0.09
+  spread 2.96706
+  particleRot 0.5
+  velocity 2.0
+  randvel 0.5
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 1
+  xgrid 4
+  ygrid 4
+  fps 10
+  frameStart 0
+  frameEnd 24
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.2
+  blastLength 1.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node dummy x0_pt1_head
+  parent sh_artmv000
+  position -0.0478483 0.0260118 2.51855
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.345098 0.780392 0.882353 
+endnode
+node dummy x0_pt1_head_hit
+  parent sh_artmv000
+  position -0.0478483 0.0260118 2.42484
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.345098 0.780392 0.882353 
+endnode
+node dummy x0_pt1_hand
+  parent sh_artmv000
+  position -0.0478483 0.0260118 2.31299
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.345098 0.780392 0.882353 
+endnode
+node dummy x0_pt1_impact
+  parent sh_artmv000
+  position -0.0478483 0.0260118 2.21922
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.345098 0.780392 0.882353 
+endnode
+node dummy x0_pt1_ground
+  parent sh_artmv000
+  position -0.0478483 0.0260118 0.0266519
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.341176 0.878431 0.341176 
+endnode
+endmodelgeom sh_artmv000
+#NWmax ANIM ASCII
+newanim damage sh_artmv000
+  length 0.133333
+  transtime 0.0
+  animroot sh_artmv000
+    node dummy sh_artmv000
+        parent NULL
+    endnode
+    node trimesh damage48
+        parent sh_artmv000
+        positionkey
+            0.0 -0.000867298 0.01114 0.0
+            0.0333333 -0.000867298 0.01114 0.0244581
+            0.133333 -0.000867298 0.01114 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.371336 -0.928463 0.00810258 -0.0469942
+            0.1 -0.599949 0.79997 0.0104721 -0.0436326
+            0.133333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh sh_artmv
+        parent damage48
+    endnode
+    node emitter ChunkyWood142
+        parent sh_artmv000
+    endnode
+    node emitter fire!90
+        parent sh_artmv000
+    endnode
+    node dummy x0_pt1_head
+        parent sh_artmv000
+    endnode
+    node dummy x0_pt1_head_hit
+        parent sh_artmv000
+    endnode
+    node dummy x0_pt1_hand
+        parent sh_artmv000
+    endnode
+    node dummy x0_pt1_impact
+        parent sh_artmv000
+    endnode
+    node dummy x0_pt1_ground
+        parent sh_artmv000
+    endnode
+    node dummy Painting_PS_pwk
+        parent sh_artmv000
+    endnode
+    node trimesh Painting_PS_wg
+        parent Painting_PS_pwk
+    endnode
+    node dummy Painting_PS_pwk_use01
+        parent Painting_PS_pwk
+    endnode
+doneanim damage sh_artmv000
+#NWmax ANIM ASCII
+newanim die sh_artmv000
+  length 0.166667
+  transtime 0.0
+  animroot sh_artmv000
+  event 0.0 detonate
+  event 0.0 detonate
+    node dummy sh_artmv000
+        parent NULL
+    endnode
+    node trimesh damage48
+        parent sh_artmv000
+        positionkey
+            0.0 -0.000867298 0.01114 0.0
+            0.0333333 -0.000867298 0.01114 -6.95145
+            0.166667 -0.000867298 0.01114 -6.95145
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh sh_artmv
+        parent damage48
+    endnode
+    node emitter ChunkyWood142
+        parent sh_artmv000
+    endnode
+    node emitter fire!90
+        parent sh_artmv000
+    endnode
+    node dummy x0_pt1_head
+        parent sh_artmv000
+    endnode
+    node dummy x0_pt1_head_hit
+        parent sh_artmv000
+    endnode
+    node dummy x0_pt1_hand
+        parent sh_artmv000
+    endnode
+    node dummy x0_pt1_impact
+        parent sh_artmv000
+    endnode
+    node dummy x0_pt1_ground
+        parent sh_artmv000
+    endnode
+    node dummy Painting_PS_pwk
+        parent sh_artmv000
+    endnode
+    node trimesh Painting_PS_wg
+        parent Painting_PS_pwk
+    endnode
+    node dummy Painting_PS_pwk_use01
+        parent Painting_PS_pwk
+    endnode
+doneanim die sh_artmv000
+#NWmax ANIM ASCII
+newanim dead sh_artmv000
+  length 0.0333333
+  transtime 0.0
+  animroot sh_artmv000
+    node dummy sh_artmv000
+        parent NULL
+    endnode
+    node trimesh damage48
+        parent sh_artmv000
+        positionkey
+            0.0 -0.000867298 0.01114 -6.95145
+            0.0333333 -0.000867298 0.01114 -6.95145
+        endlist
+    endnode
+    node trimesh sh_artmv
+        parent damage48
+    endnode
+    node emitter ChunkyWood142
+        parent sh_artmv000
+    endnode
+    node emitter fire!90
+        parent sh_artmv000
+    endnode
+    node dummy x0_pt1_head
+        parent sh_artmv000
+    endnode
+    node dummy x0_pt1_head_hit
+        parent sh_artmv000
+    endnode
+    node dummy x0_pt1_hand
+        parent sh_artmv000
+    endnode
+    node dummy x0_pt1_impact
+        parent sh_artmv000
+    endnode
+    node dummy x0_pt1_ground
+        parent sh_artmv000
+    endnode
+    node dummy Painting_PS_pwk
+        parent sh_artmv000
+    endnode
+    node trimesh Painting_PS_wg
+        parent Painting_PS_pwk
+    endnode
+    node dummy Painting_PS_pwk_use01
+        parent Painting_PS_pwk
+    endnode
+doneanim dead sh_artmv000
+#NWmax ANIM ASCII
+newanim default sh_artmv000
+  length 0.0
+  transtime 0.25
+  animroot sh_artmv000
+    node dummy sh_artmv000
+        parent NULL
+    endnode
+    node trimesh damage48
+        parent sh_artmv000
+    endnode
+    node trimesh sh_artmv
+        parent damage48
+    endnode
+    node emitter ChunkyWood142
+        parent sh_artmv000
+    endnode
+    node emitter fire!90
+        parent sh_artmv000
+    endnode
+    node dummy x0_pt1_head
+        parent sh_artmv000
+    endnode
+    node dummy x0_pt1_head_hit
+        parent sh_artmv000
+    endnode
+    node dummy x0_pt1_hand
+        parent sh_artmv000
+    endnode
+    node dummy x0_pt1_impact
+        parent sh_artmv000
+    endnode
+    node dummy x0_pt1_ground
+        parent sh_artmv000
+    endnode
+    node dummy Painting_PS_pwk
+        parent sh_artmv000
+    endnode
+    node trimesh Painting_PS_wg
+        parent Painting_PS_pwk
+    endnode
+    node dummy Painting_PS_pwk_use01
+        parent Painting_PS_pwk
+    endnode
+doneanim default sh_artmv000
+donemodel sh_artmv000

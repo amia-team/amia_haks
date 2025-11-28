@@ -1,0 +1,40 @@
+#MAXMODEL ASCII
+filedependancy unknown
+newmodel plc_bee_h1
+setsupermodel plc_bee_h1 NULL
+classification character
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom plc_bee_h1
+node dummy plc_bee_h1
+  parent NULL
+endnode
+node trimesh Plane687
+  parent plc_bee_h1
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  position 0 0 0.1
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+  selfillumcolor 0 0 0
+  bitmap tw005_honey
+  verts 4
+     5  5 0
+    -5  5 0
+    -5 -5 0
+     5 -5 0
+  tverts 4
+    1 1 0
+    0 1 0
+    0 0 0
+    1 0 0
+  faces 2
+    0 1 2  0  0 1 2  0
+    2 3 0  0  2 3 0  0
+endnode
+endmodelgeom plc_bee_h1
+
+donemodel plc_bee_h1
