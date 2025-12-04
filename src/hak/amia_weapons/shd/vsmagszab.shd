@@ -1,0 +1,386 @@
+//=============================================================================
+//
+// vsmagszab.shd - Vertex shader with metal map support
+//
+// EEVEE-style PBR with texture6 as metalness map
+//
+//=============================================================================
+
+#define SHADER_TYPE 1
+
+#define UNLIT 0
+#define STATIC_LIGHT 1
+
+#define NO_TEXTURE 0
+#define NORMAL_MAP 1
+#define ENVIRONMENT_MAP 0
+
+#define SKINMESH 0
+
+///////////////////////////////////
+//
+// BEGIN INC_COMMON (INLINED)
+//
+///////////////////////////////////
+
+const int GammaCorrection = 1;
+
+#define ENABLE_KEYHOLING 1
+
+uniform vec3 playerPosition;
+uniform float playerCameraDist;
+uniform vec3 cameraPosition;
+uniform float cameraPitch;
+uniform float cameraYaw;
+
+uniform int screenWidth;
+uniform int screenHeight;
+
+#define PI 3.14159265359
+#define MAX_BONES 128
+
+#define COLOR_CORRECTION_TYPE 1
+
+uniform highp mat4 m_mvp;
+uniform highp mat4 m_mv;
+uniform highp mat4 m_m;
+uniform highp mat3 m_normal;
+uniform highp mat4 m_texture;
+
+uniform int fogEnabled;
+uniform mediump float fogEnd;
+uniform mediump float fogStart;
+
+varying vec4 vColorOut;
+varying float fFogFragCoord;
+varying highp vec3 vWorldCoord;
+varying highp vec3 vPosView;
+
+varying vec4 VertexColor;
+varying vec3 vVertexNormal;
+
+#if NO_TEXTURE != 1
+    varying vec2 vVertexTexCoords;
+    uniform int texture0Bound;
+    uniform int texture1Bound;
+    uniform int texture2Bound;
+    uniform int texture3Bound;
+    uniform int texture4Bound;
+    uniform int texture5Bound;
+    uniform int texture6Bound;  // Metal map
+
+    #if NORMAL_MAP == 1
+        varying float fTextureHandedness;
+        varying vec3 vVertexTangent;
+        attribute float fHandedness;
+        attribute vec3 vTangent;
+    #endif
+#endif
+
+attribute vec4 vPos;
+#if NO_TEXTURE != 1
+    attribute vec2 vTcIn;
+#endif
+attribute vec4 vColor;
+attribute vec3 vNormal;
+
+#if SKINMESH == 1
+    uniform int idxmap[MAX_BONES];
+    uniform highp mat4 m_bones[MAX_BONES];
+    attribute vec4 vIndex;
+    attribute vec4 vWeight;
+#endif
+
+vec3 vViewToSurface_n;
+
+void SetupViewToSurfaceNormal()
+{
+    vViewToSurface_n = normalize(vPosView.xyz);
+}
+
+vec3 ApplyColorSpace(vec3 vColor)
+{
+    if(GammaCorrection == 1)
+    {
+        return sign(vColor) * pow(abs(vColor), vec3(2.2));
+    }
+    else
+    {
+        return vColor;
+    }
+}
+
+vec4 ApplyColorSpace(vec4 vColor)
+{
+    return vec4(ApplyColorSpace(vColor.rgb), vColor.a);
+}
+
+vec3 RevertColorSpace(vec3 vColor)
+{
+    if(GammaCorrection == 1)
+    {
+        return sign(vColor) * pow(abs(vColor), vec3(0.45454545));
+    }
+    else
+    {
+        return vColor;
+    }
+}
+
+vec4 RevertColorSpace(vec4 vColor)
+{
+    return vec4(RevertColorSpace(vColor.rgb), vColor.a);
+}
+
+vec3 ColorClamp(vec3 vColor)
+{
+    float fMax = max(vColor.r, max(vColor.g, vColor.b));
+    if(fMax > 1.0)
+    {
+        float fBrightness3 = dot(vColor.rgb, vec3(1.0));
+        if(fBrightness3 >= 3.0)
+        {
+            return vec3(1.0);
+        }
+        fBrightness3 = 3.0 - fBrightness3;
+        vColor.rgb = -vColor.rgb + fMax;
+        vColor.rgb *= fBrightness3 / dot(vColor.rgb, vec3(1.0));
+        vColor.rgb = -vColor.rgb + 1.0;
+    }
+    return vColor;
+}
+
+vec4 ColorClamp(vec4 vColor)
+{
+    return vec4(ColorClamp(vColor.rgb), vColor.a);
+}
+
+///////////////////////////////////
+//
+// END INC_COMMON
+//
+///////////////////////////////////
+
+///////////////////////////////////
+//
+// BEGIN INC_LIGHTING (VERTEX)
+//
+///////////////////////////////////
+
+#define SPECULAR_LIGHT 1
+#define SPECULAR_DISTRIBUTION_MODEL 1
+#define SPECULAR_GEOMETRIC_SHADOWING 1
+#define FRESNEL 1
+
+uniform int FragmentLighting;
+
+#if STATIC_LIGHT == 1
+    uniform vec3 vStaticLightDir;
+    uniform mediump vec3 staticLightColor;
+#endif
+
+uniform int nSunLightIndex;
+
+uniform highp vec4 lightPosition[8];
+uniform mediump vec4 lightAmbient[8];
+uniform mediump vec4 lightDiffuse[8];
+uniform mediump float lightQuadraticAtten[8];
+
+uniform mediump vec4 materialFrontDiffuse;
+uniform mediump vec4 materialFrontEmissive;
+uniform lowp vec4 frontLightModelProductSceneColor;
+
+uniform int numLights;
+
+varying vec3 vStaticLightDirOut;
+
+vec3 AmbientLight;
+vec3 DiffuseLight;
+vec3 StaticLight;
+
+float fNdotV;
+
+const float fAngleMin = 0.01;
+
+#if SPECULAR_LIGHT == 1
+    uniform float Specularity;
+    uniform float Roughness;
+    uniform float Metallicness;
+    vec3 SpecularLight;
+    float fSpecularity;
+    float fRoughness;
+    float fRoughness_sq;
+    float fMetallicness;
+#endif
+
+void SetupLights()
+{
+    if(FragmentLighting == 1)
+    {
+        #if STATIC_LIGHT == 1
+            vStaticLightDirOut = m_normal * vStaticLightDir;
+        #else
+            vStaticLightDirOut = vec3(0.0);
+        #endif
+    }
+}
+
+///////////////////////////////////
+//
+// END INC_LIGHTING
+//
+///////////////////////////////////
+
+///////////////////////////////////
+//
+// BEGIN INC_KEYHOLE (VERTEX)
+//
+///////////////////////////////////
+
+const float GRAD_VECS_NUM = 12.0;
+const float WORLD_COORDS_MOD_LIMIT = 35.0;
+
+uniform int keyholeCanDissolve;
+
+varying highp vec3 vKeyholeNoiseBase;
+varying float fFragCamOffset;
+
+void SetupKeyholeFactors()
+{
+    if(keyholeCanDissolve == 1)
+    {
+        fFragCamOffset = -vPosView.z - playerCameraDist + (90.0 - cameraPitch) / 45.0;
+        highp mat4 tempM = m_m;
+        tempM[3] = mod(tempM[3], WORLD_COORDS_MOD_LIMIT);
+        vKeyholeNoiseBase = (tempM * vPos).xyz;
+    }
+}
+
+///////////////////////////////////
+//
+// END INC_KEYHOLE
+//
+///////////////////////////////////
+
+///////////////////////////////////
+//
+// BEGIN INC_STANDARD (VERTEX)
+//
+///////////////////////////////////
+
+void TransformMainCoordinates()
+{
+    #if SKINMESH == 1
+        vec4 vSkinnedPosition;
+
+        int index = idxmap[int(vIndex.x)];
+        vSkinnedPosition = (m_bones[index] * vPos) * vWeight.x;
+        #if NORMAL_MAP == 1
+            vVertexTangent = (mat3(m_bones[index]) * vTangent) * vWeight.x;
+        #endif
+        vVertexNormal = (mat3(m_bones[index]) * vNormal) * vWeight.x;
+
+        index = idxmap[int(vIndex.y)];
+        vSkinnedPosition += (m_bones[index] * vPos) * vWeight.y;
+        #if NORMAL_MAP == 1
+            vVertexTangent = (mat3(m_bones[index]) * vTangent) * vWeight.y + vVertexTangent;
+        #endif
+        vVertexNormal = (mat3(m_bones[index]) * vNormal) * vWeight.y + vVertexNormal;
+
+        index = idxmap[int(vIndex.z)];
+        vSkinnedPosition += (m_bones[index] * vPos) * vWeight.z;
+        #if NORMAL_MAP == 1
+            vVertexTangent = (mat3(m_bones[index]) * vTangent) * vWeight.z + vVertexTangent;
+        #endif
+        vVertexNormal = (mat3(m_bones[index]) * vNormal) * vWeight.z + vVertexNormal;
+
+        index = idxmap[int(vIndex.w)];
+        vSkinnedPosition += (m_bones[index] * vPos) * vWeight.w;
+        #if NORMAL_MAP == 1
+            vVertexTangent = (mat3(m_bones[index]) * vTangent) * vWeight.w + vVertexTangent;
+        #endif
+        vVertexNormal = (mat3(m_bones[index]) * vNormal) * vWeight.w + vVertexNormal;
+
+        gl_Position = m_mvp * vSkinnedPosition;
+        vWorldCoord = (m_m * vSkinnedPosition).xyz;
+        vPosView = (m_mv * vSkinnedPosition).xyz;
+        #if NORMAL_MAP == 1
+            vVertexTangent = m_normal * vVertexTangent;
+        #endif
+        vVertexNormal = m_normal * vVertexNormal;
+    #else
+        gl_Position = m_mvp * vPos;
+        vWorldCoord = (m_m * vPos).xyz;
+        vPosView = (m_mv * vPos).xyz;
+
+        #if NORMAL_MAP == 1
+            vVertexTangent = vTangent * m_texture[0][0] - m_texture[0][0] * dot(vNormal, vTangent) * vNormal + m_texture[1][0] * cross(vNormal, vTangent);
+            vVertexTangent = m_normal * vVertexTangent;
+        #endif
+
+        vVertexNormal = m_normal * vNormal;
+    #endif
+}
+
+void SetupFog()
+{
+    if(fogEnabled == 1)
+    {
+        fFogFragCoord = (-vPosView.z - fogStart) / (fogEnd - fogStart);
+        fFogFragCoord = clamp(fFogFragCoord, 0.0, 1.0);
+    }
+    else
+    {
+        fFogFragCoord = 0.0;
+    }
+}
+
+vec4 ApplyStandardShader(vec4 Color)
+{
+    TransformMainCoordinates();
+
+    SetupKeyholeFactors();
+
+    SetupLights();
+
+    // Set initial vertex color for fragment lighting
+    if(FragmentLighting == 1)
+    {
+        #if STATIC_LIGHT == 1
+            Color *= ApplyColorSpace(vColor);
+        #else
+            Color *= vec4(0.0, 0.0, 0.0, 1.0);
+        #endif
+    }
+
+    Color.a *= materialFrontDiffuse.a;
+
+    #if NO_TEXTURE != 1
+        vVertexTexCoords = (m_texture * vec4(vTcIn, 0.0, 1.0)).xy;
+        #if NORMAL_MAP == 1
+            fTextureHandedness = fHandedness;
+        #endif
+    #endif
+
+    SetupFog();
+
+    Color.rgb = RevertColorSpace(Color.rgb);
+
+    #if COLOR_CORRECTION_TYPE == 1
+        Color.rgb = ColorClamp(Color.rgb);
+    #endif
+
+    return Color;
+}
+
+///////////////////////////////////
+//
+// END INC_STANDARD
+//
+///////////////////////////////////
+
+void main()
+{
+    VertexColor = vec4(1.0);
+    VertexColor = ApplyStandardShader(VertexColor);
+}

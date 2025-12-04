@@ -1,0 +1,671 @@
+//=============================================================================
+//
+// fsmagszab.shd - Fragment shader with metal map support
+//
+// EEVEE-style PBR with texture6 as metalness map
+//
+//=============================================================================
+
+#define SHADER_TYPE 2
+
+#define UNLIT 0
+#define STATIC_LIGHT 1
+
+#define NO_TEXTURE 0
+#define DIFFUSE_MAP 1
+#define NORMAL_MAP 1
+#define SPECULAR_MAP 1
+#define ROUGHNESS_MAP 1
+#define HEIGHT_MAP 0
+#define SELF_ILLUMINATION_MAP 1
+#define ENVIRONMENT_MAP 0
+
+#define SKINMESH 0
+
+///////////////////////////////////
+//
+// BEGIN INC_COMMON (INLINED)
+//
+///////////////////////////////////
+
+const int GammaCorrection = 1;
+
+#define ENABLE_KEYHOLING 1
+
+uniform vec3 playerPosition;
+uniform float playerCameraDist;
+uniform vec3 cameraPosition;
+uniform float cameraPitch;
+uniform float cameraYaw;
+
+uniform int screenWidth;
+uniform int screenHeight;
+
+#define PI 3.14159265359
+#define MAX_BONES 128
+
+#define COLOR_CORRECTION_TYPE 1
+
+uniform highp mat4 m_mvp;
+uniform highp mat4 m_mv;
+uniform highp mat4 m_m;
+uniform highp mat3 m_normal;
+uniform highp mat4 m_texture;
+
+uniform int fogEnabled;
+uniform mediump float fogEnd;
+uniform mediump float fogStart;
+
+varying vec4 vColorOut;
+varying float fFogFragCoord;
+varying highp vec3 vWorldCoord;
+varying highp vec3 vPosView;
+
+varying vec4 VertexColor;
+varying vec3 vVertexNormal;
+
+varying vec2 vVertexTexCoords;
+
+uniform lowp vec4 fogColor;
+
+uniform int texture0Bound;
+uniform int texture1Bound;
+uniform int texture2Bound;
+uniform int texture3Bound;
+uniform int texture4Bound;
+uniform int texture5Bound;
+uniform int texture6Bound;  // Metal map binding
+
+uniform sampler2D texUnit0;  // Diffuse
+uniform sampler2D texUnit1;  // Normal
+uniform sampler2D texUnit2;  // Specular
+uniform sampler2D texUnit3;  // Roughness
+uniform sampler2D texUnit5;  // Self-illumination
+uniform sampler2D texUnit6;  // Metal map
+
+vec2 vTexCoords;
+
+#if NORMAL_MAP == 1
+    varying float fTextureHandedness;
+    varying vec3 vVertexTangent;
+#endif
+
+vec3 vViewToSurface_n;
+
+void SetupViewToSurfaceNormal()
+{
+    vViewToSurface_n = normalize(vPosView.xyz);
+}
+
+vec3 ApplyColorSpace(vec3 vColor)
+{
+    if(GammaCorrection == 1)
+    {
+        return sign(vColor) * pow(abs(vColor), vec3(2.2));
+    }
+    else
+    {
+        return vColor;
+    }
+}
+
+vec4 ApplyColorSpace(vec4 vColor)
+{
+    return vec4(ApplyColorSpace(vColor.rgb), vColor.a);
+}
+
+vec3 RevertColorSpace(vec3 vColor)
+{
+    if(GammaCorrection == 1)
+    {
+        return sign(vColor) * pow(abs(vColor), vec3(0.45454545));
+    }
+    else
+    {
+        return vColor;
+    }
+}
+
+vec4 RevertColorSpace(vec4 vColor)
+{
+    return vec4(RevertColorSpace(vColor.rgb), vColor.a);
+}
+
+vec3 ColorClamp(vec3 vColor)
+{
+    float fMax = max(vColor.r, max(vColor.g, vColor.b));
+    if(fMax > 1.0)
+    {
+        float fBrightness3 = dot(vColor.rgb, vec3(1.0));
+        if(fBrightness3 >= 3.0)
+        {
+            return vec3(1.0);
+        }
+        fBrightness3 = 3.0 - fBrightness3;
+        vColor.rgb = -vColor.rgb + fMax;
+        vColor.rgb *= fBrightness3 / dot(vColor.rgb, vec3(1.0));
+        vColor.rgb = -vColor.rgb + 1.0;
+    }
+    return vColor;
+}
+
+vec4 ColorClamp(vec4 vColor)
+{
+    return vec4(ColorClamp(vColor.rgb), vColor.a);
+}
+
+///////////////////////////////////
+//
+// END INC_COMMON
+//
+///////////////////////////////////
+
+///////////////////////////////////
+//
+// BEGIN INC_LIGHTING (FRAGMENT)
+//
+///////////////////////////////////
+
+#define SPECULAR_LIGHT 1
+#define SPECULAR_DISTRIBUTION_MODEL 1
+#define SPECULAR_GEOMETRIC_SHADOWING 1
+#define FRESNEL 1
+
+uniform int FragmentLighting;
+
+#if STATIC_LIGHT == 1
+    uniform vec3 vStaticLightDir;
+    uniform mediump vec3 staticLightColor;
+#endif
+
+uniform int nSunLightIndex;
+
+uniform highp vec4 lightPosition[8];
+uniform mediump vec4 lightAmbient[8];
+uniform mediump vec4 lightDiffuse[8];
+uniform mediump float lightQuadraticAtten[8];
+
+uniform mediump vec4 materialFrontDiffuse;
+uniform mediump vec4 materialFrontEmissive;
+uniform lowp vec4 frontLightModelProductSceneColor;
+
+uniform int numLights;
+
+varying vec3 vStaticLightDirOut;
+
+vec3 AmbientLight;
+vec3 DiffuseLight;
+vec3 StaticLight;
+
+float fNdotV;
+
+const float fAngleMin = 0.01;
+const float fSurfaceFadePoint = 0.1;
+
+#if SPECULAR_LIGHT == 1
+    uniform float Specularity;
+    uniform float Roughness;
+    uniform float Metallicness;
+
+    vec3 SpecularLight;
+    vec3 SpecularColor;
+
+    float fSpecularity;
+    float fRoughness;
+    float fRoughness_sq;
+    float fMetallicness;
+
+    const float fSpecularFadePoint = 0.2;
+    const float fRoughnessMax = 0.65;
+    const float fRoughnessMin = 0.15;
+    const float fMetallicnessOffset = 0.1;
+    const float fMetallicnessModifier = 5.0;
+    const float fSpecularityMin = 0.025;
+
+    float fShininess;
+
+    //=============================================================================
+    // GGX BRDF
+    //=============================================================================
+
+    float SpecularDistributionGGX(float fNdotH)
+    {
+        float fNdotH_sq = fNdotH * fNdotH;
+        float fFactor = fNdotH_sq * (fRoughness_sq - 1.0) + 1.0;
+        return fRoughness_sq / (PI * fFactor * fFactor);
+    }
+
+    float GeometryGGX(float fNdotL, float fNdotV)
+    {
+        float fFactor = fRoughness * 0.5;
+        return 1.0 / (mix(fNdotL, 1.0, fFactor) * mix(fNdotV, 1.0, fFactor));
+    }
+
+    float GetSpecularIntensity(vec3 vNormalThis, vec3 vHalfVector, float fNdotL)
+    {
+        float fNdotH = max(dot(vNormalThis, vHalfVector), fAngleMin);
+        float fDistribution = 0.25;
+        fDistribution *= SpecularDistributionGGX(fNdotH);
+        fDistribution *= GeometryGGX(fNdotL, fNdotV);
+        return min(fDistribution, 16.0);
+    }
+
+    //=============================================================================
+    // Schlick Fresnel
+    //=============================================================================
+
+    #if FRESNEL == 1
+    vec3 FresnelSchlick(float fVdotH, vec3 vBaseReflectivity)
+    {
+        return vBaseReflectivity + (1.0 - vBaseReflectivity) * pow(1.0 - fVdotH, 5.0);
+    }
+    #endif
+
+#endif
+
+//=============================================================================
+// SetupSpecularity - WITH METAL MAP SUPPORT
+//=============================================================================
+
+#if SPECULAR_LIGHT == 1
+void SetupSpecularity(vec4 TexDiffuse)
+{
+    // Determine specularity from map or uniform
+    if(Specularity > 0.0)
+    {
+        fSpecularity = Specularity;
+    }
+    else
+    {
+        #if SPECULAR_MAP == 1
+            if(texture2Bound != 0)
+            {
+                fSpecularity = texture2D(texUnit2, vTexCoords.xy).r;
+            }
+            else
+            {
+                fSpecularity = fSpecularityMin;
+            }
+        #else
+            fSpecularity = fSpecularityMin;
+        #endif
+    }
+
+    //=========================================================================
+    // METAL MAP SUPPORT - Read metallicness from texture6
+    //=========================================================================
+    if(texture6Bound != 0)
+    {
+        // Read metal map from texture6 (red channel = metalness)
+        fMetallicness = texture2D(texUnit6, vTexCoords.xy).r;
+    }
+    else if(Metallicness > 0.0)
+    {
+        // Use uniform metallicness if no metal map
+        fMetallicness = Metallicness;
+    }
+    else
+    {
+        // Derive metallicness from specularity (legacy behavior)
+        fMetallicness = clamp(fMetallicnessModifier * (fSpecularity - fMetallicnessOffset), 0.0, 1.0);
+    }
+
+    //=========================================================================
+    // EEVEE-style specular color: metals tint specular by albedo
+    //=========================================================================
+    SpecularColor = mix(vec3(1.0), TexDiffuse.rgb, fMetallicness);
+
+    // Determine roughness from map or uniform
+    if(Roughness > 0.0)
+    {
+        fRoughness = Roughness;
+    }
+    else
+    {
+        #if ROUGHNESS_MAP == 1
+            if(texture3Bound != 0)
+            {
+                fRoughness = texture2D(texUnit3, vTexCoords.xy).r;
+            }
+            else
+            {
+                fRoughness = mix(fRoughnessMax, fRoughnessMin, fSpecularity);
+            }
+        #else
+            fRoughness = mix(fRoughnessMax, fRoughnessMin, fSpecularity);
+        #endif
+    }
+
+    fRoughness = max(0.1, fRoughness);
+    fRoughness_sq = fRoughness * fRoughness;
+    fShininess = 2.0 / fRoughness_sq - 2.0;
+}
+#endif
+
+//=============================================================================
+// Lighting calculation
+//=============================================================================
+
+void ApplyLight(inout vec3 Diffuse, inout vec3 Specular, vec3 vNormal, vec3 vLightDir, vec3 vLightColor, float fAtten)
+{
+    float fNdotL = max(dot(vNormal, vLightDir), 0.0);
+    
+    Diffuse += vLightColor * fNdotL * fAtten * (1.0 - fMetallicness * 0.5);
+
+    #if SPECULAR_LIGHT == 1
+        if(fNdotL > fAngleMin)
+        {
+            vec3 vHalfVector = normalize(vLightDir - vViewToSurface_n);
+            float fSpec = GetSpecularIntensity(vNormal, vHalfVector, fNdotL);
+            
+            #if FRESNEL == 1
+                float fVdotH = max(dot(-vViewToSurface_n, vHalfVector), 0.0);
+                vec3 vFresnel = FresnelSchlick(fVdotH, SpecularColor * fSpecularity);
+                Specular += vLightColor * fSpec * vFresnel * fAtten * fNdotL;
+            #else
+                Specular += vLightColor * fSpec * SpecularColor * fSpecularity * fAtten * fNdotL;
+            #endif
+        }
+    #endif
+}
+
+void ComputeLighting(inout vec4 Color, vec3 vNormal)
+{
+    vec3 Diffuse = vec3(0.0);
+    vec3 Specular = vec3(0.0);
+    vec3 Ambient = vec3(0.0);
+
+    fNdotV = max(dot(vNormal, -vViewToSurface_n), fAngleMin);
+
+    // Static/baked light
+    #if STATIC_LIGHT == 1
+        vec3 vStaticDir = normalize(vStaticLightDirOut);
+        float fStaticNdotL = max(dot(vNormal, vStaticDir), 0.0);
+        Diffuse += ApplyColorSpace(staticLightColor) * fStaticNdotL * (1.0 - fMetallicness * 0.5);
+        
+        #if SPECULAR_LIGHT == 1
+            if(fStaticNdotL > fAngleMin)
+            {
+                vec3 vHalf = normalize(vStaticDir - vViewToSurface_n);
+                float fSpec = GetSpecularIntensity(vNormal, vHalf, fStaticNdotL);
+                #if FRESNEL == 1
+                    float fVdotH = max(dot(-vViewToSurface_n, vHalf), 0.0);
+                    Specular += ApplyColorSpace(staticLightColor) * fSpec * FresnelSchlick(fVdotH, SpecularColor * fSpecularity) * fStaticNdotL;
+                #else
+                    Specular += ApplyColorSpace(staticLightColor) * fSpec * SpecularColor * fSpecularity * fStaticNdotL;
+                #endif
+            }
+        #endif
+    #endif
+
+    // Dynamic lights
+    for(int i = 0; i < 8; i++)
+    {
+        if(i >= numLights) break;
+
+        vec3 vLightVec = lightPosition[i].xyz - vPosView;
+        float fDist = length(vLightVec);
+        vec3 vLightDir = vLightVec / fDist;
+
+        float fAtten = 1.0 / (1.0 + lightQuadraticAtten[i] * fDist * fDist);
+
+        if(fAtten > 0.001)
+        {
+            Ambient += ApplyColorSpace(lightAmbient[i].rgb) * fAtten;
+            ApplyLight(Diffuse, Specular, vNormal, vLightDir, ApplyColorSpace(lightDiffuse[i].rgb), fAtten);
+        }
+    }
+
+    // Scene ambient
+    Ambient += ApplyColorSpace(frontLightModelProductSceneColor.rgb);
+
+    // Apply emissive
+    vec3 Emissive = ApplyColorSpace(materialFrontEmissive.rgb);
+
+    // Combine lighting
+    Color.rgb *= (Ambient + Diffuse);
+    Color.rgb += Specular;
+    Color.rgb += Emissive;
+}
+
+///////////////////////////////////
+//
+// END INC_LIGHTING
+//
+///////////////////////////////////
+
+///////////////////////////////////
+//
+// BEGIN INC_KEYHOLE (FRAGMENT)
+//
+///////////////////////////////////
+
+const float GRAD_VECS_NUM = 12.0;
+const float WORLD_COORDS_MOD_LIMIT = 35.0;
+
+uniform int keyholeCanDissolve;
+
+varying highp vec3 vKeyholeNoiseBase;
+varying float fFragCamOffset;
+
+uniform sampler2D keyholePermutationTable;
+uniform vec3 keyholeGradients[int(GRAD_VECS_NUM)];
+
+const int PERM_TABLE_SIZE = 512;
+const float MAX_PERM_VALUE = 255.0;
+const float FLOOR_OFFSET = 1.0;
+
+const float fKeyholeBlackness = 0.8;
+const float fKeyholeNoiseModifier = 0.35;
+const float fKeyholePunchthroughPoint = 0.3;
+const float fKeyholeSizeMax = 0.9;
+const float fKeyholeSizeMin = 0.5;
+const float fKeyholeSizeBase = 5.0;
+
+const float skewFactorMultipl = 1.0 / 3.0;
+const float unskewFactorMultipl = 1.0 / 6.0;
+
+int PermVal(int index)
+{
+    return int(texture2D(keyholePermutationTable, vec2(float(index) / float(PERM_TABLE_SIZE), 0.0)).a * MAX_PERM_VALUE);
+}
+
+float CornerContrib(const int gradInd, vec3 vDelta)
+{
+    const float sqrR = 0.6;
+    float t = sqrR - dot(vDelta, vDelta);
+    if(t < 0.0) return 0.0;
+    t *= t;
+    t *= t;
+    return t * dot(keyholeGradients[gradInd], vDelta);
+}
+
+float MakeSomeNoise(vec3 vBasis)
+{
+    float skewFactor = dot(vBasis, vec3(1.0)) * skewFactorMultipl;
+    vec3 vCellOrigSkewed = floor(vBasis + skewFactor);
+    float unskewFactor = dot(vCellOrigSkewed, vec3(1.0)) * unskewFactorMultipl;
+    vec3 vCellOrig0 = vCellOrigSkewed - unskewFactor;
+    vec3 vDelta0 = vBasis - vCellOrig0;
+
+    vec3 vCellOrig1 = vec3(1.0, 0.0, 0.0);
+    vec3 vCellOrig2 = vec3(1.0, 1.0, 0.0);
+
+    if(vDelta0.x >= vDelta0.y)
+    {
+        if(vDelta0.y >= vDelta0.z) { }
+        else if(vDelta0.x >= vDelta0.z) { vCellOrig2 = vCellOrig2.xzy; }
+        else { vCellOrig1 = vCellOrig1.zyx; vCellOrig2 = vCellOrig2.xzy; }
+    }
+    else
+    {
+        if(vDelta0.y < vDelta0.z) { vCellOrig1 = vCellOrig1.zyx; vCellOrig2 = vCellOrig2.zxy; }
+        else if(vDelta0.x < vDelta0.z) { vCellOrig1 = vCellOrig1.zxy; vCellOrig2 = vCellOrig2.zxy; }
+        else { vCellOrig1 = vCellOrig1.zxy; }
+    }
+
+    vec3 vDelta1 = vDelta0 - vCellOrig1 + unskewFactorMultipl;
+    vec3 vDelta2 = vDelta0 - vCellOrig2 + 2.0 * unskewFactorMultipl;
+    vec3 vDelta3 = vDelta0 - 1.0 + 3.0 * unskewFactorMultipl;
+
+    ivec3 ivCellOrigSkewed = ivec3(vCellOrigSkewed) & 255;
+
+    int g0 = PermVal(ivCellOrigSkewed.x + PermVal(ivCellOrigSkewed.y + PermVal(ivCellOrigSkewed.z))) % int(GRAD_VECS_NUM);
+    int g1 = PermVal(ivCellOrigSkewed.x + int(vCellOrig1.x) + PermVal(ivCellOrigSkewed.y + int(vCellOrig1.y) + PermVal(ivCellOrigSkewed.z + int(vCellOrig1.z)))) % int(GRAD_VECS_NUM);
+    int g2 = PermVal(ivCellOrigSkewed.x + int(vCellOrig2.x) + PermVal(ivCellOrigSkewed.y + int(vCellOrig2.y) + PermVal(ivCellOrigSkewed.z + int(vCellOrig2.z)))) % int(GRAD_VECS_NUM);
+    int g3 = PermVal(ivCellOrigSkewed.x + 1 + PermVal(ivCellOrigSkewed.y + 1 + PermVal(ivCellOrigSkewed.z + 1))) % int(GRAD_VECS_NUM);
+
+    return 32.0 * (CornerContrib(g0, vDelta0) + CornerContrib(g1, vDelta1) + CornerContrib(g2, vDelta2) + CornerContrib(g3, vDelta3));
+}
+
+void ApplyKeyhole(inout vec4 Color)
+{
+    #if ENABLE_KEYHOLING == 1
+    if(keyholeCanDissolve == 1)
+    {
+        float fScale = min(float(screenWidth), float(screenHeight));
+        float fMinX = float(screenWidth) * 0.5 - fScale * fKeyholeSizeMax * 0.5;
+        float fMaxX = float(screenWidth) * 0.5 + fScale * fKeyholeSizeMax * 0.5;
+        float fMinY = float(screenHeight) * 0.5 - fScale * fKeyholeSizeMax * 0.5;
+        float fMaxY = float(screenHeight) * 0.5 + fScale * fKeyholeSizeMax * 0.5;
+
+        if(gl_FragCoord.x > fMinX && gl_FragCoord.x < fMaxX && gl_FragCoord.y > fMinY && gl_FragCoord.y < fMaxY)
+        {
+            float fNoise = MakeSomeNoise(vKeyholeNoiseBase) * fKeyholeNoiseModifier + 0.5;
+            float fKeyholeSize = mix(fKeyholeSizeMin, fKeyholeSizeMax, clamp(fFragCamOffset / fKeyholeSizeBase, 0.0, 1.0));
+
+            vec2 vScreenCenter = vec2(float(screenWidth), float(screenHeight)) * 0.5;
+            float fDistFromCenter = length(gl_FragCoord.xy - vScreenCenter) / (fScale * 0.5);
+
+            float fKeyholeFactor = (fDistFromCenter - fKeyholeSize * fNoise) / (fKeyholeSizeMax - fKeyholeSize);
+            fKeyholeFactor = clamp(fKeyholeFactor, 0.0, 1.0);
+
+            if(fKeyholeFactor < fKeyholePunchthroughPoint)
+            {
+                discard;
+            }
+
+            Color.rgb *= mix(fKeyholeBlackness, 1.0, fKeyholeFactor);
+        }
+    }
+    #endif
+}
+
+///////////////////////////////////
+//
+// END INC_KEYHOLE
+//
+///////////////////////////////////
+
+///////////////////////////////////
+//
+// BEGIN INC_STANDARD (FRAGMENT)
+//
+///////////////////////////////////
+
+#if NORMAL_MAP == 1
+mat3 SetupTSB()
+{
+    vec3 vTangent = normalize(vVertexTangent);
+    vec3 vNormal = normalize(vVertexNormal);
+    vec3 vBitangent = cross(vNormal, vTangent) * fTextureHandedness;
+    return mat3(vTangent, vBitangent, vNormal);
+}
+#endif
+
+void ApplyFog(inout vec4 Color)
+{
+    if(fogEnabled == 1)
+    {
+        Color.rgb = mix(Color.rgb, ApplyColorSpace(fogColor.rgb), fFogFragCoord);
+    }
+}
+
+vec4 ApplyStandardShader(vec4 Color)
+{
+    vec3 vNormal = vVertexNormal;
+
+    SetupViewToSurfaceNormal();
+
+    vTexCoords = vVertexTexCoords.xy;
+
+    #if NORMAL_MAP == 1
+        mat3 mTSB = SetupTSB();
+        if(texture1Bound != 0)
+        {
+            vNormal = texture2D(texUnit1, vTexCoords).rgb * 2.0 - 1.0;
+            vNormal = mTSB * vNormal;
+        }
+    #endif
+
+    // Sample diffuse
+    vec4 TexDiffuse = vec4(1.0);
+    #if DIFFUSE_MAP == 1
+        if(texture0Bound != 0)
+        {
+            TexDiffuse = texture2D(texUnit0, vTexCoords.xy);
+        }
+    #endif
+
+    TexDiffuse = ApplyColorSpace(TexDiffuse);
+
+    // Normalize for lighting
+    vNormal = normalize(vNormal);
+
+    // Setup specularity with metal map support
+    #if SPECULAR_LIGHT == 1
+        if(FragmentLighting == 1)
+        {
+            SetupSpecularity(TexDiffuse);
+        }
+    #endif
+
+    // Apply diffuse to color
+    Color.rgb *= TexDiffuse.rgb;
+
+    // Compute lighting
+    if(FragmentLighting == 1)
+    {
+        ComputeLighting(Color, vNormal);
+    }
+    else
+    {
+        Color.rgb *= ApplyColorSpace(VertexColor.rgb);
+    }
+
+    // Self-illumination
+    #if SELF_ILLUMINATION_MAP == 1
+        if(texture5Bound != 0)
+        {
+            Color.rgb += TexDiffuse.rgb * texture2D(texUnit5, vTexCoords).r;
+        }
+    #endif
+
+    // Alpha
+    Color.a *= VertexColor.a;
+    Color.a *= TexDiffuse.a;
+
+    ApplyKeyhole(Color);
+    ApplyFog(Color);
+
+    Color.rgb = RevertColorSpace(Color.rgb);
+
+    #if COLOR_CORRECTION_TYPE == 1
+        Color.rgb = ColorClamp(Color.rgb);
+    #endif
+
+    return Color;
+}
+
+///////////////////////////////////
+//
+// END INC_STANDARD
+//
+///////////////////////////////////
+
+void main()
+{
+    vec4 Color = vec4(1.0);
+    Color = ApplyStandardShader(Color);
+    gl_FragColor = Color;
+}
