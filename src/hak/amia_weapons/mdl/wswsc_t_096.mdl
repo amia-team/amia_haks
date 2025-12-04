@@ -1,0 +1,12 @@
+# NeverBlender 4.3.0|Blender 5.0.0|2025-12-04
+filedependancy sabers.blend
+newmodel wswsc_t_096
+setsupermodel wswsc_t_096 null
+classification CHARACTER
+setanimationscale 1.0
+beginmodelgeom wswsc_t_096
+node dummy wswsc_t_096
+  parent null
+endnode
+endmodelgeom wswsc_t_096
+donemodel wswsc_t_096

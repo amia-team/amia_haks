@@ -1,0 +1,8 @@
+// Renderhint
+renderhint NormalAndSpecMapped
+
+// Textures
+texture0 hanger_d
+texture1 null
+texture2 hangar_sp
+texture3 hangar_r
