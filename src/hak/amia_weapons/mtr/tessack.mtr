@@ -1,0 +1,8 @@
+// Renderhint
+renderhint NormalAndSpecMapped
+
+// Textures
+texture0 tessack_d
+texture1 null
+texture2 tessack_sp
+texture3 dussack_r
