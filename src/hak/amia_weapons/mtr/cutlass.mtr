@@ -1,0 +1,8 @@
+// Renderhint
+renderhint NormalAndSpecMapped
+
+// Textures
+texture0 cutlass_base
+texture1 null
+texture2 cutlass_sp
+texture3 cutlass_r
