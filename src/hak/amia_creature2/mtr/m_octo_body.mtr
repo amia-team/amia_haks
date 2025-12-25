@@ -1,0 +1,4 @@
+renderhint NormalAndSpecMapped
+ 
+texture0 c_octo_body
+texture1 c_octo_body_n
