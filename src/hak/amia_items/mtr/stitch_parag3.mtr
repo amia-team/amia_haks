@@ -1,0 +1,6 @@
+// Renderhint
+renderhint NormalAndSpecMapped
+
+// Textures
+texture0 stitch_parag3
+texture1 telanara_n
