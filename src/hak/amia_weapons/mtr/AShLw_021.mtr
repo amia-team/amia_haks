@@ -1,0 +1,8 @@
+// Renderhint
+renderhint NormalAndSpecMapped
+
+// Textures
+texture0 AShLw_021
+texture1 AShLw_021_n
+texture2 AShLw_021_s
+texture3 AShLw_021_r
