@@ -1,0 +1,8 @@
+// Renderhint
+renderhint NormalAndSpecMapped
+
+// Textures
+texture0 DBAxe_m_031_d
+texture1 DBAxe_m_031_n
+texture2 DBAxe_m_031_s
+texture3 DBAxe_m_031_r
