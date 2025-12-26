@@ -1,0 +1,12 @@
+# Exported from NeverBlender 2.8.37 - Friday, 2024-07-26
+filedependancy Scimmy_011.blend
+newmodel WSwSc_m_011
+setsupermodel WSwSc_m_011 null
+classification UNKNOWN
+setanimationscale 1.0
+beginmodelgeom WSwSc_m_011
+node dummy WSwSc_m_011
+  parent null
+endnode
+endmodelgeom WSwSc_m_011
+donemodel WSwSc_m_011
