@@ -1,0 +1,10 @@
+// Specify it is normal and spec mapped
+renderhint NormalAndSpecMapped
+ 
+// Define textures
+texture0 AShTo_022_d // Diffuse
+texture1 WooLigBoa_n // Normal
+texture2 WooLigBoa_s // Specular
+texture3 WooLigBoa_r // Roughness
+texture4 null // Height
+texture5 null // Illumination

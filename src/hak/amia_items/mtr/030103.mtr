@@ -1,0 +1,10 @@
+// Specify it is normal and spec mapped
+renderhint NormalAndSpecMapped
+ 
+// Define textures
+texture0 WooLigPolM_d // Diffuse
+texture1 WooLigPolM_n // Normal
+texture2 WooLigPolM_s // Specular
+texture3 WooLigPolM_r // Roughness
+texture4 null // Height
+texture5 null // Illumination

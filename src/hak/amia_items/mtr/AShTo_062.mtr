@@ -1,0 +1,12 @@
+// Specify it is normal and spec mapped
+renderhint NormalAndSpecMapped
+ 
+// Define textures
+texture0 AShTo_062_d // Diffuse
+texture1 LeaCamSmo_n // Normal
+texture2 LeaCamSmo_s // Specular
+texture3 LeaCamSmo_r // Roughness
+texture4 null // Height
+texture5 null // Illumination
+
+
