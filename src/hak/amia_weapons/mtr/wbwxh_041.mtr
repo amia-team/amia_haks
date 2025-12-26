@@ -1,0 +1,8 @@
+// Renderhint
+renderhint normalandspecmapped
+
+// Textures
+texture0 wbwxh_041
+texture1 wbwxh_041_n
+texture2 wbwxh_041_s
+texture3 wbwxh_041_r
