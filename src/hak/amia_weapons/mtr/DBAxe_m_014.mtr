@@ -1,8 +1,0 @@
-// Renderhint
-renderhint NormalAndSpecMapped
-
-// Textures
-texture0 DBAxe_m_014_d
-texture1 DBAxe_m_014_n
-texture2 DBAxe_m_014_s
-texture3 DBAxe_m_014_r
