@@ -1,0 +1,10 @@
+// Specify it is normal and spec mapped
+renderhint NormalAndSpecMapped
+ 
+// Define textures
+texture0 MetBronMac_d // Diffuse
+texture1 MetBronMac_n // Normal
+texture2 MetBronMac_s // Specular
+texture3 MetBronMac_r // Roughness
+texture4 null // Height
+texture5 null // Illumination

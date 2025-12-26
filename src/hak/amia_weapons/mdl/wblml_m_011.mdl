@@ -1,0 +1,12 @@
+# Exported from NeverBlender 2.8.37 - Friday, 2024-08-09
+filedependancy Mace_011.blend
+newmodel WBlMl_m_011
+setsupermodel WBlMl_m_011 null
+classification UNKNOWN
+setanimationscale 1.0
+beginmodelgeom WBlMl_m_011
+node dummy WBlMl_m_011
+  parent null
+endnode
+endmodelgeom WBlMl_m_011
+donemodel WBlMl_m_011

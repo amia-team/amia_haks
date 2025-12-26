@@ -1,0 +1,10 @@
+// Specify it is normal and spec mapped
+renderhint NormalAndSpecMapped
+ 
+// Define textures
+texture0 GlowWhite_d // Diffuse
+texture1 null // Normal
+texture2 null // Specular
+texture3 null // Roughness
+texture4 null // Height
+texture5 GlowWhite_i // Illumination

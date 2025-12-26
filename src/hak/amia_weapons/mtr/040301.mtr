@@ -1,0 +1,11 @@
+// Specify it is normal and spec mapped
+renderhint NormalAndSpecMapped
+ 
+// Define textures
+texture0 MinAmeRuf_d // Diffuse
+texture1 MinAmeRuf_n // Normal
+texture2 MinAmeRuf_s // Specular
+texture3 MinAmeRuf_r // Roughness
+texture4 null // Height
+texture5 null // Illumination
+
