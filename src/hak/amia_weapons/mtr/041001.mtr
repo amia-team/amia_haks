@@ -1,0 +1,10 @@
+// Specify it is normal and spec mapped
+renderhint NormalAndSpecMapped
+ 
+// Define textures
+texture0 MarbleBluePol_d // Diffuse
+texture1 MarbleBluePol_n // Normal
+texture2 MarbleBluePol_s // Specular
+texture3 MarbleBluePol_r // Roughness
+texture4 MarbleBluePol_h // Height
+texture5 null // Illumination

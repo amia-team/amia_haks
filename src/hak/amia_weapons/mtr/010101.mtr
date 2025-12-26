@@ -1,0 +1,10 @@
+// Specify it is normal and spec mapped
+renderhint NormalAndSpecMapped
+ 
+// Define textures
+texture0 MetGreyStand_d // Diffuse
+texture1 MetGreyStand_n // Normal
+texture2 MetGreyStand_s // Specular
+texture3 MetGreyStand_r // Roughness
+texture4 MetGreyStand_h // Height
+texture5 null // Illumination
