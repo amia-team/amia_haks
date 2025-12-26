@@ -1,0 +1,12 @@
+# Exported from NeverBlender 2.8.37 - Tuesday, 2023-06-13
+filedependancy BAxe_TypeB.blend
+newmodel WAxBt_b_011
+setsupermodel WAxBt_b_011 null
+classification UNKNOWN
+setanimationscale 1.0
+beginmodelgeom WAxBt_b_011
+node dummy WAxBt_b_011
+  parent null
+endnode
+endmodelgeom WAxBt_b_011
+donemodel WAxBt_b_011
