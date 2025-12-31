@@ -193,8 +193,9 @@
 189    FEAT_BLACKGUARD_SNEAK_ATTACK_11D6                   1014          3      34                 0
 190    FEAT_BLACKGUARD_SNEAK_ATTACK_12D6                   1015          3      37                 0
 191    FEAT_BLACKGUARD_SNEAK_ATTACK_13D6                   1016          3      40                 0
-192    FEAT_EPIC_BLINDING_SPEED                             491          0      -1                 1   
-193    BG_EAGLES_SPLND                                     1120          3       4                 1        
-194    BG_CIRCLEVSALIGN                                    1121          3       7                 1        
+192    FEAT_EPIC_BLINDING_SPEED                            491           0      -1                 1   
+193    BG_EAGLES_SPLND                                     1120          3      4                  1        
+194    BG_CIRCLEVSALIGN                                    1121          3      7                  1        
 195    BG_DIVINEFAVOR                                      1122          3      10                 1 
-196    ExtTurn                                               13          0      -1                 0          
+196    FEAT_BREW_POTION                   				   944           0      3                  0      
+197    FEAT_CRAFT_WAND                                     946           0      5                  0
