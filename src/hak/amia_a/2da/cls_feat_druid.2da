@@ -59,7 +59,7 @@
 55  FEAT_EPIC_AUTOMATIC_STILL_SPELL_1         863       1    -1             0      
 56  FEAT_EPIC_AUTOMATIC_STILL_SPELL_2         864       1    -1             0      
 57  FEAT_EPIC_AUTOMATIC_STILL_SPELL_3         865       1    -1             0      
-58  FEAT_EPIC_SKILL_FOCUS_ANIMAL_EMPATHY      587       0    -1             0      
+58  FEAT_EPIC_SKILL_FOCUS_ANIMAL_EMPATHY      587       1    -1             0      
 59  FEAT_SCRIBE_SCROLL                        945       0    1              0      
 60  FEAT_BREW_POTION                          944       0    3              0      
 61  FEAT_CRAFT_WAND                           946       0    5              0      
@@ -67,10 +67,10 @@
 63  FEAT_EPIC_IMPROVED_COMBAT_CASTING         696       1    -1             0      
 64  FEAT_EPIC_WILD_SHAPE_DRAGON               873       1    -1             1      
 65  FEAT_EPIC_DRUID                           970       3    21             0      
-66  FEAT_EPIC_SPELL_MUMMY_DUST                874       0    21             2      
-67  FEAT_EPIC_SPELL_DRAGON_KNIGHT             875       0    21             2      
-68  FEAT_EPIC_SPELL_HELLBALL                  876       0    21             2      
-69  FEAT_EPIC_SPELL_RUIN                      878       0    21             2      
+66  FEAT_EPIC_SPELL_MUMMY_DUST                874       1    21             2      
+67  FEAT_EPIC_SPELL_DRAGON_KNIGHT             875       1    21             2      
+68  FEAT_EPIC_SPELL_HELLBALL                  876       1    21             2      
+69  FEAT_EPIC_SPELL_RUIN                      878       1    21             2      
 70  FEAT_EPIC_ENERGY_RESISTANCE_COLD_1        533       1    -1             0      
 71  FEAT_EPIC_ENERGY_RESISTANCE_COLD_2        534       1    -1             0      
 72  FEAT_EPIC_ENERGY_RESISTANCE_COLD_3        535       1    -1             0      
