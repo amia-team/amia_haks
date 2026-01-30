@@ -1,6 +1,5 @@
 2DA V2.0                                                              
                                                                       
            LABEL               ReqType   ReqParam1        ReqParam2   
-0          Base_Attack         BAB       8                ****        
-1          SKILL_PARRY         SKILL     10               18 
-2          Monk                CLASSNOT  5		  		  ****   
+0          Base_Attack         BAB       6                ****        
+1          SKILL_PARRY         SKILL     10               8
