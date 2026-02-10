@@ -143,6 +143,7 @@
 137        FEAT_CUSTOM_FEAT_INSTANT                  1218      0    -1             1      
 138        PLAYER_TOOLS                              1337      1    99             1      
 139        DM_TOOLS                                  1338      1    99             1      
-140        FEAT_MONKEY_GRIP                          1246      1    -1             1      
+140        FEAT_MONKEY_GRIP                          1246      0    -1             1      
 141        MonkPoe_CrashingMeteor                    1359      3    99             1
-142        MonkPoe_SplinteredChalic                  1363      3    99             1      
+142        MonkPoe_SplinteredChalic                  1363      3    99             1
+143        FEAT_EPIC_PROWESS                         584       1    -1             0
