@@ -329,16 +329,16 @@ pipeline {
             }
             script {
 				if (params.DEPLOY_TEST == 'Yes') {
-					echo 'Resetting test-server via docker-compose...'
+					echo 'Resetting test-server via docker compose...'
 					sh '''#!/bin/bash
 						set -euo pipefail
 						cd /home/amia/amia_server
-						if command -v docker-compose &> /dev/null; then
-							docker-compose stop test-server || true
-							docker-compose rm -f test-server || true
-							docker-compose up -d test-server database-test nwsync-test webui
+						if command -v docker &> /dev/null; then
+							docker compose stop test-server || true
+							docker compose rm -f test-server || true
+							docker compose up -d test-server database-test nwsync-test webui
 						else
-							echo "docker-compose not found, skipping..."
+							echo "docker not found, skipping..."
 						fi
 						cd /home/amia/amia_server/nwsync_test
 						./bin/nwn_nwsync_prune data
