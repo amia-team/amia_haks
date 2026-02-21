@@ -1,6 +1,18 @@
 pipeline {
     agent any
 
+    parameters {
+        string(name: 'LIVE_SERVER_BASE', description: 'Base path for live server (e.g. /home/amia/amia_server/server/)')
+        string(name: 'TEST_SERVER_BASE', description: 'Base path for test server (e.g. /home/amia/amia_server/test_server/)')
+        string(name: 'DEV_SERVER_BASE', description: 'Base path for dev server (e.g. /home/amia/dev_server/server/)')
+        string(name: 'NWSYNC_PATH', description: 'Path to NWSync directory (e.g. /home/amia/amia_server/nwsync_test)')
+        string(name: 'DOCKER_COMPOSE_PATH', description: 'Path to docker compose directory (e.g. /home/amia/amia_server)')
+        choice(name: 'BUILD_ALL', choices: ['No', 'Yes'], description: 'Pack all haks regardless of changes')
+        choice(name: 'DEPLOY_ALL', choices: ['No', 'Yes'], description: 'Deploy haks to live server')
+        choice(name: 'DEPLOY_TEST', choices: ['No', 'Yes'], description: 'Deploy haks to test server')
+        choice(name: 'DEPLOY_DEV', choices: ['No', 'Yes'], description: 'Deploy haks to dev server')
+    }
+
     environment {
         CHANGES = 'false'
     }
@@ -251,11 +263,14 @@ pipeline {
             }
             steps {
                 script {
+                    if (!params.LIVE_SERVER_BASE?.trim()) {
+                        error "LIVE_SERVER_BASE parameter is required for live deployment but was not set."
+                    }
                     sh """
                         chmod +x deploy.sh linux-pack-all.sh cleanup.sh
                         dos2unix deploy.sh linux-pack-all.sh cleanup.sh
                         ./linux-pack-all.sh
-                        ./deploy.sh /home/amia/amia_server/server/
+                        ./deploy.sh ${params.LIVE_SERVER_BASE}
                         ./cleanup.sh
                     """
                 }
@@ -270,11 +285,14 @@ pipeline {
             }
             steps {
                 script {
+                    if (!params.TEST_SERVER_BASE?.trim()) {
+                        error "TEST_SERVER_BASE parameter is required for test deployment but was not set."
+                    }
                     sh """
                         chmod +x deploy.sh linux-pack-all.sh cleanup.sh
                         dos2unix deploy.sh linux-pack-all.sh cleanup.sh
                         ./linux-pack-all.sh
-                        ./deploy.sh /home/amia/amia_server/test_server/
+                        ./deploy.sh ${params.TEST_SERVER_BASE}
                         ./cleanup.sh
                     """
                 }
@@ -289,11 +307,14 @@ pipeline {
             }
             steps {
                 script {
+                    if (!params.DEV_SERVER_BASE?.trim()) {
+                        error "DEV_SERVER_BASE parameter is required for dev deployment but was not set."
+                    }
                     sh """
                         chmod +x deploy.sh linux-pack-all.sh cleanup.sh
                         dos2unix deploy.sh linux-pack-all.sh cleanup.sh
                         ./linux-pack-all.sh
-                        ./deploy.sh /home/amia/dev_server/server/
+                        ./deploy.sh ${params.DEV_SERVER_BASE}
                         ./cleanup.sh
                     """
                 }
@@ -312,16 +333,20 @@ pipeline {
             echo 'Build complete'
             script {
 				if (params.DEPLOY_TEST == 'Yes') {
-					echo 'Updating NWSync data...'
-					sh '''#!/bin/bash
-						set -euo pipefail
-						cd /home/amia/amia_server/nwsync_test
-						if [ -f ./bin/nwn_nwsync_write ] && [ -f ../test_server/modules/Amia.mod ]; then
-							./bin/nwn_nwsync_write --description="Amia Server Data" data/ ../test_server/modules/Amia.mod
-						else
-							echo "NWSync files not found, skipping..."
-						fi
-					'''
+					if (!params.NWSYNC_PATH?.trim() || !params.TEST_SERVER_BASE?.trim()) {
+						echo 'WARNING: NWSYNC_PATH or TEST_SERVER_BASE not set. Skipping NWSync Update.'
+					} else {
+						echo 'Updating NWSync data...'
+						sh """#!/bin/bash
+							set -euo pipefail
+							cd ${params.NWSYNC_PATH}
+							if [ -f ./bin/nwn_nwsync_write ] && [ -f ${params.TEST_SERVER_BASE}/modules/Amia.mod ]; then
+								./bin/nwn_nwsync_write --description="Amia Server Data" data/ ${params.TEST_SERVER_BASE}/modules/Amia.mod
+							else
+								echo "NWSync files not found, skipping..."
+							fi
+						"""
+					}
 				}
 				else {
 					echo 'DEPLOY_TEST not selected. Skipping NWSync Update.'
@@ -329,20 +354,24 @@ pipeline {
             }
             script {
 				if (params.DEPLOY_TEST == 'Yes') {
-					echo 'Resetting test-server via docker compose...'
-					sh '''#!/bin/bash
-						set -euo pipefail
-						cd /home/amia/amia_server
-						if command -v docker &> /dev/null; then
-							docker compose stop test-server || true
-							docker compose rm -f test-server || true
-							docker compose up -d test-server database-test nwsync-test webui
-						else
-							echo "docker not found, skipping..."
-						fi
-						cd /home/amia/amia_server/nwsync_test
-						./bin/nwn_nwsync_prune data
-					'''
+					if (!params.DOCKER_COMPOSE_PATH?.trim() || !params.NWSYNC_PATH?.trim()) {
+						echo 'WARNING: DOCKER_COMPOSE_PATH or NWSYNC_PATH not set. Skipping Restart.'
+					} else {
+						echo 'Resetting test-server via docker compose...'
+						sh """#!/bin/bash
+							set -euo pipefail
+							cd ${params.DOCKER_COMPOSE_PATH}
+							if command -v docker &> /dev/null; then
+								docker compose stop test-server || true
+								docker compose rm -f test-server || true
+								docker compose up -d test-server database-test nwsync-test webui
+							else
+								echo "docker not found, skipping..."
+							fi
+							cd ${params.NWSYNC_PATH}
+							./bin/nwn_nwsync_prune data
+						"""
+					}
 				}
 				else {
 					echo 'DEPLOY_TEST not selected. Skipping Restart.'
