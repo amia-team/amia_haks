@@ -207,3 +207,8 @@
 203 FEAT_EPIC_SPELL_FOCUS_ILLUSION                 615       1    11             0      
 204 FEAT_EPIC_SPELL_FOCUS_NECROMANCY               616       1    11             0      
 205 FEAT_EPIC_SPELL_FOCUS_TRANSMUTATION            617       1    11             0      
+206 FEAT_EPIC_SPELL_HELLBALL                       876       1    15             2      
+207 FEAT_EPIC_SPELL_MAGE_ARMOUR                    877       1    15             2      
+208 FEAT_EPIC_SPELL_RUIN                           878       1    15             2      
+209 FEAT_EPIC_SPELL_MUMMY_DUST                     874       1    15             2      
+210 FEAT_EPIC_SPELL_DRAGON_KNIGHT                  875       1    15             2      
