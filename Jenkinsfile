@@ -2,11 +2,6 @@ pipeline {
     agent any
 
     parameters {
-        string(name: 'LIVE_SERVER_BASE', description: 'Base path for live server (e.g. /home/amia/amia_server/server/)')
-        string(name: 'TEST_SERVER_BASE', description: 'Base path for test server (e.g. /home/amia/amia_server/test_server/)')
-        string(name: 'DEV_SERVER_BASE', description: 'Base path for dev server (e.g. /home/amia/dev_server/server/)')
-        string(name: 'NWSYNC_PATH', description: 'Path to NWSync directory (e.g. /home/amia/amia_server/nwsync_test)')
-        string(name: 'DOCKER_COMPOSE_PATH', description: 'Path to docker compose directory (e.g. /home/amia/amia_server)')
         choice(name: 'BUILD_ALL', choices: ['No', 'Yes'], description: 'Pack all haks regardless of changes')
         choice(name: 'DEPLOY_ALL', choices: ['No', 'Yes'], description: 'Deploy haks to live server')
         choice(name: 'DEPLOY_TEST', choices: ['No', 'Yes'], description: 'Deploy haks to test server')
@@ -39,7 +34,7 @@ pipeline {
             steps {
                 echo 'Packing Amia top'
                 script {
-                    sh "chmod +x pack.sh && dos2unix pack.sh && ./pack.sh hak amia_top"
+                    sh "dos2unix pack.sh && bash pack.sh hak amia_top"
                 }
             }
         }
@@ -50,7 +45,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "chmod +x pack.sh && dos2unix pack.sh && ./pack.sh hak amia_parts"
+                    sh "dos2unix pack.sh && bash pack.sh hak amia_parts"
                 }
             }
         }
@@ -61,7 +56,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "chmod +x pack.sh && dos2unix pack.sh && ./pack.sh hak amia_races"
+                    sh "dos2unix pack.sh && bash pack.sh hak amia_races"
                 }
             }
         }
@@ -72,7 +67,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "chmod +x pack.sh && dos2unix pack.sh && ./pack.sh hak amia_plc"
+                    sh "dos2unix pack.sh && bash pack.sh hak amia_plc"
                 }
             }
         }
@@ -83,7 +78,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "chmod +x pack.sh && dos2unix pack.sh && ./pack.sh hak amia_items"
+                    sh "dos2unix pack.sh && bash pack.sh hak amia_items"
                 }
             }
         }
@@ -94,7 +89,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "chmod +x pack.sh && dos2unix pack.sh && ./pack.sh hak amia_rest"
+                    sh "dos2unix pack.sh && bash pack.sh hak amia_rest"
                 }
             }
         }
@@ -105,7 +100,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "chmod +x pack.sh && dos2unix pack.sh && ./pack.sh hak amia_a"
+                    sh "dos2unix pack.sh && bash pack.sh hak amia_a"
                 }
             }
         }
@@ -116,7 +111,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "chmod +x pack.sh && dos2unix pack.sh && ./pack.sh hak amia_b"
+                    sh "dos2unix pack.sh && bash pack.sh hak amia_b"
                 }
             }
         }
@@ -127,7 +122,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "chmod +x pack.sh && dos2unix pack.sh && ./pack.sh hak amia_c"
+                    sh "dos2unix pack.sh && bash pack.sh hak amia_c"
                 }
             }
         }
@@ -138,7 +133,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "chmod +x pack.sh && dos2unix pack.sh && ./pack.sh hak amia_d"
+                    sh "dos2unix pack.sh && bash pack.sh hak amia_d"
                 }
             }
         }
@@ -149,7 +144,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "chmod +x pack.sh && dos2unix pack.sh && ./pack.sh hak amia_music"
+                    sh "dos2unix pack.sh && bash pack.sh hak amia_music"
                 }
             }
         }
@@ -160,7 +155,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "chmod +x pack.sh && dos2unix pack.sh && ./pack.sh hak amia_override"
+                    sh "dos2unix pack.sh && bash pack.sh hak amia_override"
                 }
             }
         }
@@ -171,7 +166,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "chmod +x pack.sh && dos2unix pack.sh && ./pack.sh hak amia_override2"
+                    sh "dos2unix pack.sh && bash pack.sh hak amia_override2"
                 }
             }
         }
@@ -182,7 +177,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "chmod +x pack.sh && dos2unix pack.sh && ./pack.sh hak amia_creature"
+                    sh "dos2unix pack.sh && bash pack.sh hak amia_creature"
                 }
             }
         }
@@ -193,7 +188,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "chmod +x pack.sh && dos2unix pack.sh && ./pack.sh hak amia_creature2"
+                    sh "dos2unix pack.sh && bash pack.sh hak amia_creature2"
                 }
             }
         }
@@ -204,7 +199,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "chmod +x pack.sh && dos2unix pack.sh && ./pack.sh hak amia_skybox"
+                    sh "dos2unix pack.sh && bash pack.sh hak amia_skybox"
                 }
             }
         }
@@ -215,7 +210,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "chmod +x pack.sh && dos2unix pack.sh && ./pack.sh hak amia_weapons"
+                    sh "dos2unix pack.sh && bash pack.sh hak amia_weapons"
                 }
             }
         }
@@ -226,7 +221,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "chmod +x pack.sh && dos2unix pack.sh && ./pack.sh hak amia_nui"
+                    sh "dos2unix pack.sh && bash pack.sh hak amia_nui"
                 }
             }
         }
@@ -237,7 +232,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "chmod +x pack.sh && dos2unix pack.sh && ./pack.sh tlk tlk"
+                    sh "dos2unix pack.sh && bash pack.sh tlk tlk"
                 }
             }
         }
@@ -250,7 +245,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "chmod +x linux-pack-all.sh && dos2unix linux-pack-all.sh && ./linux-pack-all.sh"
+                    sh "dos2unix linux-pack-all.sh && bash linux-pack-all.sh"
                 }
             }
         }
@@ -263,15 +258,14 @@ pipeline {
             }
             steps {
                 script {
-                    if (!params.LIVE_SERVER_BASE?.trim()) {
-                        error "LIVE_SERVER_BASE parameter is required for live deployment but was not set."
+                    if (!env.LIVE_SERVER_BASE?.trim()) {
+                        error "LIVE_SERVER_BASE environment variable is required but was not set."
                     }
                     sh """
-                        chmod +x deploy.sh linux-pack-all.sh cleanup.sh
                         dos2unix deploy.sh linux-pack-all.sh cleanup.sh
-                        ./linux-pack-all.sh
-                        ./deploy.sh ${params.LIVE_SERVER_BASE}
-                        ./cleanup.sh
+                        bash linux-pack-all.sh
+                        bash deploy.sh ${env.LIVE_SERVER_BASE}
+                        bash cleanup.sh
                     """
                 }
             }
@@ -285,15 +279,14 @@ pipeline {
             }
             steps {
                 script {
-                    if (!params.TEST_SERVER_BASE?.trim()) {
-                        error "TEST_SERVER_BASE parameter is required for test deployment but was not set."
+                    if (!env.TEST_SERVER_BASE?.trim()) {
+                        error "TEST_SERVER_BASE environment variable is required but was not set."
                     }
                     sh """
-                        chmod +x deploy.sh linux-pack-all.sh cleanup.sh
                         dos2unix deploy.sh linux-pack-all.sh cleanup.sh
-                        ./linux-pack-all.sh
-                        ./deploy.sh ${params.TEST_SERVER_BASE}
-                        ./cleanup.sh
+                        bash linux-pack-all.sh
+                        bash deploy.sh ${env.TEST_SERVER_BASE}
+                        bash cleanup.sh
                     """
                 }
             }
@@ -307,15 +300,14 @@ pipeline {
             }
             steps {
                 script {
-                    if (!params.DEV_SERVER_BASE?.trim()) {
-                        error "DEV_SERVER_BASE parameter is required for dev deployment but was not set."
+                    if (!env.DEV_SERVER_BASE?.trim()) {
+                        error "DEV_SERVER_BASE environment variable is required but was not set."
                     }
                     sh """
-                        chmod +x deploy.sh linux-pack-all.sh cleanup.sh
                         dos2unix deploy.sh linux-pack-all.sh cleanup.sh
-                        ./linux-pack-all.sh
-                        ./deploy.sh ${params.DEV_SERVER_BASE}
-                        ./cleanup.sh
+                        bash linux-pack-all.sh
+                        bash deploy.sh ${env.DEV_SERVER_BASE}
+                        bash cleanup.sh
                     """
                 }
             }
@@ -333,15 +325,15 @@ pipeline {
             echo 'Build complete'
             script {
 				if (params.DEPLOY_TEST == 'Yes') {
-					if (!params.NWSYNC_PATH?.trim() || !params.TEST_SERVER_BASE?.trim()) {
+					if (!env.NWSYNC_PATH?.trim() || !env.TEST_SERVER_BASE?.trim()) {
 						echo 'WARNING: NWSYNC_PATH or TEST_SERVER_BASE not set. Skipping NWSync Update.'
 					} else {
 						echo 'Updating NWSync data...'
 						sh """#!/bin/bash
 							set -euo pipefail
-							cd ${params.NWSYNC_PATH}
-							if [ -f ./bin/nwn_nwsync_write ] && [ -f ${params.TEST_SERVER_BASE}/modules/Amia.mod ]; then
-								./bin/nwn_nwsync_write --description="Amia Server Data" data/ ${params.TEST_SERVER_BASE}/modules/Amia.mod
+							cd ${env.NWSYNC_PATH}
+							if [ -f ./bin/nwn_nwsync_write ] && [ -f ${env.TEST_SERVER_BASE}/modules/Amia.mod ]; then
+								./bin/nwn_nwsync_write --description="Amia Server Data" data/ ${env.TEST_SERVER_BASE}/modules/Amia.mod
 							else
 								echo "NWSync files not found, skipping..."
 							fi
@@ -354,13 +346,13 @@ pipeline {
             }
             script {
 				if (params.DEPLOY_TEST == 'Yes') {
-					if (!params.DOCKER_COMPOSE_PATH?.trim() || !params.NWSYNC_PATH?.trim()) {
-						echo 'WARNING: DOCKER_COMPOSE_PATH or NWSYNC_PATH not set. Skipping Restart.'
+					if (!env.AMIA_SERVER_DIR?.trim() || !env.NWSYNC_PATH?.trim()) {
+						echo 'WARNING: AMIA_SERVER_DIR or NWSYNC_PATH not set. Skipping Restart.'
 					} else {
 						echo 'Resetting test-server via docker compose...'
 						sh """#!/bin/bash
 							set -euo pipefail
-							cd ${params.DOCKER_COMPOSE_PATH}
+							cd ${env.AMIA_SERVER_DIR}
 							if command -v docker &> /dev/null; then
 								docker compose stop test-server || true
 								docker compose rm -f test-server || true
@@ -368,7 +360,7 @@ pipeline {
 							else
 								echo "docker not found, skipping..."
 							fi
-							cd ${params.NWSYNC_PATH}
+							cd ${env.NWSYNC_PATH}
 							./bin/nwn_nwsync_prune data
 						"""
 					}

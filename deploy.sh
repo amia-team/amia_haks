@@ -4,9 +4,9 @@ dir=$1
 # check if directory exists
 if [ ! -d "$dir" ]; then
   echo "Directory $dir does not exist"
-  exit
+  exit 1
 fi
 # copy *.hak to dir/hak
-sudo cp ./*.hak $dir/hak
+cp ./*.hak "$dir/hak"
 # copy *.tlk to dir/tlk
-sudo cp ./*.tlk $dir/tlk
+cp ./*.tlk "$dir/tlk"
