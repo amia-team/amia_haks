@@ -34,7 +34,7 @@ pipeline {
             steps {
                 echo 'Packing Amia top'
                 script {
-                    sh "dos2unix pack.sh && bash pack.sh hak amia_top"
+                    sh "bash pack.sh hak amia_top"
                 }
             }
         }
@@ -45,7 +45,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "dos2unix pack.sh && bash pack.sh hak amia_parts"
+                    sh "bash pack.sh hak amia_parts"
                 }
             }
         }
@@ -56,7 +56,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "dos2unix pack.sh && bash pack.sh hak amia_races"
+                    sh "bash pack.sh hak amia_races"
                 }
             }
         }
@@ -67,7 +67,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "dos2unix pack.sh && bash pack.sh hak amia_plc"
+                    sh "bash pack.sh hak amia_plc"
                 }
             }
         }
@@ -78,7 +78,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "dos2unix pack.sh && bash pack.sh hak amia_items"
+                    sh "bash pack.sh hak amia_items"
                 }
             }
         }
@@ -89,7 +89,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "dos2unix pack.sh && bash pack.sh hak amia_rest"
+                    sh "bash pack.sh hak amia_rest"
                 }
             }
         }
@@ -100,7 +100,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "dos2unix pack.sh && bash pack.sh hak amia_a"
+                    sh "bash pack.sh hak amia_a"
                 }
             }
         }
@@ -111,7 +111,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "dos2unix pack.sh && bash pack.sh hak amia_b"
+                    sh "bash pack.sh hak amia_b"
                 }
             }
         }
@@ -122,7 +122,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "dos2unix pack.sh && bash pack.sh hak amia_c"
+                    sh "bash pack.sh hak amia_c"
                 }
             }
         }
@@ -133,7 +133,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "dos2unix pack.sh && bash pack.sh hak amia_d"
+                    sh "bash pack.sh hak amia_d"
                 }
             }
         }
@@ -144,7 +144,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "dos2unix pack.sh && bash pack.sh hak amia_music"
+                    sh "bash pack.sh hak amia_music"
                 }
             }
         }
@@ -155,7 +155,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "dos2unix pack.sh && bash pack.sh hak amia_override"
+                    sh "bash pack.sh hak amia_override"
                 }
             }
         }
@@ -166,7 +166,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "dos2unix pack.sh && bash pack.sh hak amia_override2"
+                    sh "bash pack.sh hak amia_override2"
                 }
             }
         }
@@ -177,7 +177,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "dos2unix pack.sh && bash pack.sh hak amia_creature"
+                    sh "bash pack.sh hak amia_creature"
                 }
             }
         }
@@ -188,7 +188,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "dos2unix pack.sh && bash pack.sh hak amia_creature2"
+                    sh "bash pack.sh hak amia_creature2"
                 }
             }
         }
@@ -199,7 +199,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "dos2unix pack.sh && bash pack.sh hak amia_skybox"
+                    sh "bash pack.sh hak amia_skybox"
                 }
             }
         }
@@ -210,7 +210,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "dos2unix pack.sh && bash pack.sh hak amia_weapons"
+                    sh "bash pack.sh hak amia_weapons"
                 }
             }
         }
@@ -221,7 +221,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "dos2unix pack.sh && bash pack.sh hak amia_nui"
+                    sh "bash pack.sh hak amia_nui"
                 }
             }
         }
@@ -232,7 +232,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "dos2unix pack.sh && bash pack.sh tlk tlk"
+                    sh "bash pack.sh tlk tlk"
                 }
             }
         }
@@ -245,7 +245,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "dos2unix linux-pack-all.sh && bash linux-pack-all.sh"
+                    sh "bash linux-pack-all.sh"
                 }
             }
         }
@@ -262,7 +262,6 @@ pipeline {
                         error "LIVE_SERVER_BASE environment variable is required but was not set."
                     }
                     sh """
-                        dos2unix deploy.sh linux-pack-all.sh cleanup.sh
                         bash linux-pack-all.sh
                         bash deploy.sh ${env.LIVE_SERVER_BASE}
                         bash cleanup.sh
@@ -283,7 +282,6 @@ pipeline {
                         error "TEST_SERVER_BASE environment variable is required but was not set."
                     }
                     sh """
-                        dos2unix deploy.sh linux-pack-all.sh cleanup.sh
                         bash linux-pack-all.sh
                         bash deploy.sh ${env.TEST_SERVER_BASE}
                         bash cleanup.sh
@@ -304,7 +302,6 @@ pipeline {
                         error "DEV_SERVER_BASE environment variable is required but was not set."
                     }
                     sh """
-                        dos2unix deploy.sh linux-pack-all.sh cleanup.sh
                         bash linux-pack-all.sh
                         bash deploy.sh ${env.DEV_SERVER_BASE}
                         bash cleanup.sh
