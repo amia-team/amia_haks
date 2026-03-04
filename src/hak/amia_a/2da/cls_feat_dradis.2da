@@ -99,7 +99,7 @@
 95  FEAT_EPIC_GREAT_CHARISMA_8          771       1    -1             0      
 96  FEAT_EPIC_GREAT_CHARISMA_9          772       1    -1             0      
 97  FEAT_EPIC_GREAT_CHARISMA_10         773       1    -1             0      
-98  FEAT_EPIC_PERFECT_HEALTH            747       0    -1             0      
+98  FEAT_EPIC_PERFECT_HEALTH            747       1    -1             0      
 99  FEAT_FLIGHT                         1209      3    15             1      
 100 FEAT_EPIC_SPELL_HELLBALL            876       1    15             2      
 101 FEAT_EPIC_SPELL_MAGE_ARMOUR         877       1    15             2      

@@ -89,4 +89,5 @@
 85  FEAT_CRAFT_MAGICAL_ARMS             1239      0    -1             1      
 86  PLAYER_TOOLS                        1337      1    99             1      
 87  DM_TOOLS                            1338      1    99             1      
-88  FEAT_MONKEY_GRIP                    1246      1    -1             1      
+88  FEAT_MONKEY_GRIP                    1246      0    -1             1      
+89  A_THOUSAND_FACES                    1369      3    -1             1      
