@@ -1,0 +1,8 @@
+// Renderhint
+renderhint NormalAndSpecMapped
+
+// Textures
+texture0 batardegs_d
+texture1 batardegs_n
+texture2 null
+texture3 batardegs_r
