@@ -1,0 +1,12 @@
+# NeverBlender 5.0.0|Blender 5.0.1|2026-03-25
+filedependancy axes.blend
+newmodel WSwGs_t_112
+setsupermodel WSwGs_t_112 null
+classification CHARACTER
+setanimationscale 1.0
+beginmodelgeom WSwGs_t_112
+node dummy WSwGs_t_112
+  parent null
+endnode
+endmodelgeom WSwGs_t_112
+donemodel WSwGs_t_112

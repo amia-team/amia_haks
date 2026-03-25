@@ -1,0 +1,8 @@
+// Renderhint
+renderhint NormalAndSpecMapped
+
+// Textures
+texture0 greatsword_d
+texture1 greatsword_n
+texture2 null
+texture3 greatsword_r
