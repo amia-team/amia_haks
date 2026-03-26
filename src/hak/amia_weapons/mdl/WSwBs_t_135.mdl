@@ -1,0 +1,12 @@
+# NeverBlender 5.0.0|Blender 5.0.1|2026-03-26
+filedependancy axes1.blend
+newmodel WSwBs_t_135
+setsupermodel WSwBs_t_135 null
+classification UNKNOWN
+setanimationscale 1.0
+beginmodelgeom WSwBs_t_135
+node dummy WSwBs_t_135
+  parent null
+endnode
+endmodelgeom WSwBs_t_135
+donemodel WSwBs_t_135
