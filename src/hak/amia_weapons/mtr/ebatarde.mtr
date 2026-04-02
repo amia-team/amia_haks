@@ -1,8 +1,5 @@
-// Renderhint
-renderhint NormalAndSpecMapped
-
 // Textures
 texture0 ebatarde_d
-texture1 ebatard_n
+texture1 null
 texture2 null
 texture3 ebatarde_r

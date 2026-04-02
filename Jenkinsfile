@@ -263,7 +263,7 @@ pipeline {
                     }
                     sh """
                         bash linux-pack-all.sh
-                        bash deploy.sh ${env.LIVE_SERVER_BASE}
+                        bash deploy.sh ${env.LIVE_SERVER_BASE}/server
                         bash cleanup.sh
                     """
                 }
@@ -283,7 +283,7 @@ pipeline {
                     }
                     sh """
                         bash linux-pack-all.sh
-                        bash deploy.sh ${env.TEST_SERVER_BASE}
+                        bash deploy.sh ${env.TEST_SERVER_BASE}/test_server
                         bash cleanup.sh
                     """
                 }
@@ -303,7 +303,7 @@ pipeline {
                     }
                     sh """
                         bash linux-pack-all.sh
-                        bash deploy.sh ${env.DEV_SERVER_BASE}
+                        bash deploy.sh ${env.DEV_SERVER_BASE}/dev_server
                         bash cleanup.sh
                     """
                 }
@@ -321,96 +321,28 @@ pipeline {
             archiveArtifacts artifacts: '*.zip', followSymlinks: false, allowEmptyArchive: true
             echo 'Build complete'
             script {
-				if (params.DEPLOY_TEST == 'Yes') {
-					if (!env.NWSYNC_PATH_TEST?.trim() || !env.TEST_SERVER_BASE?.trim()) {
-						echo 'WARNING: NWSYNC_PATH_TEST or TEST_SERVER_BASE not set. Skipping NWSync Update (Test).'
-					} else {
-						echo 'Updating NWSync data (Test)...'
-						sh """#!/bin/bash
-							set -euo pipefail
-							cd ${env.NWSYNC_PATH_TEST}
-							if [ -f ./bin/nwn_nwsync_write ] && [ -f ${env.TEST_SERVER_BASE}/modules/Amia.mod ]; then
-								./bin/nwn_nwsync_write --description="Amia Server Data" data/ ${env.TEST_SERVER_BASE}/modules/Amia.mod
-							else
-								echo "NWSync files not found, skipping..."
-							fi
-						"""
-					}
-				}
-				else {
-					echo 'DEPLOY_TEST not selected. Skipping NWSync Update (Test).'
-				}
+                if (params.DEPLOY_TEST == 'Yes') {
+                    echo 'Running NWSync steps (Test)...'
+                    sh "bash nwsync.sh test"
+                } else {
+                    echo 'DEPLOY_TEST not selected. Skipping NWSync (Test).'
+                }
             }
             script {
-				if (params.DEPLOY_ALL == 'Yes') {
-					if (!env.NWSYNC_PATH_LIVE?.trim() || !env.LIVE_SERVER_BASE?.trim()) {
-						echo 'WARNING: NWSYNC_PATH_LIVE or LIVE_SERVER_BASE not set. Skipping NWSync Update (Live).'
-					} else {
-						echo 'Updating NWSync data (Live)...'
-						sh """#!/bin/bash
-							set -euo pipefail
-							cd ${env.NWSYNC_PATH_LIVE}
-							if [ -f ./bin/nwn_nwsync_write ] && [ -f ${env.LIVE_SERVER_BASE}/modules/Amia.mod ]; then
-								./bin/nwn_nwsync_write --description="Amia Server Data" data/ ${env.LIVE_SERVER_BASE}/modules/Amia.mod
-							else
-								echo "NWSync files not found, skipping..."
-							fi
-						"""
-					}
-				}
-				else {
-					echo 'DEPLOY_ALL not selected. Skipping NWSync Update (Live).'
-				}
+                if (params.DEPLOY_ALL == 'Yes') {
+                    echo 'Running NWSync steps (Live)...'
+                    sh "bash nwsync.sh live"
+                } else {
+                    echo 'DEPLOY_ALL not selected. Skipping NWSync (Live).'
+                }
             }
             script {
-				if (params.DEPLOY_TEST == 'Yes') {
-					if (!env.AMIA_SERVER_DIR?.trim() || !env.NWSYNC_PATH_TEST?.trim()) {
-						echo 'WARNING: AMIA_SERVER_DIR or NWSYNC_PATH_TEST not set. Skipping Restart (Test).'
-					} else {
-						echo 'Resetting test-server via docker compose...'
-						sh """#!/bin/bash
-							set -euo pipefail
-							cd ${env.AMIA_SERVER_DIR}
-							if command -v docker &> /dev/null; then
-								docker compose stop test-server || true
-								docker compose rm -f test-server || true
-								docker compose up -d test-server database-test nwsync-test webui
-							else
-								echo "docker not found, skipping..."
-							fi
-							cd ${env.NWSYNC_PATH_TEST}
-							./bin/nwn_nwsync_prune data
-						"""
-					}
-				}
-				else {
-					echo 'DEPLOY_TEST not selected. Skipping Restart (Test).'
-				}
-            }
-            script {
-				if (params.DEPLOY_ALL == 'Yes') {
-					if (!env.AMIA_SERVER_DIR?.trim() || !env.NWSYNC_PATH_LIVE?.trim()) {
-						echo 'WARNING: AMIA_SERVER_DIR or NWSYNC_PATH_LIVE not set. Skipping Restart (Live).'
-					} else {
-						echo 'Resetting live server via docker compose...'
-						sh """#!/bin/bash
-							set -euo pipefail
-							cd ${env.AMIA_SERVER_DIR}
-							if command -v docker &> /dev/null; then
-								docker compose stop nwserver || true
-								docker compose rm -f nwserver || true
-								docker compose up -d nwserver database nwsync webui
-							else
-								echo "docker not found, skipping..."
-							fi
-							cd ${env.NWSYNC_PATH_LIVE}
-							./bin/nwn_nwsync_prune data
-						"""
-					}
-				}
-				else {
-					echo 'DEPLOY_ALL not selected. Skipping Restart (Live).'
-				}
+                if (params.DEPLOY_DEV == 'Yes') {
+                    echo 'Running NWSync steps (Dev)...'
+                    sh "bash nwsync.sh dev"
+                } else {
+                    echo 'DEPLOY_DEV not selected. Skipping NWSync (Dev).'
+                }
             }
         }
     }
