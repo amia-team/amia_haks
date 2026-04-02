@@ -13,22 +13,26 @@ ENVIRONMENT="${1:?Usage: nwsync.sh <test|live|dev>}"
 
 if [ "${ENVIRONMENT}" = "test" ]; then
     NWSYNC_PATH="${NWSYNC_PATH_TEST:-}"
-    SERVER_BASE="${TEST_SERVER_BASE:-}/test_server"
+    SERVER_BASE="${TEST_SERVER_BASE:-}"
     SERVICE="test-server"
 elif [ "${ENVIRONMENT}" = "live" ]; then
     NWSYNC_PATH="${NWSYNC_PATH_LIVE:-}"
-    SERVER_BASE="${LIVE_SERVER_BASE:-}/server"
+    SERVER_BASE="${LIVE_SERVER_BASE:-}"
     SERVICE="nwserver"
 elif [ "${ENVIRONMENT}" = "dev" ]; then
     NWSYNC_PATH="${NWSYNC_PATH_DEV:-}"
-    SERVER_BASE="${DEV_SERVER_BASE:-}/dev_server"
+    SERVER_BASE="${DEV_SERVER_BASE:-}"
     SERVICE="dev-server"
 else
     echo "ERROR: Unknown environment '${ENVIRONMENT}'. Must be 'test', 'live', or 'dev'."
     exit 1
 fi
 
-SERVER_DIR="${AMIA_SERVER_DIR:-}"
+if [ "${ENVIRONMENT}" = "dev" ]; then
+    SERVER_DIR="${DEV_SERVER_BASE:-}"
+else
+    SERVER_DIR="${AMIA_SERVER_DIR:-}"
+fi
 
 # --- Determine the owner of the NWSync directory so we can run as that user ---
 run_as_owner() {
