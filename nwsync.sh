@@ -13,15 +13,15 @@ ENVIRONMENT="${1:?Usage: nwsync.sh <test|live|dev>}"
 
 if [ "${ENVIRONMENT}" = "test" ]; then
     NWSYNC_PATH="${NWSYNC_PATH_TEST:-}"
-    SERVER_BASE="${TEST_SERVER_BASE:-}"
+    SERVER_BASE="${TEST_SERVER_BASE:-}/test_server"
     SERVICE="test-server"
 elif [ "${ENVIRONMENT}" = "live" ]; then
     NWSYNC_PATH="${NWSYNC_PATH_LIVE:-}"
-    SERVER_BASE="${LIVE_SERVER_BASE:-}"
+    SERVER_BASE="${LIVE_SERVER_BASE:-}/server"
     SERVICE="nwserver"
 elif [ "${ENVIRONMENT}" = "dev" ]; then
     NWSYNC_PATH="${NWSYNC_PATH_DEV:-}"
-    SERVER_BASE="${DEV_SERVER_BASE:-}"
+    SERVER_BASE="${DEV_SERVER_BASE:-}/dev_server"
     SERVICE="dev-server"
 else
     echo "ERROR: Unknown environment '${ENVIRONMENT}'. Must be 'test', 'live', or 'dev'."
