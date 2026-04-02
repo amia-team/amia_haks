@@ -263,7 +263,7 @@ pipeline {
                     }
                     sh """
                         bash linux-pack-all.sh
-                        bash deploy.sh ${env.LIVE_SERVER_BASE}
+                        bash deploy.sh ${env.LIVE_SERVER_BASE}/server
                         bash cleanup.sh
                     """
                 }
@@ -283,7 +283,7 @@ pipeline {
                     }
                     sh """
                         bash linux-pack-all.sh
-                        bash deploy.sh ${env.TEST_SERVER_BASE}
+                        bash deploy.sh ${env.TEST_SERVER_BASE}/test_server
                         bash cleanup.sh
                     """
                 }
@@ -303,7 +303,7 @@ pipeline {
                     }
                     sh """
                         bash linux-pack-all.sh
-                        bash deploy.sh ${env.DEV_SERVER_BASE}
+                        bash deploy.sh ${env.DEV_SERVER_BASE}/dev_server
                         bash cleanup.sh
                     """
                 }

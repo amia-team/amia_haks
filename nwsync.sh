@@ -47,13 +47,14 @@ run_as_owner() {
 # --- NWSync Write ---
 if [ -n "${NWSYNC_PATH}" ] && [ -n "${SERVER_BASE}" ]; then
     echo "Updating NWSync data (${ENVIRONMENT})..."
-    cd "${NWSYNC_PATH}"
+    pushd "${NWSYNC_PATH}" > /dev/null
     if [ -f ./bin/nwn_nwsync_write ] && [ -f "${SERVER_BASE}/modules/Amia.mod" ]; then
         run_as_owner "${NWSYNC_PATH}" \
             ./bin/nwn_nwsync_write --description="Amia Server Data" data/ "${SERVER_BASE}/modules/Amia.mod"
     else
         echo "NWSync binaries or module not found, skipping write..."
     fi
+    popd > /dev/null
 else
     echo "WARNING: NWSYNC_PATH or SERVER_BASE not set. Skipping NWSync write (${ENVIRONMENT})."
 fi
@@ -61,12 +62,13 @@ fi
 # --- Docker Compose Restart ---
 if [ -n "${SERVER_DIR}" ]; then
     echo "Recreating ${ENVIRONMENT} server via docker compose..."
-    cd "${SERVER_DIR}"
+    pushd "${SERVER_DIR}" > /dev/null
     if command -v docker &> /dev/null; then
         docker compose up -d --force-recreate "${SERVICE}"
     else
         echo "docker not found, skipping restart..."
     fi
+    popd > /dev/null
 else
     echo "WARNING: AMIA_SERVER_DIR not set. Skipping restart (${ENVIRONMENT})."
 fi
