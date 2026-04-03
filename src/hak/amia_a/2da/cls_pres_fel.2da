@@ -1,0 +1,8 @@
+2DA V2.0                                                        
+                                                                
+           LABEL          ReqType   ReqParam1        ReqParam2     
+0          WeapProfEx     FEAT      44               ****         
+1          Base_Attack    BAB       6                ****                
+2          Taunt          SKILL     18               10
+3          Discipline     SKILL     3                8                                  
+                                            
