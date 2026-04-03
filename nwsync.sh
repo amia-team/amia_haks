@@ -28,7 +28,11 @@ else
     exit 1
 fi
 
-SERVER_DIR="${AMIA_SERVER_DIR:-}"
+if [ "${ENVIRONMENT}" = "dev" ]; then
+    SERVER_DIR="${DEV_SERVER_BASE:-}"
+else
+    SERVER_DIR="${AMIA_SERVER_DIR:-}"
+fi
 
 # --- Determine the owner of the NWSync directory so we can run as that user ---
 run_as_owner() {
