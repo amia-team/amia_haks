@@ -20,4 +20,6 @@
 16 EpicSpellFocus       83486    4084        ife_X2magic   
 17 EpicEnergyResistance 83487    83488       ife_X2EResi   
 18 DevastatingCrit      83482    3909        ife_X2DevCrit 
-19 EnergyResistance     16778803 16778804    ife_x2eresi   
+19 EnergyResistance     16778803 16778804    ife_x2eresi
+20 BoonOfAbility        16778636 16778637    ife_boonabil
+21 BoonOfSkill          16778638 16778639    ife_boonskill
