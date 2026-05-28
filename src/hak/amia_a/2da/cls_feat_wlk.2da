@@ -105,4 +105,10 @@
 101 DM_TOOLS                             1338      1    99             1      
 102 FEAT_MONKEY_GRIP                     1246      0    -1             1      
 103 A_THOUSAND_FACES                     1369      3    -1             1
-104 PactBase							 1321      3    1              1   
+104 PactBase							 1321      3    1              1
+105 HollowingEssence                     1347      3    -1             1
+106 RadiantEssence                       1348      3    -1             1
+107 WitchwoodEssence                     1349      3    -1             1
+108 StormEssence                         1350      3    -1             1
+109 GluttonousEssence                    1351      3    -1             1
+110 GluttonousEssence                    1352      3    -1             1
