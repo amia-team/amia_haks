@@ -283,7 +283,7 @@ pipeline {
                     }
                     sh """
                         bash linux-pack-all.sh
-                        bash deploy.sh ${env.TEST_SERVER_BASE}/test_server
+                        bash deploy.sh ${env.TEST_SERVER_BASE}
                         bash cleanup.sh
                     """
                 }
