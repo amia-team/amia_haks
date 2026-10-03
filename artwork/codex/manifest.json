@@ -1,6 +1,6 @@
 {
-  "schema_version": 1,
-  "task": "000 \u2014 Extract Assets",
+  "schema_version": 2,
+  "task": "002 \u2014 Finalize artwork states and asset contract",
   "reference": {
     "file": "reference.png",
     "sha256": "784dc675396a1bb7bb250543b79ea576f0d81830d8fe30dc88e63b7f0a4ba033",
@@ -19,27 +19,41 @@
   ],
   "crop_coordinates": "XYWH in the named master, not the original reference. Reference rectangles are approximate provenance only.",
   "generation_prompts": "generation-prompts.json",
-  "asset_count": 58,
+  "asset_count": 65,
   "prototype_resrefs": [
-    "ui_cdx_outer",
     "ui_cdx_bg",
-    "ui_cdx_paper",
     "ui_cdx_cat_n",
     "ui_cdx_cat_s",
+    "ui_cdx_close",
     "ui_cdx_ent_n",
-    "ui_cdx_btn",
-    "ui_cdx_i_next",
+    "ui_cdx_ent_s",
+    "ui_cdx_fr_bl",
+    "ui_cdx_fr_bot",
+    "ui_cdx_fr_br",
+    "ui_cdx_fr_left",
+    "ui_cdx_fr_right",
+    "ui_cdx_fr_tl",
+    "ui_cdx_fr_top",
+    "ui_cdx_fr_tr",
     "ui_cdx_i_book",
-    "ui_cdx_close"
+    "ui_cdx_i_next",
+    "ui_cdx_outer",
+    "ui_cdx_paper",
+    "ui_cdx_pn_bl",
+    "ui_cdx_pn_bot",
+    "ui_cdx_pn_br",
+    "ui_cdx_pn_left",
+    "ui_cdx_pn_right",
+    "ui_cdx_pn_tl",
+    "ui_cdx_pn_top",
+    "ui_cdx_pn_tr",
+    "ui_cdx_tab_s"
   ],
   "remaining_work": [
-    "Disabled/hover/pressed variants are not supplied; finalize required states in task 002 after prototype evidence.",
-    "Normal and selected backgrounds retain different source bounds; harmonize nine-slice/content padding in task 002.",
-    "Texture fill samples are not proven seamless; render as fills initially rather than assuming tiling.",
-    "Scrollbar caps/thumb/rail are reference samples. A coherent empty track and synchronized interactive geometry remain task 007.",
-    "Category icons for Notes/Traits/Economy filters beyond the reference require a neutral icon or later artwork.",
-    "Generated glyphs, parchment boundary and empty frame are theme-matched reconstructions; they are not exact pixel extractions.",
-    "No archive has been built and no NUI rendering has been tested; those checks belong to the user."
+    "Custom scrollbar geometry/interaction: 007.",
+    "Compact/high-scale layout verification: 007.",
+    "Additional specialized category glyphs: use semantic tab fallback until needed.",
+    "Seven 002 exports require user bundling/deployment; verify them in the full shell milestone."
   ],
   "assets": [
     {
@@ -2141,6 +2155,521 @@
       "transparent_pixels": 3147,
       "sha256": "7bb42af5a7c95dd027ac3e032d1a2c893167bdc1e42b3ef17d513e221b6b3d7c",
       "notes": "Theme-matched ImageGen reconstruction, not a pixel-exact original crop. 64px transparent cell, glyph fits 56px."
+    },
+    {
+      "key": "control.tab.normal",
+      "resref": "ui_cdx_tab_n_v2",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_tab_n_v2.png",
+      "width": 245,
+      "height": 96,
+      "state": "normal",
+      "content_padding": [
+        21,
+        20,
+        21,
+        20
+      ],
+      "atlas_region": null,
+      "provenance": {
+        "method": "pixel_preserving_canvas_export",
+        "parent_resref": "ui_cdx_tab_n",
+        "parent_sha256": "48b192cdf16af8b03b9bd11ead947a5a507813b05e7b5cdf70140f0e7179551a",
+        "source_placement_xy": [
+          1,
+          5
+        ],
+        "source_dimensions": [
+          243,
+          86
+        ],
+        "pixel_preserving": true,
+        "resize": null
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 3906,
+      "sha256": "a2f743f1daa3e1c7bf126b10a8e4e4f204591545dee12e1fc40d6f02f0d2f6c0",
+      "notes": "Normal and selected states share one canvas and content inset; original art pixels are unchanged."
+    },
+    {
+      "key": "control.tab.selected",
+      "resref": "ui_cdx_tab_s_v2",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_tab_s_v2.png",
+      "width": 245,
+      "height": 96,
+      "state": "selected",
+      "content_padding": [
+        21,
+        20,
+        21,
+        20
+      ],
+      "atlas_region": null,
+      "provenance": {
+        "method": "pixel_preserving_canvas_export",
+        "parent_resref": "ui_cdx_tab_s",
+        "parent_sha256": "6014b8741b3e7e74a0dfedd3af9433ce14554396065b1ad78858fce753cfe339",
+        "source_placement_xy": [
+          0,
+          0
+        ],
+        "source_dimensions": [
+          245,
+          96
+        ],
+        "pixel_preserving": true,
+        "resize": null
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 2095,
+      "sha256": "6014b8741b3e7e74a0dfedd3af9433ce14554396065b1ad78858fce753cfe339",
+      "notes": "Normal and selected states share one canvas and content inset; original art pixels are unchanged."
+    },
+    {
+      "key": "control.category.normal",
+      "resref": "ui_cdx_cat_n_v2",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_cat_n_v2.png",
+      "width": 262,
+      "height": 72,
+      "state": "normal",
+      "content_padding": [
+        24,
+        16,
+        24,
+        16
+      ],
+      "atlas_region": null,
+      "provenance": {
+        "method": "pixel_preserving_canvas_export",
+        "parent_resref": "ui_cdx_cat_n",
+        "parent_sha256": "aadaa91ab64a777ce440792fabed42c7ca924e3f76d85562ea829944941d7294",
+        "source_placement_xy": [
+          7,
+          4
+        ],
+        "source_dimensions": [
+          247,
+          64
+        ],
+        "pixel_preserving": true,
+        "resize": null
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 4037,
+      "sha256": "45cd4064923a215a0ed34907df6da009a0e6680b772e526ec66c11ab0a80ee76",
+      "notes": "Normal and selected states share one canvas and content inset; original art pixels are unchanged."
+    },
+    {
+      "key": "control.category.selected",
+      "resref": "ui_cdx_cat_s_v2",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_cat_s_v2.png",
+      "width": 262,
+      "height": 72,
+      "state": "selected",
+      "content_padding": [
+        24,
+        16,
+        24,
+        16
+      ],
+      "atlas_region": null,
+      "provenance": {
+        "method": "pixel_preserving_canvas_export",
+        "parent_resref": "ui_cdx_cat_s",
+        "parent_sha256": "42e3424b2f279e715fea083f9a96b4e3f3105b9cbc2919c1737c507e4ab2a3fc",
+        "source_placement_xy": [
+          0,
+          0
+        ],
+        "source_dimensions": [
+          262,
+          72
+        ],
+        "pixel_preserving": true,
+        "resize": null
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 1205,
+      "sha256": "42e3424b2f279e715fea083f9a96b4e3f3105b9cbc2919c1737c507e4ab2a3fc",
+      "notes": "Normal and selected states share one canvas and content inset; original art pixels are unchanged."
+    },
+    {
+      "key": "control.entry.normal",
+      "resref": "ui_cdx_ent_n_v2",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_ent_n_v2.png",
+      "width": 352,
+      "height": 84,
+      "state": "normal",
+      "content_padding": [
+        16,
+        15,
+        16,
+        15
+      ],
+      "atlas_region": null,
+      "provenance": {
+        "method": "pixel_preserving_canvas_export",
+        "parent_resref": "ui_cdx_ent_n",
+        "parent_sha256": "da2804ae750c5944caef11083c9a05059c6797c8e9df1471e4cdaad7eed96059",
+        "source_placement_xy": [
+          0,
+          0
+        ],
+        "source_dimensions": [
+          352,
+          84
+        ],
+        "pixel_preserving": true,
+        "resize": null
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 933,
+      "sha256": "da2804ae750c5944caef11083c9a05059c6797c8e9df1471e4cdaad7eed96059",
+      "notes": "Normal and selected states share one canvas and content inset; original art pixels are unchanged."
+    },
+    {
+      "key": "control.entry.selected",
+      "resref": "ui_cdx_ent_s_v2",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_ent_s_v2.png",
+      "width": 352,
+      "height": 84,
+      "state": "selected",
+      "content_padding": [
+        16,
+        15,
+        16,
+        15
+      ],
+      "atlas_region": null,
+      "provenance": {
+        "method": "pixel_preserving_canvas_export",
+        "parent_resref": "ui_cdx_ent_s",
+        "parent_sha256": "eb997ed1a1817db271adb9f59aa2318ff4700a354d8c09a233d9878e4523e59f",
+        "source_placement_xy": [
+          0,
+          0
+        ],
+        "source_dimensions": [
+          352,
+          83
+        ],
+        "pixel_preserving": true,
+        "resize": null
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 2128,
+      "sha256": "faffed1073b62d4f7839ff44963210380f43bec007a0ed211657bc707608b912",
+      "notes": "Normal and selected states share one canvas and content inset; original art pixels are unchanged."
+    },
+    {
+      "key": "icon.previous",
+      "resref": "ui_cdx_i_prev",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_i_prev.png",
+      "width": 64,
+      "height": 64,
+      "state": "normal",
+      "content_padding": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "atlas_region": null,
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "prev-master.png",
+        "master_sha256": "7e2d3f87a98f768391389caca10dc158758a62612b0b91aed948bf607385a36e",
+        "master_crop_xywh": [
+          337,
+          257,
+          496,
+          742
+        ],
+        "resize": "56x56",
+        "centered_in_64px_cell": true,
+        "style_reference_resref": "ui_cdx_i_next",
+        "generation_prompt": "generation-prompts-002.json"
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 3104,
+      "sha256": "21ad5999939b82dad0027109334e721b4b94aeb8c26b2afcc0c3b1cb5c3e8c8e",
+      "notes": "ImageGen direction variant matched to the supplied next glyph; reconstructed, not a pixel-exact mirror."
     }
-  ]
+  ],
+  "base_manifest": "manifest-000.json",
+  "new_export_count": 7,
+  "contract": {
+    "schema_version": 1,
+    "task": "002",
+    "units": "source pixels unless explicitly logical_nui",
+    "textures": "Direct PNG resrefs. No production atlas; source-pixel subregions were verified in 001.",
+    "control_families": {
+      "tab": {
+        "canvas": [
+          245,
+          96
+        ],
+        "content_padding": [
+          21,
+          20,
+          21,
+          20
+        ],
+        "states": {
+          "normal": "ui_cdx_tab_n_v2",
+          "selected": "ui_cdx_tab_s_v2"
+        },
+        "disabled": {
+          "resref": "retain_current_normal_or_selected",
+          "widget_enabled": false,
+          "overlay_color_rgb": [
+            110,
+            100,
+            80
+          ],
+          "activation_allowed": false,
+          "treatment": "Native NuiImage disabled appearance; explicitly dim draw-list glyphs/live labels. Verified in 001."
+        }
+      },
+      "category": {
+        "canvas": [
+          262,
+          72
+        ],
+        "content_padding": [
+          24,
+          16,
+          24,
+          16
+        ],
+        "states": {
+          "normal": "ui_cdx_cat_n_v2",
+          "selected": "ui_cdx_cat_s_v2"
+        },
+        "disabled": {
+          "resref": "retain_current_normal_or_selected",
+          "widget_enabled": false,
+          "overlay_color_rgb": [
+            110,
+            100,
+            80
+          ],
+          "activation_allowed": false,
+          "treatment": "Native NuiImage disabled appearance; explicitly dim draw-list glyphs/live labels. Verified in 001."
+        }
+      },
+      "entry": {
+        "canvas": [
+          352,
+          84
+        ],
+        "content_padding": [
+          16,
+          15,
+          16,
+          15
+        ],
+        "states": {
+          "normal": "ui_cdx_ent_n_v2",
+          "selected": "ui_cdx_ent_s_v2"
+        },
+        "disabled": {
+          "resref": "retain_current_normal_or_selected",
+          "widget_enabled": false,
+          "overlay_color_rgb": [
+            110,
+            100,
+            80
+          ],
+          "activation_allowed": false,
+          "treatment": "Native NuiImage disabled appearance; explicitly dim draw-list glyphs/live labels. Verified in 001."
+        }
+      }
+    },
+    "legacy_control_resrefs": [
+      "ui_cdx_tab_n",
+      "ui_cdx_tab_s",
+      "ui_cdx_cat_n",
+      "ui_cdx_cat_s",
+      "ui_cdx_ent_n",
+      "ui_cdx_ent_s"
+    ],
+    "frames": {
+      "outer": {
+        "source_resref": "ui_cdx_outer",
+        "slice_prefix": "ui_cdx_fr",
+        "source_corner_pixels": 54,
+        "logical_nui_corner": 28,
+        "fill_resref": "ui_cdx_bg",
+        "logical_nui_fill_inset": 8,
+        "logical_nui_content_inset": 24
+      },
+      "panel": {
+        "source_resref": "ui_cdx_panel",
+        "slice_prefix": "ui_cdx_pn",
+        "source_corner_pixels": 36,
+        "logical_nui_corner": 18,
+        "fill_resref": "ui_cdx_bg",
+        "logical_nui_content_inset": 12
+      },
+      "assembly": "Eight independent slices: scale corners uniformly, stretch each straight edge only along its long axis. Fill separately."
+    },
+    "reading_pane": {
+      "resref": "ui_cdx_paper",
+      "logical_nui_size": [
+        458,
+        450
+      ],
+      "logical_nui_content_inset": 26,
+      "title_and_body_color_rgb": [
+        48,
+        29,
+        15
+      ],
+      "scrolling": "Native body Y scrollbar; no shell scrollbar; frame and title remain fixed."
+    },
+    "glyphs": {
+      "canvas_pixels": [
+        64,
+        64
+      ],
+      "maximum_glyph_pixels": [
+        56,
+        56
+      ],
+      "logical_nui_category_size": 24,
+      "logical_nui_entry_arrow_size": 28,
+      "fit": "NuiAspect.Fit; render independently of the control background."
+    },
+    "tabs": {
+      "tab_knowledge": "ui_cdx_i_book",
+      "tab_quests": "ui_cdx_i_shield",
+      "tab_notes": "ui_cdx_i_scroll",
+      "tab_reputation": "ui_cdx_i_people",
+      "tab_traits": "ui_cdx_i_head",
+      "tab_economy": "ui_cdx_i_coins"
+    },
+    "category_fallbacks": {
+      "Knowledge": "ui_cdx_i_book",
+      "Quests": "ui_cdx_i_shield",
+      "Notes": "ui_cdx_i_scroll",
+      "Reputation": "ui_cdx_i_people",
+      "Traits": "ui_cdx_i_head",
+      "Economy": "ui_cdx_i_coins"
+    },
+    "actions": {
+      "entry": {
+        "family": "entry",
+        "glyph": "ui_cdx_i_next",
+        "selected": "reflect_current_detail_selection"
+      },
+      "pagination_previous": {
+        "background": "ui_cdx_btn",
+        "glyph": "ui_cdx_i_prev",
+        "selected": "not_applicable_momentary"
+      },
+      "pagination_next": {
+        "background": "ui_cdx_btn",
+        "glyph": "ui_cdx_i_next",
+        "selected": "not_applicable_momentary"
+      },
+      "close": {
+        "background": "ui_cdx_close",
+        "glyph": "baked_X",
+        "selected": "not_applicable_momentary",
+        "routing": "Existing close/draft-protection path; never unconditional token.Close in production."
+      },
+      "note_and_confirmation_actions": {
+        "family": "entry",
+        "glyph": "none",
+        "labels": [
+          "New Note",
+          "Find",
+          "Clear",
+          "Edit",
+          "Delete",
+          "Save",
+          "Cancel",
+          "Keep",
+          "Discard",
+          "Confirm"
+        ],
+        "selected": "not_applicable_momentary",
+        "text": "Live labels; preserve existing action IDs and behavior."
+      },
+      "select_traits": {
+        "family": "entry",
+        "glyph": "ui_cdx_i_head",
+        "text": "Live Select Traits label"
+      },
+      "disabled_momentary_actions": {
+        "widget_enabled": false,
+        "overlay_color_rgb": [
+          110,
+          100,
+          80
+        ],
+        "activation_allowed": false
+      },
+      "editor_fields_dropdowns": "Native controls and existing binds; do not replace with bitmap text.",
+      "help": "No implemented useful help action; ui_cdx_help is retained source artwork, not an active control."
+    },
+    "states": {
+      "normal": "Canonical *_n_v2 texture",
+      "selected": "Canonical *_s_v2, static glow",
+      "disabled": "Native disabled background plus explicit muted overlays and presenter guard.",
+      "hover": "Tooltip only; no new texture or dependency on hover events.",
+      "pressed": "No visual variant; matching left press/release gates activation."
+    },
+    "colors_rgb": {
+      "gold": [
+        242,
+        196,
+        113
+      ],
+      "ink": [
+        48,
+        29,
+        15
+      ],
+      "disabled_overlay": [
+        110,
+        100,
+        80
+      ]
+    },
+    "verified_logical_nui_shell": {
+      "size": [
+        940,
+        650
+      ],
+      "gui_viewport": [
+        3440,
+        1382
+      ],
+      "gui_scale_percent": 100,
+      "client_server_versions": "not supplied",
+      "evidence": "User confirmed all 001 checks green on 2026-10-03."
+    },
+    "layout_rules": [
+      "Root group: padding 0, margin 0, border false, scrollbars None.",
+      "Put fill/frame draw list on a child group, not the root group.",
+      "Use explicit spacers for content insets; separate artwork inset from control inset.",
+      "Native font and live content; let NWN apply GUI scaling once. Other scales remain task 007.",
+      "Use normalized v2 backgrounds at fixed hit bounds; background/label/icon state changes do not move controls.",
+      "No assumed seamless tiling; stretch fill samples as in the verified prototype."
+    ],
+    "deferred": [
+      "Custom scrollbar geometry/interaction: 007.",
+      "Compact/high-scale layout verification: 007.",
+      "Additional specialized category glyphs: use semantic tab fallback until needed."
+    ]
+  },
+  "generation_prompts_002": "generation-prompts-002.json"
 }

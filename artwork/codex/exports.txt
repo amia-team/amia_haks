@@ -56,3 +56,10 @@ ui_cdx_i_chat.png
 ui_cdx_i_next.png
 ui_cdx_i_up.png
 ui_cdx_i_down.png
+ui_cdx_tab_n_v2.png
+ui_cdx_tab_s_v2.png
+ui_cdx_cat_n_v2.png
+ui_cdx_cat_s_v2.png
+ui_cdx_ent_n_v2.png
+ui_cdx_ent_s_v2.png
+ui_cdx_i_prev.png
