@@ -1,0 +1,36 @@
+[
+  {
+    "key": "clean",
+    "tool": "image_gen.imagegen",
+    "transparent_background": true,
+    "reference": "reference.png",
+    "prompt": "Use case: precise-object-edit + background-extraction.\nAsset type: editable master sheet for NWN Codex UI resource extraction.\nInput image: /home/zoltan/Documents/codex_example.png is the edit target and authoritative art/style reference.\nPrimary request: Clean this EXACT mockup into an icon-free UI master sheet, preserving the existing layout and shapes. Keep the original 1671 x 941 canvas, element positions, proportions, thin metallic gold edges, warm glowing selected borders, black embossed panel textures, brown selected fills and parchment.\nRemove the book, shield, scroll, people, head, coins and all category glyphs from the six tabs, all left sidebar buttons and the four standalone tab/category controls on the right; reconstruct only the small areas where each glyph was, with matching surrounding fill. Remove the right-facing arrow glyphs and their small square housings from both standalone entry rows on the right and the central entry row, leaving clean uninterrupted empty entry backgrounds. Keep the separate question-mark and red X buttons unchanged. Keep the scrollbar and bottom divider ornaments unchanged.\nConvert ONLY the surrounding black canvas outside the UI elements to genuine transparent alpha. Dark interiors of the main frame, panel areas, tabs and controls must remain opaque with their existing texture. Preserve glow soft edges against transparency; no black halos. The large main frame and standalone components stay in their original positions. No checkerboard pixels, no labels, no added text, no new widgets, no perspective, no creative redesign. This is precision preparation of game artwork. Return one cleaned master sheet."
+  },
+  {
+    "key": "icons",
+    "tool": "image_gen.imagegen",
+    "transparent_background": true,
+    "reference": "reference.png",
+    "prompt": "Use case: background-extraction.\nAsset type: one transparent icon atlas for a fantasy NWN Codex.\nInput image: /home/zoltan/Documents/codex_example.png is the authoritative reference for these exact icon shapes, colors and surface style.\nExtract/reconstruct the gold glyphs from this mockup as a clean 1024 x 1024 atlas with exactly FIVE columns and FOUR rows of equal square cells. Each cell contains ONE isolated centered icon occupying around half the cell width, plenty of transparent space around it. Flat front-facing golden silhouettes with subtle original warm shading; match the source's crisp simple glyphs, no ornate badge backgrounds or surrounding button borders. No text or labels. Genuine transparent alpha, no black background, no checkerboard pixels.\nStrict row-major order:\nRow 1: open book; shield; unfurled vertical scroll; three people; profile head.\nRow 2: stacked coins; thin eight-direction compass star from sidebar second row; gear; cave entrance; crosshair.\nRow 3: classical temple columns; map pin; leaf; crown; thick eight-point sunburst star.\nRow 4: spiral/swirl; speech bubble with three dots; right chevron; up chevron; down chevron.\nAll symbols consistent gold palette from the reference, no drop shadows outside glyphs, no frames, no duplicate icons, no extra objects. Preserve the source distinctions between the thin compass and the solid sunburst. One atlas image is the requested deliverable."
+  },
+  {
+    "key": "paper",
+    "tool": "image_gen.imagegen",
+    "transparent_background": true,
+    "reference": "reference.png",
+    "prompt": "Use case: background-extraction.\nAsset type: single transparent parchment reading-pane texture for NWN Codex.\nInput image: /home/zoltan/Documents/codex_example.png is the edit target. Extract the large parchment rectangle in the right reading pane, approximately x728 y262 through x1201 y803. Keep the original pale ivory/tan fibrous parchment, subtle creases and faint irregular pattern, slightly browned worn edge, and irregular torn/burnt-looking silhouette. Remove surrounding UI chrome, gold border, header and scrollbar completely. Preserve all parchment pixels/visual appearance as closely as possible and reconstruct the boundary where obscured by the frame. The paper must have NO writing or illustrations, no dramatic folds, no rolled corners, no added heavy stains.\nReturn ONLY this one flat front-facing portrait parchment sheet, aspect approximately 474:546, centered with a small transparent margin around all four sides on a 1024x1024 transparent canvas. Genuine transparent alpha outside the ragged edge, opaque paper inside. No black fringe, drop shadow, checkerboard pixels, extra objects or text. High fidelity to the exact mockup paper; this is extraction for compositing under live text, not a redesign."
+  },
+  {
+    "key": "frame",
+    "tool": "image_gen.imagegen",
+    "transparent_background": true,
+    "reference": "reference.png",
+    "prompt": "Use case: background-extraction.\nAsset type: one empty outer-window frame for the NWN Codex.\nInput image: /home/zoltan/Documents/codex_example.png is the edit target.\nExtract only the large outer gold window frame from the left two thirds of this exact reference, approximately x20 y89 through x1266 y843. Keep its thin aged gold/bronze double rails and ornamental angular gold corner brackets, straight edges, shallow bevels and warm highlights. Remove ALL contents inside it, including the top tabs, inner panel frames, parchment, scrollbar, textures, help/X buttons, and ornaments; the entire inner opening is truly transparent. Remove all objects outside the outer frame as well.\nPreserve the original outer frame position and proportions on the original 1671x941 canvas, with transparent surrounding canvas. Reconstruct a clean continuous top-right outer corner where the help/close buttons overlapped. The frame has four cohesive ornamental corners, thin straight rails, no large jewels or embellishments, no title or icons. Do not fill the opening black. Preserve translucent edge antialiasing against actual transparency. Match the exact mockup gold aesthetic; no text, no checkerboard background, no perspective, no drop shadow."
+  },
+  {
+    "key": "button",
+    "tool": "image_gen.imagegen",
+    "transparent_background": true,
+    "reference": "reference.png"
+  }
+]

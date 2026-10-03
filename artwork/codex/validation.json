@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "asset_count": 58,
+  "baseline_resources_unchanged": 855,
+  "checks": [
+    "PNG decode/RGBA",
+    "dimensions/hashes",
+    "resrefs <=16 characters",
+    "case-insensitive cross-format collision scan",
+    "existing-resource checksums"
+  ],
+  "errors": [],
+  "game_verified": false,
+  "bundle_built": false
+}
