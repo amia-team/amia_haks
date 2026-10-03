@@ -1,0 +1,2146 @@
+{
+  "schema_version": 1,
+  "task": "000 \u2014 Extract Assets",
+  "reference": {
+    "file": "reference.png",
+    "sha256": "784dc675396a1bb7bb250543b79ea576f0d81830d8fe30dc88e63b7f0a4ba033",
+    "width": 1671,
+    "height": 941
+  },
+  "asset_root": "amia_haks",
+  "bundle_target": "amia_nui",
+  "resource_type": "png",
+  "toolchain": "Built-in image_gen for editing/reconstruction; ImageMagick for deterministic slicing/export/previews.",
+  "padding_order": [
+    "left",
+    "top",
+    "right",
+    "bottom"
+  ],
+  "crop_coordinates": "XYWH in the named master, not the original reference. Reference rectangles are approximate provenance only.",
+  "generation_prompts": "generation-prompts.json",
+  "asset_count": 58,
+  "prototype_resrefs": [
+    "ui_cdx_outer",
+    "ui_cdx_bg",
+    "ui_cdx_paper",
+    "ui_cdx_cat_n",
+    "ui_cdx_cat_s",
+    "ui_cdx_ent_n",
+    "ui_cdx_btn",
+    "ui_cdx_i_next",
+    "ui_cdx_i_book",
+    "ui_cdx_close"
+  ],
+  "remaining_work": [
+    "Disabled/hover/pressed variants are not supplied; finalize required states in task 002 after prototype evidence.",
+    "Normal and selected backgrounds retain different source bounds; harmonize nine-slice/content padding in task 002.",
+    "Texture fill samples are not proven seamless; render as fills initially rather than assuming tiling.",
+    "Scrollbar caps/thumb/rail are reference samples. A coherent empty track and synchronized interactive geometry remain task 007.",
+    "Category icons for Notes/Traits/Economy filters beyond the reference require a neutral icon or later artwork.",
+    "Generated glyphs, parchment boundary and empty frame are theme-matched reconstructions; they are not exact pixel extractions.",
+    "No archive has been built and no NUI rendering has been tested; those checks belong to the user."
+  ],
+  "assets": [
+    {
+      "key": "frame.outer",
+      "resref": "ui_cdx_outer",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_outer.png",
+      "width": 1248,
+      "height": 754,
+      "state": "normal",
+      "content_padding": [
+        42,
+        38,
+        42,
+        38
+      ],
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "frame-master.png",
+        "master_sha256": "5c2fb51e953498745a1e1ee315e88331ad8d7e0494b57f132d7ff7602c66fa78",
+        "master_crop_xywh": [
+          105,
+          84,
+          1461,
+          778
+        ],
+        "reference_crop_xywh": [
+          20,
+          89,
+          1248,
+          754
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": "1248x754!",
+        "parent_resref": null,
+        "centered_in_64px_cell": false
+      },
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "transparent_pixels": 800963,
+      "sha256": "513ba184eadf8dd691e969760cf3bf3e59af8d599e4aaf4cd35dfab6a776dce8",
+      "notes": "Reconstructed transparent outer frame; top-right corner repaired. Center is transparent. Use slices for resizing."
+    },
+    {
+      "key": "frame.outer.slice.tl",
+      "resref": "ui_cdx_fr_tl",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_fr_tl.png",
+      "width": 54,
+      "height": 54,
+      "state": "normal",
+      "content_padding": null,
+      "provenance": {
+        "method": "slice_of_export",
+        "master": "ui_cdx_outer.png",
+        "master_sha256": "513ba184eadf8dd691e969760cf3bf3e59af8d599e4aaf4cd35dfab6a776dce8",
+        "master_crop_xywh": [
+          0,
+          0,
+          54,
+          54
+        ],
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false,
+        "resize": null,
+        "parent_resref": "ui_cdx_outer",
+        "centered_in_64px_cell": false
+      },
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "transparent_pixels": 253,
+      "sha256": "86b8c8e6ea16cdb9ce41ce015a71e6bbb9c04108bcd4cf494308236a31c8c4f1",
+      "notes": "Fixed 54px corner inset. Stretch edge along its long axis only; no center slice."
+    },
+    {
+      "key": "frame.outer.slice.tr",
+      "resref": "ui_cdx_fr_tr",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_fr_tr.png",
+      "width": 54,
+      "height": 54,
+      "state": "normal",
+      "content_padding": null,
+      "provenance": {
+        "method": "slice_of_export",
+        "master": "ui_cdx_outer.png",
+        "master_sha256": "513ba184eadf8dd691e969760cf3bf3e59af8d599e4aaf4cd35dfab6a776dce8",
+        "master_crop_xywh": [
+          1194,
+          0,
+          54,
+          54
+        ],
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false,
+        "resize": null,
+        "parent_resref": "ui_cdx_outer",
+        "centered_in_64px_cell": false
+      },
+      "alpha_min": 0,
+      "alpha_max": 253,
+      "transparent_pixels": 190,
+      "sha256": "5746f9f62bd015b0ed9a01bd448f884365b205007954f2bb992edde3e7402968",
+      "notes": "Fixed 54px corner inset. Stretch edge along its long axis only; no center slice."
+    },
+    {
+      "key": "frame.outer.slice.bl",
+      "resref": "ui_cdx_fr_bl",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_fr_bl.png",
+      "width": 54,
+      "height": 54,
+      "state": "normal",
+      "content_padding": null,
+      "provenance": {
+        "method": "slice_of_export",
+        "master": "ui_cdx_outer.png",
+        "master_sha256": "513ba184eadf8dd691e969760cf3bf3e59af8d599e4aaf4cd35dfab6a776dce8",
+        "master_crop_xywh": [
+          0,
+          700,
+          54,
+          54
+        ],
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false,
+        "resize": null,
+        "parent_resref": "ui_cdx_outer",
+        "centered_in_64px_cell": false
+      },
+      "alpha_min": 0,
+      "alpha_max": 253,
+      "transparent_pixels": 157,
+      "sha256": "7f2de12f7f22dc2043e454e9b640be13c62bb227a2ee5e3881c7eb0e47913ea0",
+      "notes": "Fixed 54px corner inset. Stretch edge along its long axis only; no center slice."
+    },
+    {
+      "key": "frame.outer.slice.br",
+      "resref": "ui_cdx_fr_br",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_fr_br.png",
+      "width": 54,
+      "height": 54,
+      "state": "normal",
+      "content_padding": null,
+      "provenance": {
+        "method": "slice_of_export",
+        "master": "ui_cdx_outer.png",
+        "master_sha256": "513ba184eadf8dd691e969760cf3bf3e59af8d599e4aaf4cd35dfab6a776dce8",
+        "master_crop_xywh": [
+          1194,
+          700,
+          54,
+          54
+        ],
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false,
+        "resize": null,
+        "parent_resref": "ui_cdx_outer",
+        "centered_in_64px_cell": false
+      },
+      "alpha_min": 0,
+      "alpha_max": 253,
+      "transparent_pixels": 219,
+      "sha256": "c14e0eca4b5470ff0f1a52a61a040dd7d980a951263bd7df07c639f41a16c8da",
+      "notes": "Fixed 54px corner inset. Stretch edge along its long axis only; no center slice."
+    },
+    {
+      "key": "frame.outer.slice.top",
+      "resref": "ui_cdx_fr_top",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_fr_top.png",
+      "width": 1140,
+      "height": 54,
+      "state": "normal",
+      "content_padding": null,
+      "provenance": {
+        "method": "slice_of_export",
+        "master": "ui_cdx_outer.png",
+        "master_sha256": "513ba184eadf8dd691e969760cf3bf3e59af8d599e4aaf4cd35dfab6a776dce8",
+        "master_crop_xywh": [
+          54,
+          0,
+          1140,
+          54
+        ],
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false,
+        "resize": null,
+        "parent_resref": "ui_cdx_outer",
+        "centered_in_64px_cell": false
+      },
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "transparent_pixels": 19461,
+      "sha256": "978e4e3f38815d811b6e7c4be62543c7bc70398df5032732b29a34dc5a96bf47",
+      "notes": "Fixed 54px corner inset. Stretch edge along its long axis only; no center slice."
+    },
+    {
+      "key": "frame.outer.slice.bot",
+      "resref": "ui_cdx_fr_bot",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_fr_bot.png",
+      "width": 1140,
+      "height": 54,
+      "state": "normal",
+      "content_padding": null,
+      "provenance": {
+        "method": "slice_of_export",
+        "master": "ui_cdx_outer.png",
+        "master_sha256": "513ba184eadf8dd691e969760cf3bf3e59af8d599e4aaf4cd35dfab6a776dce8",
+        "master_crop_xywh": [
+          54,
+          700,
+          1140,
+          54
+        ],
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false,
+        "resize": null,
+        "parent_resref": "ui_cdx_outer",
+        "centered_in_64px_cell": false
+      },
+      "alpha_min": 0,
+      "alpha_max": 253,
+      "transparent_pixels": 13596,
+      "sha256": "529397b5f1641050881c93f7dd82508ec12dc25442ad2730d62dec4ba803d6d8",
+      "notes": "Fixed 54px corner inset. Stretch edge along its long axis only; no center slice."
+    },
+    {
+      "key": "frame.outer.slice.left",
+      "resref": "ui_cdx_fr_left",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_fr_left.png",
+      "width": 54,
+      "height": 646,
+      "state": "normal",
+      "content_padding": null,
+      "provenance": {
+        "method": "slice_of_export",
+        "master": "ui_cdx_outer.png",
+        "master_sha256": "513ba184eadf8dd691e969760cf3bf3e59af8d599e4aaf4cd35dfab6a776dce8",
+        "master_crop_xywh": [
+          0,
+          54,
+          54,
+          646
+        ],
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false,
+        "resize": null,
+        "parent_resref": "ui_cdx_outer",
+        "centered_in_64px_cell": false
+      },
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "transparent_pixels": 15645,
+      "sha256": "b601737a7dcce02d55e5361bdd1eac5ace06623fb52e9025320646a49d53cd2a",
+      "notes": "Fixed 54px corner inset. Stretch edge along its long axis only; no center slice."
+    },
+    {
+      "key": "frame.outer.slice.right",
+      "resref": "ui_cdx_fr_right",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_fr_right.png",
+      "width": 54,
+      "height": 646,
+      "state": "normal",
+      "content_padding": null,
+      "provenance": {
+        "method": "slice_of_export",
+        "master": "ui_cdx_outer.png",
+        "master_sha256": "513ba184eadf8dd691e969760cf3bf3e59af8d599e4aaf4cd35dfab6a776dce8",
+        "master_crop_xywh": [
+          1194,
+          54,
+          54,
+          646
+        ],
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false,
+        "resize": null,
+        "parent_resref": "ui_cdx_outer",
+        "centered_in_64px_cell": false
+      },
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "transparent_pixels": 15230,
+      "sha256": "805d3de6c5d6e5d11d87af1f58cd7580b8a8911ffb2a479f11425309793081b0",
+      "notes": "Fixed 54px corner inset. Stretch edge along its long axis only; no center slice."
+    },
+    {
+      "key": "tab.normal",
+      "resref": "ui_cdx_tab_n",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_tab_n.png",
+      "width": 243,
+      "height": 86,
+      "state": "normal",
+      "content_padding": [
+        20,
+        15,
+        20,
+        15
+      ],
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "clean-master.png",
+        "master_sha256": "891df17a8f2e2c1036b865ba15deaa6d127c8c2d4b061e37579521a863bdda71",
+        "master_crop_xywh": [
+          1294,
+          157,
+          243,
+          86
+        ],
+        "reference_crop_xywh": [
+          1296,
+          163,
+          234,
+          76
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": null,
+        "parent_resref": null,
+        "centered_in_64px_cell": false
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 1284,
+      "sha256": "48b192cdf16af8b03b9bd11ead947a5a507813b05e7b5cdf70140f0e7179551a",
+      "notes": "Icons removed by ImageGen; label/icon overlays remain separate."
+    },
+    {
+      "key": "tab.selected",
+      "resref": "ui_cdx_tab_s",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_tab_s.png",
+      "width": 245,
+      "height": 96,
+      "state": "selected",
+      "content_padding": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "clean-master.png",
+        "master_sha256": "891df17a8f2e2c1036b865ba15deaa6d127c8c2d4b061e37579521a863bdda71",
+        "master_crop_xywh": [
+          1292,
+          56,
+          245,
+          96
+        ],
+        "reference_crop_xywh": [
+          1296,
+          63,
+          234,
+          81
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": null,
+        "parent_resref": null,
+        "centered_in_64px_cell": false
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 2095,
+      "sha256": "6014b8741b3e7e74a0dfedd3af9433ce14554396065b1ad78858fce753cfe339",
+      "notes": "Icons removed by ImageGen; label/icon overlays remain separate."
+    },
+    {
+      "key": "category.normal",
+      "resref": "ui_cdx_cat_n",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_cat_n.png",
+      "width": 247,
+      "height": 64,
+      "state": "normal",
+      "content_padding": [
+        16,
+        12,
+        16,
+        12
+      ],
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "clean-master.png",
+        "master_sha256": "891df17a8f2e2c1036b865ba15deaa6d127c8c2d4b061e37579521a863bdda71",
+        "master_crop_xywh": [
+          1292,
+          349,
+          247,
+          64
+        ],
+        "reference_crop_xywh": [
+          1296,
+          354,
+          236,
+          53
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": null,
+        "parent_resref": null,
+        "centered_in_64px_cell": false
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 981,
+      "sha256": "aadaa91ab64a777ce440792fabed42c7ca924e3f76d85562ea829944941d7294",
+      "notes": "Icons removed by ImageGen; label/icon overlays remain separate."
+    },
+    {
+      "key": "category.selected",
+      "resref": "ui_cdx_cat_s",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_cat_s.png",
+      "width": 262,
+      "height": 72,
+      "state": "selected",
+      "content_padding": [
+        24,
+        15,
+        24,
+        15
+      ],
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "clean-master.png",
+        "master_sha256": "891df17a8f2e2c1036b865ba15deaa6d127c8c2d4b061e37579521a863bdda71",
+        "master_crop_xywh": [
+          1286,
+          276,
+          262,
+          72
+        ],
+        "reference_crop_xywh": [
+          1293,
+          283,
+          246,
+          62
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": null,
+        "parent_resref": null,
+        "centered_in_64px_cell": false
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 1205,
+      "sha256": "42e3424b2f279e715fea083f9a96b4e3f3105b9cbc2919c1737c507e4ab2a3fc",
+      "notes": "Icons removed by ImageGen; label/icon overlays remain separate."
+    },
+    {
+      "key": "entry.normal",
+      "resref": "ui_cdx_ent_n",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_ent_n.png",
+      "width": 352,
+      "height": 84,
+      "state": "normal",
+      "content_padding": [
+        16,
+        14,
+        16,
+        14
+      ],
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "clean-master.png",
+        "master_sha256": "891df17a8f2e2c1036b865ba15deaa6d127c8c2d4b061e37579521a863bdda71",
+        "master_crop_xywh": [
+          1293,
+          518,
+          352,
+          84
+        ],
+        "reference_crop_xywh": [
+          1296,
+          522,
+          342,
+          73
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": null,
+        "parent_resref": null,
+        "centered_in_64px_cell": false
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 933,
+      "sha256": "da2804ae750c5944caef11083c9a05059c6797c8e9df1471e4cdaad7eed96059",
+      "notes": "Icons removed by ImageGen; label/icon overlays remain separate."
+    },
+    {
+      "key": "entry.selected",
+      "resref": "ui_cdx_ent_s",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_ent_s.png",
+      "width": 352,
+      "height": 83,
+      "state": "selected",
+      "content_padding": [
+        16,
+        14,
+        16,
+        14
+      ],
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "clean-master.png",
+        "master_sha256": "891df17a8f2e2c1036b865ba15deaa6d127c8c2d4b061e37579521a863bdda71",
+        "master_crop_xywh": [
+          1293,
+          434,
+          352,
+          83
+        ],
+        "reference_crop_xywh": [
+          1296,
+          440,
+          342,
+          71
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": null,
+        "parent_resref": null,
+        "centered_in_64px_cell": false
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 1776,
+      "sha256": "eb997ed1a1817db271adb9f59aa2318ff4700a354d8c09a233d9878e4523e59f",
+      "notes": "Icons removed by ImageGen; label/icon overlays remain separate."
+    },
+    {
+      "key": "button.help",
+      "resref": "ui_cdx_help",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_help.png",
+      "width": 82,
+      "height": 83,
+      "state": "normal",
+      "content_padding": null,
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "clean-master.png",
+        "master_sha256": "891df17a8f2e2c1036b865ba15deaa6d127c8c2d4b061e37579521a863bdda71",
+        "master_crop_xywh": [
+          1370,
+          727,
+          82,
+          83
+        ],
+        "reference_crop_xywh": [
+          1375,
+          732,
+          70,
+          71
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": null,
+        "parent_resref": null,
+        "centered_in_64px_cell": false
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 632,
+      "sha256": "99fb643706bf7b351d934e81af2a74933ec4fe2b9f1f2e3269ef9b35f3f3602f",
+      "notes": ""
+    },
+    {
+      "key": "button.close",
+      "resref": "ui_cdx_close",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_close.png",
+      "width": 81,
+      "height": 85,
+      "state": "normal",
+      "content_padding": null,
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "clean-master.png",
+        "master_sha256": "891df17a8f2e2c1036b865ba15deaa6d127c8c2d4b061e37579521a863bdda71",
+        "master_crop_xywh": [
+          1485,
+          727,
+          81,
+          85
+        ],
+        "reference_crop_xywh": [
+          1490,
+          732,
+          68,
+          71
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": null,
+        "parent_resref": null,
+        "centered_in_64px_cell": false
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 641,
+      "sha256": "8b6cef9e7e04ee43c8b08fa5aa0fef00f408b69ab863e9517c3ecf90ed4245a6",
+      "notes": ""
+    },
+    {
+      "key": "ornament.divider.left",
+      "resref": "ui_cdx_div_l",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_div_l.png",
+      "width": 138,
+      "height": 56,
+      "state": "decoration",
+      "content_padding": null,
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "clean-master.png",
+        "master_sha256": "891df17a8f2e2c1036b865ba15deaa6d127c8c2d4b061e37579521a863bdda71",
+        "master_crop_xywh": [
+          1294,
+          829,
+          138,
+          56
+        ],
+        "reference_crop_xywh": [
+          1296,
+          833,
+          132,
+          43
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": null,
+        "parent_resref": null,
+        "centered_in_64px_cell": false
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 3172,
+      "sha256": "6d315d2b641eaab579813b7509d9204d0c757fd27077e46fd3caeb9e10903371",
+      "notes": ""
+    },
+    {
+      "key": "ornament.divider.right",
+      "resref": "ui_cdx_div_r",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_div_r.png",
+      "width": 137,
+      "height": 56,
+      "state": "decoration",
+      "content_padding": null,
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "clean-master.png",
+        "master_sha256": "891df17a8f2e2c1036b865ba15deaa6d127c8c2d4b061e37579521a863bdda71",
+        "master_crop_xywh": [
+          1509,
+          829,
+          137,
+          56
+        ],
+        "reference_crop_xywh": [
+          1513,
+          833,
+          127,
+          43
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": null,
+        "parent_resref": null,
+        "centered_in_64px_cell": false
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 3285,
+      "sha256": "db4728f9f8d5402c0a815392111bf40605f2526b09d1352054247088798b40c7",
+      "notes": ""
+    },
+    {
+      "key": "scrollbar.reference",
+      "resref": "ui_cdx_scroll",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_scroll.png",
+      "width": 66,
+      "height": 369,
+      "state": "decoration",
+      "content_padding": null,
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "clean-master.png",
+        "master_sha256": "891df17a8f2e2c1036b865ba15deaa6d127c8c2d4b061e37579521a863bdda71",
+        "master_crop_xywh": [
+          1569,
+          44,
+          66,
+          369
+        ],
+        "reference_crop_xywh": [
+          1572,
+          49,
+          57,
+          359
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": null,
+        "parent_resref": null,
+        "centered_in_64px_cell": false
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 2061,
+      "sha256": "7fb840447706a8a877976f2b507c4e98bb8b1454661bac3663a32aa1af671e86",
+      "notes": "Reference artwork only; thumb/track are not a working scrollbar."
+    },
+    {
+      "key": "panel.compact",
+      "resref": "ui_cdx_panel",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_panel.png",
+      "width": 258,
+      "height": 90,
+      "state": "normal",
+      "content_padding": [
+        22,
+        18,
+        22,
+        18
+      ],
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "clean-master.png",
+        "master_sha256": "891df17a8f2e2c1036b865ba15deaa6d127c8c2d4b061e37579521a863bdda71",
+        "master_crop_xywh": [
+          1338,
+          630,
+          258,
+          90
+        ],
+        "reference_crop_xywh": [
+          1341,
+          639,
+          246,
+          74
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": null,
+        "parent_resref": null,
+        "centered_in_64px_cell": false
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 1647,
+      "sha256": "d26e831a42a7fcb8a3571dafcbae3fa5119a669e31dfe69bf88d7ad811d84c49",
+      "notes": ""
+    },
+    {
+      "key": "frame.panel.slice.tl",
+      "resref": "ui_cdx_pn_tl",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_pn_tl.png",
+      "width": 36,
+      "height": 36,
+      "state": "normal",
+      "content_padding": null,
+      "provenance": {
+        "method": "slice_of_export",
+        "master": "ui_cdx_panel.png",
+        "master_sha256": "d26e831a42a7fcb8a3571dafcbae3fa5119a669e31dfe69bf88d7ad811d84c49",
+        "master_crop_xywh": [
+          0,
+          0,
+          36,
+          36
+        ],
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false,
+        "resize": null,
+        "parent_resref": "ui_cdx_panel",
+        "centered_in_64px_cell": false
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 189,
+      "sha256": "973a417ac35db8922edfc545fde254aa84425cbc8fc87e940b1bf0fb509505b1",
+      "notes": "Fixed 36px corner inset. Stretch edge along its long axis only; no center slice."
+    },
+    {
+      "key": "frame.panel.slice.tr",
+      "resref": "ui_cdx_pn_tr",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_pn_tr.png",
+      "width": 36,
+      "height": 36,
+      "state": "normal",
+      "content_padding": null,
+      "provenance": {
+        "method": "slice_of_export",
+        "master": "ui_cdx_panel.png",
+        "master_sha256": "d26e831a42a7fcb8a3571dafcbae3fa5119a669e31dfe69bf88d7ad811d84c49",
+        "master_crop_xywh": [
+          222,
+          0,
+          36,
+          36
+        ],
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false,
+        "resize": null,
+        "parent_resref": "ui_cdx_panel",
+        "centered_in_64px_cell": false
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 218,
+      "sha256": "6b9cbb31526b26da7be66e1f9f9ee907593600427fe4bd66bb70a544e4483a2c",
+      "notes": "Fixed 36px corner inset. Stretch edge along its long axis only; no center slice."
+    },
+    {
+      "key": "frame.panel.slice.bl",
+      "resref": "ui_cdx_pn_bl",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_pn_bl.png",
+      "width": 36,
+      "height": 36,
+      "state": "normal",
+      "content_padding": null,
+      "provenance": {
+        "method": "slice_of_export",
+        "master": "ui_cdx_panel.png",
+        "master_sha256": "d26e831a42a7fcb8a3571dafcbae3fa5119a669e31dfe69bf88d7ad811d84c49",
+        "master_crop_xywh": [
+          0,
+          54,
+          36,
+          36
+        ],
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false,
+        "resize": null,
+        "parent_resref": "ui_cdx_panel",
+        "centered_in_64px_cell": false
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 192,
+      "sha256": "e4333b4480b7d6e2752a2e8559922263d0fa90a965b132243fe44e6c3b38ab44",
+      "notes": "Fixed 36px corner inset. Stretch edge along its long axis only; no center slice."
+    },
+    {
+      "key": "frame.panel.slice.br",
+      "resref": "ui_cdx_pn_br",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_pn_br.png",
+      "width": 36,
+      "height": 36,
+      "state": "normal",
+      "content_padding": null,
+      "provenance": {
+        "method": "slice_of_export",
+        "master": "ui_cdx_panel.png",
+        "master_sha256": "d26e831a42a7fcb8a3571dafcbae3fa5119a669e31dfe69bf88d7ad811d84c49",
+        "master_crop_xywh": [
+          222,
+          54,
+          36,
+          36
+        ],
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false,
+        "resize": null,
+        "parent_resref": "ui_cdx_panel",
+        "centered_in_64px_cell": false
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 190,
+      "sha256": "56a702a2c5b39632431c64c0067d803c2fa935419f428cf932ba2839a8b0b1e9",
+      "notes": "Fixed 36px corner inset. Stretch edge along its long axis only; no center slice."
+    },
+    {
+      "key": "frame.panel.slice.top",
+      "resref": "ui_cdx_pn_top",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_pn_top.png",
+      "width": 186,
+      "height": 36,
+      "state": "normal",
+      "content_padding": null,
+      "provenance": {
+        "method": "slice_of_export",
+        "master": "ui_cdx_panel.png",
+        "master_sha256": "d26e831a42a7fcb8a3571dafcbae3fa5119a669e31dfe69bf88d7ad811d84c49",
+        "master_crop_xywh": [
+          36,
+          0,
+          186,
+          36
+        ],
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false,
+        "resize": null,
+        "parent_resref": "ui_cdx_panel",
+        "centered_in_64px_cell": false
+      },
+      "alpha_min": 0,
+      "alpha_max": 253,
+      "transparent_pixels": 381,
+      "sha256": "a96363d32ddeeeed5e4739cd768ed7cc29497ae9fd2e9dcb95b7dc3192f2658e",
+      "notes": "Fixed 36px corner inset. Stretch edge along its long axis only; no center slice."
+    },
+    {
+      "key": "frame.panel.slice.bot",
+      "resref": "ui_cdx_pn_bot",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_pn_bot.png",
+      "width": 186,
+      "height": 36,
+      "state": "normal",
+      "content_padding": null,
+      "provenance": {
+        "method": "slice_of_export",
+        "master": "ui_cdx_panel.png",
+        "master_sha256": "d26e831a42a7fcb8a3571dafcbae3fa5119a669e31dfe69bf88d7ad811d84c49",
+        "master_crop_xywh": [
+          36,
+          54,
+          186,
+          36
+        ],
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false,
+        "resize": null,
+        "parent_resref": "ui_cdx_panel",
+        "centered_in_64px_cell": false
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 436,
+      "sha256": "96e9a0c9055dafb8226255029fd7658c0e8bd0677625fc25dc53f1bbd99e5625",
+      "notes": "Fixed 36px corner inset. Stretch edge along its long axis only; no center slice."
+    },
+    {
+      "key": "frame.panel.slice.left",
+      "resref": "ui_cdx_pn_left",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_pn_left.png",
+      "width": 36,
+      "height": 18,
+      "state": "normal",
+      "content_padding": null,
+      "provenance": {
+        "method": "slice_of_export",
+        "master": "ui_cdx_panel.png",
+        "master_sha256": "d26e831a42a7fcb8a3571dafcbae3fa5119a669e31dfe69bf88d7ad811d84c49",
+        "master_crop_xywh": [
+          0,
+          36,
+          36,
+          18
+        ],
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false,
+        "resize": null,
+        "parent_resref": "ui_cdx_panel",
+        "centered_in_64px_cell": false
+      },
+      "alpha_min": 0,
+      "alpha_max": 253,
+      "transparent_pixels": 3,
+      "sha256": "631f672abe00708f78bbb841ee9e0242832226d510d5b7e36aa560659a9865d7",
+      "notes": "Fixed 36px corner inset. Stretch edge along its long axis only; no center slice."
+    },
+    {
+      "key": "frame.panel.slice.right",
+      "resref": "ui_cdx_pn_right",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_pn_right.png",
+      "width": 36,
+      "height": 18,
+      "state": "normal",
+      "content_padding": null,
+      "provenance": {
+        "method": "slice_of_export",
+        "master": "ui_cdx_panel.png",
+        "master_sha256": "d26e831a42a7fcb8a3571dafcbae3fa5119a669e31dfe69bf88d7ad811d84c49",
+        "master_crop_xywh": [
+          222,
+          36,
+          36,
+          18
+        ],
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false,
+        "resize": null,
+        "parent_resref": "ui_cdx_panel",
+        "centered_in_64px_cell": false
+      },
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "transparent_pixels": 38,
+      "sha256": "49b9675634f9ef102e6b21942b1253c96e1d211fccca7bf86d662ffd78d093ae",
+      "notes": "Fixed 36px corner inset. Stretch edge along its long axis only; no center slice."
+    },
+    {
+      "key": "background.dark",
+      "resref": "ui_cdx_bg",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_bg.png",
+      "width": 389,
+      "height": 410,
+      "state": "normal",
+      "content_padding": null,
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "clean-master.png",
+        "master_sha256": "891df17a8f2e2c1036b865ba15deaa6d127c8c2d4b061e37579521a863bdda71",
+        "master_crop_xywh": [
+          307,
+          309,
+          389,
+          410
+        ],
+        "reference_crop_xywh": [
+          307,
+          309,
+          389,
+          410
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": null,
+        "parent_resref": null,
+        "centered_in_64px_cell": false
+      },
+      "alpha_min": 252,
+      "alpha_max": 253,
+      "transparent_pixels": 0,
+      "sha256": "fd9090d150b856ad9a763df021fad34509f4daa6d7e3bfba55403e774f3dd91b",
+      "notes": "Uninterrupted source texture; not guaranteed tileable."
+    },
+    {
+      "key": "background.header",
+      "resref": "ui_cdx_hdrbg",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_hdrbg.png",
+      "width": 442,
+      "height": 36,
+      "state": "normal",
+      "content_padding": null,
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "clean-master.png",
+        "master_sha256": "891df17a8f2e2c1036b865ba15deaa6d127c8c2d4b061e37579521a863bdda71",
+        "master_crop_xywh": [
+          743,
+          209,
+          442,
+          36
+        ],
+        "reference_crop_xywh": [
+          743,
+          209,
+          442,
+          36
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": null,
+        "parent_resref": null,
+        "centered_in_64px_cell": false
+      },
+      "alpha_min": 252,
+      "alpha_max": 253,
+      "transparent_pixels": 0,
+      "sha256": "0024be42615a7d2ffa40e1ca24c4b5ba5b591009be9165c75bbe5e11d61a2bb5",
+      "notes": "Uninterrupted source texture; not guaranteed tileable."
+    },
+    {
+      "key": "background.selected",
+      "resref": "ui_cdx_brown",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_brown.png",
+      "width": 159,
+      "height": 26,
+      "state": "normal",
+      "content_padding": null,
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "clean-master.png",
+        "master_sha256": "891df17a8f2e2c1036b865ba15deaa6d127c8c2d4b061e37579521a863bdda71",
+        "master_crop_xywh": [
+          1354,
+          304,
+          159,
+          26
+        ],
+        "reference_crop_xywh": [
+          1354,
+          304,
+          159,
+          26
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": null,
+        "parent_resref": null,
+        "centered_in_64px_cell": false
+      },
+      "alpha_min": 252,
+      "alpha_max": 253,
+      "transparent_pixels": 0,
+      "sha256": "511ddb02d2f5056e8788d71cbf4c6cbac4f666fb4d95ec22e4da50500e4190d2",
+      "notes": "Uninterrupted source texture; not guaranteed tileable."
+    },
+    {
+      "key": "scrollbar.cap.top",
+      "resref": "ui_cdx_sb_top",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_sb_top.png",
+      "width": 61,
+      "height": 74,
+      "state": "decoration",
+      "content_padding": null,
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "clean-master.png",
+        "master_sha256": "891df17a8f2e2c1036b865ba15deaa6d127c8c2d4b061e37579521a863bdda71",
+        "master_crop_xywh": [
+          1575,
+          48,
+          61,
+          74
+        ],
+        "reference_crop_xywh": [
+          1575,
+          48,
+          61,
+          74
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": null,
+        "parent_resref": null,
+        "centered_in_64px_cell": false
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 354,
+      "sha256": "ea6ce3fe0bc0c2298ab7ae390ebfc66616349f294574077252204273e1ee9472",
+      "notes": "Source sample; not guaranteed tileable. Custom scrollbar geometry/range remains task 007."
+    },
+    {
+      "key": "scrollbar.cap.bottom",
+      "resref": "ui_cdx_sb_bot",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_sb_bot.png",
+      "width": 61,
+      "height": 65,
+      "state": "decoration",
+      "content_padding": null,
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "clean-master.png",
+        "master_sha256": "891df17a8f2e2c1036b865ba15deaa6d127c8c2d4b061e37579521a863bdda71",
+        "master_crop_xywh": [
+          1575,
+          346,
+          61,
+          65
+        ],
+        "reference_crop_xywh": [
+          1575,
+          346,
+          61,
+          65
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": null,
+        "parent_resref": null,
+        "centered_in_64px_cell": false
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 526,
+      "sha256": "218a561ce7f6fef9737dec961f45bbf8c9e6ab80be577c110893984c7b7a58c1",
+      "notes": "Source sample; not guaranteed tileable. Custom scrollbar geometry/range remains task 007."
+    },
+    {
+      "key": "scrollbar.thumb",
+      "resref": "ui_cdx_sb_thumb",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_sb_thumb.png",
+      "width": 21,
+      "height": 214,
+      "state": "decoration",
+      "content_padding": null,
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "clean-master.png",
+        "master_sha256": "891df17a8f2e2c1036b865ba15deaa6d127c8c2d4b061e37579521a863bdda71",
+        "master_crop_xywh": [
+          1585,
+          125,
+          21,
+          214
+        ],
+        "reference_crop_xywh": [
+          1585,
+          125,
+          21,
+          214
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": null,
+        "parent_resref": null,
+        "centered_in_64px_cell": false
+      },
+      "alpha_min": 253,
+      "alpha_max": 254,
+      "transparent_pixels": 0,
+      "sha256": "bf46e02eab966c2662c4cb5afdbcc8a5eb37615bdc9d1039ef3c016d68265c63",
+      "notes": "Source sample; not guaranteed tileable. Custom scrollbar geometry/range remains task 007."
+    },
+    {
+      "key": "scrollbar.rail.sample",
+      "resref": "ui_cdx_sb_rail",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_sb_rail.png",
+      "width": 16,
+      "height": 65,
+      "state": "decoration",
+      "content_padding": null,
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "clean-master.png",
+        "master_sha256": "891df17a8f2e2c1036b865ba15deaa6d127c8c2d4b061e37579521a863bdda71",
+        "master_crop_xywh": [
+          1217,
+          673,
+          16,
+          65
+        ],
+        "reference_crop_xywh": [
+          1217,
+          673,
+          16,
+          65
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": null,
+        "parent_resref": null,
+        "centered_in_64px_cell": false
+      },
+      "alpha_min": 253,
+      "alpha_max": 253,
+      "transparent_pixels": 0,
+      "sha256": "948685e895ae3d02070afe7dce9562ab15542eb14d66e7980a1c8e4d69151955",
+      "notes": "Source sample; not guaranteed tileable. Custom scrollbar geometry/range remains task 007."
+    },
+    {
+      "key": "background.parchment",
+      "resref": "ui_cdx_paper",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_paper.png",
+      "width": 474,
+      "height": 546,
+      "state": "normal",
+      "content_padding": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "parchment-master.png",
+        "master_sha256": "98891a39f4a79197265a191e29aa96f04ac897edab46fdbb3e03927cf5bd0ccd",
+        "master_crop_xywh": [
+          134,
+          77,
+          993,
+          1111
+        ],
+        "reference_crop_xywh": [
+          728,
+          262,
+          474,
+          546
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": "474x546!",
+        "parent_resref": null,
+        "centered_in_64px_cell": false
+      },
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "transparent_pixels": 8269,
+      "sha256": "769f3484ec2f0ead583ffe763e078b9de58632d8ead5a780ebf2f9aca7f80c1b",
+      "notes": "Parchment isolated/reconstructed by ImageGen; transparent torn edges, no writing."
+    },
+    {
+      "key": "button.blank",
+      "resref": "ui_cdx_btn",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_btn.png",
+      "width": 64,
+      "height": 64,
+      "state": "normal",
+      "content_padding": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "button-master.png",
+        "master_sha256": "7c25987aaa1ad104827458cebdf35b13b1c8085645fa26ad594d1ddb8e340a5a",
+        "master_crop_xywh": [
+          352,
+          355,
+          556,
+          527
+        ],
+        "reference_crop_xywh": [
+          1579,
+          452,
+          43,
+          48
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": "64x64!",
+        "parent_resref": null,
+        "centered_in_64px_cell": false
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 40,
+      "sha256": "e2b6a2c8fc737db1c434df570b0d011dcfefa6ea70fc5d44cea4f2f096680996",
+      "notes": "Reconstructed glyph-free arrow-button housing. Compose with a separate chevron."
+    },
+    {
+      "key": "icon.book",
+      "resref": "ui_cdx_i_book",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_i_book.png",
+      "width": 64,
+      "height": 64,
+      "state": "normal",
+      "content_padding": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "icons-master.png",
+        "master_sha256": "5576f13e7ba883856d38ceac98ecf0338b582e7db9c5daf45fffbc9d2155c538",
+        "master_crop_xywh": [
+          88,
+          141,
+          196,
+          157
+        ],
+        "reference_crop_xywh": [
+          75,
+          124,
+          40,
+          40
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": "56x56",
+        "parent_resref": null,
+        "centered_in_64px_cell": true
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 1918,
+      "sha256": "26fe57c3fc781fcd9a7e748731297c56d869a8799fa8eaf640260376489b64d6",
+      "notes": "Theme-matched ImageGen reconstruction, not a pixel-exact original crop. 64px transparent cell, glyph fits 56px."
+    },
+    {
+      "key": "icon.shield",
+      "resref": "ui_cdx_i_shield",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_i_shield.png",
+      "width": 64,
+      "height": 64,
+      "state": "normal",
+      "content_padding": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "icons-master.png",
+        "master_sha256": "5576f13e7ba883856d38ceac98ecf0338b582e7db9c5daf45fffbc9d2155c538",
+        "master_crop_xywh": [
+          371,
+          109,
+          149,
+          200
+        ],
+        "reference_crop_xywh": [
+          333,
+          122,
+          33,
+          45
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": "56x56",
+        "parent_resref": null,
+        "centered_in_64px_cell": true
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 2329,
+      "sha256": "84564e0ab85bde4d06704a3af54eb7adf4fb666bcf9c9e92c88219358b348167",
+      "notes": "Theme-matched ImageGen reconstruction, not a pixel-exact original crop. 64px transparent cell, glyph fits 56px."
+    },
+    {
+      "key": "icon.scroll",
+      "resref": "ui_cdx_i_scroll",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_i_scroll.png",
+      "width": 64,
+      "height": 64,
+      "state": "normal",
+      "content_padding": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "icons-master.png",
+        "master_sha256": "5576f13e7ba883856d38ceac98ecf0338b582e7db9c5daf45fffbc9d2155c538",
+        "master_crop_xywh": [
+          633,
+          115,
+          142,
+          187
+        ],
+        "reference_crop_xywh": [
+          520,
+          121,
+          42,
+          46
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": "56x56",
+        "parent_resref": null,
+        "centered_in_64px_cell": true
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 2179,
+      "sha256": "849ab3cadec54f5ff784a600d7d6879a266535f25e8d7fdcaa4699524ca3ed28",
+      "notes": "Theme-matched ImageGen reconstruction, not a pixel-exact original crop. 64px transparent cell, glyph fits 56px."
+    },
+    {
+      "key": "icon.people",
+      "resref": "ui_cdx_i_people",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_i_people.png",
+      "width": 64,
+      "height": 64,
+      "state": "normal",
+      "content_padding": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "icons-master.png",
+        "master_sha256": "5576f13e7ba883856d38ceac98ecf0338b582e7db9c5daf45fffbc9d2155c538",
+        "master_crop_xywh": [
+          867,
+          131,
+          189,
+          167
+        ],
+        "reference_crop_xywh": [
+          710,
+          121,
+          45,
+          47
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": "56x56",
+        "parent_resref": null,
+        "centered_in_64px_cell": true
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 2127,
+      "sha256": "8dc8b8e8be5cc7dcfc126886be5f6c3d100e1cbd5f92a9d210ea0c6ca91a06aa",
+      "notes": "Theme-matched ImageGen reconstruction, not a pixel-exact original crop. 64px transparent cell, glyph fits 56px."
+    },
+    {
+      "key": "icon.head",
+      "resref": "ui_cdx_i_head",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_i_head.png",
+      "width": 64,
+      "height": 64,
+      "state": "normal",
+      "content_padding": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "icons-master.png",
+        "master_sha256": "5576f13e7ba883856d38ceac98ecf0338b582e7db9c5daf45fffbc9d2155c538",
+        "master_crop_xywh": [
+          1153,
+          124,
+          145,
+          179
+        ],
+        "reference_crop_xywh": [
+          902,
+          121,
+          45,
+          47
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": "56x56",
+        "parent_resref": null,
+        "centered_in_64px_cell": true
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 2246,
+      "sha256": "2f1ca914127cbc00cf2c54c3c837de59359c5e82b98325b252542e9c289fe229",
+      "notes": "Theme-matched ImageGen reconstruction, not a pixel-exact original crop. 64px transparent cell, glyph fits 56px."
+    },
+    {
+      "key": "icon.coins",
+      "resref": "ui_cdx_i_coins",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_i_coins.png",
+      "width": 64,
+      "height": 64,
+      "state": "normal",
+      "content_padding": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "icons-master.png",
+        "master_sha256": "5576f13e7ba883856d38ceac98ecf0338b582e7db9c5daf45fffbc9d2155c538",
+        "master_crop_xywh": [
+          110,
+          387,
+          152,
+          181
+        ],
+        "reference_crop_xywh": [
+          1099,
+          119,
+          44,
+          50
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": "56x56",
+        "parent_resref": null,
+        "centered_in_64px_cell": true
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 2253,
+      "sha256": "6d22207482c971e6993184882166b55ae81898db43405ecd40a56f9923452588",
+      "notes": "Theme-matched ImageGen reconstruction, not a pixel-exact original crop. 64px transparent cell, glyph fits 56px."
+    },
+    {
+      "key": "icon.compass",
+      "resref": "ui_cdx_i_compass",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_i_compass.png",
+      "width": 64,
+      "height": 64,
+      "state": "normal",
+      "content_padding": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "icons-master.png",
+        "master_sha256": "5576f13e7ba883856d38ceac98ecf0338b582e7db9c5daf45fffbc9d2155c538",
+        "master_crop_xywh": [
+          346,
+          365,
+          202,
+          213
+        ],
+        "reference_crop_xywh": [
+          80,
+          304,
+          31,
+          33
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": "56x56",
+        "parent_resref": null,
+        "centered_in_64px_cell": true
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 3059,
+      "sha256": "b3b83fa4c8f7d41dbb2c0dda3a80bef8e07521f3fd9230328efa6a8af579411b",
+      "notes": "Theme-matched ImageGen reconstruction, not a pixel-exact original crop. 64px transparent cell, glyph fits 56px."
+    },
+    {
+      "key": "icon.gear",
+      "resref": "ui_cdx_i_gear",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_i_gear.png",
+      "width": 64,
+      "height": 64,
+      "state": "normal",
+      "content_padding": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "icons-master.png",
+        "master_sha256": "5576f13e7ba883856d38ceac98ecf0338b582e7db9c5daf45fffbc9d2155c538",
+        "master_crop_xywh": [
+          617,
+          388,
+          171,
+          171
+        ],
+        "reference_crop_xywh": [
+          80,
+          347,
+          31,
+          33
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": "56x56",
+        "parent_resref": null,
+        "centered_in_64px_cell": true
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 2057,
+      "sha256": "76c8877432d0b3c784af7ce8f246a17084d861ec3c7c5c594f87c203da823a1f",
+      "notes": "Theme-matched ImageGen reconstruction, not a pixel-exact original crop. 64px transparent cell, glyph fits 56px."
+    },
+    {
+      "key": "icon.cave",
+      "resref": "ui_cdx_i_cave",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_i_cave.png",
+      "width": 64,
+      "height": 64,
+      "state": "normal",
+      "content_padding": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "icons-master.png",
+        "master_sha256": "5576f13e7ba883856d38ceac98ecf0338b582e7db9c5daf45fffbc9d2155c538",
+        "master_crop_xywh": [
+          866,
+          393,
+          189,
+          160
+        ],
+        "reference_crop_xywh": [
+          80,
+          391,
+          32,
+          31
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": "56x56",
+        "parent_resref": null,
+        "centered_in_64px_cell": true
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 2379,
+      "sha256": "1dae6118259694047df1339239d4c601c6b332091cead641a0d6794aed94d056",
+      "notes": "Theme-matched ImageGen reconstruction, not a pixel-exact original crop. 64px transparent cell, glyph fits 56px."
+    },
+    {
+      "key": "icon.target",
+      "resref": "ui_cdx_i_target",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_i_target.png",
+      "width": 64,
+      "height": 64,
+      "state": "normal",
+      "content_padding": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "icons-master.png",
+        "master_sha256": "5576f13e7ba883856d38ceac98ecf0338b582e7db9c5daf45fffbc9d2155c538",
+        "master_crop_xywh": [
+          1138,
+          381,
+          179,
+          180
+        ],
+        "reference_crop_xywh": [
+          80,
+          431,
+          32,
+          36
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": "56x56",
+        "parent_resref": null,
+        "centered_in_64px_cell": true
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 2564,
+      "sha256": "1a379c3ae74b297dc9b2ef2448cd2145b5c705efeb3130b0ea71b03c5af42997",
+      "notes": "Theme-matched ImageGen reconstruction, not a pixel-exact original crop. 64px transparent cell, glyph fits 56px."
+    },
+    {
+      "key": "icon.temple",
+      "resref": "ui_cdx_i_temple",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_i_temple.png",
+      "width": 64,
+      "height": 64,
+      "state": "normal",
+      "content_padding": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "icons-master.png",
+        "master_sha256": "5576f13e7ba883856d38ceac98ecf0338b582e7db9c5daf45fffbc9d2155c538",
+        "master_crop_xywh": [
+          98,
+          630,
+          174,
+          181
+        ],
+        "reference_crop_xywh": [
+          80,
+          475,
+          32,
+          38
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": "56x56",
+        "parent_resref": null,
+        "centered_in_64px_cell": true
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 1929,
+      "sha256": "921d1fdadbc6e027f9ab9681d7a2740237de25ccd93af6799afc86fc651fd905",
+      "notes": "Theme-matched ImageGen reconstruction, not a pixel-exact original crop. 64px transparent cell, glyph fits 56px."
+    },
+    {
+      "key": "icon.pin",
+      "resref": "ui_cdx_i_pin",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_i_pin.png",
+      "width": 64,
+      "height": 64,
+      "state": "normal",
+      "content_padding": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "icons-master.png",
+        "master_sha256": "5576f13e7ba883856d38ceac98ecf0338b582e7db9c5daf45fffbc9d2155c538",
+        "master_crop_xywh": [
+          373,
+          633,
+          143,
+          179
+        ],
+        "reference_crop_xywh": [
+          80,
+          519,
+          32,
+          39
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": "56x56",
+        "parent_resref": null,
+        "centered_in_64px_cell": true
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 2491,
+      "sha256": "f9be652f7115e432a9ae3451cb9e5d2944685c41c185cb96123241d1cfd0f758",
+      "notes": "Theme-matched ImageGen reconstruction, not a pixel-exact original crop. 64px transparent cell, glyph fits 56px."
+    },
+    {
+      "key": "icon.leaf",
+      "resref": "ui_cdx_i_leaf",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_i_leaf.png",
+      "width": 64,
+      "height": 64,
+      "state": "normal",
+      "content_padding": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "icons-master.png",
+        "master_sha256": "5576f13e7ba883856d38ceac98ecf0338b582e7db9c5daf45fffbc9d2155c538",
+        "master_crop_xywh": [
+          625,
+          648,
+          147,
+          166
+        ],
+        "reference_crop_xywh": [
+          80,
+          565,
+          33,
+          32
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": "56x56",
+        "parent_resref": null,
+        "centered_in_64px_cell": true
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 2359,
+      "sha256": "2e2df92aa83a2107437a6b0d1276de036fb46d254184d3bc249c8a8b2a9cf8a7",
+      "notes": "Theme-matched ImageGen reconstruction, not a pixel-exact original crop. 64px transparent cell, glyph fits 56px."
+    },
+    {
+      "key": "icon.crown",
+      "resref": "ui_cdx_i_crown",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_i_crown.png",
+      "width": 64,
+      "height": 64,
+      "state": "normal",
+      "content_padding": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "icons-master.png",
+        "master_sha256": "5576f13e7ba883856d38ceac98ecf0338b582e7db9c5daf45fffbc9d2155c538",
+        "master_crop_xywh": [
+          859,
+          659,
+          207,
+          142
+        ],
+        "reference_crop_xywh": [
+          78,
+          606,
+          36,
+          35
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": "56x56",
+        "parent_resref": null,
+        "centered_in_64px_cell": true
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 2777,
+      "sha256": "dbd222b8b448b6c6b168604ab216f4605b82f1ff342c6f5267157178ae407283",
+      "notes": "Theme-matched ImageGen reconstruction, not a pixel-exact original crop. 64px transparent cell, glyph fits 56px."
+    },
+    {
+      "key": "icon.sun",
+      "resref": "ui_cdx_i_sun",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_i_sun.png",
+      "width": 64,
+      "height": 64,
+      "state": "normal",
+      "content_padding": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "icons-master.png",
+        "master_sha256": "5576f13e7ba883856d38ceac98ecf0338b582e7db9c5daf45fffbc9d2155c538",
+        "master_crop_xywh": [
+          1131,
+          630,
+          193,
+          191
+        ],
+        "reference_crop_xywh": [
+          80,
+          652,
+          33,
+          32
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": "56x56",
+        "parent_resref": null,
+        "centered_in_64px_cell": true
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 2510,
+      "sha256": "b98597bc7cafdf3841b9ff02a9bfd4b160f36d6b5a34bd6d84a67cec924c754d",
+      "notes": "Theme-matched ImageGen reconstruction, not a pixel-exact original crop. 64px transparent cell, glyph fits 56px."
+    },
+    {
+      "key": "icon.swirl",
+      "resref": "ui_cdx_i_swirl",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_i_swirl.png",
+      "width": 64,
+      "height": 64,
+      "state": "normal",
+      "content_padding": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "icons-master.png",
+        "master_sha256": "5576f13e7ba883856d38ceac98ecf0338b582e7db9c5daf45fffbc9d2155c538",
+        "master_crop_xywh": [
+          102,
+          873,
+          166,
+          169
+        ],
+        "reference_crop_xywh": [
+          80,
+          696,
+          33,
+          34
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": "56x56",
+        "parent_resref": null,
+        "centered_in_64px_cell": true
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 1793,
+      "sha256": "68f78be11f5a6a00b2c5497520e27af44c6ff74e858c49db666214352333e9b8",
+      "notes": "Theme-matched ImageGen reconstruction, not a pixel-exact original crop. 64px transparent cell, glyph fits 56px."
+    },
+    {
+      "key": "icon.chat",
+      "resref": "ui_cdx_i_chat",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_i_chat.png",
+      "width": 64,
+      "height": 64,
+      "state": "normal",
+      "content_padding": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "icons-master.png",
+        "master_sha256": "5576f13e7ba883856d38ceac98ecf0338b582e7db9c5daf45fffbc9d2155c538",
+        "master_crop_xywh": [
+          356,
+          873,
+          180,
+          155
+        ],
+        "reference_crop_xywh": [
+          79,
+          742,
+          34,
+          36
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": "56x56",
+        "parent_resref": null,
+        "centered_in_64px_cell": true
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 2207,
+      "sha256": "17a52540b9c46185ef28121b2c8cd160374adc05e2cc49c59933af25ae25fcc2",
+      "notes": "Theme-matched ImageGen reconstruction, not a pixel-exact original crop. 64px transparent cell, glyph fits 56px."
+    },
+    {
+      "key": "icon.next",
+      "resref": "ui_cdx_i_next",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_i_next.png",
+      "width": 64,
+      "height": 64,
+      "state": "normal",
+      "content_padding": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "icons-master.png",
+        "master_sha256": "5576f13e7ba883856d38ceac98ecf0338b582e7db9c5daf45fffbc9d2155c538",
+        "master_crop_xywh": [
+          651,
+          871,
+          109,
+          160
+        ],
+        "reference_crop_xywh": [
+          1588,
+          462,
+          20,
+          27
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": "56x56",
+        "parent_resref": null,
+        "centered_in_64px_cell": true
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 3113,
+      "sha256": "a49ad891fcaa21fb140dc56c063f811736ed6367e257bba74a725edafb68a1bd",
+      "notes": "Theme-matched ImageGen reconstruction, not a pixel-exact original crop. 64px transparent cell, glyph fits 56px."
+    },
+    {
+      "key": "icon.up",
+      "resref": "ui_cdx_i_up",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_i_up.png",
+      "width": 64,
+      "height": 64,
+      "state": "normal",
+      "content_padding": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "icons-master.png",
+        "master_sha256": "5576f13e7ba883856d38ceac98ecf0338b582e7db9c5daf45fffbc9d2155c538",
+        "master_crop_xywh": [
+          881,
+          893,
+          163,
+          111
+        ],
+        "reference_crop_xywh": [
+          1584,
+          82,
+          26,
+          36
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": "56x56",
+        "parent_resref": null,
+        "centered_in_64px_cell": true
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 3114,
+      "sha256": "9ca9bac646270fed5928051b0936a84160ab56a3f5772b82101f5ce7c002757e",
+      "notes": "Theme-matched ImageGen reconstruction, not a pixel-exact original crop. 64px transparent cell, glyph fits 56px."
+    },
+    {
+      "key": "icon.down",
+      "resref": "ui_cdx_i_down",
+      "export_path": "src/hak/amia_nui/png/ui_cdx_i_down.png",
+      "width": 64,
+      "height": 64,
+      "state": "normal",
+      "content_padding": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "provenance": {
+        "method": "slice_of_imagegen_master",
+        "master": "icons-master.png",
+        "master_sha256": "5576f13e7ba883856d38ceac98ecf0338b582e7db9c5daf45fffbc9d2155c538",
+        "master_crop_xywh": [
+          1149,
+          908,
+          169,
+          111
+        ],
+        "reference_crop_xywh": [
+          1584,
+          349,
+          26,
+          36
+        ],
+        "reference_crop_is_approximate": true,
+        "resize": "56x56",
+        "parent_resref": null,
+        "centered_in_64px_cell": true
+      },
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 3147,
+      "sha256": "7bb42af5a7c95dd027ac3e032d1a2c893167bdc1e42b3ef17d513e221b6b3d7c",
+      "notes": "Theme-matched ImageGen reconstruction, not a pixel-exact original crop. 64px transparent cell, glyph fits 56px."
+    }
+  ]
+}

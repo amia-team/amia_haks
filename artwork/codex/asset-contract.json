@@ -1,0 +1,267 @@
+{
+  "schema_version": 1,
+  "task": "002",
+  "units": "source pixels unless explicitly logical_nui",
+  "textures": "Direct PNG resrefs. No production atlas; source-pixel subregions were verified in 001.",
+  "control_families": {
+    "tab": {
+      "canvas": [
+        245,
+        96
+      ],
+      "content_padding": [
+        21,
+        20,
+        21,
+        20
+      ],
+      "states": {
+        "normal": "ui_cdx_tab_n_v2",
+        "selected": "ui_cdx_tab_s_v2"
+      },
+      "disabled": {
+        "resref": "retain_current_normal_or_selected",
+        "widget_enabled": false,
+        "overlay_color_rgb": [
+          110,
+          100,
+          80
+        ],
+        "activation_allowed": false,
+        "treatment": "Native NuiImage disabled appearance; explicitly dim draw-list glyphs/live labels. Verified in 001."
+      }
+    },
+    "category": {
+      "canvas": [
+        262,
+        72
+      ],
+      "content_padding": [
+        24,
+        16,
+        24,
+        16
+      ],
+      "states": {
+        "normal": "ui_cdx_cat_n_v2",
+        "selected": "ui_cdx_cat_s_v2"
+      },
+      "disabled": {
+        "resref": "retain_current_normal_or_selected",
+        "widget_enabled": false,
+        "overlay_color_rgb": [
+          110,
+          100,
+          80
+        ],
+        "activation_allowed": false,
+        "treatment": "Native NuiImage disabled appearance; explicitly dim draw-list glyphs/live labels. Verified in 001."
+      }
+    },
+    "entry": {
+      "canvas": [
+        352,
+        84
+      ],
+      "content_padding": [
+        16,
+        15,
+        16,
+        15
+      ],
+      "states": {
+        "normal": "ui_cdx_ent_n_v2",
+        "selected": "ui_cdx_ent_s_v2"
+      },
+      "disabled": {
+        "resref": "retain_current_normal_or_selected",
+        "widget_enabled": false,
+        "overlay_color_rgb": [
+          110,
+          100,
+          80
+        ],
+        "activation_allowed": false,
+        "treatment": "Native NuiImage disabled appearance; explicitly dim draw-list glyphs/live labels. Verified in 001."
+      }
+    }
+  },
+  "legacy_control_resrefs": [
+    "ui_cdx_tab_n",
+    "ui_cdx_tab_s",
+    "ui_cdx_cat_n",
+    "ui_cdx_cat_s",
+    "ui_cdx_ent_n",
+    "ui_cdx_ent_s"
+  ],
+  "frames": {
+    "outer": {
+      "source_resref": "ui_cdx_outer",
+      "slice_prefix": "ui_cdx_fr",
+      "source_corner_pixels": 54,
+      "logical_nui_corner": 28,
+      "fill_resref": "ui_cdx_bg",
+      "logical_nui_fill_inset": 8,
+      "logical_nui_content_inset": 24
+    },
+    "panel": {
+      "source_resref": "ui_cdx_panel",
+      "slice_prefix": "ui_cdx_pn",
+      "source_corner_pixels": 36,
+      "logical_nui_corner": 18,
+      "fill_resref": "ui_cdx_bg",
+      "logical_nui_content_inset": 12
+    },
+    "assembly": "Eight independent slices: scale corners uniformly, stretch each straight edge only along its long axis. Fill separately."
+  },
+  "reading_pane": {
+    "resref": "ui_cdx_paper",
+    "logical_nui_size": [
+      458,
+      450
+    ],
+    "logical_nui_content_inset": 26,
+    "title_and_body_color_rgb": [
+      48,
+      29,
+      15
+    ],
+    "scrolling": "Native body Y scrollbar; no shell scrollbar; frame and title remain fixed."
+  },
+  "glyphs": {
+    "canvas_pixels": [
+      64,
+      64
+    ],
+    "maximum_glyph_pixels": [
+      56,
+      56
+    ],
+    "logical_nui_category_size": 24,
+    "logical_nui_entry_arrow_size": 28,
+    "fit": "NuiAspect.Fit; render independently of the control background."
+  },
+  "tabs": {
+    "tab_knowledge": "ui_cdx_i_book",
+    "tab_quests": "ui_cdx_i_shield",
+    "tab_notes": "ui_cdx_i_scroll",
+    "tab_reputation": "ui_cdx_i_people",
+    "tab_traits": "ui_cdx_i_head",
+    "tab_economy": "ui_cdx_i_coins"
+  },
+  "category_fallbacks": {
+    "Knowledge": "ui_cdx_i_book",
+    "Quests": "ui_cdx_i_shield",
+    "Notes": "ui_cdx_i_scroll",
+    "Reputation": "ui_cdx_i_people",
+    "Traits": "ui_cdx_i_head",
+    "Economy": "ui_cdx_i_coins"
+  },
+  "actions": {
+    "entry": {
+      "family": "entry",
+      "glyph": "ui_cdx_i_next",
+      "selected": "reflect_current_detail_selection"
+    },
+    "pagination_previous": {
+      "background": "ui_cdx_btn",
+      "glyph": "ui_cdx_i_prev",
+      "selected": "not_applicable_momentary"
+    },
+    "pagination_next": {
+      "background": "ui_cdx_btn",
+      "glyph": "ui_cdx_i_next",
+      "selected": "not_applicable_momentary"
+    },
+    "close": {
+      "background": "ui_cdx_close",
+      "glyph": "baked_X",
+      "selected": "not_applicable_momentary",
+      "routing": "Existing close/draft-protection path; never unconditional token.Close in production."
+    },
+    "note_and_confirmation_actions": {
+      "family": "entry",
+      "glyph": "none",
+      "labels": [
+        "New Note",
+        "Find",
+        "Clear",
+        "Edit",
+        "Delete",
+        "Save",
+        "Cancel",
+        "Keep",
+        "Discard",
+        "Confirm"
+      ],
+      "selected": "not_applicable_momentary",
+      "text": "Live labels; preserve existing action IDs and behavior."
+    },
+    "select_traits": {
+      "family": "entry",
+      "glyph": "ui_cdx_i_head",
+      "text": "Live Select Traits label"
+    },
+    "disabled_momentary_actions": {
+      "widget_enabled": false,
+      "overlay_color_rgb": [
+        110,
+        100,
+        80
+      ],
+      "activation_allowed": false
+    },
+    "editor_fields_dropdowns": "Native controls and existing binds; do not replace with bitmap text.",
+    "help": "No implemented useful help action; ui_cdx_help is retained source artwork, not an active control."
+  },
+  "states": {
+    "normal": "Canonical *_n_v2 texture",
+    "selected": "Canonical *_s_v2, static glow",
+    "disabled": "Native disabled background plus explicit muted overlays and presenter guard.",
+    "hover": "Tooltip only; no new texture or dependency on hover events.",
+    "pressed": "No visual variant; matching left press/release gates activation."
+  },
+  "colors_rgb": {
+    "gold": [
+      242,
+      196,
+      113
+    ],
+    "ink": [
+      48,
+      29,
+      15
+    ],
+    "disabled_overlay": [
+      110,
+      100,
+      80
+    ]
+  },
+  "verified_logical_nui_shell": {
+    "size": [
+      940,
+      650
+    ],
+    "gui_viewport": [
+      3440,
+      1382
+    ],
+    "gui_scale_percent": 100,
+    "client_server_versions": "not supplied",
+    "evidence": "User confirmed all 001 checks green on 2026-10-03."
+  },
+  "layout_rules": [
+    "Root group: padding 0, margin 0, border false, scrollbars None.",
+    "Put fill/frame draw list on a child group, not the root group.",
+    "Use explicit spacers for content insets; separate artwork inset from control inset.",
+    "Native font and live content; let NWN apply GUI scaling once. Other scales remain task 007.",
+    "Use normalized v2 backgrounds at fixed hit bounds; background/label/icon state changes do not move controls.",
+    "No assumed seamless tiling; stretch fill samples as in the verified prototype."
+  ],
+  "deferred": [
+    "Custom scrollbar geometry/interaction: 007.",
+    "Compact/high-scale layout verification: 007.",
+    "Additional specialized category glyphs: use semantic tab fallback until needed."
+  ]
+}

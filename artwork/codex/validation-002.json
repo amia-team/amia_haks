@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "base_exports_unchanged": 58,
+  "existing_resources_unchanged": 913,
+  "new_exports": 7,
+  "total_manifest_exports": 65,
+  "normalized_controls_pixel_preserving": 6,
+  "resref_length_max": 16,
+  "cross_format_collisions": [],
+  "new_png_rgba_dimensions_and_hashes": "pass",
+  "canonical_control_interior_alpha": "pass",
+  "previous_glyph_bounds_and_transparent_margins": "pass",
+  "game_verification": "001 all green; seven 002 PNGs await user bundling and in-game review."
+}

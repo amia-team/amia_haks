@@ -1,0 +1,10 @@
+[
+  {
+    "key": "icon.previous",
+    "tool": "image_gen.imagegen",
+    "reference": "src/hak/amia_nui/png/ui_cdx_i_next.png",
+    "master": "prev-master.png",
+    "transparent_background": true,
+    "prompt": "Use case: precise-object-edit.\nAsset type: isolated previous-page chevron for the NWN Codex UI.\nInput image: /home/zoltan/nwn_dev/amia_haks/src/hak/amia_nui/png/ui_cdx_i_next.png is the edit target and exact style reference.\nPrimary request: Create the matching LEFT-facing chevron by horizontally mirroring the supplied right-facing chevron. Preserve its exact simple angular silhouette, stroke thickness, warm pale-gold face, subtle dark-gold beveled outline, crisp edges, proportions and centered placement. Change direction only. One glyph, no frame or button housing, no writing, no added decoration or lighting. Genuine transparent background; preserve clean alpha edges and no black halo. Center the glyph with generous transparent margin for later export into a 64x64 cell; glyph fits within 56x56. Save a new variant; the supplied original remains unchanged."
+  }
+]
