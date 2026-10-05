@@ -1,0 +1,68 @@
+{
+  "status": "pass",
+  "new_exports": 42,
+  "reused_resources": 5,
+  "existing_resources_unchanged": 920,
+  "resref_length_max": 15,
+  "cross_format_collisions": [],
+  "png_rgba_dimensions_and_hashes": "pass",
+  "transparent_frame_openings": {
+    "ui_dlg_outer": {
+      "interior_alpha_max": 1,
+      "opaque_pixels_over_16": 0
+    },
+    "ui_dlg_portrait": {
+      "interior_alpha_max": 1,
+      "opaque_pixels_over_16": 0
+    },
+    "ui_dlg_panel": {
+      "interior_alpha_max": 1,
+      "opaque_pixels_over_16": 0
+    }
+  },
+  "opaque_control_content_areas": "pass",
+  "frame_slices_pixel_preserving": 26,
+  "frame_slice_reassembly": {
+    "ui_dlg_outer": {
+      "visible_color_delta_max": 0.0,
+      "alpha_delta_max": 1,
+      "result": "Matches within 8-bit over-compositing rounding."
+    },
+    "ui_dlg_portrait": {
+      "visible_color_delta_max": 0.0,
+      "alpha_delta_max": 1,
+      "result": "Matches within 8-bit over-compositing rounding."
+    },
+    "ui_dlg_panel": {
+      "visible_color_delta_max": 0.0,
+      "alpha_delta_max": 1,
+      "result": "Matches within 8-bit over-compositing rounding."
+    }
+  },
+  "visual_review": {
+    "status": "pass",
+    "reviewer": "Codex",
+    "reviewed": [
+      "previews/contact-sheet.png",
+      "previews/alpha-checks.png",
+      "previews/dialogue-composition.png",
+      "previews/outer-resized.png",
+      "previews/panel-resized.png",
+      "previews/portrait-resized.png"
+    ],
+    "observations": [
+      "Transparent frame openings are clear on contrasting backgrounds.",
+      "Corner ornaments and fine gold rails are retained without visible assembly seams.",
+      "Response/footer labels and glyphs fit in the offline composition.",
+      "Five Codex reuse decisions and chevron/font/reconstruction differences are documented."
+    ],
+    "scope": "Offline asset QA; no native NUI or in-game alignment claimed."
+  },
+  "deterministic_rebuild": {
+    "status": "pass",
+    "byte_identical_pngs": 42,
+    "comparison": "SHA-256 before and after final repeat build"
+  },
+  "game_verification": "Not performed; Step 1 alignment remains pending.",
+  "packing_and_deployment": "Not performed."
+}

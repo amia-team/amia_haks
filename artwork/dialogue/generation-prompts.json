@@ -1,0 +1,53 @@
+{
+  "tool_mode": "built-in",
+  "generations": [
+    {
+      "key": "outer",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "referenced_image": "reference.png",
+      "prompt": "Use case: background-extraction.\nAsset type: one empty outer-window gold frame for the NWN custom dialogue UI.\nInput image: reference image /tmp/codex-clipboard-1064a843-552e-496c-b485-b0e0b9a07bdb.png is the edit target.\nExtract ONLY the large outer frame, approximately x143 y56 through x1323 y1072, from this exact mockup. Preserve its thin double golden rails, dark bronze shadows, fine interlaced curling filigree corners, and the tiny centered diamond ornament on the TOP edge. Preserve the geometry: tall nearly square frame, aspect approximately 1180:1016. All four rails must remain straight and complete. Reconstruct rails hidden by UI overlaps only if needed.\nRemove absolutely everything inside and outside the outer frame, including the speaker title/header rule, portrait, inner panel, all buttons, red X, response bars, footer controls, letters, textures, and scenery. The ENTIRE inner opening must be genuine transparent alpha, as must the outside. No black fill, no checkerboard pixels, no floating title/divider ornaments inside, no added decorations, no shadows outside the frame.\nReturn ONLY this isolated empty outer frame, front-facing and centered, with a small transparent margin around every edge on a transparent square canvas. Match the supplied mockup closely; this is extraction for a game UI, not a redesign. Keep the four distinctive curling gold corner ornaments complete and uncropped.",
+      "generated_source": "/home/zoltan/.codex/generated_images/01a10cda-f414-7550-8a5c-a4c300afc928/exec-d4dc6358-d3f0-4dfd-94e6-4426b0423e3e.png"
+    },
+    {
+      "key": "portrait",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "referenced_image": "reference.png",
+      "prompt": "Use case: background-extraction.\nAsset type: one empty portrait surround for NWN dialogue.\nInput image: /tmp/codex-clipboard-1064a843-552e-496c-b485-b0e0b9a07bdb.png is the edit target.\nExtract ONLY the gold portrait frame at approximately x188 y161 through x523 y632. Preserve its exact thin double gold rails, rectangular shape aspect about 335:471, and the small curling gold filigree motifs INSIDE all four corners. Remove the entire illustrated guard portrait, every face/body/helmet/shield pixel, and all background/scenery. The inner opening and outside must be genuinely transparent alpha. Reconstruct the straight rails and small corner filigree only where obscured.\nReturn one complete front-facing vertical rectangular portrait frame, centered with a small transparent margin on a portrait canvas. No text, no dark interior fill, no gold decorations outside the four frame corners, no new ornamentation, no checkerboard pixels, no shadow or glow. High fidelity to this exact mockup, not a redesign.",
+      "generated_source": "/home/zoltan/.codex/generated_images/01a10cda-f414-7550-8a5c-a4c300afc928/exec-609d1b3c-9426-4e7f-8a4e-4020587fd131.png"
+    },
+    {
+      "key": "panel",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "referenced_image": "reference.png",
+      "prompt": "Use case: background-extraction.\nAsset type: one empty dialogue text panel frame for NWN NUI.\nInput image: /tmp/codex-clipboard-1064a843-552e-496c-b485-b0e0b9a07bdb.png is the edit target.\nExtract ONLY the thin gold rectangular border around the large right-hand dialogue panel, approximately x540 y164 through x1286 y655, aspect about 746:491. Preserve its fine double golden rails and fine curling corner filigree extending INTO the panel from all four corners. Preserve the thin, delicate line weight; do not thicken or redesign the corners.\nRemove the entire panel interior including dark fill, speaker heading, all body text, dividers, pagination buttons, page number and every letter. Remove everything outside the panel. BOTH the interior opening and outside must be truly transparent alpha; absolutely no black fill or checkerboard pixels. Do not include the portrait frame or outer window frame.\nReturn only one complete empty landscape rectangle, front-facing and centered with a small transparent margin on a landscape canvas. Reconstruct any missing border segments to make continuous straight rails. No text, glyphs, buttons, shadows or additional ornaments. High fidelity to the reference design for sliced-frame UI composition.",
+      "generated_source": "/home/zoltan/.codex/generated_images/01a10cda-f414-7550-8a5c-a4c300afc928/exec-df0d53c6-feef-49ea-b979-a7fb1d99e7fd.png"
+    },
+    {
+      "key": "choice",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "referenced_image": "reference.png",
+      "prompt": "Use case: background-extraction.\nAsset type: ONE blank long response-choice bar for NWN dialogue.\nInput image: /tmp/codex-clipboard-1064a843-552e-496c-b485-b0e0b9a07bdb.png is the edit target.\nExtract the FIRST long response bar, approximately x189 y670 through x1278 y727. It is an extremely slender horizontal rectangular button, aspect about 1089:57 or 19:1. Preserve its thin double gold top/bottom rails and small gold diamond/chevron ornaments halfway down BOTH short ends, exactly as in the supplied reference. Keep its black-blue subtle interlaced textured interior opaque.\nRemove the word Goodbye completely and reconstruct the dark texture underneath, leaving the whole button interior EMPTY. Do not include any other bar, footer button, scene, portrait, title, arrows, or letters. All pixels outside the button must be truly transparent alpha.\nReturn exactly ONE empty response bar centered horizontally on a landscape transparent canvas. Keep the button extremely long and shallow (roughly 19:1); use generous transparent space above and below if necessary. Complete uncropped left/right ornaments, perfectly straight horizontal gold rails, original restrained gold line weight. No new large corner flourishes, no shadow, no glow, no checkerboard pixels. This is extraction, not a redesign.",
+      "generated_source": "/home/zoltan/.codex/generated_images/01a10cda-f414-7550-8a5c-a4c300afc928/exec-647cb6c7-25a6-4152-92a4-98f6173e0159.png"
+    },
+    {
+      "key": "footer",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "referenced_image": "reference.png",
+      "prompt": "Use case: background-extraction.\nAsset type: ONE blank footer button housing for NWN dialogue, shared by Goodbye and More.\nInput image: /tmp/codex-clipboard-1064a843-552e-496c-b485-b0e0b9a07bdb.png is the edit target.\nExtract ONLY the bottom-left Goodbye footer button, approximately x190 y981 through x459 y1042. Keep its horizontal rectangle aspect about 269:61, fine double golden rails, bevel and restrained gold scrolling ornaments INSIDE all four corners. Keep the dark blue-black subtle interlaced interior texture opaque. Remove the word Goodbye completely and reconstruct empty texture under it.\nRemove everything outside this single button. Return ONE empty front-facing gold/dark button housing centered with a transparent margin on a landscape transparent canvas, aspect around 4.4:1. It will receive live labels and a separate arrow; include absolutely no text or glyphs. No red X, no choice bars, no portrait or scenery, no checkerboard pixels, no exterior shadow/glow, no added ornaments. Preserve the reference design and delicate line weight. This is extraction, not a redesign.",
+      "generated_source": "/home/zoltan/.codex/generated_images/01a10cda-f414-7550-8a5c-a4c300afc928/exec-c5733504-d2bb-484d-ad3e-e8275d3837a8.png"
+    },
+    {
+      "key": "divider",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "referenced_image": "reference.png",
+      "prompt": "Use case: background-extraction.\nAsset type: ONE fine gold divider ornament for NWN custom dialogue UI.\nInput image: /tmp/codex-clipboard-1064a843-552e-496c-b485-b0e0b9a07bdb.png is the edit target.\nExtract and reconstruct ONLY the thin horizontal gold separator immediately BELOW the inner speaker name in the right-hand panel, approximately x744 y228 through x1080 y238. It has fine straight horizontal gold/copper hairlines, a small central cluster of THREE tiny hollow diamonds (one centered slightly larger diamond with a small diamond either side), and long hairline tails extending left and right. Keep those distinctive three tiny diamonds exactly centered; keep the line exquisitely thin rather than a thick bronze plaque. Remove all speaker letters and dark panel pixels. Entire background must be genuine transparent alpha.\nReturn one isolated symmetric horizontal divider on a transparent landscape canvas. The motif is approximately 336:14 in aspect and should remain slender; generous transparent space above/below is allowed. Preserve small hollow diamond openings and crisp fine gold outlines. No text, no arrows, no chunky medallion, no shadow or glow, no ornate curls, no extra endpoint ornaments, no checkerboard pixels. This will be split into a fixed central ornament and stretchable straight tails for game UI, so keep the tails straight and even.",
+      "generated_source": "/home/zoltan/.codex/generated_images/01a10cda-f414-7550-8a5c-a4c300afc928/exec-f16deea1-4931-4484-897f-6f3ef1cc5f46.png"
+    }
+  ]
+}

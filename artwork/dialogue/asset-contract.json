@@ -1,0 +1,256 @@
+{
+  "schema_version": 1,
+  "units": "source pixels; no final logical NUI dimensions verified",
+  "textures": "Direct RGBA PNG resrefs; no atlas.",
+  "shell_source_size": [
+    1180,
+    1016
+  ],
+  "frames": {
+    "outer": {
+      "master": "ui_dlg_outer",
+      "prefix": "ui_dlg_fr",
+      "corner": 112,
+      "top_center_width": 144,
+      "slice_count": 10,
+      "assembly": "Four corners, left/right/bottom rails, top_l/top_m/top_r. Uniformly scale corners/top_m; stretch straight rails only along their long axis.",
+      "fill": "ui_cdx_bg",
+      "fill_inset": 12,
+      "content_padding_ltrb": [
+        48,
+        100,
+        48,
+        32
+      ]
+    },
+    "portrait": {
+      "master": "ui_dlg_portrait",
+      "prefix": "ui_dlg_pf",
+      "corner": 48,
+      "slice_count": 8,
+      "aperture_xywh": [
+        12,
+        14,
+        311,
+        443
+      ],
+      "content_padding_ltrb": [
+        12,
+        14,
+        12,
+        14
+      ],
+      "assembly": "Eight slices; portrait stays beneath frame filigree, aspect preserved."
+    },
+    "dialogue": {
+      "master": "ui_dlg_panel",
+      "prefix": "ui_dlg_pn",
+      "corner": 48,
+      "slice_count": 8,
+      "fill": "ui_cdx_bg",
+      "fill_inset": 6,
+      "content_padding_ltrb": [
+        34,
+        22,
+        34,
+        60
+      ],
+      "assembly": "Eight slices; reserve pagination inside bottom padding."
+    }
+  },
+  "controls": {
+    "choice": {
+      "master": "ui_dlg_choice",
+      "parts": [
+        "ui_dlg_ch_l",
+        "ui_dlg_ch_m",
+        "ui_dlg_ch_r"
+      ],
+      "source_size": [
+        1088,
+        56
+      ],
+      "end_cap_width": 32,
+      "content_padding_ltrb": [
+        36,
+        8,
+        36,
+        8
+      ]
+    },
+    "footer": {
+      "master": "ui_dlg_footer",
+      "parts": [
+        "ui_dlg_ft_l",
+        "ui_dlg_ft_m",
+        "ui_dlg_ft_r"
+      ],
+      "source_size": [
+        268,
+        60
+      ],
+      "end_cap_width": 40,
+      "content_padding_ltrb": [
+        44,
+        10,
+        44,
+        10
+      ]
+    },
+    "assembly": "Preserve cap aspect at the chosen height; stretch the middle horizontally. If using the whole bitmap in one NuiImage, preserve its canonical aspect.",
+    "text": "Live centered labels; More reserves space for a separate arrow.",
+    "states": {
+      "normal": "Canonical artwork",
+      "selected": "Not applicable to momentary dialogue actions",
+      "pressed": "No texture variant; later matching left press/release gates activation",
+      "hover": "Tooltip only",
+      "disabled": "Native disabled image plus muted overlays and presenter guard; verify in Step 1/2"
+    }
+  },
+  "divider": {
+    "master": "ui_dlg_divider",
+    "parts": [
+      "ui_dlg_div_l",
+      "ui_dlg_div_m",
+      "ui_dlg_div_r"
+    ],
+    "center_width": 36,
+    "source_height": 14,
+    "rule": "ui_dlg_rule",
+    "assembly": "Keep center ornament at uniform scale; stretch tail width only."
+  },
+  "reused_resources": [
+    {
+      "resref": "ui_cdx_bg",
+      "role": "shell and dialogue-panel fill",
+      "decision": "Reuse: subdued black interlaced texture matches the supplied theme. Stretching is allowed; seamless tiling is not claimed.",
+      "width": 389,
+      "height": 410,
+      "sha256": "fd9090d150b856ad9a763df021fad34509f4daa6d7e3bfba55403e774f3dd91b"
+    },
+    {
+      "resref": "ui_cdx_close",
+      "role": "close control",
+      "decision": "Reuse: red/gold X fits the theme; rendering proportions must be checked in Step 1.",
+      "width": 81,
+      "height": 85,
+      "sha256": "8b6cef9e7e04ee43c8b08fa5aa0fef00f408b69ab863e9517c3ecf90ed4245a6"
+    },
+    {
+      "resref": "ui_cdx_btn",
+      "role": "text-pagination housing",
+      "decision": "Reuse: blank square gold/dark housing; overlay a separate glyph.",
+      "width": 64,
+      "height": 64,
+      "sha256": "e2b6a2c8fc737db1c434df570b0d011dcfefa6ea70fc5d44cea4f2f096680996"
+    },
+    {
+      "resref": "ui_cdx_i_prev",
+      "role": "previous-text-page glyph",
+      "decision": "Reuse: gold chevron rather than the reference triangle; accepted asset-stage style difference.",
+      "width": 64,
+      "height": 64,
+      "sha256": "21ad5999939b82dad0027109334e721b4b94aeb8c26b2afcc0c3b1cb5c3e8c8e"
+    },
+    {
+      "resref": "ui_cdx_i_next",
+      "role": "next-text-page and More glyph",
+      "decision": "Reuse: gold chevron rather than the reference triangle; accepted asset-stage style difference.",
+      "width": 64,
+      "height": 64,
+      "sha256": "a49ad891fcaa21fb140dc56c063f811736ed6367e257bba74a725edafb68a1bd"
+    }
+  ],
+  "rejected_reuse": {
+    "ui_cdx_div_l": "Too heavy; use the new fine divider components.",
+    "ui_cdx_div_r": "Too heavy; use the new fine divider components.",
+    "ui_cdx_fr_*": "Different corner ornamentation.",
+    "ui_cdx_pn_*": "Different panel ornamentation."
+  },
+  "offline_reference_layout": {
+    "coordinate_origin": "Outer reference crop x143 y56; XYWH in source pixels",
+    "shell": [
+      0,
+      0,
+      1180,
+      1016
+    ],
+    "close": [
+      1103,
+      28,
+      58,
+      58
+    ],
+    "portrait": [
+      45,
+      105,
+      335,
+      471
+    ],
+    "dialogue_panel": [
+      397,
+      108,
+      746,
+      491
+    ],
+    "choices": [
+      [
+        46,
+        614,
+        1088,
+        56
+      ],
+      [
+        46,
+        674,
+        1088,
+        56
+      ],
+      [
+        46,
+        734,
+        1088,
+        56
+      ],
+      [
+        46,
+        794,
+        1088,
+        56
+      ],
+      [
+        46,
+        854,
+        1088,
+        56
+      ]
+    ],
+    "goodbye": [
+      46,
+      925,
+      268,
+      60
+    ],
+    "more": [
+      862,
+      925,
+      268,
+      60
+    ]
+  },
+  "live_content": [
+    "Both speaker headings",
+    "NPC portrait",
+    "Dialogue body",
+    "Five response labels",
+    "Text-page counter",
+    "Goodbye",
+    "More-page counter"
+  ],
+  "scope": "Assets and offline composition only; NUI implementation, packing, deployment and client review remain later stages.",
+  "known_deviations": [
+    "ImageGen reconstruction is not pixel-exact artwork extraction.",
+    "Reused navigation glyphs are chevrons rather than the reference triangles.",
+    "Preview font is DejaVu Serif and does not predict the native NUI font."
+  ]
+}

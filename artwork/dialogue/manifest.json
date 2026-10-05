@@ -1,0 +1,1353 @@
+{
+  "schema_version": 1,
+  "stage": "Step 0",
+  "reference": {
+    "file": "reference.png",
+    "sha256": "a63c800a3a11180296aa6e3e894cb8bfa94aded5b646eea9cde5c272d54ee63f",
+    "width": 1448,
+    "height": 1086
+  },
+  "toolchain": "Built-in image_gen reconstruction; ImageMagick export/composition; Pillow/NumPy read-only inspection.",
+  "generation_prompts": "generation-prompts.json",
+  "asset_contract": "asset-contract.json",
+  "asset_count": 42,
+  "assets": [
+    {
+      "key": "frame.outer",
+      "resref": "ui_dlg_outer",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_outer.png",
+      "width": 1180,
+      "height": 1016,
+      "state": "normal",
+      "content_padding_ltrb": [
+        48,
+        100,
+        48,
+        32
+      ],
+      "sha256": "7e54280d1bad5f72f3c5e06adb4be38992932b384c43629737f85fcbe37bb15f",
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "transparent_pixels": 1056454,
+      "provenance": {
+        "method": "processed_imagegen_master",
+        "source": "outer-master.png",
+        "source_sha256": "edbb1fac3d1c89aefadc1da74cb682ab5939775e16cd7590ff0cd5b69e97f00f",
+        "source_crop_xywh": [
+          29,
+          23,
+          1294,
+          1109
+        ],
+        "resize": "1180x1016!",
+        "parent_resref": null,
+        "reference_crop_xywh": [
+          143,
+          56,
+          1180,
+          1016
+        ],
+        "reference_crop_is_approximate": true
+      },
+      "notes": "Transparent opening; no fill or live content baked into frame. Master artwork is reconstructed, not a pixel-exact extraction."
+    },
+    {
+      "key": "frame.outer.slice.tl",
+      "resref": "ui_dlg_fr_tl",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_fr_tl.png",
+      "width": 112,
+      "height": 112,
+      "state": "normal",
+      "content_padding_ltrb": null,
+      "sha256": "2d95eda5c0257ce6b12a5790bb7ae47413cd94f4c509f0e41e48baf1563f9e25",
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "transparent_pixels": 6058,
+      "provenance": {
+        "method": "slice_of_export",
+        "source": "ui_dlg_outer.png",
+        "source_sha256": "7e54280d1bad5f72f3c5e06adb4be38992932b384c43629737f85fcbe37bb15f",
+        "source_crop_xywh": [
+          0,
+          0,
+          112,
+          112
+        ],
+        "resize": null,
+        "parent_resref": "ui_dlg_outer",
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false
+      },
+      "notes": "Preserve corners; stretch straight rails only along their long axis. Keep top_m ornament at uniform scale."
+    },
+    {
+      "key": "frame.outer.slice.tr",
+      "resref": "ui_dlg_fr_tr",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_fr_tr.png",
+      "width": 112,
+      "height": 112,
+      "state": "normal",
+      "content_padding_ltrb": null,
+      "sha256": "edc490e773542aa86059fe3adde538f19f71eba7f537c17d0f13fb2cac3a5dd1",
+      "alpha_min": 0,
+      "alpha_max": 253,
+      "transparent_pixels": 6285,
+      "provenance": {
+        "method": "slice_of_export",
+        "source": "ui_dlg_outer.png",
+        "source_sha256": "7e54280d1bad5f72f3c5e06adb4be38992932b384c43629737f85fcbe37bb15f",
+        "source_crop_xywh": [
+          1068,
+          0,
+          112,
+          112
+        ],
+        "resize": null,
+        "parent_resref": "ui_dlg_outer",
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false
+      },
+      "notes": "Preserve corners; stretch straight rails only along their long axis. Keep top_m ornament at uniform scale."
+    },
+    {
+      "key": "frame.outer.slice.bl",
+      "resref": "ui_dlg_fr_bl",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_fr_bl.png",
+      "width": 112,
+      "height": 112,
+      "state": "normal",
+      "content_padding_ltrb": null,
+      "sha256": "fce1cf46a3b51d6eade997ef4b333e1db682a8e36364d25089901623cb9a2433",
+      "alpha_min": 0,
+      "alpha_max": 253,
+      "transparent_pixels": 5803,
+      "provenance": {
+        "method": "slice_of_export",
+        "source": "ui_dlg_outer.png",
+        "source_sha256": "7e54280d1bad5f72f3c5e06adb4be38992932b384c43629737f85fcbe37bb15f",
+        "source_crop_xywh": [
+          0,
+          904,
+          112,
+          112
+        ],
+        "resize": null,
+        "parent_resref": "ui_dlg_outer",
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false
+      },
+      "notes": "Preserve corners; stretch straight rails only along their long axis. Keep top_m ornament at uniform scale."
+    },
+    {
+      "key": "frame.outer.slice.br",
+      "resref": "ui_dlg_fr_br",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_fr_br.png",
+      "width": 112,
+      "height": 112,
+      "state": "normal",
+      "content_padding_ltrb": null,
+      "sha256": "152060d6229680cfb07021f8df12cdb8db2e1aa943b09ad1c9a9ea275d8c98fc",
+      "alpha_min": 0,
+      "alpha_max": 253,
+      "transparent_pixels": 5795,
+      "provenance": {
+        "method": "slice_of_export",
+        "source": "ui_dlg_outer.png",
+        "source_sha256": "7e54280d1bad5f72f3c5e06adb4be38992932b384c43629737f85fcbe37bb15f",
+        "source_crop_xywh": [
+          1068,
+          904,
+          112,
+          112
+        ],
+        "resize": null,
+        "parent_resref": "ui_dlg_outer",
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false
+      },
+      "notes": "Preserve corners; stretch straight rails only along their long axis. Keep top_m ornament at uniform scale."
+    },
+    {
+      "key": "frame.outer.slice.bot",
+      "resref": "ui_dlg_fr_bot",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_fr_bot.png",
+      "width": 956,
+      "height": 112,
+      "state": "normal",
+      "content_padding_ltrb": null,
+      "sha256": "3962f1bcfcf507a0e36ac3994aeebaa7ee2fb09cc138038d9c010faf2255766a",
+      "alpha_min": 0,
+      "alpha_max": 253,
+      "transparent_pixels": 74994,
+      "provenance": {
+        "method": "slice_of_export",
+        "source": "ui_dlg_outer.png",
+        "source_sha256": "7e54280d1bad5f72f3c5e06adb4be38992932b384c43629737f85fcbe37bb15f",
+        "source_crop_xywh": [
+          112,
+          904,
+          956,
+          112
+        ],
+        "resize": null,
+        "parent_resref": "ui_dlg_outer",
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false
+      },
+      "notes": "Preserve corners; stretch straight rails only along their long axis. Keep top_m ornament at uniform scale."
+    },
+    {
+      "key": "frame.outer.slice.left",
+      "resref": "ui_dlg_fr_left",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_fr_left.png",
+      "width": 112,
+      "height": 792,
+      "state": "normal",
+      "content_padding_ltrb": null,
+      "sha256": "312cae5d8c51d8d252a5a90e957065b9183726b03342985468c00aef693cb985",
+      "alpha_min": 0,
+      "alpha_max": 253,
+      "transparent_pixels": 66431,
+      "provenance": {
+        "method": "slice_of_export",
+        "source": "ui_dlg_outer.png",
+        "source_sha256": "7e54280d1bad5f72f3c5e06adb4be38992932b384c43629737f85fcbe37bb15f",
+        "source_crop_xywh": [
+          0,
+          112,
+          112,
+          792
+        ],
+        "resize": null,
+        "parent_resref": "ui_dlg_outer",
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false
+      },
+      "notes": "Preserve corners; stretch straight rails only along their long axis. Keep top_m ornament at uniform scale."
+    },
+    {
+      "key": "frame.outer.slice.right",
+      "resref": "ui_dlg_fr_right",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_fr_right.png",
+      "width": 112,
+      "height": 792,
+      "state": "normal",
+      "content_padding_ltrb": null,
+      "sha256": "58f0a18c4282823927054ea829dec75acbdf694d5c78528eb5460d88c0e29498",
+      "alpha_min": 0,
+      "alpha_max": 253,
+      "transparent_pixels": 65541,
+      "provenance": {
+        "method": "slice_of_export",
+        "source": "ui_dlg_outer.png",
+        "source_sha256": "7e54280d1bad5f72f3c5e06adb4be38992932b384c43629737f85fcbe37bb15f",
+        "source_crop_xywh": [
+          1068,
+          112,
+          112,
+          792
+        ],
+        "resize": null,
+        "parent_resref": "ui_dlg_outer",
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false
+      },
+      "notes": "Preserve corners; stretch straight rails only along their long axis. Keep top_m ornament at uniform scale."
+    },
+    {
+      "key": "frame.outer.slice.top_l",
+      "resref": "ui_dlg_fr_top_l",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_fr_top_l.png",
+      "width": 406,
+      "height": 112,
+      "state": "normal",
+      "content_padding_ltrb": null,
+      "sha256": "760d5a68c07341ccc552cb57c6686bd8a0c9f599505c9ccb634c0e3b4d6f95c2",
+      "alpha_min": 0,
+      "alpha_max": 253,
+      "transparent_pixels": 32677,
+      "provenance": {
+        "method": "slice_of_export",
+        "source": "ui_dlg_outer.png",
+        "source_sha256": "7e54280d1bad5f72f3c5e06adb4be38992932b384c43629737f85fcbe37bb15f",
+        "source_crop_xywh": [
+          112,
+          0,
+          406,
+          112
+        ],
+        "resize": null,
+        "parent_resref": "ui_dlg_outer",
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false
+      },
+      "notes": "Preserve corners; stretch straight rails only along their long axis. Keep top_m ornament at uniform scale."
+    },
+    {
+      "key": "frame.outer.slice.top_m",
+      "resref": "ui_dlg_fr_top_m",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_fr_top_m.png",
+      "width": 144,
+      "height": 112,
+      "state": "normal",
+      "content_padding_ltrb": null,
+      "sha256": "151b2c8f876dd03462690fbe859a2a3ffc424228de48fc5215d98a3070384477",
+      "alpha_min": 0,
+      "alpha_max": 253,
+      "transparent_pixels": 11714,
+      "provenance": {
+        "method": "slice_of_export",
+        "source": "ui_dlg_outer.png",
+        "source_sha256": "7e54280d1bad5f72f3c5e06adb4be38992932b384c43629737f85fcbe37bb15f",
+        "source_crop_xywh": [
+          518,
+          0,
+          144,
+          112
+        ],
+        "resize": null,
+        "parent_resref": "ui_dlg_outer",
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false
+      },
+      "notes": "Preserve corners; stretch straight rails only along their long axis. Keep top_m ornament at uniform scale."
+    },
+    {
+      "key": "frame.outer.slice.top_r",
+      "resref": "ui_dlg_fr_top_r",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_fr_top_r.png",
+      "width": 406,
+      "height": 112,
+      "state": "normal",
+      "content_padding_ltrb": null,
+      "sha256": "2041c29a60e0727038f6ae4ef686a64e98c0f00900a70e670dbd7658b1314d46",
+      "alpha_min": 0,
+      "alpha_max": 252,
+      "transparent_pixels": 33072,
+      "provenance": {
+        "method": "slice_of_export",
+        "source": "ui_dlg_outer.png",
+        "source_sha256": "7e54280d1bad5f72f3c5e06adb4be38992932b384c43629737f85fcbe37bb15f",
+        "source_crop_xywh": [
+          662,
+          0,
+          406,
+          112
+        ],
+        "resize": null,
+        "parent_resref": "ui_dlg_outer",
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false
+      },
+      "notes": "Preserve corners; stretch straight rails only along their long axis. Keep top_m ornament at uniform scale."
+    },
+    {
+      "key": "frame.portrait",
+      "resref": "ui_dlg_portrait",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_portrait.png",
+      "width": 335,
+      "height": 471,
+      "state": "normal",
+      "content_padding_ltrb": [
+        12,
+        14,
+        12,
+        14
+      ],
+      "sha256": "67027f871abcc53e3f1b308a150bed324218ba2b1f9d3946b316d945150efe81",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 134052,
+      "provenance": {
+        "method": "processed_imagegen_master",
+        "source": "portrait-master.png",
+        "source_sha256": "20ec505354aa755921608718501010ece2abc4dc804e14b6ca234c0dfeac988b",
+        "source_crop_xywh": [
+          67,
+          77,
+          927,
+          1333
+        ],
+        "resize": "335x471!",
+        "parent_resref": null,
+        "reference_crop_xywh": [
+          188,
+          161,
+          335,
+          471
+        ],
+        "reference_crop_is_approximate": true
+      },
+      "notes": "Transparent opening; no fill or live content baked into frame. Master artwork is reconstructed, not a pixel-exact extraction."
+    },
+    {
+      "key": "frame.portrait.slice.tl",
+      "resref": "ui_dlg_pf_tl",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_pf_tl.png",
+      "width": 48,
+      "height": 48,
+      "state": "normal",
+      "content_padding_ltrb": null,
+      "sha256": "04248596373fa4f17dc84358d840de537702e47492f1c92f308c18e7623e762b",
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "transparent_pixels": 961,
+      "provenance": {
+        "method": "slice_of_export",
+        "source": "ui_dlg_portrait.png",
+        "source_sha256": "67027f871abcc53e3f1b308a150bed324218ba2b1f9d3946b316d945150efe81",
+        "source_crop_xywh": [
+          0,
+          0,
+          48,
+          48
+        ],
+        "resize": null,
+        "parent_resref": "ui_dlg_portrait",
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false
+      },
+      "notes": "Preserve corners; stretch straight rails only along their long axis. No center fill slice."
+    },
+    {
+      "key": "frame.portrait.slice.tr",
+      "resref": "ui_dlg_pf_tr",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_pf_tr.png",
+      "width": 48,
+      "height": 48,
+      "state": "normal",
+      "content_padding_ltrb": null,
+      "sha256": "0b993ecd4392e1143c12a2706c8dde7e4e2d43c585d361ea7f1a8af3e2c1afe9",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 921,
+      "provenance": {
+        "method": "slice_of_export",
+        "source": "ui_dlg_portrait.png",
+        "source_sha256": "67027f871abcc53e3f1b308a150bed324218ba2b1f9d3946b316d945150efe81",
+        "source_crop_xywh": [
+          287,
+          0,
+          48,
+          48
+        ],
+        "resize": null,
+        "parent_resref": "ui_dlg_portrait",
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false
+      },
+      "notes": "Preserve corners; stretch straight rails only along their long axis. No center fill slice."
+    },
+    {
+      "key": "frame.portrait.slice.bl",
+      "resref": "ui_dlg_pf_bl",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_pf_bl.png",
+      "width": 48,
+      "height": 48,
+      "state": "normal",
+      "content_padding_ltrb": null,
+      "sha256": "84260324322bb87663e93563d29952d868f35e6e7863400aa0e584f30a442812",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 942,
+      "provenance": {
+        "method": "slice_of_export",
+        "source": "ui_dlg_portrait.png",
+        "source_sha256": "67027f871abcc53e3f1b308a150bed324218ba2b1f9d3946b316d945150efe81",
+        "source_crop_xywh": [
+          0,
+          423,
+          48,
+          48
+        ],
+        "resize": null,
+        "parent_resref": "ui_dlg_portrait",
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false
+      },
+      "notes": "Preserve corners; stretch straight rails only along their long axis. No center fill slice."
+    },
+    {
+      "key": "frame.portrait.slice.br",
+      "resref": "ui_dlg_pf_br",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_pf_br.png",
+      "width": 48,
+      "height": 48,
+      "state": "normal",
+      "content_padding_ltrb": null,
+      "sha256": "d12fbd56392f6eb9d61b79b4bf76314c890d5d30656fc23b15d86b641ecda103",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 885,
+      "provenance": {
+        "method": "slice_of_export",
+        "source": "ui_dlg_portrait.png",
+        "source_sha256": "67027f871abcc53e3f1b308a150bed324218ba2b1f9d3946b316d945150efe81",
+        "source_crop_xywh": [
+          287,
+          423,
+          48,
+          48
+        ],
+        "resize": null,
+        "parent_resref": "ui_dlg_portrait",
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false
+      },
+      "notes": "Preserve corners; stretch straight rails only along their long axis. No center fill slice."
+    },
+    {
+      "key": "frame.portrait.slice.bot",
+      "resref": "ui_dlg_pf_bot",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_pf_bot.png",
+      "width": 239,
+      "height": 48,
+      "state": "normal",
+      "content_padding_ltrb": null,
+      "sha256": "415ab7277839395317e49360aaee3f0cc304e5bac128877aee09dd345d04adda",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 8122,
+      "provenance": {
+        "method": "slice_of_export",
+        "source": "ui_dlg_portrait.png",
+        "source_sha256": "67027f871abcc53e3f1b308a150bed324218ba2b1f9d3946b316d945150efe81",
+        "source_crop_xywh": [
+          48,
+          423,
+          239,
+          48
+        ],
+        "resize": null,
+        "parent_resref": "ui_dlg_portrait",
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false
+      },
+      "notes": "Preserve corners; stretch straight rails only along their long axis. No center fill slice."
+    },
+    {
+      "key": "frame.portrait.slice.left",
+      "resref": "ui_dlg_pf_left",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_pf_left.png",
+      "width": 48,
+      "height": 375,
+      "state": "normal",
+      "content_padding_ltrb": null,
+      "sha256": "d67767aacfb9f79d2072ae28f97fd46a8dc29b1e8db116eae8c61d735f09715a",
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "transparent_pixels": 12373,
+      "provenance": {
+        "method": "slice_of_export",
+        "source": "ui_dlg_portrait.png",
+        "source_sha256": "67027f871abcc53e3f1b308a150bed324218ba2b1f9d3946b316d945150efe81",
+        "source_crop_xywh": [
+          0,
+          48,
+          48,
+          375
+        ],
+        "resize": null,
+        "parent_resref": "ui_dlg_portrait",
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false
+      },
+      "notes": "Preserve corners; stretch straight rails only along their long axis. No center fill slice."
+    },
+    {
+      "key": "frame.portrait.slice.right",
+      "resref": "ui_dlg_pf_right",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_pf_right.png",
+      "width": 48,
+      "height": 375,
+      "state": "normal",
+      "content_padding_ltrb": null,
+      "sha256": "68e67a58a2b050b60284389ffde2ca78a3a9a807202787fcce11c530e02e0fb2",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 11908,
+      "provenance": {
+        "method": "slice_of_export",
+        "source": "ui_dlg_portrait.png",
+        "source_sha256": "67027f871abcc53e3f1b308a150bed324218ba2b1f9d3946b316d945150efe81",
+        "source_crop_xywh": [
+          287,
+          48,
+          48,
+          375
+        ],
+        "resize": null,
+        "parent_resref": "ui_dlg_portrait",
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false
+      },
+      "notes": "Preserve corners; stretch straight rails only along their long axis. No center fill slice."
+    },
+    {
+      "key": "frame.portrait.slice.top",
+      "resref": "ui_dlg_pf_top",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_pf_top.png",
+      "width": 239,
+      "height": 48,
+      "state": "normal",
+      "content_padding_ltrb": null,
+      "sha256": "ab2eacadccb7c6519d3d341b6d6c6fb0f53b151b0ab3eb1977587d93947981ab",
+      "alpha_min": 0,
+      "alpha_max": 253,
+      "transparent_pixels": 8334,
+      "provenance": {
+        "method": "slice_of_export",
+        "source": "ui_dlg_portrait.png",
+        "source_sha256": "67027f871abcc53e3f1b308a150bed324218ba2b1f9d3946b316d945150efe81",
+        "source_crop_xywh": [
+          48,
+          0,
+          239,
+          48
+        ],
+        "resize": null,
+        "parent_resref": "ui_dlg_portrait",
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false
+      },
+      "notes": "Preserve corners; stretch straight rails only along their long axis. No center fill slice."
+    },
+    {
+      "key": "frame.dialogue",
+      "resref": "ui_dlg_panel",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_panel.png",
+      "width": 746,
+      "height": 491,
+      "state": "normal",
+      "content_padding_ltrb": [
+        34,
+        22,
+        34,
+        60
+      ],
+      "sha256": "9e89327ff266a9c4fbf6a553ad4c35020df35659051fe9ff13e6cc5155903faa",
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "transparent_pixels": 331235,
+      "provenance": {
+        "method": "processed_imagegen_master",
+        "source": "panel-master.png",
+        "source_sha256": "3c1873abfd31a9adec9a2792143f5668daf7dc9ce1977d23c45a0d2db4ed778b",
+        "source_crop_xywh": [
+          63,
+          72,
+          1419,
+          872
+        ],
+        "resize": "746x491!",
+        "parent_resref": null,
+        "reference_crop_xywh": [
+          540,
+          164,
+          746,
+          491
+        ],
+        "reference_crop_is_approximate": true
+      },
+      "notes": "Transparent opening; no fill or live content baked into frame. Master artwork is reconstructed, not a pixel-exact extraction."
+    },
+    {
+      "key": "frame.dialogue.slice.tl",
+      "resref": "ui_dlg_pn_tl",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_pn_tl.png",
+      "width": 48,
+      "height": 48,
+      "state": "normal",
+      "content_padding_ltrb": null,
+      "sha256": "794f1092aa491876561a6f34218d76265621f4f71b487762f3aededdc72ed770",
+      "alpha_min": 0,
+      "alpha_max": 253,
+      "transparent_pixels": 946,
+      "provenance": {
+        "method": "slice_of_export",
+        "source": "ui_dlg_panel.png",
+        "source_sha256": "9e89327ff266a9c4fbf6a553ad4c35020df35659051fe9ff13e6cc5155903faa",
+        "source_crop_xywh": [
+          0,
+          0,
+          48,
+          48
+        ],
+        "resize": null,
+        "parent_resref": "ui_dlg_panel",
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false
+      },
+      "notes": "Preserve corners; stretch straight rails only along their long axis. No center fill slice."
+    },
+    {
+      "key": "frame.dialogue.slice.tr",
+      "resref": "ui_dlg_pn_tr",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_pn_tr.png",
+      "width": 48,
+      "height": 48,
+      "state": "normal",
+      "content_padding_ltrb": null,
+      "sha256": "9525590cd4187ad965570e187d769cdcdf9397159d584608b02b8053bc3a873f",
+      "alpha_min": 0,
+      "alpha_max": 253,
+      "transparent_pixels": 893,
+      "provenance": {
+        "method": "slice_of_export",
+        "source": "ui_dlg_panel.png",
+        "source_sha256": "9e89327ff266a9c4fbf6a553ad4c35020df35659051fe9ff13e6cc5155903faa",
+        "source_crop_xywh": [
+          698,
+          0,
+          48,
+          48
+        ],
+        "resize": null,
+        "parent_resref": "ui_dlg_panel",
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false
+      },
+      "notes": "Preserve corners; stretch straight rails only along their long axis. No center fill slice."
+    },
+    {
+      "key": "frame.dialogue.slice.bl",
+      "resref": "ui_dlg_pn_bl",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_pn_bl.png",
+      "width": 48,
+      "height": 48,
+      "state": "normal",
+      "content_padding_ltrb": null,
+      "sha256": "484e41383c7a62bc9d6307cc4a4a0332c36b5a577b3a000b2435773c01091781",
+      "alpha_min": 0,
+      "alpha_max": 253,
+      "transparent_pixels": 915,
+      "provenance": {
+        "method": "slice_of_export",
+        "source": "ui_dlg_panel.png",
+        "source_sha256": "9e89327ff266a9c4fbf6a553ad4c35020df35659051fe9ff13e6cc5155903faa",
+        "source_crop_xywh": [
+          0,
+          443,
+          48,
+          48
+        ],
+        "resize": null,
+        "parent_resref": "ui_dlg_panel",
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false
+      },
+      "notes": "Preserve corners; stretch straight rails only along their long axis. No center fill slice."
+    },
+    {
+      "key": "frame.dialogue.slice.br",
+      "resref": "ui_dlg_pn_br",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_pn_br.png",
+      "width": 48,
+      "height": 48,
+      "state": "normal",
+      "content_padding_ltrb": null,
+      "sha256": "908aa5248ac7bc3e901f3e0f6ed436185e9afba060f3177d820334c117f733d2",
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "transparent_pixels": 889,
+      "provenance": {
+        "method": "slice_of_export",
+        "source": "ui_dlg_panel.png",
+        "source_sha256": "9e89327ff266a9c4fbf6a553ad4c35020df35659051fe9ff13e6cc5155903faa",
+        "source_crop_xywh": [
+          698,
+          443,
+          48,
+          48
+        ],
+        "resize": null,
+        "parent_resref": "ui_dlg_panel",
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false
+      },
+      "notes": "Preserve corners; stretch straight rails only along their long axis. No center fill slice."
+    },
+    {
+      "key": "frame.dialogue.slice.bot",
+      "resref": "ui_dlg_pn_bot",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_pn_bot.png",
+      "width": 650,
+      "height": 48,
+      "state": "normal",
+      "content_padding_ltrb": null,
+      "sha256": "091eea58c75a4eef2908af69c7234b32522d608f9b460839af7b8aaeb06d3496",
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "transparent_pixels": 23376,
+      "provenance": {
+        "method": "slice_of_export",
+        "source": "ui_dlg_panel.png",
+        "source_sha256": "9e89327ff266a9c4fbf6a553ad4c35020df35659051fe9ff13e6cc5155903faa",
+        "source_crop_xywh": [
+          48,
+          443,
+          650,
+          48
+        ],
+        "resize": null,
+        "parent_resref": "ui_dlg_panel",
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false
+      },
+      "notes": "Preserve corners; stretch straight rails only along their long axis. No center fill slice."
+    },
+    {
+      "key": "frame.dialogue.slice.left",
+      "resref": "ui_dlg_pn_left",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_pn_left.png",
+      "width": 48,
+      "height": 395,
+      "state": "normal",
+      "content_padding_ltrb": null,
+      "sha256": "07335961ee510966845a1b62e14cf39cc6c8af82d2a71cb3a9544217ee592f74",
+      "alpha_min": 0,
+      "alpha_max": 252,
+      "transparent_pixels": 13022,
+      "provenance": {
+        "method": "slice_of_export",
+        "source": "ui_dlg_panel.png",
+        "source_sha256": "9e89327ff266a9c4fbf6a553ad4c35020df35659051fe9ff13e6cc5155903faa",
+        "source_crop_xywh": [
+          0,
+          48,
+          48,
+          395
+        ],
+        "resize": null,
+        "parent_resref": "ui_dlg_panel",
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false
+      },
+      "notes": "Preserve corners; stretch straight rails only along their long axis. No center fill slice."
+    },
+    {
+      "key": "frame.dialogue.slice.right",
+      "resref": "ui_dlg_pn_right",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_pn_right.png",
+      "width": 48,
+      "height": 395,
+      "state": "normal",
+      "content_padding_ltrb": null,
+      "sha256": "3fb23bf86922227a0204342c3da5dfd415a47950647a5945821e75815bbfedd6",
+      "alpha_min": 0,
+      "alpha_max": 252,
+      "transparent_pixels": 12609,
+      "provenance": {
+        "method": "slice_of_export",
+        "source": "ui_dlg_panel.png",
+        "source_sha256": "9e89327ff266a9c4fbf6a553ad4c35020df35659051fe9ff13e6cc5155903faa",
+        "source_crop_xywh": [
+          698,
+          48,
+          48,
+          395
+        ],
+        "resize": null,
+        "parent_resref": "ui_dlg_panel",
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false
+      },
+      "notes": "Preserve corners; stretch straight rails only along their long axis. No center fill slice."
+    },
+    {
+      "key": "frame.dialogue.slice.top",
+      "resref": "ui_dlg_pn_top",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_pn_top.png",
+      "width": 650,
+      "height": 48,
+      "state": "normal",
+      "content_padding_ltrb": null,
+      "sha256": "45c4cefbee0798936b4123edd0927f2d8611e74d9034da22f148e9f58d1ad594",
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "transparent_pixels": 22590,
+      "provenance": {
+        "method": "slice_of_export",
+        "source": "ui_dlg_panel.png",
+        "source_sha256": "9e89327ff266a9c4fbf6a553ad4c35020df35659051fe9ff13e6cc5155903faa",
+        "source_crop_xywh": [
+          48,
+          0,
+          650,
+          48
+        ],
+        "resize": null,
+        "parent_resref": "ui_dlg_panel",
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false
+      },
+      "notes": "Preserve corners; stretch straight rails only along their long axis. No center fill slice."
+    },
+    {
+      "key": "control.choice",
+      "resref": "ui_dlg_choice",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_choice.png",
+      "width": 1088,
+      "height": 56,
+      "state": "normal",
+      "content_padding_ltrb": [
+        36,
+        8,
+        36,
+        8
+      ],
+      "sha256": "327b1b0cc761e9e847291d463138a00459b481226721013e1c5f318a6051a60d",
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "transparent_pixels": 612,
+      "provenance": {
+        "method": "uniform_height_and_fixed_caps_from_imagegen_master",
+        "source": "choice-master.png",
+        "source_sha256": "48e1b294095f2ebc81e31420a61f5a9c9b22b27533d9ec9016ee6bf30b304cde",
+        "source_crop_xywh": [
+          41,
+          406,
+          1651,
+          96
+        ],
+        "resize": null,
+        "parent_resref": null,
+        "reference_crop_xywh": [
+          189,
+          670,
+          1088,
+          56
+        ],
+        "reference_crop_is_approximate": true,
+        "retained_master": "choice-master.png",
+        "retained_master_sha256": "48e1b294095f2ebc81e31420a61f5a9c9b22b27533d9ec9016ee6bf30b304cde",
+        "master_crop_xywh": [
+          41,
+          406,
+          1651,
+          96
+        ],
+        "uniform_height": 56,
+        "end_cap_width": 32,
+        "normalized_from_width": 963
+      },
+      "notes": "Empty opaque dark interior; fixed end caps and stretchable middle. Live label/glyph supplied by NUI; no pressed/selected artwork."
+    },
+    {
+      "key": "control.choice.slice.l",
+      "resref": "ui_dlg_ch_l",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_ch_l.png",
+      "width": 32,
+      "height": 56,
+      "state": "normal",
+      "content_padding_ltrb": null,
+      "sha256": "952bac5d4c58a571d3b73fb908f1b408be311bbbb3242028d073b1bd066eac9f",
+      "alpha_min": 0,
+      "alpha_max": 253,
+      "transparent_pixels": 279,
+      "provenance": {
+        "method": "slice_of_export",
+        "source": "ui_dlg_choice.png",
+        "source_sha256": "327b1b0cc761e9e847291d463138a00459b481226721013e1c5f318a6051a60d",
+        "source_crop_xywh": [
+          0,
+          0,
+          32,
+          56
+        ],
+        "resize": null,
+        "parent_resref": "ui_dlg_choice",
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false
+      },
+      "notes": "Use equal height for all parts; only middle width may stretch."
+    },
+    {
+      "key": "control.choice.slice.m",
+      "resref": "ui_dlg_ch_m",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_ch_m.png",
+      "width": 1024,
+      "height": 56,
+      "state": "normal",
+      "content_padding_ltrb": null,
+      "sha256": "d966ce30370744cd2f8bf3e02e78f93dc6ff749333321450fc147b154ba91bb7",
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "transparent_pixels": 44,
+      "provenance": {
+        "method": "slice_of_export",
+        "source": "ui_dlg_choice.png",
+        "source_sha256": "327b1b0cc761e9e847291d463138a00459b481226721013e1c5f318a6051a60d",
+        "source_crop_xywh": [
+          32,
+          0,
+          1024,
+          56
+        ],
+        "resize": null,
+        "parent_resref": "ui_dlg_choice",
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false
+      },
+      "notes": "Use equal height for all parts; only middle width may stretch."
+    },
+    {
+      "key": "control.choice.slice.r",
+      "resref": "ui_dlg_ch_r",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_ch_r.png",
+      "width": 32,
+      "height": 56,
+      "state": "normal",
+      "content_padding_ltrb": null,
+      "sha256": "0efe87e6bcef6c0c04810cdcf5ed65a44bd7e2204e1882f579c31e40c31e8fe2",
+      "alpha_min": 0,
+      "alpha_max": 253,
+      "transparent_pixels": 289,
+      "provenance": {
+        "method": "slice_of_export",
+        "source": "ui_dlg_choice.png",
+        "source_sha256": "327b1b0cc761e9e847291d463138a00459b481226721013e1c5f318a6051a60d",
+        "source_crop_xywh": [
+          1056,
+          0,
+          32,
+          56
+        ],
+        "resize": null,
+        "parent_resref": "ui_dlg_choice",
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false
+      },
+      "notes": "Use equal height for all parts; only middle width may stretch."
+    },
+    {
+      "key": "control.footer",
+      "resref": "ui_dlg_footer",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_footer.png",
+      "width": 268,
+      "height": 60,
+      "state": "normal",
+      "content_padding_ltrb": [
+        44,
+        10,
+        44,
+        10
+      ],
+      "sha256": "7cd1f5634f844b7a9807a0811cbe9fbc8888beb7555ba0a0243b9097179e8c13",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 62,
+      "provenance": {
+        "method": "uniform_height_and_fixed_caps_from_imagegen_master",
+        "source": "footer-master.png",
+        "source_sha256": "2c39e1df41feaffbbcea10d5f1928b370c1c5efec36d04a7bc190626882bf6fc",
+        "source_crop_xywh": [
+          77,
+          219,
+          1878,
+          321
+        ],
+        "resize": null,
+        "parent_resref": null,
+        "reference_crop_xywh": [
+          190,
+          981,
+          268,
+          60
+        ],
+        "reference_crop_is_approximate": true,
+        "retained_master": "footer-master.png",
+        "retained_master_sha256": "2c39e1df41feaffbbcea10d5f1928b370c1c5efec36d04a7bc190626882bf6fc",
+        "master_crop_xywh": [
+          77,
+          219,
+          1878,
+          321
+        ],
+        "uniform_height": 60,
+        "end_cap_width": 40,
+        "normalized_from_width": 351
+      },
+      "notes": "Empty opaque dark interior; fixed end caps and stretchable middle. Live label/glyph supplied by NUI; no pressed/selected artwork."
+    },
+    {
+      "key": "control.footer.slice.l",
+      "resref": "ui_dlg_ft_l",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_ft_l.png",
+      "width": 40,
+      "height": 60,
+      "state": "normal",
+      "content_padding_ltrb": null,
+      "sha256": "df7da2b9ec1e7ac665d72c903fc12b228286f5993afc791e2aa570319ee51e81",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 32,
+      "provenance": {
+        "method": "slice_of_export",
+        "source": "ui_dlg_footer.png",
+        "source_sha256": "7cd1f5634f844b7a9807a0811cbe9fbc8888beb7555ba0a0243b9097179e8c13",
+        "source_crop_xywh": [
+          0,
+          0,
+          40,
+          60
+        ],
+        "resize": null,
+        "parent_resref": "ui_dlg_footer",
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false
+      },
+      "notes": "Use equal height for all parts; only middle width may stretch."
+    },
+    {
+      "key": "control.footer.slice.m",
+      "resref": "ui_dlg_ft_m",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_ft_m.png",
+      "width": 188,
+      "height": 60,
+      "state": "normal",
+      "content_padding_ltrb": null,
+      "sha256": "79f7bb216a23a1dd737cceeb4d5e66f1b0193fa0a56dd4038ae46b3aa053fe8a",
+      "alpha_min": 37,
+      "alpha_max": 254,
+      "transparent_pixels": 0,
+      "provenance": {
+        "method": "slice_of_export",
+        "source": "ui_dlg_footer.png",
+        "source_sha256": "7cd1f5634f844b7a9807a0811cbe9fbc8888beb7555ba0a0243b9097179e8c13",
+        "source_crop_xywh": [
+          40,
+          0,
+          188,
+          60
+        ],
+        "resize": null,
+        "parent_resref": "ui_dlg_footer",
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false
+      },
+      "notes": "Use equal height for all parts; only middle width may stretch."
+    },
+    {
+      "key": "control.footer.slice.r",
+      "resref": "ui_dlg_ft_r",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_ft_r.png",
+      "width": 40,
+      "height": 60,
+      "state": "normal",
+      "content_padding_ltrb": null,
+      "sha256": "74ff8ef64d4ce2c7aa83dc5a2431af43f3612029bf06afa7170751fbd5fb4200",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 30,
+      "provenance": {
+        "method": "slice_of_export",
+        "source": "ui_dlg_footer.png",
+        "source_sha256": "7cd1f5634f844b7a9807a0811cbe9fbc8888beb7555ba0a0243b9097179e8c13",
+        "source_crop_xywh": [
+          228,
+          0,
+          40,
+          60
+        ],
+        "resize": null,
+        "parent_resref": "ui_dlg_footer",
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false
+      },
+      "notes": "Use equal height for all parts; only middle width may stretch."
+    },
+    {
+      "key": "decoration.divider",
+      "resref": "ui_dlg_divider",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_divider.png",
+      "width": 336,
+      "height": 14,
+      "state": "normal",
+      "content_padding_ltrb": null,
+      "sha256": "08465247e308cc3d54221ae8b1acfaaad4f3cde1bace385a4738b0070b0d5105",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 3266,
+      "provenance": {
+        "method": "processed_imagegen_master",
+        "source": "divider-master.png",
+        "source_sha256": "730c3bb611ba4897faeb73bfaf3c40304618cf9fcd45dc67a39fd9faec216368",
+        "source_crop_xywh": [
+          65,
+          344,
+          1901,
+          83
+        ],
+        "resize": "336x14!",
+        "parent_resref": null,
+        "reference_crop_xywh": [
+          744,
+          228,
+          336,
+          14
+        ],
+        "reference_crop_is_approximate": true
+      },
+      "notes": "Fine hairline with three hollow diamonds. Keep center ornament at uniform scale."
+    },
+    {
+      "key": "decoration.divider.slice.l",
+      "resref": "ui_dlg_div_l",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_div_l.png",
+      "width": 150,
+      "height": 14,
+      "state": "normal",
+      "content_padding_ltrb": null,
+      "sha256": "fcc9275ca0150baab9ca7da00cb40f1d967fd844a00e5d0c76657ebd5549438a",
+      "alpha_min": 0,
+      "alpha_max": 222,
+      "transparent_pixels": 1502,
+      "provenance": {
+        "method": "slice_of_export",
+        "source": "ui_dlg_divider.png",
+        "source_sha256": "08465247e308cc3d54221ae8b1acfaaad4f3cde1bace385a4738b0070b0d5105",
+        "source_crop_xywh": [
+          0,
+          0,
+          150,
+          14
+        ],
+        "resize": null,
+        "parent_resref": "ui_dlg_divider",
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false
+      },
+      "notes": "Center is fixed; stretch tails horizontally. Combine a tail and center for header side dividers."
+    },
+    {
+      "key": "decoration.divider.slice.m",
+      "resref": "ui_dlg_div_m",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_div_m.png",
+      "width": 36,
+      "height": 14,
+      "state": "normal",
+      "content_padding_ltrb": null,
+      "sha256": "b0b8c9835a66d7837c642e58b2a28847fae719f0d2279d793ee5a87eab537acb",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 263,
+      "provenance": {
+        "method": "slice_of_export",
+        "source": "ui_dlg_divider.png",
+        "source_sha256": "08465247e308cc3d54221ae8b1acfaaad4f3cde1bace385a4738b0070b0d5105",
+        "source_crop_xywh": [
+          150,
+          0,
+          36,
+          14
+        ],
+        "resize": null,
+        "parent_resref": "ui_dlg_divider",
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false
+      },
+      "notes": "Center is fixed; stretch tails horizontally. Combine a tail and center for header side dividers."
+    },
+    {
+      "key": "decoration.divider.slice.r",
+      "resref": "ui_dlg_div_r",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_div_r.png",
+      "width": 150,
+      "height": 14,
+      "state": "normal",
+      "content_padding_ltrb": null,
+      "sha256": "c65c38a1615b7c566a33d666e54524b5728d415025ccfacf6bb129277fbad3bd",
+      "alpha_min": 0,
+      "alpha_max": 224,
+      "transparent_pixels": 1501,
+      "provenance": {
+        "method": "slice_of_export",
+        "source": "ui_dlg_divider.png",
+        "source_sha256": "08465247e308cc3d54221ae8b1acfaaad4f3cde1bace385a4738b0070b0d5105",
+        "source_crop_xywh": [
+          186,
+          0,
+          150,
+          14
+        ],
+        "resize": null,
+        "parent_resref": "ui_dlg_divider",
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false
+      },
+      "notes": "Center is fixed; stretch tails horizontally. Combine a tail and center for header side dividers."
+    },
+    {
+      "key": "decoration.rule",
+      "resref": "ui_dlg_rule",
+      "export_path": "src/hak/amia_nui/png/ui_dlg_rule.png",
+      "width": 120,
+      "height": 4,
+      "state": "normal",
+      "content_padding_ltrb": null,
+      "sha256": "c5df97f177c18e5e307d6f0460ebf260dbb5e7b1e759ae4e6aa290af2d8adc42",
+      "alpha_min": 26,
+      "alpha_max": 222,
+      "transparent_pixels": 0,
+      "provenance": {
+        "method": "slice_of_export",
+        "source": "ui_dlg_divider.png",
+        "source_sha256": "08465247e308cc3d54221ae8b1acfaaad4f3cde1bace385a4738b0070b0d5105",
+        "source_crop_xywh": [
+          12,
+          5,
+          120,
+          4
+        ],
+        "resize": null,
+        "parent_resref": "ui_dlg_divider",
+        "reference_crop_xywh": null,
+        "reference_crop_is_approximate": false
+      },
+      "notes": "Straight gold hairline; stretch horizontally for header separator."
+    }
+  ],
+  "reused_resources": [
+    {
+      "resref": "ui_cdx_bg",
+      "role": "shell and dialogue-panel fill",
+      "decision": "Reuse: subdued black interlaced texture matches the supplied theme. Stretching is allowed; seamless tiling is not claimed.",
+      "width": 389,
+      "height": 410,
+      "sha256": "fd9090d150b856ad9a763df021fad34509f4daa6d7e3bfba55403e774f3dd91b"
+    },
+    {
+      "resref": "ui_cdx_close",
+      "role": "close control",
+      "decision": "Reuse: red/gold X fits the theme; rendering proportions must be checked in Step 1.",
+      "width": 81,
+      "height": 85,
+      "sha256": "8b6cef9e7e04ee43c8b08fa5aa0fef00f408b69ab863e9517c3ecf90ed4245a6"
+    },
+    {
+      "resref": "ui_cdx_btn",
+      "role": "text-pagination housing",
+      "decision": "Reuse: blank square gold/dark housing; overlay a separate glyph.",
+      "width": 64,
+      "height": 64,
+      "sha256": "e2b6a2c8fc737db1c434df570b0d011dcfefa6ea70fc5d44cea4f2f096680996"
+    },
+    {
+      "resref": "ui_cdx_i_prev",
+      "role": "previous-text-page glyph",
+      "decision": "Reuse: gold chevron rather than the reference triangle; accepted asset-stage style difference.",
+      "width": 64,
+      "height": 64,
+      "sha256": "21ad5999939b82dad0027109334e721b4b94aeb8c26b2afcc0c3b1cb5c3e8c8e"
+    },
+    {
+      "resref": "ui_cdx_i_next",
+      "role": "next-text-page and More glyph",
+      "decision": "Reuse: gold chevron rather than the reference triangle; accepted asset-stage style difference.",
+      "width": 64,
+      "height": 64,
+      "sha256": "a49ad891fcaa21fb140dc56c063f811736ed6367e257bba74a725edafb68a1bd"
+    }
+  ]
+}
